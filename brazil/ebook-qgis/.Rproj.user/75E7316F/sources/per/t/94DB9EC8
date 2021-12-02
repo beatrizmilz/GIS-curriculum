@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1638413786941.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "260730664",
+    "id" : "94DB9EC8",
+    "lastKnownWriteTime" : 1638415087,
+    "last_content_update" : 1638415087688,
+    "path" : "~/GitHub/GIS-curriculum/brazil/ebook-qgis/00-intro.Rmd",
+    "project_path" : "00-intro.Rmd",
+    "properties" : {
+        "cursorPosition" : "388,141",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

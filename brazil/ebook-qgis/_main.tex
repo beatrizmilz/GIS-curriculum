@@ -1,0 +1,942 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Introdução ao QGis},
+  pdfauthor={Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+
+\title{Introdução ao QGis}
+\author{Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie}
+\date{}
+
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+\newtheorem{proposition}{Proposition}[chapter]
+\newtheorem{conjecture}{Conjecture}[chapter]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\theoremstyle{definition}
+\newtheorem{example}{Example}[chapter]
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercise}[chapter]
+\theoremstyle{definition}
+\newtheorem{hypothesis}{Hypothesis}[chapter]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{solution}{Solution}
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{muxf3dulo-0---introduuxe7uxe3o-suave-a-conceitos-de-gis}{%
+\chapter{Módulo 0 - Introdução suave a conceitos de GIS}\label{muxf3dulo-0---introduuxe7uxe3o-suave-a-conceitos-de-gis}}
+
+\textbf{Autor}: Ben Hur
+
+\hypertarget{introduuxe7uxe3o-pedaguxf3gica}{%
+\section{Introdução pedagógica}\label{introduuxe7uxe3o-pedaguxf3gica}}
+
+Este módulo serve como uma introdução suave aos conceitos geográficos necessários para trabalhar com sistemas de informação geográfica (SIG, ou GIS em língua inglesa). Ao final deste módulo, os alunos deverão compreender os seguintes conceitos:
+
+\begin{itemize}
+\tightlist
+\item
+  projeções cartográficas
+\item
+  sistemas de referência de coordenadas
+\item
+  formatos de dados espaciais (exemplo: vetores e rasters)
+\item
+  componentes e funções de um SIG
+\item
+  usos de um SIG
+\item
+  exemplos de uso de GIS e outras aplicações geoespaciais
+\end{itemize}
+
+Além disso, este módulo irá também introduzir alguns conceitos chave de softwares livres e de código aberto (Free and Open Source Software, ou FOSS) e softwares livres e de código aberto para aplicações geoespaciais (FOSS4G).
+
+\hypertarget{ferramentas-e-recursos-necessuxe1rios}{%
+\section{Ferramentas e recursos necessários}\label{ferramentas-e-recursos-necessuxe1rios}}
+
+As ferramentas e recursos necessários para este módulo são:
+
+\begin{itemize}
+\tightlist
+\item
+  computador
+\item
+  conexão de internet
+\end{itemize}
+
+\hypertarget{pruxe9-requisitos}{%
+\section{Pré-requisitos}\label{pruxe9-requisitos}}
+
+\begin{itemize}
+\tightlist
+\item
+  conhecimento básico de uso de computadores
+\end{itemize}
+
+\hypertarget{recursos-adicionais}{%
+\section{Recursos adicionais}\label{recursos-adicionais}}
+
+\begin{itemize}
+\tightlist
+\item
+  A Gentle Introduction to GIS - \url{https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html}
+\item
+  QGIS User Guide - \url{https://docs.qgis.org/3.16/en/docs/user_manual/}
+\item
+  QGIS Training Manual - \url{https://docs.qgis.org/3.16/en/docs/training_manual/index.html}
+\item
+  QGIS website - \url{https://qgis.org/en/site/}
+\item
+  OSGeo website - \url{https://www.osgeo.org/}
+\item
+  OSGeoLive website - \url{https://live.osgeo.org/en/index.html}
+\item
+  What is free software? - \url{https://www.gnu.org/philosophy/free-sw.en.html}
+\item
+  Open source definition - \url{https://opensource.org/osd}
+\end{itemize}
+
+\hypertarget{introduuxe7uxe3o-temuxe1tica}{%
+\subsection{Introdução temática}\label{introduuxe7uxe3o-temuxe1tica}}
+
+Vamos começar com um exemplo:
+
+Você pode ter ouvido a frase ``todos os mapas mentem'', ou você viu uma postagem nas redes sociais afirmando que ``O mapa mundi que você conheceu a vida inteira está errado!''. Bem, não é que os mapas estejam deliberadamente querendo mentir para você, mas a realidade é que os mapas não têm como te mostrar toda a verdade. Um exemplo disso são os tamanhos relativos dos países.
+
+The True Size Of (``O verdadeiro tamanho de'') (\url{https://thetruesize.com/}) é um mapa online (ou aplicativo web) interessante que mostra como os tamanhos relativos dos países são distorcidos em um dos mapas mais comuns que usamos (o mapa que usa a projeção de Mercator). Ele também mostra alguns exemplos de tipos de dados espaciais sobre os quais aprenderemos mais neste módulo. Tente usar esse site para comparar o tamanho do seu país com o de outros.
+
+\begin{figure}
+\centering
+\includegraphics{media/true-size-of.png}
+\caption{True Size Of}
+\end{figure}
+
+\hypertarget{detalhando-os-conceitos}{%
+\subsubsection{Detalhando os conceitos}\label{detalhando-os-conceitos}}
+
+Então por que isso acontece? Como você aprenderá neste módulo, é difícil representar a forma tridimensional da Terra em uma folha de papel plana. Para fazer isso, os cartógrafos usam o que é chamado de \textbf{projeção cartográfica}, para projetar os pontos da superfície tridimensional da Terra em uma superfície plana. No entanto, ao fazer isso, eles introduzem alguma \textbf{distorção}. Essa distorção pode ser de forma, tamanho, direção e distâncias dos objetos representados no mapa. Todos os mapas têm pelo menos uma dessas distorções. Por causa dessa distorção, um mapa nunca pode mostrar toda a verdade sobre a Terra.
+
+No mapa online que usamos, o mapa de fundo que não muda de tamanho (em cinza) é um exemplo de \textbf{dados raster}. Os dados raster são representações do mundo baseadas em pixels, semelhantes a como fotografias funcionam. Enquanto isso, a forma dos países que podemos mover são exemplos de \textbf{dados vetor, ou vetoriais}. Os dados vetoriais, ao contrário dos rasters, representam o mundo usando objetos discretos (no sentido matemático da palavra), como pontos, linhas e polígonos.
+
+\hypertarget{conteuxfado-principal}{%
+\subsection{Conteúdo principal}\label{conteuxfado-principal}}
+
+\hypertarget{tuxedtulo-da-fase-1-mapas-e-coordenadas}{%
+\subsubsection{Título da Fase 1: Mapas e Coordenadas}\label{tuxedtulo-da-fase-1-mapas-e-coordenadas}}
+
+\hypertarget{conteuxfado-tutorial}{%
+\paragraph{Conteúdo / Tutorial}\label{conteuxfado-tutorial}}
+
+Quando as pessoas pensam na Terra atualmente, elas geralmente imaginam uma massa esférica azul, verde, branca e marrom flutuando no espaço. É por isso que tradicionalmente usamos globos para representar a Terra.
+
+Figura 1. A Bola de Gude Azul ( https://commons.wikimedia.org/wiki/Earth\#/media/File:The\_Blue\_Marble.jpg)
+
+Figura 2. Globo de l'Isle (1765) ( https://commons.wikimedia.org/wiki/Globe\#/media/File:3quarter\_globe.jpg)
+
+No entanto, embora o globo seja capaz de capturar a maioria das características da Terra, ele possui duas desvantagens principais:
+
+\begin{itemize}
+\tightlist
+\item
+  Os globos são pesados e difíceis de transportar.
+\item
+  Os globos só podem ser usados em pequenas escalas (por exemplo, encontrar locais de países, as posições relativas de cidades, etc.). Eles são praticamente inúteis para atividades que exigem grandes escalas ou detalhes finos (por exemplo, navegação dentro de uma cidade).
+\end{itemize}
+
+É aqui que entram os mapas. Os mapas corrigem essas duas desvantagens dos globos, representando a Terra como uma superfície plana. Ao fazer isso, os mapas se tornam portáteis e adequados para uma infinidade de usos. Dito isso, os mapas também apresentam uma desvantagem própria. Através do processo de conversão de um objeto tridimensional (globo) em um bidimensional (mapa), distorções são geradas, de tal forma que é impossível para um mapa capturar perfeitamente as diferentes características da Terra (ou seja, formas, áreas e direções).
+
+\hypertarget{projeuxe7uxf5es-cartogruxe1ficas}{%
+\subparagraph{Projeções cartográficas}\label{projeuxe7uxf5es-cartogruxe1ficas}}
+
+Uma projeção cartográfica é usada para achatar a superfície da Terra (ou de um globo qualquer) em um plano, a fim de criar um mapa. Este processo de transformação gera distorção.
+
+\begin{figure}
+\centering
+\includegraphics{media/dalandan.png}
+\caption{A terra como uma laranja}
+\end{figure}
+
+Pense na Terra como uma laranja. Se você descascá-la, poderá deixá-la plana, mas nunca poderá torná-la perfeitamente plana. Você sempre encontrará um dos seguintes problemas:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Alongamento} - o alongamento da casca (ou superfície) em uma ou mais direções
+\item
+  \textbf{Rasgos} - a divisão ou ruptura da casca (ou superfície)
+\item
+  \textbf{Compressão} - o encurtamento ou encolhimento da casca (ou superfície)
+\end{itemize}
+
+Por causa desses problemas, cada mapa contém distorção em uma ou mais das seguintes características:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Forma}
+\item
+  \textbf{Área}
+\item
+  \textbf{Distância}
+\item
+  \textbf{Direção}
+\end{itemize}
+
+As projeções cartográficas podem preservar (sem distorção) uma ou mais dessas características, mas nunca todas ao mesmo tempo. Outra opção é balancear e minimizar as distorções para todas as características ao mesmo tempo. Isso se deve à natureza das próprias características.
+
+Características principais como \textbf{Forma} e \textbf{Área} são \textbf{mutuamente excludentes} e não podem ser preservadas simultaneamente. Enquanto isso, as características secundárias \textbf{Distância} e \textbf{Direção} \textbf{não têm como estar corretas em todos os lugares} do mapa.
+
+Ao escolher qual projeção cartográfica usar, é importante que você considere o propósito do mapa. Por exemplo, se deseja realizar análises baseadas em área, é melhor usar uma projeção cartográfica que preserva a área.
+
+Existem várias classificações de projeções cartográficas. A primeira é baseada nas \textbf{características que elas preservam}.
+
+\begin{itemize}
+\tightlist
+\item
+  Projeções de mapa \textbf{conforme} ou \textbf{ortomórficas} são aquelas que preservam a forma ou a conformidade angular. Estes são comumente usados para fins de navegação ou meteorológicos. As formas são preservadas, mas as áreas são distorcidas. Quanto maior a área, maior a distorção.
+\item
+  Projeções de mapa de \textbf{equivalente} ou \textbf{de igual área} são aquelas que preservam a proporção ou áreas relativas dos objetos no mapa. Nesse tipo de projeção cartográfica, quanto maior a área mapeada, mais precisa ela será.
+\item
+  As projeções cartográficas \textbf{equidistantes} preservam a distância das linhas que originam em um ou dois pontos no mapa ou têm escala adequada ao longo de uma ou mais linhas.
+\item
+  As projeções cartográficas \textbf{azimutais} preservam a direção a partir de um ou dois pontos no mapa. São úteis para mapear rotas de aeronaves e embarcações marítimas entre portos.
+\end{itemize}
+
+Uma única projeção cartográfica pode preservar mais de uma característica (por exemplo, uma projeção azimutal equidistante que preserva a direção e as distâncias a partir de um ou dois pontos no mapa), mas nem todas delas, como mostrado na tabela abaixo.
+
+Conforme
+
+Equivalente
+
+Equidistante
+
+Azimutal
+
+Conforme
+
+\begin{itemize}
+\item
+  Não
+
+  Não
+
+  Sim
+
+  Equivalente
+
+  Não
+
+  \begin{itemize}
+  \item
+    Não
+
+    Sim
+
+    Equidistante
+
+    Não
+
+    Não
+
+    \begin{itemize}
+    \item
+      Sim
+
+      Azimutal
+
+      Sim
+
+      Sim
+
+      Sim
+
+      \begin{itemize}
+      \tightlist
+      \item
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+Tabela: Ambas características podem ser preservadas por um mapa ao mesmo tempo?
+
+Existe outra classificação de projeções cartográficas que não preserva nenhuma das características do mapa, mas tenta minimizar todas as distorções no mapa. Estes são chamados de projeções \textbf{Erro Mínimo (Minimum Error, ou Compromise)} (mapas que não preservam a forma nem a área são chamados de \textbf{Afiláticos}).
+
+Uma maneira de visualizar a distorção é usando o que é chamado de \textbf{indicador de Tissot}. Este indicador caracteriza as distorções locais usando círculos e mostrando como esses círculos são transformados ao longo do mapa.
+
+\begin{figure}
+\centering
+\includegraphics{media/conformal.png}
+\caption{Projeção conforme}
+\end{figure}
+
+Figura 3. Projeção conforme com seu índice de Tissot. Os círculos permanecem como círculos por todo o mapa, mas suas áreas aumentam a medida que os círculos se movem do equador em direção aos pólos.
+
+\begin{figure}
+\centering
+\includegraphics{media/authalic.png}
+\caption{Projeção equivalente}
+\end{figure}
+
+Figura 4. Projeção equivalente com seu índice de Tissot. Os círculos tornam-se elipses, mas suas áreas permanecem as mesmas.
+
+\begin{figure}
+\centering
+\includegraphics{media/equidistant.png}
+\caption{Projeção equidistante}
+\end{figure}
+
+Figura 5. Projeção equidistante com seu índice de Tissot. Observe que as alturas dos círculos são iguais, o que significa que a escala / distâncias ao longo dos meridianos são preservadas.
+
+\begin{figure}
+\centering
+\includegraphics{media/az-equidistant.png}
+\caption{Projeção azimutal equidistante}
+\end{figure}
+
+Figura 6. Projeção azimutal equidistante com seu índice de Tissot. Observe que os círculos estão todos apontando para o centro do mapa e as alturas dos círculos são todas iguais.
+
+Outra maneira de classificar as projeções do mapa é pela \textbf{superfície desenvolvível (``developable surface'')} usada para criar o mapa. Uma superfície é desenvolvível se ela puder ser planificada sem introduzir distorções. As superfícies mais comumente usadas são: Cilindros (Figura 7), Cones (Figura 8) e Planos (Figura 9).
+
+\begin{figure}
+\centering
+\includegraphics{media/cylinder.png}
+\caption{Cilindro como uma superfície desenvolvível}
+\end{figure}
+
+Figura 7. As projeções cilíndricas têm meridianos (longitude) e paralelos (latitude) encontrando-se em ângulos retos com as distâncias entre os meridianos sendo iguais.
+
+\begin{figure}
+\centering
+\includegraphics{media/cone.png}
+\caption{Cone como superfície desenvolvível}
+\end{figure}
+
+Figura 8. As projeções cônicas têm meridianos retos indo para um ponto nos pólos. Os paralelos são arcos.
+
+\begin{figure}
+\centering
+\includegraphics{media/plane.png}
+\caption{Plano como superfície desenvolvível}
+\end{figure}
+
+Figura 9. As projeções planas (comumente usadas em projeções azimutais) têm meridianos retos semelhantes às projeções cônicas, mas seus paralelos são círculos em vez de arcos.
+
+Existem inúmeras outras superfícies desenvolvíveis que podem ser usadas para transformar um globo em um mapa. Eles podem ser uma variação das superfícies comuns, como no caso de projeções pseudo-cilíndricas e pseudo-cônicas ou podem ser superfícies únicas e diferentes, como no mapa Dymaxion, que usa um icosaedro (poliedro com 20 faces), ou a Projeção de Cahill-Keyes que usa um octaedro (poliedro com 8 faces).
+
+A projeção de um mapa também pode ser classificada de acordo com seu \textbf{aspecto} (Figura 10) ou o modo como a superfície desenvolvível está posicionada no globo: Normal, Transversal ou Oblíqua.
+
+\begin{figure}
+\centering
+\includegraphics{media/aspects.png}
+\caption{Aspectos de uma projeção cartográfica}
+\end{figure}
+
+Figura 10. Aspectos de uma projeção cartográfica
+
+\hypertarget{sistemas-de-referuxeancia-de-coordenadas}{%
+\subparagraph{Sistemas de referência de coordenadas}\label{sistemas-de-referuxeancia-de-coordenadas}}
+
+Um \textbf{Sistema de Referência de Coordenadas (SRC, ou CRS na sigla em inglês)} é usado para especificar a localização de um objeto na superfície da Terra por meio do uso de coordenadas. SRCs podem ser classificados em dois:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Sistemas de referência de coordenadas geográficas} usam graus de latitude e longitude como coordenadas para se referir à posição.
+\item
+  \textbf{Sistemas de referência de coordenadas projetadas} usam unidades lineares (por exemplo, metros, pés, quilômetros) de leste e norte como coordenadas.
+\end{itemize}
+
+O conhecimento dos sistemas de referência de coordenadas é importante porque mesmo que dois mapas (ou camadas) mostrem o mesmo local, as coordenadas das localizações nesses mapas serão diferentes se os SRC que eles usam forem diferentes.
+
+\textbf{Veja este exemplo:} Mapa A e Mapa B mostram a mesma área e extensão. Eles são basicamente o mesmo mapa. A única diferença é o sistema de referência de coordenadas que eles usam. O Mapa A usa SRC X e o Mapa B usa SRC Y. Digamos que obtivemos a coordenada do Ponto 1, que é (10, 10), do Mapa A. Se olharmos para a coordenada (10,10) no Mapa B, é possível que o Ponto 1 não esteja lá, pois o Mapa B usa um SRC diferente. Ou, se você sobrepor os mapas um ao outro usando uma referência comum, os objetos dos dois mapas não coincidirão. Este conhecimento de sistemas de referência de coordenadas é importante para qualquer tipo de GIS.
+
+As versões do QGIS anteriores à versão 3 tinham a opção de ativar o que é chamado de ``OTF'' ou ``Transformação On-The-Fly (em `tempo real')''. Isso permitia que camadas com diferentes SRC fossem projetadas na tela do mapa como se estivessem no mesmo SRC. Com o QGIS 3 em diante, esta opção é ativada automaticamente como comportamento padrão do QGIS. QGIS também executa esta ação automaticamente para tarefas de processamento. Isso é muito importante porque se as camadas não estiverem no mesmo SRC, os resultados das consultas espaciais e do processamento como junções espaciais, clipes, etc. podem ser comprometidos.
+
+Você pode notar que alguns Sistemas de Referência de Coordenadas são referidos por seu Código EPSG. Este código se refere ao código do SRC no conjunto de dados de parâmetros geodésicos EPSG, que é um registro de dados geodésicos, sistemas de referência espacial, elipsóides terrestres, transformações de coordenadas e unidades de medida relacionadas. A maioria dos GIS, incluindo QGIS, referem-se ao código EPSG para identificar sistemas de referência de coordenadas, projeções e realizar transformações entre esses sistemas.
+
+Alguns códigos EPSG comuns incluem:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{EPSG: 4326} - WGS 84, sistema de coordenadas de latitude / longitude baseado no Sistema de Posicionamento Global (GPS) entre outros.
+\item
+  \textbf{EPSG: 3857} - Projeção Web Mercator usada para exibição por muitas ferramentas de mapeamento baseadas na web, como OpenStreetMap e Google Maps
+\item
+  \textbf{EPSG: 31973 a EPSG: 31974 e EPSG: 31978 a EPSG: 31985} - Universal Transverse Mercator (UTM) Zonas 19N a 20N, e 18S a 25S. Zonas UTM usadas no Brasil
+\item
+  \textbf{EPSG: 4674} - Sistema de Referência SIRGAS 2000, utilizado nas Américas a partir do ano 2000
+\end{itemize}
+
+\hypertarget{quiz}{%
+\paragraph{Quiz}\label{quiz}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Que tipo de projeção é melhor para os seguintes casos?
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    um mapa de uso geral que precisa ter uma aparência agradável
+  \item
+    um mapa mostrando uma análise de área por unidade entre diferentes locais
+  \item
+    um mapa que mostra uma comparação de uma zona de 10 km de raio de diferentes locais
+  \end{enumerate}
+\item
+  Que tipo de sistema de referência de coordenadas (geográfico ou projetado) é melhor utilizado para os seguintes casos?
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \setcounter{enumii}{3}
+  \tightlist
+  \item
+    mostrar a localização de pontos usando GPS
+  \item
+    calcular a distância entre dois pontos
+  \end{enumerate}
+\item
+  Verdadeiro ou falso - É possível preservar as seguintes características do mapa juntas em um único mapa:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \setcounter{enumii}{5}
+  \tightlist
+  \item
+    Área e forma
+  \item
+    Distância e direção
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{tuxedtulo-da-fase-2-tipos-de-dados-espaciais}{%
+\subsubsection{Título da fase 2: Tipos de dados espaciais}\label{tuxedtulo-da-fase-2-tipos-de-dados-espaciais}}
+
+\hypertarget{conteuxfado-tutorial-1}{%
+\paragraph{Conteúdo / Tutorial}\label{conteuxfado-tutorial-1}}
+
+Em sua essência, um Sistema de Informação Geográfica (SIG) deve ser capaz de modelar objetos, informações e fenômenos do mundo real, como limites de lotes, rios, estradas, temperatura, etc. Ele faz isso por meio de modelos de dados espaciais.
+
+Os modelos de dados espaciais são compostos de dois componentes principais que, quando combinados, modelam a realidade. Esses componentes são:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Feições espaciais (ou geometria)}
+\item
+  \textbf{Atributos}
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{media/spatial-model.png}
+\caption{Modelo de dados espaciais}
+\end{figure}
+
+Existem dois modelos principais de dados espaciais: \textbf{raster} e \textbf{vetorial}. Embora qualquer objeto do mundo real possa ser representado por qualquer um dos dois modelos de dados, um deles é geralmente melhor para representar certos objetos do mundo real do que o outro.
+
+\hypertarget{dados-raster}{%
+\subparagraph{Dados raster}\label{dados-raster}}
+
+Os dados raster são mais utilizados para representar fenômenos contínuos, como elevação ou temperatura.
+
+Um raster é uma representação de objetos do mundo real composta de linhas e colunas de células ou pixels, no qual cada célula ou pixel representa uma área geográfica (pense em uma fotografia ou imagem). O valor da célula representa o valor de um atributo na referida área geográfica. O tamanho da área depende da resolução espacial do raster.
+
+Rasters são bastante úteis para modelagem de adequação de locais (suitability modelling), pois você pode combinar rasters por meio de operações matemáticas (álgebra de raster).
+
+\begin{figure}
+\centering
+\includegraphics{media/raster.png}
+\caption{Modelo de dados raster}
+\end{figure}
+
+Figura 12. Um raster consiste em pixels de tamanhos iguais em linhas e colunas.
+
+Um pixel raster pode conter apenas um valor de cada vez. Assim, um raster pode modelar apenas um objeto ou fenômeno por vez.
+
+\hypertarget{dados-vetoriais}{%
+\subparagraph{Dados vetoriais}\label{dados-vetoriais}}
+
+Os dados vetoriais são mais utilizados para representar objetos discretos.
+
+Os dados vetoriais possuem três formas: ponto, linha e polígono. São mais preciso que rasters porque pontos, linhas e polígonos são modelados usando coordenadas bem definidas, tornando-os melhores na representação de objetos discretos do que rasters.
+
+Os vetores são comumente usados quando necessitamos precisão com comprimentos, áreas e distâncias. Eles também são úteis ao realizar análises de rede (por exemplo, encontrar o caminho mais curto um ponto a outro em uma rede de vias).
+
+\begin{figure}
+\centering
+\includegraphics{media/vector.png}
+\caption{Modelo de dados vetoriais}
+\end{figure}
+
+Figura 13. Um vetor consiste em feições com seus atributos correspondentes.
+
+Comparado aos pixels raster, uma feição vetorial pode conter mais de um valor por vez. Esses valores são armazenados como colunas na tabela de atributos. Cada feição é armazenada como uma linha.
+
+\hypertarget{quiz-1}{%
+\paragraph{Quiz}\label{quiz-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Qual tipo de dado pode representar melhor os seguintes objetos / fenômenos:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    estradas
+  \item
+    casas
+  \item
+    densidade populacional
+  \item
+    perigo de inundação
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{tuxedtulo-da-fase-3-sistema-de-informauxe7uxe3o-geogruxe1fica-sig}{%
+\subsubsection{Título da Fase 3: Sistema de Informação Geográfica (SIG)}\label{tuxedtulo-da-fase-3-sistema-de-informauxe7uxe3o-geogruxe1fica-sig}}
+
+\hypertarget{conteuxfado-tutorial-2}{%
+\paragraph{Conteúdo / Tutorial}\label{conteuxfado-tutorial-2}}
+
+As informações geográficas e de localização tornaram-se onipresentes no século 21 em todos os níveis de granularidade. Temos satélites, aeronaves e até drones comerciais que são capazes de capturar grandes quantidades de dados brutos em grandes áreas por longos períodos de tempo. Existem também sensores que coletam e reúnem informações de localização, como o GPS e outros aplicativos em nossos telefones e dispositivos.
+
+Com todos esses dados à nossa disposição, é fundamental saber gerenciá-los, analisá-los e apresentá-los. É aqui que entram os Sistemas de Informação Geográfica, ou mais comumente conhecidos como SIG, ou GIS.
+
+SIG é uma ferramenta / framework / sistema que nos permite trabalhar com informação geográfica (ou espacial) e sua correspondente informação de atributo (não espacial). Em particular, um GIS deve ser capaz de:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Coletar}, \textbf{armazenar}, \textbf{editar}, \textbf{manipular}, ou em termos mais gerais, \textbf{gerenciar} dados espaciais.
+\item
+  \textbf{Analizar} os dados usando seu componente espacial (onde os dados estão) ou atributo (o valor dos dados).
+\item
+  \textbf{Apresentar} os dados e análises como informações significativas por meio de mapas, gráficos, plotagens e outras visualizações.
+\end{itemize}
+
+\emph{SIG não é apenas mapeamento}. Embora a elaboração de mapas seja um dos aspectos mais importantes e comumente conhecidos do SIG, ela ainda é apenas uma parte de seus muitos recursos. Podemos ver a estrutura SIG moderna como sendo composta por:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dados} - referem-se às informações utilizadas pelo SIG que podem ou não conter informações de localização (por exemplo, nomes de lojas, localizações de lojas).
+\item
+  \textbf{Tecnologia} - inclui os componentes de hardware e software de um SIG - as máquinas, instrumentos e computadores com os aplicativos de software usados para fazer o trabalho geoespacial.
+\item
+  \textbf{Métodos e análises} - referem-se à ciência e matemática em SIG, que permitem realizar consultas e cálculos espaciais e não espaciais (de atributos).
+\item
+  \textbf{Visualização} - embora semelhante aos métodos e análises, a visualização pode ser considerada como um componente separado, pois se refere especificamente aos meios pelos quais um SIG representa os dados graficamente. Isso inclui não apenas mapas, embora seja o caso mais comum, mas também tabelas, gráficos, etc.
+\item
+  \textbf{Pessoas} - são as pessoas e / ou grupos de pessoas que estão envolvidas no uso, desenvolvimento, ensino e manutenção de SIG.
+\end{itemize}
+
+Todas as partes da estrutura SIG moderna - dos dados às pessoas - são essenciais para garantir seu sucesso.
+
+\hypertarget{perguntas-do-questionuxe1rio}{%
+\paragraph{Perguntas do questionário}\label{perguntas-do-questionuxe1rio}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Verdadeiro ou falso:
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Um SIG só pode ser usado com dados geoespaciais.
+  \item
+    Um mapa é sempre o resultado ao se usar um SIG.
+  \item
+    Aprender SIG é difícil e caro.
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{tuxedtulo-da-fase-4-adicional-software-livre-e-de-cuxf3digo-aberto-para-uso-geoespacial-foss4g}{%
+\subsubsection{Título da Fase 4 (adicional): Software Livre e de Código Aberto para uso Geoespacial (FOSS4G)}\label{tuxedtulo-da-fase-4-adicional-software-livre-e-de-cuxf3digo-aberto-para-uso-geoespacial-foss4g}}
+
+\hypertarget{conteuxfado-tutorial-3}{%
+\paragraph{Conteúdo / Tutorial}\label{conteuxfado-tutorial-3}}
+
+QGIS é apenas um exemplo de software livre e de código aberto para uso geoespacial (FOSS4G). Outros exemplos de FOSS4G são GRASS, PostGIS, GeoServer, GeoNode, etc. Esses aplicativos FOSS4G são ótimas ferramentas para trabalhar não só porque são confiáveis, mas também porque, sendo gratuitos e de código aberto, têm uma barreira de entrada menor e são altamente personalizáveis para qualquer necessidade. Você pode encontrar uma variedade de softwares geoespaciais gratuitos e de código aberto para cada necessidade e para cada parte do ``stack'' geoespacial.
+
+\begin{figure}
+\centering
+\includegraphics{media/foss4g-stack.jpeg}
+\caption{Stack de aplicativos de software livre e de código aberto para geoespaciais (FOSS4G)}
+\end{figure}
+
+Figura 14. Uma amostra de stack geoespacial de código aberto (ou FOSS4G) (de Simon Nitz (\url{https://twitter.com/si_nitz?lang=en}))
+
+\hypertarget{software-gruxe1tis}{%
+\subparagraph{Software grátis}\label{software-gruxe1tis}}
+
+\textbf{Livre como em liberdade e não apenas grátis.}
+
+Software livre é o software que adere às Quatro Liberdades Essenciais do Software Livre, que são:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A liberdade de executar o programa como desejar, para qualquer propósito (liberdade 0).
+\item
+  A liberdade de estudar como o programa funciona e alterá-lo para que ele faça o que você deseja (liberdade 1). O acesso ao código-fonte é uma pré-condição para isso.
+\item
+  A liberdade de redistribuir cópias para que você possa ajudar outras pessoas (liberdade 2).
+\item
+  A liberdade de distribuir cópias de suas versões modificadas para outros (liberdade 3). Ao fazer isso, você pode dar a toda a comunidade a chance de se beneficiar com suas mudanças. O acesso ao código-fonte é uma pré-condição para isso.
+\end{enumerate}
+
+\hypertarget{cuxf3digo-aberto}{%
+\subparagraph{Código aberto}\label{cuxf3digo-aberto}}
+
+Softwares de código aberto são aqueles que possuem licenças que permitem uso sem precisar pagar royalties e que permitem a reutilização do software, juntamente com acesso livre ao código-fonte. Por convenção, essas licenças de código aberto são aquelas que estão em conformidade com a definição de código aberto prevista pela Open Source Initiative. O código-fonte aberto não só garante acesso gratuito ao software e código-fonte, mas também a capacidade de redistribuir o software sem custos adicionais.
+
+Por causa da natureza aberta do software de código aberto, ele também é um ótimo modelo de desenvolvimento de software, no qual todos são livres para atualizar, melhorar, modificar e compartilhar suas modificações com a comunidade.
+
+\hypertarget{osgeo}{%
+\subparagraph{OSGeo}\label{osgeo}}
+
+Existem muitos softwares geoespaciais de código aberto e, às vezes, a parte mais difícil é saber onde e como começar a trabalhar com esses softwares. Felizmente, a Open Source Geospatial Foundation (OSGeo) (\url{https://www.osgeo.org/}) existe para ajudar a promover a adoção global de tecnologia geoespacial aberta e apoiar o desenvolvimento dessas tecnologias.
+
+\hypertarget{perguntas-do-questionuxe1rio-1}{%
+\paragraph{Perguntas do questionário}\label{perguntas-do-questionuxe1rio-1}}
+
+N/D
+
+\hypertarget{se-vocuxea-quiser-ir-mais-longe}{%
+\subsubsection{Se você quiser ir mais longe}\label{se-vocuxea-quiser-ir-mais-longe}}
+
+Se você quiser testar usar aplicativos FOSS4G facilmente, experimente o OSGeoLive (\url{https://live.osgeo.org/en/index.html}) que é uma distribuição Linux (sistema operacional) que vem pré-instalado com QGIS, GRASS e outros aplicativos FOSS4G.
+
+\hypertarget{para-praticar-suas-novas-habilidades-tente}{%
+\subsubsection{Para praticar suas novas habilidades, tente\ldots{}}\label{para-praticar-suas-novas-habilidades-tente}}
+
+N/D
+
+\hypertarget{dicas}{%
+\subsubsection{Dicas}\label{dicas}}
+
+N/D
+
+\hypertarget{cross}{%
+\chapter{Cross-references}\label{cross}}
+
+Cross-references make it easier for your readers to find and link to elements in your book.
+
+\hypertarget{chapters-and-sub-chapters}{%
+\section{Chapters and sub-chapters}\label{chapters-and-sub-chapters}}
+
+There are two steps to cross-reference any heading:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Label the heading: \texttt{\#\ Hello\ world\ \{\#nice-label\}}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Leave the label off if you like the automated heading generated based on your heading title: for example, \texttt{\#\ Hello\ world} = \texttt{\#\ Hello\ world\ \{\#hello-world\}}.
+  \item
+    To label an un-numbered heading, use: \texttt{\#\ Hello\ world\ \{-\#nice-label\}} or \texttt{\{\#\ Hello\ world\ .unnumbered\}}.
+  \end{itemize}
+\item
+  Next, reference the labeled heading anywhere in the text using \texttt{\textbackslash{}@ref(nice-label)}; for example, please see Chapter \ref{cross}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    If you prefer text as the link instead of a numbered reference use: \protect\hyperlink{cross}{any text you want can go here}.
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{captioned-figures-and-tables}{%
+\section{Captioned figures and tables}\label{captioned-figures-and-tables}}
+
+Figures and tables \emph{with captions} can also be cross-referenced from elsewhere in your book using \texttt{\textbackslash{}@ref(fig:chunk-label)} and \texttt{\textbackslash{}@ref(tab:chunk-label)}, respectively.
+
+See Figure \ref{fig:nice-fig}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{par}\NormalTok{(}\AttributeTok{mar =} \FunctionTok{c}\NormalTok{(}\DecValTok{4}\NormalTok{, }\DecValTok{4}\NormalTok{, .}\DecValTok{1}\NormalTok{, .}\DecValTok{1}\NormalTok{))}
+\FunctionTok{plot}\NormalTok{(pressure, }\AttributeTok{type =} \StringTok{\textquotesingle{}b\textquotesingle{}}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{_main_files/figure-latex/nice-fig-1} 
+
+}
+
+\caption{Here is a nice figure!}\label{fig:nice-fig}
+\end{figure}
+
+Don't miss Table \ref{tab:nice-tab}.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}
+  \FunctionTok{head}\NormalTok{(pressure, }\DecValTok{10}\NormalTok{), }\AttributeTok{caption =} \StringTok{\textquotesingle{}Here is a nice table!\textquotesingle{}}\NormalTok{,}
+  \AttributeTok{booktabs =} \ConstantTok{TRUE}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{table}
+
+\caption{\label{tab:nice-tab}Here is a nice table!}
+\centering
+\begin{tabular}[t]{rr}
+\toprule
+temperature & pressure\\
+\midrule
+0 & 0.0002\\
+20 & 0.0012\\
+40 & 0.0060\\
+60 & 0.0300\\
+80 & 0.0900\\
+\addlinespace
+100 & 0.2700\\
+120 & 0.7500\\
+140 & 1.8500\\
+160 & 4.2000\\
+180 & 8.8000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\hypertarget{parts}{%
+\chapter{Parts}\label{parts}}
+
+You can add parts to organize one or more book chapters together. Parts can be inserted at the top of an .Rmd file, before the first-level chapter heading in that same file.
+
+Add a numbered part: \texttt{\#\ (PART)\ Act\ one\ \{-\}} (followed by \texttt{\#\ A\ chapter})
+
+Add an unnumbered part: \texttt{\#\ (PART\textbackslash{}*)\ Act\ one\ \{-\}} (followed by \texttt{\#\ A\ chapter})
+
+Add an appendix as a special kind of un-numbered part: \texttt{\#\ (APPENDIX)\ Other\ stuff\ \{-\}} (followed by \texttt{\#\ A\ chapter}). Chapters in an appendix are prepended with letters instead of numbers.
+
+\hypertarget{footnotes-and-citations}{%
+\chapter{Footnotes and citations}\label{footnotes-and-citations}}
+
+\hypertarget{footnotes}{%
+\section{Footnotes}\label{footnotes}}
+
+Footnotes are put inside the square brackets after a caret \texttt{\^{}{[}{]}}. Like this one \footnote{This is a footnote.}.
+
+\hypertarget{citations}{%
+\section{Citations}\label{citations}}
+
+Reference items in your bibliography file(s) using \texttt{@key}.
+
+For example, we are using the \textbf{bookdown} package \citep{R-bookdown} (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015} (this citation was added manually in an external file book.bib).
+Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YAML \texttt{bibliography} key.
+
+The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
+
+\hypertarget{blocks}{%
+\chapter{Blocks}\label{blocks}}
+
+\hypertarget{equations}{%
+\section{Equations}\label{equations}}
+
+Here is an equation.
+
+\begin{equation} 
+  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+  \label{eq:binom}
+\end{equation}
+
+You may refer to using \texttt{\textbackslash{}@ref(eq:binom)}, like see Equation \eqref{eq:binom}.
+
+\hypertarget{theorems-and-proofs}{%
+\section{Theorems and proofs}\label{theorems-and-proofs}}
+
+Labeled theorems can be referenced in text using \texttt{\textbackslash{}@ref(thm:tri)}, for example, check out this smart theorem \ref{thm:tri}.
+
+\begin{theorem}
+\protect\hypertarget{thm:tri}{}\label{thm:tri}For a right triangle, if \(c\) denotes the \emph{length} of the hypotenuse
+and \(a\) and \(b\) denote the lengths of the \textbf{other} two sides, we have
+\[a^2 + b^2 = c^2\]
+\end{theorem}
+
+Read more here \url{https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html}.
+
+\hypertarget{callout-blocks}{%
+\section{Callout blocks}\label{callout-blocks}}
+
+The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: \url{https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html}
+
+\hypertarget{sharing-your-book}{%
+\chapter{Sharing your book}\label{sharing-your-book}}
+
+\hypertarget{publishing}{%
+\section{Publishing}\label{publishing}}
+
+HTML books can be published online, see: \url{https://bookdown.org/yihui/bookdown/publishing.html}
+
+\hypertarget{pages}{%
+\section{404 pages}\label{pages}}
+
+By default, users will be directed to a 404 page if they try to access a webpage that cannot be found. If you'd like to customize your 404 page instead of using the default, you may add either a \texttt{\_404.Rmd} or \texttt{\_404.md} file to your project root and use code and/or Markdown syntax.
+
+\hypertarget{metadata-for-sharing}{%
+\section{Metadata for sharing}\label{metadata-for-sharing}}
+
+Bookdown HTML books will provide HTML metadata for social sharing on platforms like Twitter, Facebook, and LinkedIn, using information you provide in the \texttt{index.Rmd} YAML. To setup, set the \texttt{url} for your book and the path to your \texttt{cover-image} file. Your book's \texttt{title} and \texttt{description} are also used.
+
+This \texttt{gitbook} uses the same social sharing data across all chapters in your book- all links shared will look the same.
+
+Specify your book's source repository on GitHub using the \texttt{edit} key under the configuration options in the \texttt{\_output.yml} file, which allows users to suggest an edit by linking to a chapter's source file.
+
+Read more about the features of this output format here:
+
+\url{https://pkgs.rstudio.com/bookdown/reference/gitbook.html}
+
+Or use:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{?bookdown}\SpecialCharTok{::}\NormalTok{gitbook}
+\end{Highlighting}
+\end{Shaded}
+
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
