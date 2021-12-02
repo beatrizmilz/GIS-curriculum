@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capitulo 7 Atributos da camada | Introdução ao QGis</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capitulo 7 Atributos da camada | Introdução ao QGis" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capitulo 7 Atributos da camada | Introdução ao QGis" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="fazendo-mapas.html"/>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Intro</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>1.1</b> Introdução suave a conceitos de GIS</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="intro.html"><a href="intro.html#introdução-pedagógica"><i class="fa fa-check"></i><b>1.1.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="1.1.2" data-path="intro.html"><a href="intro.html#ferramentas-e-recursos-necessários"><i class="fa fa-check"></i><b>1.1.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="1.1.3" data-path="intro.html"><a href="intro.html#pré-requisitos"><i class="fa fa-check"></i><b>1.1.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="1.1.4" data-path="intro.html"><a href="intro.html#recursos-adicionais"><i class="fa fa-check"></i><b>1.1.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="1.1.5" data-path="intro.html"><a href="intro.html#introdução-temática"><i class="fa fa-check"></i><b>1.1.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="1.1.6" data-path="intro.html"><a href="intro.html#conteúdo-principal"><i class="fa fa-check"></i><b>1.1.6</b> Conteúdo principal</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html"><i class="fa fa-check"></i><b>2</b> Introdução ao QGIS</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#introdução-pedagógica-1"><i class="fa fa-check"></i><b>2.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="2.2" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#ferramentas-e-recursos-necessários-1"><i class="fa fa-check"></i><b>2.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="2.3" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#pré-requisitos-1"><i class="fa fa-check"></i><b>2.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="2.4" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#recursos-adicionais-1"><i class="fa fa-check"></i><b>2.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="2.5" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#introdução-temática-1"><i class="fa fa-check"></i><b>2.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="2.6" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#detalhamento-dos-conceitos"><i class="fa fa-check"></i><b>2.6</b> Detalhamento dos conceitos</a></li>
+<li class="chapter" data-level="2.7" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#conteúdo-principal-1"><i class="fa fa-check"></i><b>2.7</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-1-introdução-ao-qgis-e-à-interface-do-qgis"><i class="fa fa-check"></i><b>2.7.1</b> Título da fase 1: Introdução ao QGIS e à interface do QGIS</a></li>
+<li class="chapter" data-level="2.7.2" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-2-complementos-complementos-qgis"><i class="fa fa-check"></i><b>2.7.2</b> Título da fase 2: Complementos (Complementos) QGIS</a></li>
+<li class="chapter" data-level="2.7.3" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-3-configurações-qgis"><i class="fa fa-check"></i><b>2.7.3</b> Título da Fase 3: Configurações QGIS</a></li>
+<li class="chapter" data-level="2.7.4" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-4-adicional-formatos-de-arquivo-do-qgis"><i class="fa fa-check"></i><b>2.7.4</b> Título da Fase 4 (adicional): Formatos de arquivo do QGIS</a></li>
+<li class="chapter" data-level="2.7.5" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#se-você-quiser-ir-mais-longe-1"><i class="fa fa-check"></i><b>2.7.5</b> Se você quiser ir mais longe:</a></li>
+<li class="chapter" data-level="2.7.6" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#para-praticar-suas-novas-habilidades-tente-1"><i class="fa fa-check"></i><b>2.7.6</b> Para praticar suas novas habilidades, tente …</a></li>
+<li class="chapter" data-level="2.7.7" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#dicas-1"><i class="fa fa-check"></i><b>2.7.7</b> Dicas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html"><i class="fa fa-check"></i><b>3</b> Camadas no QGIS</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#introdução-pedagógica-2"><i class="fa fa-check"></i><b>3.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#ferramentas-e-recursos-necessários-2"><i class="fa fa-check"></i><b>3.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#pré-requisitos-2"><i class="fa fa-check"></i><b>3.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#recursos-adicionais-2"><i class="fa fa-check"></i><b>3.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#introdução-temática-2"><i class="fa fa-check"></i><b>3.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="3.6" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#detalhamento-dos-conceitos-1"><i class="fa fa-check"></i><b>3.6</b> Detalhamento dos conceitos</a></li>
+<li class="chapter" data-level="3.7" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#conteúdo-principal-2"><i class="fa fa-check"></i><b>3.7</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="3.7.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#título-da-fase-1-tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>3.7.1</b> Título da fase 1: Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a></li>
+<li class="chapter" data-level="3.7.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#título-da-fase-2-o-gerenciador-de-fonte-de-dados-e-conexão-com-serviços-remotos"><i class="fa fa-check"></i><b>3.7.2</b> Título da fase 2: O gerenciador de fonte de dados e conexão com serviços remotos</a></li>
+<li class="chapter" data-level="3.7.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#título-da-fase-3-exportando-camadas-camadas-na-memória-temporárias-e-camadas-virtuais"><i class="fa fa-check"></i><b>3.7.3</b> Título da Fase 3: Exportando Camadas, Camadas na Memória (Temporárias) e Camadas Virtuais</a></li>
+<li class="chapter" data-level="3.7.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#se-você-quiser-ir-mais-longe-2"><i class="fa fa-check"></i><b>3.7.4</b> Se você quiser ir mais longe:</a></li>
+<li class="chapter" data-level="3.7.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#para-praticar-suas-novas-habilidades-tente-2"><i class="fa fa-check"></i><b>3.7.5</b> Para praticar suas novas habilidades, tente …</a></li>
+<li class="chapter" data-level="3.7.6" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#dicas-2"><i class="fa fa-check"></i><b>3.7.6</b> Dicas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><i class="fa fa-check"></i><b>4</b> OpenStreetMap e a camada de assentamentos de alta resolução</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#introdução-pedagógica-3"><i class="fa fa-check"></i><b>4.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="4.2" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#ferramentas-e-recursos-necessários-3"><i class="fa fa-check"></i><b>4.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="4.3" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#pré-requisitos-3"><i class="fa fa-check"></i><b>4.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="4.4" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#recursos-adicionais-3"><i class="fa fa-check"></i><b>4.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="4.5" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#introdução-temática-3"><i class="fa fa-check"></i><b>4.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="4.6" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#análise-dos-conceitos"><i class="fa fa-check"></i><b>4.6</b> Análise dos conceitos</a></li>
+<li class="chapter" data-level="4.7" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#conteúdo-principal-3"><i class="fa fa-check"></i><b>4.7</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="4.7.1" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#título-da-fase-1-dados-do-openstreetmap-osm"><i class="fa fa-check"></i><b>4.7.1</b> Título da fase 1: Dados do OpenStreetMap (OSM)</a></li>
+<li class="chapter" data-level="4.7.2" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#título-da-fase-2-os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl"><i class="fa fa-check"></i><b>4.7.2</b> Título da fase 2: Os dados da camada de assentamentos de alta resolução (HRSL)</a></li>
+<li class="chapter" data-level="4.7.3" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#se-você-quiser-ir-além"><i class="fa fa-check"></i><b>4.7.3</b> Se você quiser ir além:</a></li>
+<li class="chapter" data-level="4.7.4" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#para-praticar-suas-novas-habilidades-tente-3"><i class="fa fa-check"></i><b>4.7.4</b> Para praticar suas novas habilidades, tente…</a></li>
+<li class="chapter" data-level="4.7.5" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#dicas-3"><i class="fa fa-check"></i><b>4.7.5</b> Dicas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html"><i class="fa fa-check"></i><b>5</b> Camadas de estilo</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#introdução-pedagógica-4"><i class="fa fa-check"></i><b>5.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="5.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#ferramentas-e-recursos-necessários-4"><i class="fa fa-check"></i><b>5.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="5.3" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#pré-requisitos-4"><i class="fa fa-check"></i><b>5.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="5.4" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#recursos-adicionais-4"><i class="fa fa-check"></i><b>5.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="5.5" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#introdução-temática-4"><i class="fa fa-check"></i><b>5.5</b> Introdução temática</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#painéis-guias-e-tipos-de-renderização-principais"><i class="fa fa-check"></i><b>5.5.1</b> Painéis, guias e tipos de renderização principais</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#conteúdo-principal-4"><i class="fa fa-check"></i><b>5.6</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#fase-1-raster-básico-e-simbologia-vetorial"><i class="fa fa-check"></i><b>5.6.1</b> Fase 1: Raster básico e simbologia vetorial</a></li>
+<li class="chapter" data-level="5.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#fase-2-modos-de-mesclagem-e-efeitos-de-desenho"><i class="fa fa-check"></i><b>5.6.2</b> Fase 2: modos de mesclagem e efeitos de desenho</a></li>
+<li class="chapter" data-level="5.6.3" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#fase-3-substituições-definidas-por-dados-e-geradores-de-geometria"><i class="fa fa-check"></i><b>5.6.3</b> Fase 3: Substituições definidas por dados e geradores de geometria</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>6</b> Fazendo Mapas</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>6.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="6.2" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#ferramentas-e-recursos-necessários-5"><i class="fa fa-check"></i><b>6.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="6.3" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#pré-requisitos-5"><i class="fa fa-check"></i><b>6.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="6.4" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#recursos-adicionais-5"><i class="fa fa-check"></i><b>6.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="6.5" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-temática-5"><i class="fa fa-check"></i><b>6.5</b> Introdução temática</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#detalhamento-dos-conceitos-2"><i class="fa fa-check"></i><b>6.5.1</b> Detalhamento dos conceitos</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#conteúdo-principal-5"><i class="fa fa-check"></i><b>6.6</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#título-da-fase-1-exportando-a-tela-do-mapa"><i class="fa fa-check"></i><b>6.6.1</b> Título da fase 1: Exportando a tela do mapa</a></li>
+<li class="chapter" data-level="6.6.2" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#título-da-fase-2-adicionando-e-editando-elementos-do-mapa-ao-layout-de-impressão"><i class="fa fa-check"></i><b>6.6.2</b> Título da fase 2: Adicionando e editando elementos do mapa ao layout de impressão</a></li>
+<li class="chapter" data-level="6.6.3" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#título-da-fase-3-automatizando-a-criação-de-mapas-usando-os-recursos-do-atlas"><i class="fa fa-check"></i><b>6.6.3</b> Título da Fase 3: Automatizando a criação de mapas usando os recursos do Atlas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html"><i class="fa fa-check"></i><b>7</b> Atributos da camada</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#introdução-pedagógica-6"><i class="fa fa-check"></i><b>7.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="7.2" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#ferramentas-e-recursos-necessários-6"><i class="fa fa-check"></i><b>7.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="7.3" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#pré-requisitos-6"><i class="fa fa-check"></i><b>7.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="7.4" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#recursos-adicionais-6"><i class="fa fa-check"></i><b>7.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="7.5" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#introdução-temática-6"><i class="fa fa-check"></i><b>7.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="7.6" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#detalhamento-dos-conceitos-3"><i class="fa fa-check"></i><b>7.6</b> Detalhamento dos conceitos</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#título-da-fase-1-editando-atributos-da-camada"><i class="fa fa-check"></i><b>7.6.1</b> Título da fase 1: Editando atributos da camada</a></li>
+<li class="chapter" data-level="7.6.2" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#fase-2-entender-e-trabalhar-com-dados-de-atributos-consultas-e-análises"><i class="fa fa-check"></i><b>7.6.2</b> Fase 2: Entender e trabalhar com dados de atributos, consultas e análises</a></li>
+<li class="chapter" data-level="7.6.3" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#título-da-fase-3-expressões-de-qgis-avançadas"><i class="fa fa-check"></i><b>7.6.3</b> Título da Fase 3: Expressões de QGIS avançadas</a></li>
+</ul></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="atributos-da-camada" class="section level1" number="7">
+<h1><span class="header-section-number">Capitulo 7</span> Atributos da camada</h1>
+<p><strong>Autor</strong>: Ketty</p>
+<div id="introdução-pedagógica-6" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Introdução pedagógica</h2>
+<p>Este módulo fornecerá uma visão geral das etapas comuns necessárias para trabalhar com a tabela de atributos e atributos da camada no QGIS. No final do módulo, você será capaz de entender os seguintes conceitos:</p>
+<ul>
+<li>Trabalhando com a tabela de atributos</li>
+<li>Usando a calculadora de campos</li>
+<li>Gerador de expressões QGIS</li>
+<li>Campos de refatoração</li>
+</ul>
+<p>Além disso, você aprenderá as seguintes habilidades:</p>
+<ul>
+<li>Entendendo a interface da tabela de atributos</li>
+<li>Interagindo com recursos em uma tabela de atributos</li>
+<li>Salvando recursos selecionados como nova camada</li>
+<li>Editando campos de camada</li>
+</ul>
+<p>Você usará a calculadora de campo e o gerador de expressão QGIS para executar operações matemáticas e funções no QGIS.</p>
+</div>
+<div id="ferramentas-e-recursos-necessários-6" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Ferramentas e recursos necessários</h2>
+<ul>
+<li>Computador</li>
+<li>Conexão com a Internet</li>
+<li>QGIS 3.16 e superior</li>
+<li>Camada de limite administrativo do Rio de Janeiro <code>rj_capital</code> (dentro de <a href="data/module6.gpkg">module6.gpkg</a>)</li>
+<li>Clínicas do Rio de Janeiro <code>rj_clinics</code> (dentro de <a href="data/module6.gpkg">module6.gpkg</a>)</li>
+<li>UFs do Brasil <code>br_ufs</code> (dentro de <a href="data/module6.gpkg">module6.gpkg</a>)</li>
+<li><a href="data/hrsl_rj_capital_populacao.tif">RJ High Resolution Settlement Layer</a></li>
+</ul>
+</div>
+<div id="pré-requisitos-6" class="section level2" number="7.3">
+<h2><span class="header-section-number">7.3</span> Pré-requisitos</h2>
+<ul>
+<li>Um conhecimento razoável de todos os módulos anteriores</li>
+<li>Conhecimento básico de como operar um computador</li>
+</ul>
+</div>
+<div id="recursos-adicionais-6" class="section level2" number="7.4">
+<h2><span class="header-section-number">7.4</span> Recursos adicionais</h2>
+<ul>
+<li>Trabalhando com a Tabela de Atributos - <a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/attribute_table.html?highlight=layer%20attributes">https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/attribute_table.html?highlight=layer%20attributes</a></li>
+<li>Expressões QGIS - <a href="https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/expressions.html">https://docs.qgis.org/3.16/en/docs/ pyqgis_developer_cookbook/expression.html</a></li>
+</ul>
+</div>
+<div id="introdução-temática-6" class="section level2" number="7.5">
+<h2><span class="header-section-number">7.5</span> Introdução temática</h2>
+<p>Vamos começar com um exemplo:</p>
+<p>Em alguns casos, por exemplo, para fins de planejamento de infraestrutura, você pode querer saber a área dos polígonos em uma camada. Se você tiver só um polígono, isso não será um problema. Mas e se você tiver muitos polígonos/áreas na camada? Calcular cada área uma a uma seria quase impossível. A camada de vetor das Unidades Feterativas do Brasil tem muitos polígonos, o que significa que seria um bom conjunto de dados para este tutorial. Vamos calcular a área de cada polígono de forma automatizada. No total, será calculada a área de 27 UFs.</p>
+</div>
+<div id="detalhamento-dos-conceitos-3" class="section level2" number="7.6">
+<h2><span class="header-section-number">7.6</span> Detalhamento dos conceitos</h2>
+<p>Muito do trabalho que você faz ao elaborar um mapa envolve trabalhar com atributos de camada. Se estiver desenhando a camada, configurando um pop-up, realizando análises ou visualizando, você precisa de algum nível de conhecimento dos campos da camada e dos valores que eles contêm. Se for sua própria camada, você conhecerá e entenderá seus atributos. Mas se não for, como você adquire esse conhecimento? Provavelmente, você inspeciona os nomes dos campos e examina os valores dos campos em busca de algumas pistas. E se você tiver sorte, você encontrará alguma documentação que descreve os atributos da camada.</p>
+<p>A tabela de atributos exibe informações sobre os recursos de uma camada selecionada. Cada linha da tabela representa uma feição (com ou sem geometria) e cada coluna contém uma informação específica sobre a feição. As feições da tabela podem ser pesquisadas, selecionadas, movidas ou mesmo editadas. Especificamente, existem duas novas propriedades de campo que descrevem os valores contidos em um campo:</p>
+<ul>
+<li><strong>Descrição do campo</strong> - algumas palavras, uma frase ou um parágrafo de texto que descreve os valores no campo.</li>
+<li><strong>Tipo de valor do campo</strong> - uma palavra-chave que categoriza o tipo de valores contidos no campo. A palavra-chave ajuda as pessoas a entender como usar os valores e permite que o QGIS e outros aplicativos façam sugestões mais inteligentes para trabalhar com eles, por exemplo, os tipos de valores no campo podem ser inteiros, strings, booleanos (verdadeiro ou falso), duplos ou ponto flutuante.</li>
+</ul>
+<p>Aqui está um exemplo. Suponha que você tenha uma camada de parcela de terreno com estes campos:</p>
+<ul>
+<li>ID do lote - Número Inteiro</li>
+<li>Proprietário - String (Texto)</li>
+<li>Endereço da rua - String (Texto)</li>
+<li>Descrição da propriedade - String (Texto)</li>
+<li>Edifícios - Número Inteiro</li>
+<li>Área do terreno - Número Duplo (ou decimal)</li>
+<li>Valor avaliado - Número Duplo (ou decimal)</li>
+<li>Data de avaliação - Data</li>
+</ul>
+<p>Se você fosse descrever esses valores de campo, poderia escrever algo assim:</p>
+<ul>
+<li>ID do lote - o identificador exclusivo do lote</li>
+<li>Proprietário - o nome do proprietário do imóvel</li>
+<li>Endereço - a localização do lote</li>
+<li>Descrição do imóvel - a descrição legal da propriedade</li>
+<li>Edifícios - o número de edifícios no lote</li>
+<li>Área do terreno - o tamanho da parcela em acres</li>
+<li>valor da avaliação - o valor da parcela e edifícios em dólares</li>
+<li>avaliação data - a data da última avaliação</li>
+</ul>
+<p>Ao observar descrições, algumas palavras se destacam, como: identificador, nome, localização, descrição, número de, tamanho, valor e data. Estas são as <em>palavras-chave</em> que descrevem quais são os valores do campo. As palavras-chave do tipo de valor do campo são construídas a partir desses tipos de palavras. Eles são:</p>
+<ul>
+<li>Nome ou Título</li>
+<li>Descrição</li>
+<li>Tipo ou Categoria</li>
+<li>Contagem ou Quantidade</li>
+<li>Porcentagem ou Proporção</li>
+<li>Medição</li>
+<li>Identificador Único</li>
+<li>Ordenado ou Classificado</li>
+<li>Binário</li>
+<li>Local ou Nome do Local</li>
+<li>Coordenada</li>
+<li>Data e Hora</li>
+</ul>
+<p>No exemplo de camada de pacote acima, o campo ID da parcela é um campo inteiro. Se o tipo de valor do campo indica que os valores do campo representam um identificador único em vez de uma contagem, o QGIS não sugere o desenho deste atributo de campo usando cores graduadas ou símbolos.</p>
+<p>Além disso, outros conceitos como a funcionalidade de calculadora de campo na tabela de atributos permitem realizar cálculos com base em valores de atributos existentes ou funções definidas, por exemplo, calcular comprimento, área ou densidade populacional. Observe que os cálculos possíveis são determinados pelos atributos ou compõem seus dados. Por exemplo, só é possível calcular a densidade populacional se houver um campo com contagens de população. Usando o gerador de expressão e a calculadora de campo, você poderia então construir uma expressão ou fórmula para calcular a densidade populacional. Nesse caso, a fórmula seria; população total como um número de pessoas dividida pela área de terra coberta por essa população. Você notará que é importante saber o que cada um dos campos na tabela de atributos da camada representa. Isso significa que você precisa conhecer e compreender seus dados completamente. Isso torna mais fácil aplicar funções e expressões e, portanto, gerar análises, visualizaçõe e produtos de mapa significativos.</p>
+<div id="título-da-fase-1-editando-atributos-da-camada" class="section level3" number="7.6.1">
+<h3><span class="header-section-number">7.6.1</span> Título da fase 1: Editando atributos da camada</h3>
+<div id="conteúdotutorial-2" class="section level4" number="7.6.1.1">
+<h4><span class="header-section-number">7.6.1.1</span> <strong>Conteúdo/Tutorial</strong></h4>
+<p>A tabela de atributos exibe informações sobre os recursos de uma camada selecionada. Cada linha da tabela representa uma feição (com ou sem geometria) e cada coluna contém uma informação específica sobre a feição. As feições da tabela podem ser pesquisadas, selecionadas, movidas ou mesmo editadas.</p>
+<ol style="list-style-type: decimal">
+<li>Carregue a camada vetorial de UFs PHL (encontrada em <a href="data/module6.gpkg">module6.gpkg</a>) no QGIS. Você pode descobrir quantas feições estão no recurso atual <strong>clicando com o botão direito do mouse na camada no painel Camadas ‣ Mostrar contagem de feições</strong>. Como você pode ver abaixo, a camada vetorial tem muitas feições. No total, são 27 feições correspondentes a 27 UFs.</li>
+</ol>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/many-polygons.png" title="Vários polígonos" alt="" />
+<p class="caption">Vários polígonos</p>
+</div>
+<p>Figura 6.1: Vários polígonos</p>
+<ol start="2" style="list-style-type: decimal">
+<li>O próximo passo é explorar a interface da tabela de atributos. Abra a tabela de atributos <strong>clicando com o botão direito do mouse na camada no painel Layers ‣ Abrir tabela de atributos</strong>. Você também pode clicar no <strong>botão Abrir Tabela de Atributos</strong> <img src="_bookdown_files/_main_files/figure-html/media/modulo6/open-attribute-btn.png" title="botão Abrir tabela de atributos" alt="Botão Abrir tabela de atributos" /> na Barra de Ferramentas de Atributos. Esta é a aparência da tabela de atributos. A barra de ferramentas tem vários botões; passe o mouse sobre cada botão para ver sua funcionalidade.</li>
+</ol>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/attribute-tab.png" title="Abrir tabela de atributos" alt="" />
+<p class="caption">Abrir tabela de atributos</p>
+</div>
+<p>Figura 6.2: Abrir tabela de atributos</p>
+<p>Se você não quiser que a tabela de atributos seja uma janela flutuante, mas sim encaixá-la na interface QGIS, você pode clicar no <strong>botão Tabela de atributos ancorada</strong> <img src="_bookdown_files/_main_files/figure-html/media/modulo6/dock-attr-btn.png" title="Tabela de atributos ancorada" alt="“Tabela de atributos ancorada”" />. Quando ancoradas, as tabelas de atributos aparecerão como abas em vez de janelas individuais.</p>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/docked-attribute-tab.png" title="Tabela de atributos ancorada" alt="" />
+<p class="caption">Tabela de atributos ancorada</p>
+</div>
+<p>Figura 6.3: Tabela de atributos ancorada</p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Para cálculos de área, o Sistema de Referência de Coordenadas deve ser projetado. Isso permite calcular as distâncias corretamente. Lembre-se, nosso interesse é calcular automaticamente a área para cada uma das 27 UFs. Verifique o Sistema de Referência de Coordenadas da camada vetorial. Se for um sistema de referência de coordenadas geográficas, então reprojete a camada para um sistema de coordenadas projetadas. Verifique as diferentes projeções no site <a href="https://epsg.io/?q=Brazil+kind%3APROJCRS">EPSG</a>. No Brasil, usaremos <a href="https://epsg.io/5641">SIRGAS 2000 / Brazil Mercator</a>, EPSG: 5641. Dos módulos anteriores, onde as projeções de mapas são amplamente discutidas, você já deve saber que as projeções de mapas são aplicadas em relação a um local específico na Terra.</p></li>
+<li><p>Verifique as configurações do projeto; Acesse: <strong>Projeto ‣ Propriedades Propriedades ‣ Geral</strong>.</p></li>
+</ol>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/gen-settings.png" title="Planimetric" alt="" />
+<p class="caption">Planimetric</p>
+</div>
+<p>Figura 6.4: Configurações gerais</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Em seguida, clique no botão <strong>Abrir calculadora de campo</strong> <img src="_bookdown_files/_main_files/figure-html/media/modulo6/field_calculator.png" title="image_tooltip" alt="Alt_text" /> no botão da barra de ferramentas. A caixa de diálogo da calculadora de campo será aberta; preencha o nome do campo de saída, neste caso será ‘area_km2.’ Escolha o número decimal (real) no tipo de campo de saída. Altere a precisão para 2 casas decimais. Para calcular a área, use a seguinte expressão:</li>
+</ol>
+<pre><code>$area/1000000</code></pre>
+<p>Você pode encontrar esta expressão em <strong>Geometria</strong>. Clique em OK e irá calcular automaticamente a área de cada polígono. Observe que o cálculo da área depende do sistema de referência de coordenadas usado, portanto, você pode ter resultados diferentes dependendo do CRS usado. Você também pode pesquisar e encontrar informações sobre expressões no lado direito da Calculadora de campo ou Construtor de expressões.</p>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/fieldcalc.png" title="Diálogo da calculadora de campo" alt="" />
+<p class="caption">Diálogo da calculadora de campo</p>
+</div>
+<p>Figura 6.5: Diálogo da calculadora de campo</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Abra a tabela de atributos para ver o resultado. Você acabou de editar o conteúdo da tabela de atributos, de forma automatizada, ao invés de digitar os valores em cada célula manualmente, um por um.</li>
+</ol>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/area.png" title="Nova tabela de atributos com novos campos e atributos" alt="" />
+<p class="caption">Nova tabela de atributos com novos campos e atributos</p>
+</div>
+<p>Figura 6.6: Nova tabela de atributos com novos campos e atributos</p>
+</div>
+<div id="perguntas-do-questionário-14" class="section level4" number="7.6.1.2">
+<h4><span class="header-section-number">7.6.1.2</span> <strong>Perguntas do questionário</strong></h4>
+<ol style="list-style-type: decimal">
+<li><p>Uma tabela de atributos é um banco de dados ou arquivo tabular contendo informações sobre um conjunto de características geográficas</p></li>
+<li><p>As características geográficas são geralmente organizadas de forma que cada linha represente uma característica e cada coluna represente um atributo de característica</p></li>
+<li><p>É necessário reprojetar camadas antes da área cálculos quando a camada tem um sistema de referência de coordenadas geográficas</p></li>
+</ol>
+</div>
+<div id="respostas-do-questionário-5" class="section level4" number="7.6.1.3">
+<h4><span class="header-section-number">7.6.1.3</span> <strong>Respostas do questionário</strong></h4>
+<ol style="list-style-type: decimal">
+<li>Verdadeiro</li>
+<li>Verdadeiro</li>
+<li>Verdadeiro</li>
+</ol>
+</div>
+</div>
+<div id="fase-2-entender-e-trabalhar-com-dados-de-atributos-consultas-e-análises" class="section level3" number="7.6.2">
+<h3><span class="header-section-number">7.6.2</span> Fase 2: Entender e trabalhar com dados de atributos, consultas e análises</h3>
+<div id="conteúdotutorial-3" class="section level4" number="7.6.2.1">
+<h4><span class="header-section-number">7.6.2.1</span> <strong>Conteúdo/Tutorial</strong></h4>
+<p>Neste ponto, você pode notar que a tabela de atributos armazena dados espaciais e não espaciais. Neste tutorial, você descobrirá maneiras de trabalhar com dados da tabela de atributos. Por exemplo, usando expressões, você poderá selecionar Clínicas em no Rio de Janeiro com atendimento de emergência, usando os dados da tabela de atributos.</p>
+<ol style="list-style-type: decimal">
+<li>Adicione os seguintes conjuntos de dados à tela do mapa QGIS:</li>
+</ol>
+<ul>
+<li>Camada de limite administrativo do Rio de Janeiro <code>rj_capital</code> (dentro de <a href="data/module6.gpkg">module6.gpkg</a>)</li>
+<li>Clínicas do Rio de Janeiro <code>rj_clinics</code> (dentro de <a href="data/module6.gpkg">module6.gpkg</a>)</li>
+<li><a href="data/hrsl_rj_capital_populacao.tif">RJ High Resolution Settlement Layer</a></li>
+</ul>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/add-layers.png" title="Adicionar camadas diferentes" alt="" />
+<p class="caption">Adicionar camadas diferentes</p>
+</div>
+<p>Figura 6.7: Adicionar camadas diferentes</p>
+<ol start="2" style="list-style-type: decimal">
+<li>O a seleção será aplicada à camada Clínicas, portanto, abra a tabela de atributos da camada Clínica. Clique no botão selecionar recursos usando a expressão <img src="_bookdown_files/_main_files/figure-html/media/modulo6/select_features_button.png" title="image_tooltip" alt="Alt_text" /> e digite a seguinte expressão no construtor de expressão;</li>
+</ol>
+<pre><code>&quot;amenity&quot; = &#39;clinic&#39; AND &quot;emergency&quot; = &#39;yes&#39;</code></pre>
+<p>Você notará que a expressão tem uma série de predicados como o sinal de comparação (=), o predicado lógico (AND) e uma string que é colocada entre aspas simples (’’). Existem também dois nomes de atributos (amenity, emergency) e seus valores (clinic, yes).</p>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/select.png" title="select" alt="" />
+<p class="caption">select</p>
+</div>
+<p>Figura 6.8: Selecione pelo diálogo Construtor de Expressão</p>
+<ol start="3" style="list-style-type: decimal">
+<li>11 clínicas são selecionadas. Você pode ver a seleção destacada em amarelo. As clínicas selecionadas também são destacada na tabela de atributos. Agora sabemos que há 11 clínicas com serviço de emergência no Rio de Janeiro (no dados do OpenStreetMap, pelo menos).</li>
+</ol>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/selected-canvas.png" title="image_tooltip" alt="" />
+<p class="caption">alt_text</p>
+</div>
+<p>Figura 6.9: Clínica/recurso selecionado está destacado (amarelo)</p>
+<div class="figure">
+<img src="_bookdown_files/_main_files/figure-html/media/modulo6/selected-attr.png" title="image_tooltip" alt="" />
+<p class="caption">alt_text</p>
+</div>
+<p>Figura 6.10: Clínica/o recurso está destacado (azul)</p>
+<p>Também é possível fazer seleções clicando em uma feição na tela do mapa.</p>
+<p>O desenvolvimento de uma expressão funcional começa com a compreensão de seus dados; por exemplo, os atributos e os valores que eles possuem. Em seguida, precisamos fazer as perguntas certas e, finalmente, desenvolver a expressão correta, levando em consideração todas as regras matemáticas que tornam uma expressão livre de erros.</p>
+</div>
+<div id="perguntas-do-questionário-15" class="section level4" number="7.6.2.2">
+<h4><span class="header-section-number">7.6.2.2</span> <strong>Perguntas do questionário</strong></h4>
+<ol style="list-style-type: decimal">
+<li>Esses operadores são fornecidos pelo construtor de expressões. {+, -, *}</li>
+<li>As aspas simples devem incluir uma string.</li>
+<li>A tabela de atributos armazena apenas dados não espaciais.</li>
+</ol>
+</div>
+<div id="respostas-do-questionário-6" class="section level4" number="7.6.2.3">
+<h4><span class="header-section-number">7.6.2.3</span> <strong>Respostas do questionário</strong></h4>
+<ol style="list-style-type: decimal">
+<li>Verdadeiro</li>
+<li>Verdadeiro</li>
+<li>Falso</li>
+</ol>
+</div>
+</div>
+<div id="título-da-fase-3-expressões-de-qgis-avançadas" class="section level3" number="7.6.3">
+<h3><span class="header-section-number">7.6.3</span> Título da Fase 3: Expressões de QGIS avançadas</h3>
+<p>A caixa de diálogo Construtor de expressões oferece acesso à:</p>
+<ul>
+<li>Aba Expressão (<a href="https://docs.qgis.org/2.18/en/docs/user_manual/working_with_vector/expression.html#functions-list">https: //docs.qgis .org/2.18/en/docs/user_manual/working_with_vector/expression.html # functions-list</a> ) que, graças a uma lista de funções predefinidas, ajuda a escrever e verificar a expressão a usar;</li>
+<li>Aba Editor de funções (<a href="https://docs.qgis.org/2.18/en/docs%20/user_manual/working_with_vector/expression.html#function-editor">https://docs.qgis.org/2.18/en/docs/user_manual/working_with_vector/expression.html#function-editor</a>) que ajuda a estender a lista de funções criando funções personalizadas.</li>
+</ul>
+<div id="conteúdotutorial-4" class="section level4" number="7.6.3.1">
+<h4><span class="header-section-number">7.6.3.1</span> <strong>Conteúdo/Tutorial</strong></h4>
+<p>Existem muitos casos de uso para expressões, e aqui apresentaremos alguns exemplos. Observe como as expressões são desenvolvidas e quais operadores ou predicados são usados. Também é importante o fato de que todas essas expressões são desenvolvidas com base no conteúdo do conjunto de dados. Você pode adaptar isso ao conjunto de dados de sua escolha.</p>
+<ol style="list-style-type: decimal">
+<li>Na Calculadora de campo, calcule um campo “pop_density” usando os campos “total_pop” e “area_km2” existentes:</li>
+</ol>
+<pre><code>&quot;total_pop&quot; / &quot;area_km2&quot;</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Atualize o campo “density_level” com categorias de acordo com os valores “pop_density”:</li>
+</ol>
+<pre><code>CASE WHEN &quot;pop_density&quot; &lt; 50 THEN &#39;Low population density&#39;
+     WHEN &quot;pop_density&quot; &gt;= 50 AND  &quot;pop_density&quot; &lt; 150 THEN &#39;Medium population density&#39;
+     WHEN &quot;pop_density&quot; &gt; 150 THEN &#39;High population density&#39;
+END</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Aplique um estilo categorizado a todos as feições de acordo com se o preço médio de sua casa é menor ou superior a 10.000 pesos por metro quadrado:</li>
+</ol>
+<pre><code>&quot;price_m2&quot; &gt; 10000</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Usando a ferramenta “Selecionar por expressão …,” Selecione todas as características que representam áreas de “alta densidade populacional” e cujo preço médio da casa seja superior a 10.000 pesos por metro quadrado:</li>
+</ol>
+<pre><code>&quot;density level&quot; = &#39;High population density&#39; and &quot;price_m2&quot; &gt; 10000</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Da mesma forma, a expressão anterior também pode ser usada para definir quais características devem ser rotuladas ou mostradas no mapa.</li>
+</ol>
+</div>
+<div id="perguntas-do-questionário-16" class="section level4" number="7.6.3.2">
+<h4><span class="header-section-number">7.6.3.2</span> <strong>Perguntas do questionário</strong></h4>
+<ol style="list-style-type: decimal">
+<li>Tanto a calculadora de campo quanto o diálogo Selecionar por expressão podem ser usados para desenvolver expressões - <strong><em>Verdadeiro</em></strong></li>
+<li>As expressões podem ser usadas para atualizar um novo campo - <strong><em>Verdadeiro</em></strong></li>
+<li>As expressões podem ser usadas para aplicar um estilo - <strong><em>Verdadeiro</em></strong></li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="fazendo-mapas.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/06-modulo6.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
