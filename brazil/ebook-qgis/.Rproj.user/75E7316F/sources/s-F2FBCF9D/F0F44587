@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1638458961706.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3908946799",
+    "id" : "F0F44587",
+    "lastKnownWriteTime" : 1638459363,
+    "last_content_update" : 1638459363522,
+    "path" : "~/GitHub/GIS-curriculum/brazil/ebook-qgis/05-modulo5.Rmd",
+    "project_path" : "05-modulo5.Rmd",
+    "properties" : {
+        "cursorPosition" : "242,75",
+        "scrollLine" : "236"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
