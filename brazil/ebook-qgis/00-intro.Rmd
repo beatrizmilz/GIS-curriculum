@@ -306,7 +306,7 @@ Existem dois modelos principais de dados espaciais: **raster** e **vetorial**. E
 
 ###### Dados raster
 
-Os dados raster são mais utilizados para representar fenômenos contínuos, como elevação ou temperatura.
+Os dados raster são mais utilizados para representar fenômenos contínuos, como elevação ou temperatura.
 
 Um raster é uma representação de objetos do mundo real composta de linhas e colunas de células ou pixels, no qual cada célula ou pixel representa uma área geográfica (pense em uma fotografia ou imagem). O valor da célula representa o valor de um atributo na referida área geográfica. O tamanho da área depende da resolução espacial do raster.
 
@@ -364,7 +364,7 @@ SIG é uma ferramenta / framework / sistema que nos permite trabalhar com inform
 _SIG não é apenas mapeamento_. Embora a elaboração de mapas seja um dos aspectos mais importantes e comumente conhecidos do SIG, ela ainda é apenas uma parte de seus muitos recursos. Podemos ver a estrutura SIG moderna como sendo composta por:
 
 * **Dados** - referem-se às informações utilizadas pelo SIG que podem ou não conter informações de localização (por exemplo, nomes de lojas, localizações de lojas).
-* **Tecnologia** - inclui os componentes de hardware e software de um SIG - as máquinas, instrumentos e computadores com os aplicativos de software usados para fazer o trabalho geoespacial.
+* **Tecnologia** - inclui os componentes de hardware e software de um SIG - as máquinas, instrumentos e computadores com os aplicativos de software usados para fazer o trabalho geoespacial.
 * **Métodos e análises** - referem-se à ciência e matemática em SIG, que permitem realizar consultas e cálculos espaciais e não espaciais (de atributos).
 * **Visualização** - embora semelhante aos métodos e análises, a visualização pode ser considerada como um componente separado, pois se refere especificamente aos meios pelos quais um SIG representa os dados graficamente. Isso inclui não apenas mapas, embora seja o caso mais comum, mas também tabelas, gráficos, etc.
 * **Pessoas** - são as pessoas e / ou grupos de pessoas que estão envolvidas no uso, desenvolvimento, ensino e manutenção de SIG.
