@@ -1,0 +1,2648 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.8.13)  3 DEC 2021 17:09
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**_main.tex
+(./_main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf
+-dist/tex/latex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count173
+\c@chapter=\count174
+\c@section=\count175
+\c@subsection=\count176
+\c@subsubsection=\count177
+\c@paragraph=\count178
+\c@subparagraph=\count179
+\c@figure=\count180
+\c@table=\count181
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count182
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count183
+\leftroot@=\count184
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count185
+\DOTSCASE@=\count186
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
+\dotsspace@=\muskip16
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks16
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/
+share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2020-01-29 L3 backend support: XeTeX
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count194
+\l__color_backend_stack_int=\count195
+\g__graphics_track_int=\count196
+\l__pdf_internal_box=\box49
+\g__pdf_backend_object_int=\count197
+\g__pdf_backend_annotation_int=\count198
+\g__pdf_backend_link_int=\count199
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count266
+\l__fontspec_language_int=\count267
+\l__fontspec_strnum_int=\count268
+\l__fontspec_tmp_int=\count269
+\l__fontspec_tmpa_int=\count270
+\l__fontspec_tmpb_int=\count271
+\l__fontspec_tmpc_int=\count272
+\l__fontspec_em_int=\count273
+\l__fontspec_emdef_int=\count274
+\l__fontspec_strong_int=\count275
+\l__fontspec_strongdef_int=\count276
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share
+/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count277
+\g__um_fonts_used_int=\count278
+\l__um_primecount_int=\count279
+\g__um_primekern_muskip=\muskip17
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\MT@toks=\toks21
+\MT@count=\count280
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen151
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count281
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count282
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2020/12/30 v 0.09a modify URL breaks
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count283
+\Hy@pagecounter=\count284
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count285
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count286
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen153
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count287
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count288
+\c@Item=\count289
+\c@Hfootnote=\count290
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box50
+\c@Hy@AnnotLevel=\count291
+\HyField@AnnotCount=\count292
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+) (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count295
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count296
+\LTcapwidth=\dimen156
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count297
+\LT@rows=\count298
+\c@LT@tables=\count299
+\c@LT@chunks=\count300
+\LT@p@ftn=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count301
+\@cmidlb=\count302
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count303
+\@lastruleclass=\count304
+\@thisrulewidth=\dimen169
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen170
+\ar@mcellbox=\box55
+\extrarowheight=\dimen171
+\NC@list=\toks23
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box56
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count305
+\calc@Bcount=\count306
+\calc@Adimen=\dimen172
+\calc@Bdimen=\dimen173
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count307
+\calc@Cskip=\skip61
+) (/usr/share/texlive/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/02/04 v1.1d hyperref aware footnote.sty (JFB)
+\FNH@notes=\box57
+\FNH@width=\dimen174
+\FNH@toks=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen175
+\Gin@req@width=\dimen176
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip62
+\bibsep=\skip63
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count308
+) (./_main.aux)
+\openout1 = `_main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 82.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 82.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 82.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 82.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 82.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
+(fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
+(fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
+(fontspec)             \fontdimen 13\font =3.63pt\relax \fontdimen 14\font
+(fontspec)             =3.63pt\relax \fontdimen 15\font =2.89pt\relax
+(fontspec)             \fontdimen 16\font =2.47pt\relax \fontdimen 17\font
+(fontspec)             =2.47pt\relax \fontdimen 18\font =2.5pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 82.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 82.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
+(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 8
+2.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 82.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 82.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 82.
+LaTeX Info: Redefining \microtypecontext on input line 82.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package hyperref Info: Link coloring OFF on input line 82.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count309
+)
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 84.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+4.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 12.0011pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00073pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.99872pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 84.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
+
+
+] [2
+
+] (./_main.toc
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 3.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 3.
+[3] [4])
+\tf@toc=\write3
+\openout3 = `_main.toc'.
+
+[5] [6
+
+]
+Chapter 1.
+[7] [8
+
+]
+Chapter 2.
+[9]
+File: media/modulo0/true-size-of.png Graphic file (type bmp)
+<media/modulo0/true-size-of.png>
+[10]
+Overfull \hbox (154.76894pt too wide) in paragraph at lines 205--206
+[]\TU/lmr/m/n/10 Figura 1. A Bola de Gude Azul ( https://commons.wikimedia.org/
+wiki/Earth#/media/File:The_Blue_Marble.jpg) 
+ []
+
+
+Overfull \hbox (141.43004pt too wide) in paragraph at lines 207--208
+[]\TU/lmr/m/n/10 Figura 2. Globo de l’Isle (1765) ( https://commons.wikimedia.o
+rg/wiki/Globe#/media/File:3quarter_globe.jpg) 
+ []
+
+[11]
+File: media/modulo0/dalandan.png Graphic file (type bmp)
+<media/modulo0/dalandan.png>
+[12] [13]
+File: media/modulo0/conformal.png Graphic file (type bmp)
+<media/modulo0/conformal.png>
+File: media/modulo0/authalic.png Graphic file (type bmp)
+<media/modulo0/authalic.png>
+File: media/modulo0/equidistant.png Graphic file (type bmp)
+<media/modulo0/equidistant.png>
+File: media/modulo0/az-equidistant.png Graphic file (type bmp)
+<media/modulo0/az-equidistant.png>
+File: media/modulo0/cylinder.png Graphic file (type bmp)
+<media/modulo0/cylinder.png>
+[14] [15]
+File: media/modulo0/cone.png Graphic file (type bmp)
+<media/modulo0/cone.png>
+File: media/modulo0/plane.png Graphic file (type bmp)
+<media/modulo0/plane.png>
+File: media/modulo0/aspects.png Graphic file (type bmp)
+<media/modulo0/aspects.png>
+[16] [17] [18] [19] [20]
+File: media/modulo0/spatial-model.png Graphic file (type bmp)
+<media/modulo0/spatial-model.png>
+[21]
+File: media/modulo0/raster.png Graphic file (type bmp)
+<media/modulo0/raster.png>
+[22]
+File: media/modulo0/vector.png Graphic file (type bmp)
+<media/modulo0/vector.png>
+[23]
+Underfull \vbox (badness 1968) has occurred while \output is active []
+
+[24]
+File: media/modulo0/foss4g-stack.jpeg Graphic file (type bmp)
+<media/modulo0/foss4g-stack.jpeg>
+[25] [26]
+Chapter 3.
+[27
+
+]
+File: media/modulo1/sample-1.jpg Graphic file (type bmp)
+<media/modulo1/sample-1.jpg>
+[28]
+File: media/modulo1/sample-2.jpg Graphic file (type bmp)
+<media/modulo1/sample-2.jpg>
+File: media/modulo1/sample-3.jpg Graphic file (type bmp)
+<media/modulo1/sample-3.jpg>
+File: media/modulo1/sample-4.jpg Graphic file (type bmp)
+<media/modulo1/sample-4.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[29] [30] [31]
+Overfull \hbox (51.68001pt too wide) in paragraph at lines 845--846
+\TU/lmr/m/n/10 baseado no tempo ([]https://www.qgis.org/en/site/getinvolved/dev
+elopment/roadmap.html[]). 
+ []
+
+[32]
+File: media/modulo1/qgis-map-showcase.png Graphic file (type bmp)
+<media/modulo1/qgis-map-showcase.png>
+
+Overfull \hbox (164.27504pt too wide) in paragraph at lines 886--887
+[]\TU/lmr/m/n/10 Para mais mapas criados com o QGIS, visite: []https://www.flic
+kr.com/groups/2244553@N22/pool/with/50355460063/[] 
+ []
+
+
+Overfull \hbox (68.815pt too wide) in paragraph at lines 893--894
+[] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [
+] [] [] [] [] [] [] [] [] [] []$[] \TU/lmr/m/n/10 ou []https: //qgis.org/en/sit
+e/forusers/alldownloads.html[]. 
+ []
+
+[33]
+File: media/modulo1/qgis-interface.png Graphic file (type bmp)
+<media/modulo1/qgis-interface.png>
+[34]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo1/qgis-interface-parts.png Graphic file (type bmp)
+<media/modulo1/qgis-interface-parts.png>
+[35]
+File: media/modulo1/qgis-interface-custom.png Graphic file (type bmp)
+<media/modulo1/qgis-interface-custom.png>
+File: media/modulo1/ex01-01.png Graphic file (type bmp)
+<media/modulo1/ex01-01.png>
+File: media/modulo1/ex01-02.png Graphic file (type bmp)
+<media/modulo1/ex01-02.png>
+File: media/modulo1/ex01-03.png Graphic file (type bmp)
+<media/modulo1/ex01-03.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[36] [37] [38]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Underfull \hbox (badness 3838) in paragraph at lines 1062--1064
+[]\TU/lmr/m/n/10 Através da caixa de diálogo Gerenciar e instalar complementos
+ []
+
+
+Overfull \hbox (97.97539pt too wide) in paragraph at lines 1074--1076
+[]\TU/lmr/bx/n/10 Mac OS X\TU/lmr/m/n/10 : Biblioteca/Aplicativo/Suporte/QGIS/Q
+GIS3/profiles/default/python/plugins 
+ []
+
+
+Overfull \hbox (154.21498pt too wide) in paragraph at lines 1076--1077
+[]\TU/lmr/bx/n/10 Windows: \TU/lmtt/m/n/10 C:\Usuário\<Nome>\AppData\Roaming\QG
+IS\QGIS3\profiles\default\python\plugins 
+ []
+
+File: media/modulo1/plugins-menu.png Graphic file (type bmp)
+<media/modulo1/plugins-menu.png>
+[39]
+File: media/modulo1/manage-and-install-plugins-dialog.png Graphic file (type bm
+p)
+<media/modulo1/manage-and-install-plugins-dialog.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo1/plugins-menu-2.png Graphic file (type bmp)
+<media/modulo1/plugins-menu-2.png>
+File: media/modulo1/manage-and-install-plugins-dialog.png Graphic file (type bm
+p)
+<media/modulo1/manage-and-install-plugins-dialog.png>
+[40] [41]
+File: media/modulo1/memory-layer-saver-plugin.png Graphic file (type bmp)
+<media/modulo1/memory-layer-saver-plugin.png>
+File: media/modulo1/quickosm-plugin.png Graphic file (type bmp)
+<media/modulo1/quickosm-plugin.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo1/settings-1.png Graphic file (type bmp)
+<media/modulo1/settings-1.png>
+[42] [43]
+File: media/modulo1/settings-2.png Graphic file (type bmp)
+<media/modulo1/settings-2.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo1/change-theme.png Graphic file (type bmp)
+<media/modulo1/change-theme.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[44] [45]
+File: media/modulo1/user-profiles-1.png Graphic file (type bmp)
+<media/modulo1/user-profiles-1.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo1/user-profiles-2.png Graphic file (type bmp)
+<media/modulo1/user-profiles-2.png>
+File: media/modulo1/user-profiles-3.png Graphic file (type bmp)
+<media/modulo1/user-profiles-3.png>
+[46] [47] [48]
+Underfull \hbox (badness 2165) in paragraph at lines 1381--1382
+\TU/lmr/m/n/10 teressado em criar seu próprio plugin, pode verificar a document
+ação
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 1381--1382
+\TU/lmr/m/n/10 tos Python, é uma boa ideia verificar o PyQGIS Developer Cookboo
+k
+ []
+
+[49]
+Overfull \hbox (41.68997pt too wide) in paragraph at lines 1402--1403
+[]\TU/lmr/m/n/10 Adicione uma tela inicial personalizada ([]https://bnhr.xyz/20
+20/09/05/custom-
+ []
+
+[50]
+Chapter 4.
+[51
+
+]
+File: media/modulo2/spatial-layers.jpg Graphic file (type bmp)
+<media/modulo2/spatial-layers.jpg>
+[52] [53] [54]
+Underfull \hbox (badness 1609) in paragraph at lines 1555--1556
+[]\TU/lmr/m/n/10 Para obter mais informações sobre formatos de arquivo, você ta
+mbém
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 1555--1556
+\TU/lmr/m/n/10 pode acessar: []https://saylordotorg.github.io/text_essentials-o
+f-geographic-
+ []
+
+[55]
+Overfull \hbox (217.07701pt too wide) in paragraph at lines 1609--1610
+[]\TU/lmr/m/n/10 Para saber mais sobre o painel do navegador, acesse: []https:/
+/docs.qgis.org/3.16/en/docs/user_manual/introduction/browser.html[] 
+ []
+
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[56]
+File: media/modulo2/qgis-browser-1.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-1.png>
+File: media/modulo2/symbol-vector.png Graphic file (type bmp)
+<media/modulo2/symbol-vector.png>
+File: media/modulo2/symbol-raster.png Graphic file (type bmp)
+<media/modulo2/symbol-raster.png>
+File: media/modulo2/symbol-db.png Graphic file (type bmp)
+<media/modulo2/symbol-db.png>
+File: media/modulo2/symbol-table.png Graphic file (type bmp)
+<media/modulo2/symbol-table.png>
+File: media/modulo2/qgis-browser-2.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-2.png>
+
+Underfull \hbox (badness 1215) in paragraph at lines 1661--1663
+[]\TU/lmr/m/n/10 um GeoPackage (br_rj.gpkg) que contém um arquivo vetorial
+ []
+
+
+Overfull \hbox (7.5389pt too wide) in paragraph at lines 1669--1670
+[]\TU/lmr/m/n/10 um arquivo de valores separados por vírgula (CSV) (br_rj_escol
+as.csv). 
+ []
+
+File: media/modulo2/qgis-browser-3.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-3.png>
+File: media/modulo2/qgis-browser-layer-properties.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-layer-properties.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[57] [58] [59] [60]
+File: media/modulo2/vector-layers-loaded-1.png Graphic file (type bmp)
+<media/modulo2/vector-layers-loaded-1.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo2/layers-panel-1.png Graphic file (type bmp)
+<media/modulo2/layers-panel-1.png>
+[61] [62]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (270.18701pt too wide) in paragraph at lines 1742--1743
+[]\TU/lmr/m/n/10 Para saber mais sobre o painel de camadas, acesse: []https://d
+ocs.qgis.org/3.16/en/docs/user_manual/introduction/general_tools.html#layers-
+ []
+
+File: media/modulo2/layer-properties.png Graphic file (type bmp)
+<media/modulo2/layer-properties.png>
+[63]
+Underfull \hbox (badness 5022) in paragraph at lines 1801--1802
+[]\TU/lmr/m/n/10 Para saber mais sobre as propriedades da camada vetorial, aces
+se:
+ []
+
+
+Overfull \hbox (76.95001pt too wide) in paragraph at lines 1801--1802
+[]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/working_with_ve
+ctor/vector_properties.html[] 
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 1803--1804
+[]\TU/lmr/m/n/10 Para saber mais sobre as propriedades da camada raster, vá par
+a:
+ []
+
+
+Overfull \hbox (73.79001pt too wide) in paragraph at lines 1803--1804
+[]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/working_with_ra
+ster/raster_properties.html[] 
+ []
+
+[64]
+File: media/modulo2/metadata-1.png Graphic file (type bmp)
+<media/modulo2/metadata-1.png>
+File: media/modulo2/metadata-2.png Graphic file (type bmp)
+<media/modulo2/metadata-2.png>
+File: media/modulo2/metadata-3.png Graphic file (type bmp)
+<media/modulo2/metadata-3.png>
+[65] [66] [67] [68]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo2/data-source-manager-1.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-1.png>
+File: media/modulo2/data-source-manager-search.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-search.png>
+[69]
+File: media/modulo2/data-source-manager-vector.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-vector.png>
+File: media/modulo2/data-source-manager-search.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-search.png>
+File: media/modulo2/data-source-manager-raster.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-raster.png>
+[70] [71]
+Underfull \hbox (badness 1400) in paragraph at lines 1999--2000
+\TU/lmr/m/n/10 para seus textos delimitados (especificamente CSVs), você
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1999--2000
+[]\TU/lmr/m/n/10 https://bnhr.xyz/2018/08/07/specifying-csv-data-types-using-a-
+
+ []
+
+
+Overfull \hbox (0.1689pt too wide) in paragraph at lines 2004--2005
+[]\TU/lmr/m/n/10 Há um arquivo CSV na pasta de dados denominado br_rj_escolas.c
+sv
+ []
+
+File: media/modulo2/data-source-manager-search.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-search.png>
+[72]
+File: media/modulo2/data-source-manager-csv.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-csv.png>
+File: media/modulo2/layers-panel-2.png Graphic file (type bmp)
+<media/modulo2/layers-panel-2.png>
+File: media/modulo2/map-canvas-1.png Graphic file (type bmp)
+<media/modulo2/map-canvas-1.png>
+[73] [74]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 2100--2100
+[]    \TU/lmtt/m/n/10 URL: https://server.arcgisonline.com/ArcGIS/rest/services
+/World_Imagery/MapServer/tile/{z}/{y}/{x}[] 
+ []
+
+File: media/modulo2/xyz-1.png Graphic file (type bmp)
+<media/modulo2/xyz-1.png>
+[75]
+File: media/modulo2/xyz-2.png Graphic file (type bmp)
+<media/modulo2/xyz-2.png>
+File: media/modulo2/xyz-3.png Graphic file (type bmp)
+<media/modulo2/xyz-3.png>
+
+Underfull \hbox (badness 2635) in paragraph at lines 2152--2153
+\TU/lmr/m/n/10 Leaflet Providers ([]https://leaflet-extras.github.io/leaflet-pr
+oviders/preview/[])
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 2157--2158
+\TU/lmr/m/n/10 WMS ou Web Map Service é um Open Geospatial Consortium (OGC)
+ []
+
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (453.0pt too wide) in paragraph at lines 2177--2177
+[]\TU/lmtt/m/n/10 URL de: https://api.mapbox.com/styles/v1/osmph/cjqrynb300m522
+sper0emmgs6/wmts?access_token=sk.eyJ1Ijoib3NtcGgiLCJhIjoiY2pxbjF6czN2MGllbTQy4b
+XVUOW44ZDlMS[] 
+ []
+
+File: media/modulo2/wms-1.png Graphic file (type bmp)
+<media/modulo2/wms-1.png>
+
+LaTeX Warning: Float too large for page by 24.52005pt on input line 2185.
+
+File: media/modulo2/wms-2.png Graphic file (type bmp)
+<media/modulo2/wms-2.png>
+
+LaTeX Warning: Float too large for page by 36.09082pt on input line 2201.
+
+File: media/modulo2/wms-3.png Graphic file (type bmp)
+<media/modulo2/wms-3.png>
+[76] [77]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo2/exporting-layers.png Graphic file (type bmp)
+<media/modulo2/exporting-layers.png>
+[78] [79] [80] [81]
+File: media/modulo2/save-vector.png Graphic file (type bmp)
+<media/modulo2/save-vector.png>
+File: media/modulo2/symbol-temp.png Graphic file (type bmp)
+<media/modulo2/symbol-temp.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo2/symbol-temp.png Graphic file (type bmp)
+<media/modulo2/symbol-temp.png>
+[82] [83] [84]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo2/connect-geonode.png Graphic file (type bmp)
+<media/modulo2/connect-geonode.png>
+File: media/modulo2/symbol-gpkg.png Graphic file (type bmp)
+<media/modulo2/symbol-gpkg.png>
+File: media/modulo2/virtual-1.png Graphic file (type bmp)
+<media/modulo2/virtual-1.png>
+File: media/modulo2/virtual-2.png Graphic file (type bmp)
+<media/modulo2/virtual-2.png>
+Missing character: There is no ‣ in font [lmroman10-regular]:mapping=tex-text;!
+File: media/modulo2/symbol-edit.png Graphic file (type bmp)
+<media/modulo2/symbol-edit.png>
+[85] [86] [87]
+File: media/modulo2/symbol-add-point.png Graphic file (type bmp)
+<media/modulo2/symbol-add-point.png>
+File: media/modulo2/virtual-3.png Graphic file (type bmp)
+<media/modulo2/virtual-3.png>
+File: media/modulo2/symbol-save-edits.png Graphic file (type bmp)
+<media/modulo2/symbol-save-edits.png>
+[88]
+File: media/modulo2/virtual-4.png Graphic file (type bmp)
+<media/modulo2/virtual-4.png>
+File: media/modulo2/symbol-virtual.png Graphic file (type bmp)
+<media/modulo2/symbol-virtual.png>
+File: media/modulo2/virtual-5.png Graphic file (type bmp)
+<media/modulo2/virtual-5.png>
+File: media/modulo2/virtual-6.png Graphic file (type bmp)
+<media/modulo2/virtual-6.png>
+
+Underfull \vbox (badness 3623) has occurred while \output is active []
+
+[89] [90]
+Underfull \hbox (badness 6412) in paragraph at lines 2494--2495
+[]\TU/lmr/m/n/10 Leia aqui: []https://bnhr.xyz/2018/07/27/plugin-fridays-spread
+sheet-layers-
+ []
+
+[91] [92
+
+]
+Chapter 5.
+[93]
+Overfull \hbox (467.33781pt too wide) in paragraph at lines 2580--2581
+[]\TU/lmr/m/n/10 HDX HRSL - []https://data.humdata.org/search?organization=face
+book&q=%22High%20Resolution%20Population%20Density%20Maps%20%2B%20Demographic%2
+0Estimates%22[] 
+ []
+
+
+Underfull \vbox (badness 1983) has occurred while \output is active []
+
+
+Overfull \hbox (113.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 94 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSEN
+TAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[94]
+File: media/modulo3/osm.png Graphic file (type bmp)
+<media/modulo3/osm.png>
+
+Overfull \hbox (31.897pt too wide) in paragraph at lines 2612--2613
+\TU/lmr/m/n/10 portância, veja: []https://wiki.openstreetmap.org/wiki/FAQ#Why_O
+penStreetMap.3F[] 
+ []
+
+[95]
+Underfull \hbox (badness 2707) in paragraph at lines 2634--2635
+[]\TU/lmr/m/n/10 Você pode adicionar outros tiles derivados do OSM no QGIS, com
+o
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 2634--2635
+\TU/lmr/m/n/10 aqueles encontrados na lista de fornecedores do Leaflet ([]https
+://leaflet-
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 2634--2635
+\TU/lmr/m/n/10 extras.github.io/leaflet-providers/preview/[]). Os tiles derivad
+os do OSM
+ []
+
+
+Overfull \hbox (113.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 96 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSEN
+TAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[96]
+File: media/modulo3/quickosm-1.png Graphic file (type bmp)
+<media/modulo3/quickosm-1.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[97]
+File: media/modulo3/quickosm-2.png Graphic file (type bmp)
+<media/modulo3/quickosm-2.png>
+File: media/modulo3/quickosm-3.png Graphic file (type bmp)
+<media/modulo3/quickosm-3.png>
+File: media/modulo3/quickosm-4.png Graphic file (type bmp)
+<media/modulo3/quickosm-4.png>
+
+Overfull \hbox (113.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 98 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSEN
+TAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[98] [99]
+Overfull \hbox (118.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 100 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSE
+NTAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[100]
+File: media/modulo3/quickosm-5.png Graphic file (type bmp)
+<media/modulo3/quickosm-5.png>
+[101]
+File: media/modulo3/quickosm-6.png Graphic file (type bmp)
+<media/modulo3/quickosm-6.png>
+File: media/modulo3/quickosm-7.png Graphic file (type bmp)
+<media/modulo3/quickosm-7.png>
+
+Underfull \vbox (badness 1762) has occurred while \output is active []
+
+
+Overfull \hbox (118.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 102 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSE
+NTAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[102]
+Overfull \hbox (383.09998pt too wide) in paragraph at lines 2880--2881
+\TU/lmr/m/n/10 no Humanitarian Data Exchange ([]https://data.humdata.org/search
+?organization=facebook&q=%22High%20Resolution%20Population%20Density%20Maps%20%
+2B%
+ []
+
+[103]
+File: media/modulo3/hdx.png Graphic file (type bmp)
+<media/modulo3/hdx.png>
+
+Overfull \hbox (118.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 104 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSE
+NTAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[104]
+Overfull \hbox (10.75pt too wide) in paragraph at lines 2922--2923
+[]\TU/lmr/m/n/10 População aberta e desafios abertos - []https://engineering.fb
+.com/2016/11/15/core-
+ []
+
+
+Overfull \hbox (40.51001pt too wide) in paragraph at lines 2924--2925
+[]\TU/lmr/m/n/10 Conectando o mundo com mapas melhores - []https://engineering.
+fb.com/2016/02/21/core-
+ []
+
+File: media/modulo3/hrsl-1.png Graphic file (type bmp)
+<media/modulo3/hrsl-1.png>
+[105]
+File: media/modulo3/quickosm-6.png Graphic file (type bmp)
+<media/modulo3/quickosm-6.png>
+File: media/modulo3/overpass-1.png Graphic file (type bmp)
+<media/modulo3/overpass-1.png>
+
+Overfull \hbox (5.9667pt too wide) in paragraph at lines 3018--3019
+[]\TU/lmr/m/n/10 Edite a consulta e adicione a linha \TU/lmr/bx/n/10 <has-kv k=
+“name” v=“Subway”/>
+ []
+
+File: media/modulo3/overpass-2.png Graphic file (type bmp)
+<media/modulo3/overpass-2.png>
+File: media/modulo3/overpass-3.png Graphic file (type bmp)
+<media/modulo3/overpass-3.png>
+
+Overfull \hbox (118.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 106 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSE
+NTAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[106] [107]
+Overfull \hbox (118.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 108 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSE
+NTAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[108] [109]
+Overfull \hbox (118.43121pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 110 \TU/lmr/m/sl/10 CHAPTER 5.  OPENSTREETMAP E A CAMADA DE ASSE
+NTAMENTOS DE ALTA RESOLUÇÃO
+ []
+
+[110]
+Chapter 6.
+[111
+
+] [112]
+Overfull \hbox (309.2pt too wide) in paragraph at lines 3176--3177
+\TU/lmr/m/n/10 caixa de diálogo Propriedades do vetor ([]https://docs.qgis.org/
+3.16/en/docs/user_manual/working_with_vector/vector_properties.html#vector-
+ []
+
+File: media/modulo4/layer-styling.png Graphic file (type bmp)
+<media/modulo4/layer-styling.png>
+
+Underfull \vbox (badness 4048) has occurred while \output is active []
+
+[113]
+File: media/modulo4/style-vector.png Graphic file (type bmp)
+<media/modulo4/style-vector.png>
+File: media/modulo4/style-raster.png Graphic file (type bmp)
+<media/modulo4/style-raster.png>
+
+Package hyperref Warning: Suppressing link with empty target on input line 3230
+.
+
+
+Overfull \hbox (263.37pt too wide) in paragraph at lines 3230--3232
+[]\TU/lmr/m/n/10 Valores paletados / únicos (https://docs.qgis.org/3.16/en/docs
+/user_manual/working_with_raster/raster_properties.html#paletted)
+ []
+
+[114]
+Overfull \hbox (250.99pt too wide) in paragraph at lines 3232--3234
+[]\TU/lmr/m/n/10 Faixa única de cinzas ([]https://docs.qgis.org/3.16/en/docs/us
+er_manual/working_with_raster/raster_properties.html#singleband-
+ []
+
+
+Overfull \hbox (236.61002pt too wide) in paragraph at lines 3234--3236
+[]\TU/lmr/m/n/10 Banda simples falsa-cor ([]https://docs.qgis.org/3.16/en/docs/
+user_manual/working_with_raster/raster_properties.html#label-
+ []
+
+
+Overfull \hbox (197.51999pt too wide) in paragraph at lines 3236--3237
+[]\TU/lmr/m/n/10 Hillshade ([](https://docs.qgis.org/3.16/en/docs/user_manual/w
+orking_with_raster/raster_properties.html#hillshade-
+ []
+
+[115]
+File: media/modulo4/add-vector.png Graphic file (type bmp)
+<media/modulo4/add-vector.png>
+[116]
+File: media/modulo4/default-vector-render.png Graphic file (type bmp)
+<media/modulo4/default-vector-render.png>
+
+Overfull \hbox (57.92921pt too wide) in paragraph at lines 3297--3298
+[][]\TU/lmr/m/n/10 Renderização
+ []
+
+File: media/modulo4/no-fill-render.png Graphic file (type bmp)
+<media/modulo4/no-fill-render.png>
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3330.
+File: media/modulo4/vector-style.png Graphic file (type bmp)
+<media/modulo4/vector-style.png>
+File: media/modulo4/final-vector-render.png Graphic file (type bmp)
+<media/modulo4/final-vector-render.png>
+[117] [118]
+File: media/modulo4/qgis9.png Graphic file (type bmp)
+<media/modulo4/qgis9.png>
+File: media/modulo4/hrsl-style.png Graphic file (type bmp)
+<media/modulo4/hrsl-style.png>
+File: media/modulo4/zoom-in.png Graphic file (type bmp)
+<media/modulo4/zoom-in.png>
+[119] [120] [121]
+File: media/modulo4/initial-workspace.png Graphic file (type bmp)
+<media/modulo4/initial-workspace.png>
+File: media/modulo4/customise-effects-button.png Graphic file (type bmp)
+<media/modulo4/customise-effects-button.png>
+File: media/modulo4/draw-effects.png Graphic file (type bmp)
+<media/modulo4/draw-effects.png>
+File: media/modulo4/new-effects-dialog.png Graphic file (type bmp)
+<media/modulo4/new-effects-dialog.png>
+[122] [123] [124]
+File: media/modulo4/blur-effect.png Graphic file (type bmp)
+<media/modulo4/blur-effect.png>
+File: media/modulo4/blurry-result.png Graphic file (type bmp)
+<media/modulo4/blurry-result.png>
+File: media/modulo4/drop-shadow.png Graphic file (type bmp)
+<media/modulo4/drop-shadow.png>
+File: media/modulo4/drop-shadow-result.png Graphic file (type bmp)
+<media/modulo4/drop-shadow-result.png>
+[125] [126]
+Underfull \vbox (badness 5161) has occurred while \output is active []
+
+[127]
+File: media/modulo4/centroid.png Graphic file (type bmp)
+<media/modulo4/centroid.png>
+File: media/modulo4/centroid-result.png Graphic file (type bmp)
+<media/modulo4/centroid-result.png>
+File: media/modulo4/expression.png Graphic file (type bmp)
+<media/modulo4/expression.png>
+[128] [129] [130]
+Chapter 7.
+[131
+
+]
+Overfull \hbox (144.1589pt too wide) in paragraph at lines 3789--3791
+[]\TU/lmr/m/n/10 QGIS Map LayOut - []https://docs.qgis.org/3.16/en/ docs/traini
+ng_manual/map_layout/map_layout.html[] 
+ []
+
+[132]
+File: media/modulo5/print_comp2.png Graphic file (type bmp)
+<media/modulo5/print_comp2.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[133]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo5/export-map-canvas-image.png Graphic file (type bmp)
+<media/modulo5/export-map-canvas-image.png>
+File: media/modulo5/export-map-canvas.png Graphic file (type bmp)
+<media/modulo5/export-map-canvas.png>
+File: media/modulo5/exported-map-canvas.png Graphic file (type bmp)
+<media/modulo5/exported-map-canvas.png>
+File: media/modulo5/new-print-layout.png Graphic file (type bmp)
+<media/modulo5/new-print-layout.png>
+File: media/modulo5/newprint_composer.png Graphic file (type bmp)
+<media/modulo5/newprint_composer.png>
+[134] [135] [136]
+File: media/modulo5/new-print-layout-name.png Graphic file (type bmp)
+<media/modulo5/new-print-layout-name.png>
+File: media/modulo5/new-print-layout-window.png Graphic file (type bmp)
+<media/modulo5/new-print-layout-window.png>
+File: media/modulo5/add_new_map_to_layout.png Graphic file (type bmp)
+<media/modulo5/add_new_map_to_layout.png>
+[137]
+File: media/modulo5/print-layout-map.png Graphic file (type bmp)
+<media/modulo5/print-layout-map.png>
+[138]
+File: media/modulo5/add_title.png Graphic file (type bmp)
+<media/modulo5/add_title.png>
+File: media/modulo5/print-layout-with-title.png Graphic file (type bmp)
+<media/modulo5/print-layout-with-title.png>
+[139]
+File: media/modulo5/scale-bar.png Graphic file (type bmp)
+<media/modulo5/scale-bar.png>
+File: media/modulo5/legend.png Graphic file (type bmp)
+<media/modulo5/legend.png>
+File: media/modulo5/attribution.png Graphic file (type bmp)
+<media/modulo5/attribution.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo5/export-image-btn.png Graphic file (type bmp)
+<media/modulo5/export-image-btn.png>
+File: media/modulo5/img-parameters.png Graphic file (type bmp)
+<media/modulo5/img-parameters.png>
+File: media/modulo5/exported-map.png Graphic file (type bmp)
+<media/modulo5/exported-map.png>
+[140] [141] [142] [143]
+File: media/modulo5/atlas-coverage.png Graphic file (type bmp)
+<media/modulo5/atlas-coverage.png>
+File: media/modulo5/atlas-attr.png Graphic file (type bmp)
+<media/modulo5/atlas-attr.png>
+File: media/modulo5/atlas-print-layout.png Graphic file (type bmp)
+<media/modulo5/atlas-print-layout.png>
+File: media/modulo5/atlas-settings-btn.png Graphic file (type bmp)
+<media/modulo5/atlas-settings-btn.png>
+File: media/modulo5/generate-atlas.png Graphic file (type bmp)
+<media/modulo5/generate-atlas.png>
+
+LaTeX Warning: Float too large for page by 24.07773pt on input line 4172.
+
+[144] [145] [146]
+File: media/modulo5/coverage-layer.png Graphic file (type bmp)
+<media/modulo5/coverage-layer.png>
+
+LaTeX Warning: Float too large for page by 24.07248pt on input line 4188.
+
+File: media/modulo5/atlas-controlled.png Graphic file (type bmp)
+<media/modulo5/atlas-controlled.png>
+
+LaTeX Warning: Float too large for page by 24.07773pt on input line 4204.
+
+File: media/modulo5/atlas-preview-btn.png Graphic file (type bmp)
+<media/modulo5/atlas-preview-btn.png>
+File: media/modulo5/atlas-toolbar-nav.png Graphic file (type bmp)
+<media/modulo5/atlas-toolbar-nav.png>
+
+Overfull \hbox (154.43181pt too wide) in paragraph at lines 4213--4214
+\TU/lmr/m/n/10 Use a barra de ferramentas do Atlas []
+ []
+
+File: media/modulo5/atlas-preview.png Graphic file (type bmp)
+<media/modulo5/atlas-preview.png>
+File: media/modulo5/atlas-export-btn.png Graphic file (type bmp)
+<media/modulo5/atlas-export-btn.png>
+File: media/modulo5/atlas-outputs.png Graphic file (type bmp)
+<media/modulo5/atlas-outputs.png>
+[147] [148] [149] [150] [151] [152
+
+]
+Chapter 8.
+[153]
+Overfull \hbox (120.89891pt too wide) in paragraph at lines 4339--4340
+[]\TU/lmr/m/n/10 Expressões QGIS - []https://docs.qgis.org/3.16/en/docs/ pyqgis
+_developer_cookbook/expression.html[] 
+ []
+
+[154] [155]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo6/many-polygons.png Graphic file (type bmp)
+<media/modulo6/many-polygons.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo6/open-attribute-btn.png Graphic file (type bmp)
+<media/modulo6/open-attribute-btn.png>
+[156]
+File: media/modulo6/attribute-tab.png Graphic file (type bmp)
+<media/modulo6/attribute-tab.png>
+File: media/modulo6/dock-attr-btn.png Graphic file (type bmp)
+<media/modulo6/dock-attr-btn.png>
+File: media/modulo6/docked-attribute-tab.png Graphic file (type bmp)
+<media/modulo6/docked-attribute-tab.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[157] [158]
+File: media/modulo6/gen-settings.png Graphic file (type bmp)
+<media/modulo6/gen-settings.png>
+File: media/modulo6/field_calculator.png Graphic file (type bmp)
+<media/modulo6/field_calculator.png>
+File: media/modulo6/fieldcalc.png Graphic file (type bmp)
+<media/modulo6/fieldcalc.png>
+File: media/modulo6/area.png Graphic file (type bmp)
+<media/modulo6/area.png>
+[159] [160]
+File: media/modulo6/add-layers.png Graphic file (type bmp)
+<media/modulo6/add-layers.png>
+File: media/modulo6/select_features_button.png Graphic file (type bmp)
+<media/modulo6/select_features_button.png>
+File: media/modulo6/select.png Graphic file (type bmp)
+<media/modulo6/select.png>
+[161]
+File: media/modulo6/selected-canvas.png Graphic file (type bmp)
+<media/modulo6/selected-canvas.png>
+File: media/modulo6/selected-attr.png Graphic file (type bmp)
+<media/modulo6/selected-attr.png>
+[162] [163]
+Overfull \hbox (145.275pt too wide) in paragraph at lines 4692--4694
+[]\TU/lmr/m/n/10 Aba Expressão ([]https: //docs.qgis .org/2.18/en/docs/user_man
+ual/working_with_vector/expression.html
+ []
+
+
+Overfull \hbox (215.8pt too wide) in paragraph at lines 4694--4695
+[]\TU/lmr/m/n/10 Aba Editor de funções ([]https://docs.qgis.org/2.18/en/docs/us
+er_manual/working_with_vector/expression.html#function-
+ []
+
+[164]
+Overfull \hbox (111.75pt too wide) in paragraph at lines 4726--4726
+[]     \TU/lmtt/m/n/10 WHEN "pop_density" >= 50 AND  "pop_density" < 150 THEN [
+]Medium population density[][] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 4750--4750
+[]\TU/lmtt/m/n/10 "density level" = []High population density[] and "price_m2" 
+> 10000[] 
+ []
+
+[165] [166
+
+]
+Chapter 9.
+
+Overfull \hbox (290.1pt too wide) in paragraph at lines 4803--4805
+[]\TU/lmr/m/n/10 Digitalização de áreas florestais - []https://docs.qgis.org/3.
+16/en/docs/training_manual/forestry/stands_digitazing.html?highlight=digitizing
+[] 
+ []
+
+[167]
+File: media/modulo7/rs-images.png Graphic file (type bmp)
+<media/modulo7/rs-images.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[168]
+File: media/modulo7/buildings.png Graphic file (type bmp)
+<media/modulo7/buildings.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[169]
+Underfull \hbox (badness 1259) in paragraph at lines 4846--4846
+[]\TU/lmr/bx/n/12 Título da Fase 1: Criando uma nova camada
+ []
+
+File: media/modulo7/geopackage-button.png Graphic file (type bmp)
+<media/modulo7/geopackage-button.png>
+File: media/modulo7/new-geopackage-dialog.png Graphic file (type bmp)
+<media/modulo7/new-geopackage-dialog.png>
+File: media/modulo7/database-file-location.png Graphic file (type bmp)
+<media/modulo7/database-file-location.png>
+File: media/modulo7/mActionSetProjection.png Graphic file (type bmp)
+<media/modulo7/mActionSetProjection.png>
+[170] [171]
+File: media/modulo7/mActionNewAttribute.png Graphic file (type bmp)
+<media/modulo7/mActionNewAttribute.png>
+File: media/modulo7/mActionNewVectorLayer.png Graphic file (type bmp)
+<media/modulo7/mActionNewVectorLayer.png>
+Missing character: There is no ‣ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-regular]:mapping=tex-text;!
+File: media/modulo7/new-shapefile-dialog.png Graphic file (type bmp)
+<media/modulo7/new-shapefile-dialog.png>
+File: media/modulo7/mActionSetProjection.png Graphic file (type bmp)
+<media/modulo7/mActionSetProjection.png>
+[172] [173]
+File: media/modulo7/mActionNewAttribute.png Graphic file (type bmp)
+<media/modulo7/mActionNewAttribute.png>
+File: media/modulo7/new-project.png Graphic file (type bmp)
+<media/modulo7/new-project.png>
+Missing character: There is no ‣ in font [lmroman10-italic]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-italic]:mapping=tex-text;!
+File: media/modulo7/new-vector.png Graphic file (type bmp)
+<media/modulo7/new-vector.png>
+[174] [175]
+File: media/modulo7/xyz-2.png Graphic file (type bmp)
+<media/modulo7/xyz-2.png>
+
+LaTeX Warning: Float too large for page by 7.7971pt on input line 4996.
+
+File: media/modulo7/xyz-3.png Graphic file (type bmp)
+<media/modulo7/xyz-3.png>
+File: media/modulo7/digitize-zoom.png Graphic file (type bmp)
+<media/modulo7/digitize-zoom.png>
+File: media/modulo7/edit-layer.png Graphic file (type bmp)
+<media/modulo7/edit-layer.png>
+Missing character: There is no ‣ in font [lmroman10-italic]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-italic]:mapping=tex-text;!
+File: media/modulo7/digi-toolbar.png Graphic file (type bmp)
+<media/modulo7/digi-toolbar.png>
+File: media/modulo7/add-feature.png Graphic file (type bmp)
+<media/modulo7/add-feature.png>
+[176] [177] [178]
+File: media/modulo7/digitize-1.png Graphic file (type bmp)
+<media/modulo7/digitize-1.png>
+File: media/modulo7/digitize-2.png Graphic file (type bmp)
+<media/modulo7/digitize-2.png>
+[179]
+File: media/modulo7/digitize-3.png Graphic file (type bmp)
+<media/modulo7/digitize-3.png>
+File: media/modulo7/select-feature.png Graphic file (type bmp)
+<media/modulo7/select-feature.png>
+[180]
+Missing character: There is no ‣ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ► in font [lmroman10-regular]:mapping=tex-text;!
+File: media/modulo7/add-raster.png Graphic file (type bmp)
+<media/modulo7/add-raster.png>
+File: media/modulo7/georeferencer.png Graphic file (type bmp)
+<media/modulo7/georeferencer.png>
+Missing character: There is no ► in font [lmroman10-regular]:mapping=tex-text;!
+File: media/modulo7/georef-settings-btn.png Graphic file (type bmp)
+<media/modulo7/georef-settings-btn.png>
+File: media/modulo7/dots.png Graphic file (type bmp)
+<media/modulo7/dots.png>
+File: media/modulo7/transformation-settings.png Graphic file (type bmp)
+<media/modulo7/transformation-settings.png>
+[181] [182] [183]
+File: media/modulo7/add-point.png Graphic file (type bmp)
+<media/modulo7/add-point.png>
+File: media/modulo7/georef-1.png Graphic file (type bmp)
+<media/modulo7/georef-1.png>
+File: media/modulo7/georef-2.png Graphic file (type bmp)
+<media/modulo7/georef-2.png>
+File: media/modulo7/georef-3.png Graphic file (type bmp)
+<media/modulo7/georef-3.png>
+[184] [185] [186]
+Missing character: There is no ► in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ► in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo7/georef-start-btn.png Graphic file (type bmp)
+<media/modulo7/georef-start-btn.png>
+File: media/modulo7/georef-4.png Graphic file (type bmp)
+<media/modulo7/georef-4.png>
+File: media/modulo7/georef-5.png Graphic file (type bmp)
+<media/modulo7/georef-5.png>
+[187] [188] [189] [190
+
+]
+Chapter 10.
+[191]
+Overfull \hbox (84.70999pt too wide) in paragraph at lines 5470--5472
+[][]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/working_with_
+vector/functions_list.html[] 
+ []
+
+
+Overfull \hbox (210.12pt too wide) in paragraph at lines 5472--5474
+[][]\TU/lmr/m/n/10 http://www.geo.hunter.cuny.edu/~jochen/gtech361/lectures/lec
+ture12/concepts/01%20What%20is%20geoprocessing.htm[] 
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 5476--5478
+[][]\TU/lmr/m/n/10 Metadata And Catalog Services[], autora Mariana Belgiu, UNIG
+IS
+ []
+
+
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+[192]
+File: media/modulo8/fig81.png Graphic file (type bmp)
+<media/modulo8/fig81.png>
+File: media/modulo8/fig82.png Graphic file (type bmp)
+<media/modulo8/fig82.png>
+[193]
+File: media/modulo8/fig83.png Graphic file (type bmp)
+<media/modulo8/fig83.png>
+[194] [195]
+File: media/modulo8/fig84.png Graphic file (type bmp)
+<media/modulo8/fig84.png>
+
+Underfull \vbox (badness 2261) has occurred while \output is active []
+
+[196]
+File: media/modulo8/fig85.png Graphic file (type bmp)
+<media/modulo8/fig85.png>
+
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+[197]
+Overfull \hbox (138.0pt too wide) in paragraph at lines 5612--5612
+[]\TU/lmtt/m/n/10 Clique duas vezes na camada de interesse - Propriedades - Inf
+ormações - Contagem de recursos[] 
+ []
+
+
+Overfull \hbox (111.75pt too wide) in paragraph at lines 5612--5612
+[]\TU/lmtt/m/n/10 Abra a tabela de atributos da camada de interesse e olhe na p
+arte superior lado central[] 
+ []
+
+File: media/modulo8/fig86.png Graphic file (type bmp)
+<media/modulo8/fig86.png>
+Missing character: There is no ‣ in font [lmmono10-regular]:!
+Missing character: There is no ‣ in font [lmmono10-regular]:!
+Missing character: There is no ‣ in font [lmmono10-regular]:!
+
+Overfull \hbox (25.3pt too wide) in paragraph at lines 5648--5648
+[]\TU/lmtt/m/n/10 Janela da caixa de ferramentas de processamento ‣ pesquisa po
+r []stats[][][] 
+ []
+
+File: media/modulo8/fig87.png Graphic file (type bmp)
+<media/modulo8/fig87.png>
+File: media/modulo8/fig88.png Graphic file (type bmp)
+<media/modulo8/fig88.png>
+[198] [199] [200]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+[201]
+File: media/modulo8/fig89_a.png Graphic file (type bmp)
+<media/modulo8/fig89_a.png>
+File: media/modulo8/fig89_b.png Graphic file (type bmp)
+<media/modulo8/fig89_b.png>
+File: media/modulo8/fig810.png Graphic file (type bmp)
+<media/modulo8/fig810.png>
+[202] [203] [204]
+File: media/modulo8/fig811.png Graphic file (type bmp)
+<media/modulo8/fig811.png>
+File: media/modulo8/fig812.png Graphic file (type bmp)
+<media/modulo8/fig812.png>
+File: media/modulo8/fig813.png Graphic file (type bmp)
+<media/modulo8/fig813.png>
+[205] [206]
+File: media/modulo8/fig814.png Graphic file (type bmp)
+<media/modulo8/fig814.png>
+File: media/modulo8/fig815.png Graphic file (type bmp)
+<media/modulo8/fig815.png>
+File: media/modulo8/fig816.png Graphic file (type bmp)
+<media/modulo8/fig816.png>
+[207] [208]
+File: media/modulo8/fig817_a.png Graphic file (type bmp)
+<media/modulo8/fig817_a.png>
+File: media/modulo8/fig817_b.png Graphic file (type bmp)
+<media/modulo8/fig817_b.png>
+[209] [210]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig819_a.png Graphic file (type bmp)
+<media/modulo8/fig819_a.png>
+File: media/modulo8/fig819_b.png Graphic file (type bmp)
+<media/modulo8/fig819_b.png>
+
+Overfull \hbox (1938.75pt too wide) in paragraph at lines 5906--5906
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []parking;dormitory;stilt_house;NULL;pav
+ilion;greenhouse;ruins;transportation;college;yes;chapel;boathouse;retail;super
+market;Prédio;college;industrial;farm;house;garages;garage;university;public;sh
+ed;roof;carport;church;temple;service;residential;hotel;warehouse;shop;cowshed;
+civic;kindergarten;stadium;apartments;semidetached_house;office;cabin;school;co
+nstruction;commercial;terrace;grandstand;hospital;government[][] 
+ []
+
+[211]
+Overfull \hbox (4726.5pt too wide) in paragraph at lines 5916--5916
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []recycling;artwork;tourist_info;shoe_sh
+op;department_store;greengrocer;bicycle_rental;pharmacy;vending_any;hairdresser
+;post_box;car_wash;laundry;newsagent;drinking_water;outdoor_shop;community_cent
+re;florist;fast_food;pitch;computer_shop;viewpoint;car_sharing;dog_park;guestho
+use;theatre;travel_agent;library;convenience;waste_basket;bank;car_rental;super
+market;college;wayside_shrine;university;car_dealership;optician;hostel;telepho
+ne;toilet;pub;jeweller;bar;courthouse;embassy;monument;doctors;video_shop;camer
+a_surveillance;hospital;bicycle_shop;fire_station;ruins;mall;playground;mobile_
+phone_shop;beverages;gift_shop;lighthouse;toy_shop;clothes;bench;dentist;bakery
+;water_tower;sports_shop;police;sports_centre;kiosk;cafe;shelter;cinema;attract
+ion;museum;bookshop;motel;chalet;furniture_shop;post_office;atm;hotel;fountain;
+restaurant;doityourself;arts_centre;beauty_shop;comms_tower;tower;memorial;scho
+ol;stationery;park;nightclub;camp_site[][] 
+ []
+
+
+Overfull \hbox (216.75pt too wide) in paragraph at lines 5936--5936
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []buddhist;christian_evangelical;muslim;
+christian;christian_catholic;christian_methodist[][] 
+ []
+
+
+Underfull \vbox (badness 1052) has occurred while \output is active []
+
+[212]
+Overfull \hbox (762.75pt too wide) in paragraph at lines 5946--5946
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []secondary_link;primary_link;path;trunk
+_link;service;track;residential;track_grade3;primary;living_street;unclassified
+;trunk;pedestrian;tertiary_link;footway;tertiary;steps;secondary;cycleway[][] 
+ []
+
+
+Overfull \hbox (552.75pt too wide) in paragraph at lines 5956--5956
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []allotments;farmland;orchard;cemetery;g
+rass;recreation_ground;park;farmyard;industrial;meadow;heath;commercial;forest;
+scrub;retail;military;residential[][] 
+ []
+
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig820_a.png Graphic file (type bmp)
+<media/modulo8/fig820_a.png>
+File: media/modulo8/fig820_b.png Graphic file (type bmp)
+<media/modulo8/fig820_b.png>
+[213] [214]
+File: media/modulo8/fig821.png Graphic file (type bmp)
+<media/modulo8/fig821.png>
+File: media/modulo8/fig822.png Graphic file (type bmp)
+<media/modulo8/fig822.png>
+[215] [216]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig823.png Graphic file (type bmp)
+<media/modulo8/fig823.png>
+File: media/modulo8/fig824.png Graphic file (type bmp)
+<media/modulo8/fig824.png>
+File: media/modulo8/fig825.png Graphic file (type bmp)
+<media/modulo8/fig825.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig826_a.png Graphic file (type bmp)
+<media/modulo8/fig826_a.png>
+File: media/modulo8/fig826_b.png Graphic file (type bmp)
+<media/modulo8/fig826_b.png>
+[217] [218] [219]
+File: media/modulo8/fig827_a.png Graphic file (type bmp)
+<media/modulo8/fig827_a.png>
+File: media/modulo8/fig827_b.png Graphic file (type bmp)
+<media/modulo8/fig827_b.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[220] [221]
+File: media/modulo8/fig828_a.png Graphic file (type bmp)
+<media/modulo8/fig828_a.png>
+File: media/modulo8/fig828_b.png Graphic file (type bmp)
+<media/modulo8/fig828_b.png>
+File: media/modulo8/fig828_c.png Graphic file (type bmp)
+<media/modulo8/fig828_c.png>
+File: media/modulo8/fig828_d.png Graphic file (type bmp)
+<media/modulo8/fig828_d.png>
+[222] [223]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig829_a.png Graphic file (type bmp)
+<media/modulo8/fig829_a.png>
+File: media/modulo8/fig829_b.png Graphic file (type bmp)
+<media/modulo8/fig829_b.png>
+[224] [225]
+File: media/modulo8/fig830_a.png Graphic file (type bmp)
+<media/modulo8/fig830_a.png>
+File: media/modulo8/fig830_b.png Graphic file (type bmp)
+<media/modulo8/fig830_b.png>
+[226]
+File: media/modulo8/fig831.png Graphic file (type bmp)
+<media/modulo8/fig831.png>
+File: media/modulo8/fig832.png Graphic file (type bmp)
+<media/modulo8/fig832.png>
+File: media/modulo8/fig833.png Graphic file (type bmp)
+<media/modulo8/fig833.png>
+
+Underfull \hbox (badness 1742) in paragraph at lines 6265--6266
+\TU/lmr/m/n/10 que têm o valor de atributo para \TU/lmtt/m/n/10 "fclass" IN ( [
+]forest[], []grass[],
+ []
+
+[227] [228]
+File: media/modulo8/fig834_a.png Graphic file (type bmp)
+<media/modulo8/fig834_a.png>
+File: media/modulo8/fig834_b.png Graphic file (type bmp)
+<media/modulo8/fig834_b.png>
+File: media/modulo8/fig834_c.png Graphic file (type bmp)
+<media/modulo8/fig834_c.png>
+File: media/modulo8/fig834_d.png Graphic file (type bmp)
+<media/modulo8/fig834_d.png>
+File: media/modulo8/fig834_e.png Graphic file (type bmp)
+<media/modulo8/fig834_e.png>
+[229] [230] [231] [232]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Underfull \hbox (badness 3895) in paragraph at lines 6311--6312
+[]\TU/lmr/m/n/10 Em seguida, salve os resultados como um arquivo .csv denominad
+o
+ []
+
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig835_a.png Graphic file (type bmp)
+<media/modulo8/fig835_a.png>
+File: media/modulo8/fig835_b.png Graphic file (type bmp)
+<media/modulo8/fig835_b.png>
+File: media/modulo8/add_join_btn.png Graphic file (type bmp)
+<media/modulo8/add_join_btn.png>
+File: media/modulo8/fig835_c.png Graphic file (type bmp)
+<media/modulo8/fig835_c.png>
+[233] [234] [235]
+File: media/modulo8/fig836_a.png Graphic file (type bmp)
+<media/modulo8/fig836_a.png>
+File: media/modulo8/fig836_b.png Graphic file (type bmp)
+<media/modulo8/fig836_b.png>
+
+Underfull \hbox (badness 1490) in paragraph at lines 6365--6366
+\TU/lmr/m/n/10 espaço construído por unidade de proporção: \TU/lmtt/m/n/10 roun
+d (" verde_por "/"
+ []
+
+[236]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 6374--6374
+[]\TU/lmtt/m/n/10 WHEN (verde_por IS NULL) AND (construido_por IS NOT NULL) THE
+N 999[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 6374--6374
+[]\TU/lmtt/m/n/10 WHEN (construido_por IS NULL) AND (verde_por IS NOT NULL) THE
+N 1000[] 
+ []
+
+File: media/modulo8/fig837_a.png Graphic file (type bmp)
+<media/modulo8/fig837_a.png>
+File: media/modulo8/fig837_b.png Graphic file (type bmp)
+<media/modulo8/fig837_b.png>
+File: media/modulo8/fig837_c.png Graphic file (type bmp)
+<media/modulo8/fig837_c.png>
+File: media/modulo8/fig837_d.png Graphic file (type bmp)
+<media/modulo8/fig837_d.png>
+[237] [238]
+File: media/modulo8/fig837_e.png Graphic file (type bmp)
+<media/modulo8/fig837_e.png>
+[239]
+File: media/modulo8/fig838_a.png Graphic file (type bmp)
+<media/modulo8/fig838_a.png>
+File: media/modulo8/fig838_b.png Graphic file (type bmp)
+<media/modulo8/fig838_b.png>
+File: media/modulo8/fig838_c.png Graphic file (type bmp)
+<media/modulo8/fig838_c.png>
+File: media/modulo8/fig839.png Graphic file (type bmp)
+<media/modulo8/fig839.png>
+[240] [241] [242]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig840_a.png Graphic file (type bmp)
+<media/modulo8/fig840_a.png>
+File: media/modulo8/fig840_b.png Graphic file (type bmp)
+<media/modulo8/fig840_b.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo8/fig840_c.png Graphic file (type bmp)
+<media/modulo8/fig840_c.png>
+File: media/modulo8/fig840_d.png Graphic file (type bmp)
+<media/modulo8/fig840_d.png>
+[243] [244] [245]
+File: media/modulo8/fig841.png Graphic file (type bmp)
+<media/modulo8/fig841.png>
+
+LaTeX Warning: Float too large for page by 24.06758pt on input line 6548.
+
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[246] [247]
+File: media/modulo8/fig842.png Graphic file (type bmp)
+<media/modulo8/fig842.png>
+File: media/modulo8/fig843.png Graphic file (type bmp)
+<media/modulo8/fig843.png>
+[248]
+File: media/modulo8/fig844.png Graphic file (type bmp)
+<media/modulo8/fig844.png>
+File: media/modulo8/fig845.png Graphic file (type bmp)
+<media/modulo8/fig845.png>
+File: media/modulo8/fig846.png Graphic file (type bmp)
+<media/modulo8/fig846.png>
+[249] [250] [251]
+File: media/modulo8/fig847.png Graphic file (type bmp)
+<media/modulo8/fig847.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (23.56871pt too wide) in paragraph at lines 6658--6659
+[]\TU/lmr/m/n/10 Para fazer isso, abra a caixa de diálogo \TU/lmr/bx/n/10 Propr
+iedades de test_meteo_stations_1
+ []
+
+File: media/modulo8/fig848_a.png Graphic file (type bmp)
+<media/modulo8/fig848_a.png>
+File: media/modulo8/fig848_b.png Graphic file (type bmp)
+<media/modulo8/fig848_b.png>
+File: media/modulo8/fig848_c.png Graphic file (type bmp)
+<media/modulo8/fig848_c.png>
+Missing character: There is no ‣ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-regular]:mapping=tex-text;!
+[252]
+File: media/modulo8/fig849.png Graphic file (type bmp)
+<media/modulo8/fig849.png>
+File: media/modulo8/play-btn.png Graphic file (type bmp)
+<media/modulo8/play-btn.png>
+File: media/modulo8/fig850.png Graphic file (type bmp)
+<media/modulo8/fig850.png>
+[253] [254] [255] [256]
+Chapter 11.
+[257
+
+]
+File: media/modulo9/fig91.png Graphic file (type bmp)
+<media/modulo9/fig91.png>
+[258]
+File: media/modulo9/fig92.png Graphic file (type bmp)
+<media/modulo9/fig92.png>
+[259] [260]
+File: media/modulo9/fig94.png Graphic file (type bmp)
+<media/modulo9/fig94.png>
+[261]
+File: media/modulo9/fig95.png Graphic file (type bmp)
+<media/modulo9/fig95.png>
+[262] [263] [264] [265] [266]
+File: media/modulo9/add-group-btn.png Graphic file (type bmp)
+<media/modulo9/add-group-btn.png>
+[267]
+File: media/modulo9/fig96.png Graphic file (type bmp)
+<media/modulo9/fig96.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+[268]
+File: media/modulo9/fig97.png Graphic file (type bmp)
+<media/modulo9/fig97.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig98.png Graphic file (type bmp)
+<media/modulo9/fig98.png>
+[269]
+File: media/modulo9/fig99_a.png Graphic file (type bmp)
+<media/modulo9/fig99_a.png>
+File: media/modulo9/fig99_b.png Graphic file (type bmp)
+<media/modulo9/fig99_b.png>
+File: media/modulo9/fig910.png Graphic file (type bmp)
+<media/modulo9/fig910.png>
+
+Overfull \hbox (95.79892pt too wide) in paragraph at lines 7197--7198
+\TU/lmr/m/n/10 documentação ILWIS - [](http://spatial-analyst.net/ILWIS/htm/ilw
+isapp/resample_functionality.htm[]) 
+ []
+
+[270] [271]
+File: media/modulo9/fig911.png Graphic file (type bmp)
+<media/modulo9/fig911.png>
+
+Underfull \hbox (badness 4279) in paragraph at lines 7209--7210
+[]\TU/lmr/m/n/10 Figura 9.11 - Método de reamostragem - bilinear (crédito da fo
+to:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7209--7210
+\TU/lmr/m/n/10 documentação ILWIS - [](http://spatial-analyst.net/ILWIS/htm/ il
+wis-
+ []
+
+[272]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/batch-btn.png Graphic file (type bmp)
+<media/modulo9/batch-btn.png>
+
+Underfull \hbox (badness 1057) in paragraph at lines 7215--7216
+[]\TU/lmr/bx/n/10 Processamento em lote \TU/lmr/m/n/10 é a capacidade de execut
+ar processos repeti-
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 7215--7216
+\TU/lmr/m/n/10 funcionalidades do QGIS tem esta opção disponível e pode ser ati
+vada
+ []
+
+File: media/modulo9/fig912.png Graphic file (type bmp)
+<media/modulo9/fig912.png>
+[273]
+File: media/modulo9/fig913_a.png Graphic file (type bmp)
+<media/modulo9/fig913_a.png>
+File: media/modulo9/fig913_b.png Graphic file (type bmp)
+<media/modulo9/fig913_b.png>
+File: media/modulo9/fig913_c.png Graphic file (type bmp)
+<media/modulo9/fig913_c.png>
+[274] [275]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig914.png Graphic file (type bmp)
+<media/modulo9/fig914.png>
+File: media/modulo9/fig915_a.png Graphic file (type bmp)
+<media/modulo9/fig915_a.png>
+
+Overfull \hbox (41.3pt too wide) in paragraph at lines 7273--7274
+[]\TU/lmr/m/n/10 [Parâmetros do algoritmo de processamento de mesclagem](media/
+modulo9/fig915_b.png
+ []
+
+File: media/modulo9/fig915_c.png Graphic file (type bmp)
+<media/modulo9/fig915_c.png>
+[276] [277]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig915_d.png Graphic file (type bmp)
+<media/modulo9/fig915_d.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig916.png Graphic file (type bmp)
+<media/modulo9/fig916.png>
+[278]
+Overfull \hbox (17.25pt too wide) in paragraph at lines 7376--7376
+[]    \TU/lmtt/m/n/10 DATUM["Sistema de Referencia Geocentrico para las America
+S 2000",[] 
+ []
+
+[279]
+Overfull \hbox (48.75pt too wide) in paragraph at lines 7376--7376
+[]    \TU/lmtt/m/n/10 Upper Left  (  623321.946, 7484067.546) ( 43d47[]56.18"W,
+ 22d44[]46.58"S)[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 7376--7376
+[]    \TU/lmtt/m/n/10 Lower Left  (  623321.946, 7446104.398) ( 43d47[]45.28"W,
+ 23d 5[]20.90"S)[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 7376--7376
+[]    \TU/lmtt/m/n/10 Upper Right (  695168.362, 7484067.546) ( 43d 5[]58.02"W,
+ 22d44[]22.13"S)[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 7376--7376
+[]    \TU/lmtt/m/n/10 Lower Right (  695168.362, 7446104.398) ( 43d 5[]40.79"W,
+ 23d 4[]56.04"S)[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 7376--7376
+[]    \TU/lmtt/m/n/10 Center      (  659245.154, 7465085.972) ( 43d26[]49.98"W,
+ 22d54[]52.81"S)[] 
+ []
+
+File: media/modulo9/fig917.png Graphic file (type bmp)
+<media/modulo9/fig917.png>
+[280]
+File: media/modulo9/fig918.png Graphic file (type bmp)
+<media/modulo9/fig918.png>
+File: media/modulo9/fig919.png Graphic file (type bmp)
+<media/modulo9/fig919.png>
+[281]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig920.png Graphic file (type bmp)
+<media/modulo9/fig920.png>
+File: media/modulo9/fig921.png Graphic file (type bmp)
+<media/modulo9/fig921.png>
+[282] [283] [284] [285]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig922.png Graphic file (type bmp)
+<media/modulo9/fig922.png>
+File: media/modulo9/fig923.png Graphic file (type bmp)
+<media/modulo9/fig923.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7527--7532
+\TU/lmtt/m/n/10 Igualar a Extensão da imagem recortada com a Extensão da camada
+
+ []
+
+[286] [287]
+File: media/modulo9/fig924.png Graphic file (type bmp)
+<media/modulo9/fig924.png>
+[288]
+File: media/modulo9/fig925.png Graphic file (type bmp)
+<media/modulo9/fig925.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig926_a.png Graphic file (type bmp)
+<media/modulo9/fig926_a.png>
+File: media/modulo9/fig926_b.png Graphic file (type bmp)
+<media/modulo9/fig926_b.png>
+[289] [290]
+Overfull \hbox (6.97092pt too wide) in paragraph at lines 7594--7595
+[]\TU/lmr/m/n/10 A seguir, iremos ‘fatiar’ nossa camada raster Clipped_Reprojec
+ted_SRTM_DEM
+ []
+
+
+Overfull \hbox (2.69005pt too wide) in paragraph at lines 7600--7601
+[]\TU/lmr/m/n/10 Defina a \TU/lmr/bx/n/10 Camada de referência  \TU/lmr/m/n/10 
+como ** Clipped_Reprojected_SRTM_DEM
+ []
+
+File: media/modulo9/fig927.png Graphic file (type bmp)
+<media/modulo9/fig927.png>
+File: media/modulo9/fig928.png Graphic file (type bmp)
+<media/modulo9/fig928.png>
+[291]
+File: media/modulo9/fig929.png Graphic file (type bmp)
+<media/modulo9/fig929.png>
+File: media/modulo9/fig930.png Graphic file (type bmp)
+<media/modulo9/fig930.png>
+File: media/modulo9/fig931.png Graphic file (type bmp)
+<media/modulo9/fig931.png>
+[292] [293]
+File: media/modulo9/fig932.png Graphic file (type bmp)
+<media/modulo9/fig932.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig933_a.png Graphic file (type bmp)
+<media/modulo9/fig933_a.png>
+File: media/modulo9/fig933_b.png Graphic file (type bmp)
+<media/modulo9/fig933_b.png>
+[294] [295]
+File: media/modulo9/fig934.png Graphic file (type bmp)
+<media/modulo9/fig934.png>
+File: media/modulo9/fig935.png Graphic file (type bmp)
+<media/modulo9/fig935.png>
+File: media/modulo9/fig936.png Graphic file (type bmp)
+<media/modulo9/fig936.png>
+File: media/modulo9/fig937.png Graphic file (type bmp)
+<media/modulo9/fig937.png>
+[296] [297] [298]
+File: media/modulo9/fig938.png Graphic file (type bmp)
+<media/modulo9/fig938.png>
+[299] [300]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 7814--7814
+[]\TU/lmtt/m/n/10 URL : https://tiles.maps.eox.at/wms?service=wms&request=getca
+pabilities[] 
+ []
+
+File: media/modulo9/fig939.png Graphic file (type bmp)
+<media/modulo9/fig939.png>
+File: media/modulo9/fig940.png Graphic file (type bmp)
+<media/modulo9/fig940.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/mapswipe-btn.png Graphic file (type bmp)
+<media/modulo9/mapswipe-btn.png>
+File: media/modulo9/fig941.png Graphic file (type bmp)
+<media/modulo9/fig941.png>
+[301] [302] [303]
+File: media/modulo9/fig942.png Graphic file (type bmp)
+<media/modulo9/fig942.png>
+File: media/modulo9/fig943.png Graphic file (type bmp)
+<media/modulo9/fig943.png>
+File: media/modulo9/fig944.png Graphic file (type bmp)
+<media/modulo9/fig944.png>
+[304] [305]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig945.png Graphic file (type bmp)
+<media/modulo9/fig945.png>
+[306]
+File: media/modulo9/fig946_a.png Graphic file (type bmp)
+<media/modulo9/fig946_a.png>
+File: media/modulo9/fig946_b.png Graphic file (type bmp)
+<media/modulo9/fig946_b.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig947.png Graphic file (type bmp)
+<media/modulo9/fig947.png>
+File: media/modulo9/fig948_a.png Graphic file (type bmp)
+<media/modulo9/fig948_a.png>
+File: media/modulo9/fig948_b.png Graphic file (type bmp)
+<media/modulo9/fig948_b.png>
+File: media/modulo9/fig948_c.png Graphic file (type bmp)
+<media/modulo9/fig948_c.png>
+
+Underfull \hbox (badness 1072) in paragraph at lines 7960--7961
+[]\TU/lmr/m/n/10 Figura 9.48 - Histogramas de (a) Clipped_Reprojected_LandCover
+ 2019
+ []
+
+[307] [308] [309] [310]
+File: media/modulo9/fig949.png Graphic file (type bmp)
+<media/modulo9/fig949.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig950_a.png Graphic file (type bmp)
+<media/modulo9/fig950_a.png>
+File: media/modulo9/fig950_b.png Graphic file (type bmp)
+<media/modulo9/fig950_b.png>
+[311] [312]
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig951.png Graphic file (type bmp)
+<media/modulo9/fig951.png>
+File: media/modulo9/fig952.png Graphic file (type bmp)
+<media/modulo9/fig952.png>
+Missing character: There is no ‣ in font [lmroman10-bold]:mapping=tex-text;!
+File: media/modulo9/fig953_a.png Graphic file (type bmp)
+<media/modulo9/fig953_a.png>
+File: media/modulo9/fig953_b.png Graphic file (type bmp)
+<media/modulo9/fig953_b.png>
+[313] [314]
+File: media/modulo9/fig954.png Graphic file (type bmp)
+<media/modulo9/fig954.png>
+File: media/modulo9/fig955.png Graphic file (type bmp)
+<media/modulo9/fig955.png>
+File: media/modulo9/fig956.png Graphic file (type bmp)
+<media/modulo9/fig956.png>
+[315]
+File: media/modulo9/fig957.png Graphic file (type bmp)
+<media/modulo9/fig957.png>
+File: media/modulo9/fig958.png Graphic file (type bmp)
+<media/modulo9/fig958.png>
+File: media/modulo9/fig959.png Graphic file (type bmp)
+<media/modulo9/fig959.png>
+[316] [317] [318] [319]
+File: media/modulo9/fig960.png Graphic file (type bmp)
+<media/modulo9/fig960.png>
+
+Underfull \hbox (badness 2662) in paragraph at lines 8117--8118
+[]\TU/lmr/m/n/10 Os resultados são, como esperado, salvos na tabela de atributo
+s do
+ []
+
+File: media/modulo9/fig961.png Graphic file (type bmp)
+<media/modulo9/fig961.png>
+File: media/modulo9/fig962.png Graphic file (type bmp)
+<media/modulo9/fig962.png>
+[320] [321] [322]
+Chapter 12.
+[323
+
+] [324]
+File: media/modulo10/fig101.png Graphic file (type bmp)
+<media/modulo10/fig101.png>
+File: media/modulo10/fig102_a.png Graphic file (type bmp)
+<media/modulo10/fig102_a.png>
+File: media/modulo10/fig102_b.png Graphic file (type bmp)
+<media/modulo10/fig102_b.png>
+File: media/modulo10/fig103.png Graphic file (type bmp)
+<media/modulo10/fig103.png>
+[325] [326]
+File: media/modulo10/fig104.png Graphic file (type bmp)
+<media/modulo10/fig104.png>
+[327]
+File: media/modulo10/fig105.png Graphic file (type bmp)
+<media/modulo10/fig105.png>
+File: media/modulo10/fig106_a.png Graphic file (type bmp)
+<media/modulo10/fig106_a.png>
+File: media/modulo10/fig106_b.png Graphic file (type bmp)
+<media/modulo10/fig106_b.png>
+[328] [329]
+File: media/modulo10/fig107.png Graphic file (type bmp)
+<media/modulo10/fig107.png>
+
+Underfull \hbox (badness 1152) in paragraph at lines 8433--8434
+[]\TU/lmr/m/n/10 Título e descrição, número de downloads, página inicial, links
+ do
+ []
+
+[330] [331]
+File: media/modulo10/fig108.png Graphic file (type bmp)
+<media/modulo10/fig108.png>
+[332]
+File: media/modulo10/fig109_a.png Graphic file (type bmp)
+<media/modulo10/fig109_a.png>
+[333]
+File: media/modulo10/fig109_b.png Graphic file (type bmp)
+<media/modulo10/fig109_b.png>
+File: media/modulo10/fig109_c.png Graphic file (type bmp)
+<media/modulo10/fig109_c.png>
+File: media/modulo10/fig109_d.png Graphic file (type bmp)
+<media/modulo10/fig109_d.png>
+File: media/modulo10/fig1010_a.png Graphic file (type bmp)
+<media/modulo10/fig1010_a.png>
+[334] [335] [336]
+File: media/modulo10/fig1010_b.png Graphic file (type bmp)
+<media/modulo10/fig1010_b.png>
+File: media/modulo10/fig1010_c.png Graphic file (type bmp)
+<media/modulo10/fig1010_c.png>
+File: media/modulo10/fig1011_a.png Graphic file (type bmp)
+<media/modulo10/fig1011_a.png>
+File: media/modulo10/fig1011_b.png Graphic file (type bmp)
+<media/modulo10/fig1011_b.png>
+File: media/modulo10/fig1011_c.png Graphic file (type bmp)
+<media/modulo10/fig1011_c.png>
+[337] [338] [339] [340]
+File: media/modulo10/fig1011_d.png Graphic file (type bmp)
+<media/modulo10/fig1011_d.png>
+File: media/modulo10/fig1012_a.png Graphic file (type bmp)
+<media/modulo10/fig1012_a.png>
+[341] [342]
+File: media/modulo10/fig1012_b.png Graphic file (type bmp)
+<media/modulo10/fig1012_b.png>
+File: media/modulo10/fig1012_c.png Graphic file (type bmp)
+<media/modulo10/fig1012_c.png>
+File: media/modulo10/fig1012_d.png Graphic file (type bmp)
+<media/modulo10/fig1012_d.png>
+File: media/modulo10/fig1013_a.png Graphic file (type bmp)
+<media/modulo10/fig1013_a.png>
+[343] [344]
+File: media/modulo10/fig1013_b.png Graphic file (type bmp)
+<media/modulo10/fig1013_b.png>
+File: media/modulo10/fig1014_a.png Graphic file (type bmp)
+<media/modulo10/fig1014_a.png>
+[345] [346]
+File: media/modulo10/fig1014_b.png Graphic file (type bmp)
+<media/modulo10/fig1014_b.png>
+File: media/modulo10/fig1014_c.png Graphic file (type bmp)
+<media/modulo10/fig1014_c.png>
+File: media/modulo10/fig1014_d.png Graphic file (type bmp)
+<media/modulo10/fig1014_d.png>
+[347] [348]
+File: media/modulo10/fig1015_a.png Graphic file (type bmp)
+<media/modulo10/fig1015_a.png>
+File: media/modulo10/fig1015_b.png Graphic file (type bmp)
+<media/modulo10/fig1015_b.png>
+[349]
+File: media/modulo10/fig1015_c.png Graphic file (type bmp)
+<media/modulo10/fig1015_c.png>
+File: media/modulo10/fig1015_d.png Graphic file (type bmp)
+<media/modulo10/fig1015_d.png>
+File: media/modulo10/fig1015_e.png Graphic file (type bmp)
+<media/modulo10/fig1015_e.png>
+[350] [351]
+File: media/modulo10/fig1015_f.png Graphic file (type bmp)
+<media/modulo10/fig1015_f.png>
+File: media/modulo10/fig1015_g.png Graphic file (type bmp)
+<media/modulo10/fig1015_g.png>
+File: media/modulo10/fig1015_h.png Graphic file (type bmp)
+<media/modulo10/fig1015_h.png>
+File: media/modulo10/fig1015_i.png Graphic file (type bmp)
+<media/modulo10/fig1015_i.png>
+File: media/modulo10/fig1015_j.png Graphic file (type bmp)
+<media/modulo10/fig1015_j.png>
+[352] [353] [354]
+File: media/modulo10/fig1015_k.png Graphic file (type bmp)
+<media/modulo10/fig1015_k.png>
+File: media/modulo10/fig1015_l.png Graphic file (type bmp)
+<media/modulo10/fig1015_l.png>
+File: media/modulo10/fig1015_m.png Graphic file (type bmp)
+<media/modulo10/fig1015_m.png>
+[355] [356]
+File: media/modulo10/fig1015_o.png Graphic file (type bmp)
+<media/modulo10/fig1015_o.png>
+File: media/modulo10/fig1015_p.png Graphic file (type bmp)
+<media/modulo10/fig1015_p.png>
+File: media/modulo10/fig1016_a1.png Graphic file (type bmp)
+<media/modulo10/fig1016_a1.png>
+File: media/modulo10/fig1016_a2.png Graphic file (type bmp)
+<media/modulo10/fig1016_a2.png>
+[357] [358] [359]
+File: media/modulo10/fig1016_b.png Graphic file (type bmp)
+<media/modulo10/fig1016_b.png>
+File: media/modulo10/fig1016_c.png Graphic file (type bmp)
+<media/modulo10/fig1016_c.png>
+File: media/modulo10/fig1016_d.png Graphic file (type bmp)
+<media/modulo10/fig1016_d.png>
+File: media/modulo10/fig1017_a.png Graphic file (type bmp)
+<media/modulo10/fig1017_a.png>
+[360] [361]
+File: media/modulo10/fig1017_b.png Graphic file (type bmp)
+<media/modulo10/fig1017_b.png>
+[362] [363] [364] [365]
+File: media/modulo10/fig1017_c.png Graphic file (type bmp)
+<media/modulo10/fig1017_c.png>
+File: media/modulo10/fig1017_d.png Graphic file (type bmp)
+<media/modulo10/fig1017_d.png>
+[366]
+Underfull \hbox (badness 10000) in paragraph at lines 9170--9171
+\TU/lmr/m/n/10 no QGIS (\TU/lmtt/m/n/10 Camada - Adicionar camada - Adicionar c
+amada de texto
+ []
+
+File: media/modulo10/fig1017_e.png Graphic file (type bmp)
+<media/modulo10/fig1017_e.png>
+File: media/modulo10/fig1017_f.png Graphic file (type bmp)
+<media/modulo10/fig1017_f.png>
+
+LaTeX Warning: Float too large for page by 24.09305pt on input line 9188.
+
+File: media/modulo10/fig1017_g.png Graphic file (type bmp)
+<media/modulo10/fig1017_g.png>
+[367]
+File: media/modulo10/fig1018_a.png Graphic file (type bmp)
+<media/modulo10/fig1018_a.png>
+File: media/modulo10/fig1018_b.png Graphic file (type bmp)
+<media/modulo10/fig1018_b.png>
+[368] [369] [370]
+File: media/modulo10/fig1018_c.png Graphic file (type bmp)
+<media/modulo10/fig1018_c.png>
+File: media/modulo10/fig1018_d.png Graphic file (type bmp)
+<media/modulo10/fig1018_d.png>
+File: media/modulo10/fig1018_e.png Graphic file (type bmp)
+<media/modulo10/fig1018_e.png>
+File: media/modulo10/fig1018_f.png Graphic file (type bmp)
+<media/modulo10/fig1018_f.png>
+[371] [372] [373]
+File: media/modulo10/fig1018_g.png Graphic file (type bmp)
+<media/modulo10/fig1018_g.png>
+File: media/modulo10/fig1018_h.png Graphic file (type bmp)
+<media/modulo10/fig1018_h.png>
+File: media/modulo10/fig1018_i.png Graphic file (type bmp)
+<media/modulo10/fig1018_i.png>
+File: media/modulo10/fig1018_j.png Graphic file (type bmp)
+<media/modulo10/fig1018_j.png>
+[374] [375] [376] (./_main.aux) ) 
+Here is how much of TeX's memory you used:
+ 21207 strings out of 479212
+ 400875 string characters out of 5875086
+ 869552 words of memory out of 5000000
+ 40072 multiletter control sequences out of 15000+600000
+ 409945 words of font info for 88 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 98i,8n,122p,1880b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on _main.pdf (376 pages).
