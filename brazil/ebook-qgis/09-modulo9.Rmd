@@ -388,7 +388,7 @@ Tabela 2 valor da banda forest_type
 
 
 
-Para organizar melhor suas camadas, agrupe-as por categoria, da seguinte maneira: para as 5 camadas raster de cobertura de terra, crie um grupo denominado Cobertura de Terra (Land Cover) (no Painel de Camadas, clique no botão Adicionar Grupo![Botão Adicionar Grupo](media/modulo9/add-group-btn.png "Botão Adicionar Grupo")). Para o modelo de superfície digital, crie um grupo denominado SRTM DEM.
+Para organizar melhor suas camadas, agrupe-as por categoria, da seguinte maneira: para as 5 camadas raster de cobertura de terra, crie um grupo denominado Cobertura de Terra (Land Cover) (no Painel de Camadas, clique no botão Adicionar Grupo![Botão Adicionar Grupo](media/modulo9/add-group-btn.png "Botão Adicionar Grupo")). Para o modelo de superfície digital, crie um grupo denominado JAXA [^3] SRTM DEM.
 
 Não se esqueça de adicionar também o limite da área de trabalho, cidade do Rio de Janeiro, que é um conjunto de dados vetoriais.
 

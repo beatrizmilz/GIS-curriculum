@@ -322,11 +322,11 @@ Um pixel raster pode conter apenas um valor de cada vez. Assim, um raster pode m
 
 ###### Dados vetoriais
 
-Os dados vetoriais são mais utilizados para representar objetos discretos.
+Os dados vetoriais são mais utilizados para representar objetos discretos.
 
 Os dados vetoriais possuem três formas: ponto, linha e polígono. São mais preciso que rasters porque pontos, linhas e polígonos são modelados usando coordenadas bem definidas, tornando-os melhores na representação de objetos discretos do que rasters.
 
-Os vetores são comumente usados quando necessitamos precisão com comprimentos, áreas e distâncias. Eles também são úteis ao realizar análises de rede (por exemplo, encontrar o caminho mais curto um ponto a outro em uma rede de vias).
+Os vetores são comumente usados quando necessitamos precisão com comprimentos, áreas e distâncias. Eles também são úteis ao realizar análises de rede (por exemplo, encontrar o caminho mais curto um ponto a outro em uma rede de vias).
 
 
 ![Modelo de dados vetoriais](media/modulo0/vector.png "Modelo de dados vetoriais")
