@@ -2,8 +2,8 @@
 argentina/**/data
 bangladesh/**/data
 brazil/**/data
-brazil/ebook-qgis/_book/*.epub
-brazil/ebook-qgis/_book/*.pdf
+brazil/ebook-qgis/_book/_main.epub
+brazil/ebook-qgis/_book/_main.pdf
 egypt/**/data
 ethiopia/**/data
 germany/**/data
