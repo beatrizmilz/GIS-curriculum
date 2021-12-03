@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capitulo 24 70663E | Introdução ao QGis</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capitulo 24 70663E | Introdução ao QGis" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capitulo 24 70663E | Introdução ao QGis" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="section-1.html"/>
+<link rel="next" href="cc00.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Intro</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>1.1</b> Introdução suave a conceitos de GIS</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="intro.html"><a href="intro.html#introdução-pedagógica"><i class="fa fa-check"></i><b>1.1.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="1.1.2" data-path="intro.html"><a href="intro.html#ferramentas-e-recursos-necessários"><i class="fa fa-check"></i><b>1.1.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="1.1.3" data-path="intro.html"><a href="intro.html#pré-requisitos"><i class="fa fa-check"></i><b>1.1.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="1.1.4" data-path="intro.html"><a href="intro.html#recursos-adicionais"><i class="fa fa-check"></i><b>1.1.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="1.1.5" data-path="intro.html"><a href="intro.html#introdução-temática"><i class="fa fa-check"></i><b>1.1.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="1.1.6" data-path="intro.html"><a href="intro.html#conteúdo-principal"><i class="fa fa-check"></i><b>1.1.6</b> Conteúdo principal</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html"><i class="fa fa-check"></i><b>2</b> Introdução ao QGIS</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#introdução-pedagógica-1"><i class="fa fa-check"></i><b>2.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="2.2" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#ferramentas-e-recursos-necessários-1"><i class="fa fa-check"></i><b>2.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="2.3" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#pré-requisitos-1"><i class="fa fa-check"></i><b>2.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="2.4" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#recursos-adicionais-1"><i class="fa fa-check"></i><b>2.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="2.5" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#introdução-temática-1"><i class="fa fa-check"></i><b>2.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="2.6" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#detalhamento-dos-conceitos"><i class="fa fa-check"></i><b>2.6</b> Detalhamento dos conceitos</a></li>
+<li class="chapter" data-level="2.7" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#conteúdo-principal-1"><i class="fa fa-check"></i><b>2.7</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-1-introdução-ao-qgis-e-à-interface-do-qgis"><i class="fa fa-check"></i><b>2.7.1</b> Título da fase 1: Introdução ao QGIS e à interface do QGIS</a></li>
+<li class="chapter" data-level="2.7.2" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-2-complementos-complementos-qgis"><i class="fa fa-check"></i><b>2.7.2</b> Título da fase 2: Complementos (Complementos) QGIS</a></li>
+<li class="chapter" data-level="2.7.3" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-3-configurações-qgis"><i class="fa fa-check"></i><b>2.7.3</b> Título da Fase 3: Configurações QGIS</a></li>
+<li class="chapter" data-level="2.7.4" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#título-da-fase-4-adicional-formatos-de-arquivo-do-qgis"><i class="fa fa-check"></i><b>2.7.4</b> Título da Fase 4 (adicional): Formatos de arquivo do QGIS</a></li>
+<li class="chapter" data-level="2.7.5" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#se-você-quiser-ir-mais-longe-1"><i class="fa fa-check"></i><b>2.7.5</b> Se você quiser ir mais longe:</a></li>
+<li class="chapter" data-level="2.7.6" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#para-praticar-suas-novas-habilidades-tente-1"><i class="fa fa-check"></i><b>2.7.6</b> Para praticar suas novas habilidades, tente …</a></li>
+<li class="chapter" data-level="2.7.7" data-path="introdução-ao-qgis.html"><a href="introdução-ao-qgis.html#dicas-1"><i class="fa fa-check"></i><b>2.7.7</b> Dicas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html"><i class="fa fa-check"></i><b>3</b> Camadas no QGIS</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#introdução-pedagógica-2"><i class="fa fa-check"></i><b>3.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#ferramentas-e-recursos-necessários-2"><i class="fa fa-check"></i><b>3.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#pré-requisitos-2"><i class="fa fa-check"></i><b>3.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#recursos-adicionais-2"><i class="fa fa-check"></i><b>3.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#introdução-temática-2"><i class="fa fa-check"></i><b>3.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="3.6" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#detalhamento-dos-conceitos-1"><i class="fa fa-check"></i><b>3.6</b> Detalhamento dos conceitos</a></li>
+<li class="chapter" data-level="3.7" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#conteúdo-principal-2"><i class="fa fa-check"></i><b>3.7</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="3.7.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#título-da-fase-1-tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>3.7.1</b> Título da fase 1: Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a></li>
+<li class="chapter" data-level="3.7.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#título-da-fase-2-o-gerenciador-de-fonte-de-dados-e-conexão-com-serviços-remotos"><i class="fa fa-check"></i><b>3.7.2</b> Título da fase 2: O gerenciador de fonte de dados e conexão com serviços remotos</a></li>
+<li class="chapter" data-level="3.7.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#título-da-fase-3-exportando-camadas-camadas-na-memória-temporárias-e-camadas-virtuais"><i class="fa fa-check"></i><b>3.7.3</b> Título da Fase 3: Exportando Camadas, Camadas na Memória (Temporárias) e Camadas Virtuais</a></li>
+<li class="chapter" data-level="3.7.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#se-você-quiser-ir-mais-longe-2"><i class="fa fa-check"></i><b>3.7.4</b> Se você quiser ir mais longe:</a></li>
+<li class="chapter" data-level="3.7.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#para-praticar-suas-novas-habilidades-tente-2"><i class="fa fa-check"></i><b>3.7.5</b> Para praticar suas novas habilidades, tente …</a></li>
+<li class="chapter" data-level="3.7.6" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#dicas-2"><i class="fa fa-check"></i><b>3.7.6</b> Dicas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><i class="fa fa-check"></i><b>4</b> OpenStreetMap e a camada de assentamentos de alta resolução</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#introdução-pedagógica-3"><i class="fa fa-check"></i><b>4.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="4.2" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#ferramentas-e-recursos-necessários-3"><i class="fa fa-check"></i><b>4.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="4.3" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#pré-requisitos-3"><i class="fa fa-check"></i><b>4.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="4.4" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#recursos-adicionais-3"><i class="fa fa-check"></i><b>4.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="4.5" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#introdução-temática-3"><i class="fa fa-check"></i><b>4.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="4.6" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#análise-dos-conceitos"><i class="fa fa-check"></i><b>4.6</b> Análise dos conceitos</a></li>
+<li class="chapter" data-level="4.7" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#conteúdo-principal-3"><i class="fa fa-check"></i><b>4.7</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="4.7.1" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#título-da-fase-1-dados-do-openstreetmap-osm"><i class="fa fa-check"></i><b>4.7.1</b> Título da fase 1: Dados do OpenStreetMap (OSM)</a></li>
+<li class="chapter" data-level="4.7.2" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#título-da-fase-2-os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl"><i class="fa fa-check"></i><b>4.7.2</b> Título da fase 2: Os dados da camada de assentamentos de alta resolução (HRSL)</a></li>
+<li class="chapter" data-level="4.7.3" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#se-você-quiser-ir-além"><i class="fa fa-check"></i><b>4.7.3</b> Se você quiser ir além:</a></li>
+<li class="chapter" data-level="4.7.4" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#para-praticar-suas-novas-habilidades-tente-3"><i class="fa fa-check"></i><b>4.7.4</b> Para praticar suas novas habilidades, tente…</a></li>
+<li class="chapter" data-level="4.7.5" data-path="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html"><a href="openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução.html#dicas-3"><i class="fa fa-check"></i><b>4.7.5</b> Dicas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html"><i class="fa fa-check"></i><b>5</b> Camadas de estilo</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#introdução-pedagógica-4"><i class="fa fa-check"></i><b>5.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="5.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#ferramentas-e-recursos-necessários-4"><i class="fa fa-check"></i><b>5.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="5.3" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#pré-requisitos-4"><i class="fa fa-check"></i><b>5.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="5.4" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#recursos-adicionais-4"><i class="fa fa-check"></i><b>5.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="5.5" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#introdução-temática-4"><i class="fa fa-check"></i><b>5.5</b> Introdução temática</a>
+<ul>
+<li class="chapter" data-level="5.5.1" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#painéis-guias-e-tipos-de-renderização-principais"><i class="fa fa-check"></i><b>5.5.1</b> Painéis, guias e tipos de renderização principais</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#conteúdo-principal-4"><i class="fa fa-check"></i><b>5.6</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="5.6.1" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#fase-1-raster-básico-e-simbologia-vetorial"><i class="fa fa-check"></i><b>5.6.1</b> Fase 1: Raster básico e simbologia vetorial</a></li>
+<li class="chapter" data-level="5.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#fase-2-modos-de-mesclagem-e-efeitos-de-desenho"><i class="fa fa-check"></i><b>5.6.2</b> Fase 2: modos de mesclagem e efeitos de desenho</a></li>
+<li class="chapter" data-level="5.6.3" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#fase-3-substituições-definidas-por-dados-e-geradores-de-geometria"><i class="fa fa-check"></i><b>5.6.3</b> Fase 3: Substituições definidas por dados e geradores de geometria</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>6</b> Fazendo Mapas</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>6.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="6.2" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#ferramentas-e-recursos-necessários-5"><i class="fa fa-check"></i><b>6.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="6.3" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#pré-requisitos-5"><i class="fa fa-check"></i><b>6.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="6.4" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#recursos-adicionais-5"><i class="fa fa-check"></i><b>6.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="6.5" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-temática-5"><i class="fa fa-check"></i><b>6.5</b> Introdução temática</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#detalhamento-dos-conceitos-2"><i class="fa fa-check"></i><b>6.5.1</b> Detalhamento dos conceitos</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#conteúdo-principal-5"><i class="fa fa-check"></i><b>6.6</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#título-da-fase-1-exportando-a-tela-do-mapa"><i class="fa fa-check"></i><b>6.6.1</b> Título da fase 1: Exportando a tela do mapa</a></li>
+<li class="chapter" data-level="6.6.2" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#título-da-fase-2-adicionando-e-editando-elementos-do-mapa-ao-layout-de-impressão"><i class="fa fa-check"></i><b>6.6.2</b> Título da fase 2: Adicionando e editando elementos do mapa ao layout de impressão</a></li>
+<li class="chapter" data-level="6.6.3" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#título-da-fase-3-automatizando-a-criação-de-mapas-usando-os-recursos-do-atlas"><i class="fa fa-check"></i><b>6.6.3</b> Título da Fase 3: Automatizando a criação de mapas usando os recursos do Atlas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html"><i class="fa fa-check"></i><b>7</b> Atributos da camada</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#introdução-pedagógica-6"><i class="fa fa-check"></i><b>7.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="7.2" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#ferramentas-e-recursos-necessários-6"><i class="fa fa-check"></i><b>7.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="7.3" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#pré-requisitos-6"><i class="fa fa-check"></i><b>7.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="7.4" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#recursos-adicionais-6"><i class="fa fa-check"></i><b>7.4</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="7.5" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#introdução-temática-6"><i class="fa fa-check"></i><b>7.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="7.6" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#detalhamento-dos-conceitos-3"><i class="fa fa-check"></i><b>7.6</b> Detalhamento dos conceitos</a>
+<ul>
+<li class="chapter" data-level="7.6.1" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#título-da-fase-1-editando-atributos-da-camada"><i class="fa fa-check"></i><b>7.6.1</b> Título da fase 1: Editando atributos da camada</a></li>
+<li class="chapter" data-level="7.6.2" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#fase-2-entender-e-trabalhar-com-dados-de-atributos-consultas-e-análises"><i class="fa fa-check"></i><b>7.6.2</b> Fase 2: Entender e trabalhar com dados de atributos, consultas e análises</a></li>
+<li class="chapter" data-level="7.6.3" data-path="atributos-da-camada.html"><a href="atributos-da-camada.html#título-da-fase-3-expressões-de-qgis-avançadas"><i class="fa fa-check"></i><b>7.6.3</b> Título da Fase 3: Expressões de QGIS avançadas</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html"><i class="fa fa-check"></i><b>8</b> Criando e editando camadas</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#introdução-pedagógica-7"><i class="fa fa-check"></i><b>8.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="8.2" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#pré-requisitos-7"><i class="fa fa-check"></i><b>8.2</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="8.3" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#recursos-adicionais-7"><i class="fa fa-check"></i><b>8.3</b> Recursos adicionais</a></li>
+<li class="chapter" data-level="8.4" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#introdução-temática-7"><i class="fa fa-check"></i><b>8.4</b> Introdução temática</a></li>
+<li class="chapter" data-level="8.5" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#detalhamento-dos-conceitos-4"><i class="fa fa-check"></i><b>8.5</b> Detalhamento dos conceitos</a></li>
+<li class="chapter" data-level="8.6" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#conteúdo-principal-6"><i class="fa fa-check"></i><b>8.6</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="8.6.1" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#título-da-fase-1-criando-uma-nova-camada-geopackage-ou-shapefile"><i class="fa fa-check"></i><b>8.6.1</b> Título da Fase 1: Criando uma nova camada GeoPackage ou Shapefile</a></li>
+<li class="chapter" data-level="8.6.2" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#título-da-fase-2-digitalizando-uma-camada-existente"><i class="fa fa-check"></i><b>8.6.2</b> Título da fase 2: digitalizando uma camada existente</a></li>
+<li class="chapter" data-level="8.6.3" data-path="criando-e-editando-camadas.html"><a href="criando-e-editando-camadas.html#título-da-fase-3-georreferenciando-um-mapa-topográfico"><i class="fa fa-check"></i><b>8.6.3</b> Título da Fase 3: Georreferenciando um mapa Topográfico</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html"><i class="fa fa-check"></i><b>9</b> <strong>Processamento e análise vetorial</strong></a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-pedagógica-8"><i class="fa fa-check"></i><b>9.1</b> Introdução pedagógica</a></li>
+<li class="chapter" data-level="9.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#ferramentas-e-recursos-necessários-7"><i class="fa fa-check"></i><b>9.2</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="9.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#pré-requisitos-8"><i class="fa fa-check"></i><b>9.3</b> Pré-requisitos</a></li>
+<li class="chapter" data-level="9.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#recursos-adicionais-8"><i class="fa fa-check"></i><b>9.4</b> Recursos adicionais:</a></li>
+<li class="chapter" data-level="9.5" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-temática-8"><i class="fa fa-check"></i><b>9.5</b> Introdução temática</a></li>
+<li class="chapter" data-level="9.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#detalhamento-dos-conceitos-5"><i class="fa fa-check"></i><b>9.6</b> Detalhamento dos conceitos</a>
+<ul>
+<li class="chapter" data-level="9.6.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#o-modelo-de-dados-vetoriais"><i class="fa fa-check"></i><b>9.6.1</b> O modelo de dados vetoriais</a></li>
+<li class="chapter" data-level="9.6.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#metadados"><i class="fa fa-check"></i><b>9.6.2</b> Metadados</a></li>
+<li class="chapter" data-level="9.6.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#lógica-do-processamento-vetorial"><i class="fa fa-check"></i><b>9.6.3</b> Lógica do processamento vetorial</a></li>
+</ul></li>
+<li class="chapter" data-level="9.7" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#conteúdo-principal-7"><i class="fa fa-check"></i><b>9.7</b> Conteúdo principal:</a>
+<ul>
+<li class="chapter" data-level="9.7.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#fase-1-entendendo-seus-dados."><i class="fa fa-check"></i><b>9.7.1</b> Fase 1: Entendendo seus dados.</a></li>
+<li class="chapter" data-level="9.7.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#fase-2-introdução-ao-processamento-vetorial"><i class="fa fa-check"></i><b>9.7.2</b> Fase 2: Introdução ao processamento vetorial</a></li>
+<li class="chapter" data-level="9.7.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#fase-3-geoestatística.-interpolação---estimativa-de-dados-faltantes"><i class="fa fa-check"></i><b>9.7.3</b> Fase 3: Geoestatística. Interpolação - estimativa de dados faltantes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html"><i class="fa fa-check"></i><b>10</b> <strong>Processamento e análise raster</strong></a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>10.1</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="10.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>10.2</b> Pré-requisitos:</a></li>
+<li class="chapter" data-level="10.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-temática-9"><i class="fa fa-check"></i><b>10.3</b> Introdução temática</a></li>
+<li class="chapter" data-level="10.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#detalhamento-dos-conceitos-6"><i class="fa fa-check"></i><b>10.4</b> Detalhamento dos conceitos</a>
+<ul>
+<li class="chapter" data-level="10.4.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>10.4.1</b> O modelo de dados</a></li>
+<li class="chapter" data-level="10.4.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>10.4.2</b> Racional do processamento raster</a></li>
+</ul></li>
+<li class="chapter" data-level="10.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#conteúdo-principal-8"><i class="fa fa-check"></i><b>10.5</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="10.5.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#fase-1-entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>10.5.1</b> Fase 1: Entendendo seus dados raster.</a></li>
+<li class="chapter" data-level="10.5.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#fase-2-introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>10.5.2</b> Fase 2: Introdução ao trabalho com dados raster</a></li>
+<li class="chapter" data-level="10.5.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#fase-3-trabalho-com-dados-raster-e-vetoriais."><i class="fa fa-check"></i><b>10.5.3</b> <strong>Fase 3: Trabalho com dados raster e vetoriais.</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="10.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>10.6</b> Referências:</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="plugins-qgis.html"><a href="plugins-qgis.html"><i class="fa fa-check"></i><b>11</b> Plugins QGIS</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>11.1</b> Introdução Pedagógica</a></li>
+<li class="chapter" data-level="11.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#adquirir-as-seguintes-habilidades"><i class="fa fa-check"></i><b>11.2</b> Adquirir as seguintes habilidades:</a></li>
+<li class="chapter" data-level="11.3" data-path="plugins-qgis.html"><a href="plugins-qgis.html#ferramentas-e-recursos-necessários-9"><i class="fa fa-check"></i><b>11.3</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="11.4" data-path="plugins-qgis.html"><a href="plugins-qgis.html#pré-requisitos-10"><i class="fa fa-check"></i><b>11.4</b> Pré-requisitos:</a></li>
+<li class="chapter" data-level="11.5" data-path="plugins-qgis.html"><a href="plugins-qgis.html#conteúdo-principal-9"><i class="fa fa-check"></i><b>11.5</b> Conteúdo principal</a>
+<ul>
+<li class="chapter" data-level="11.5.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#fase-1-introdução-à-mentalidade-do-plugin"><i class="fa fa-check"></i><b>11.5.1</b> Fase 1: Introdução à mentalidade do plugin</a></li>
+<li class="chapter" data-level="11.5.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#o-gerenciador-de-plugins"><i class="fa fa-check"></i><b>11.5.2</b> O gerenciador de plugins</a></li>
+<li class="chapter" data-level="11.5.3" data-path="plugins-qgis.html"><a href="plugins-qgis.html#fase-2-alguns-plugins-interresantes"><i class="fa fa-check"></i><b>11.5.3</b> Fase 2: Alguns plugins interresantes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>12</b> 282828</a></li>
+<li class="chapter" data-level="13" data-path="ffbb22.html"><a href="ffbb22.html"><i class="fa fa-check"></i><b>13</b> FFBB22</a></li>
+<li class="chapter" data-level="14" data-path="ffff4c.html"><a href="ffff4c.html"><i class="fa fa-check"></i><b>14</b> FFFF4C</a></li>
+<li class="chapter" data-level="15" data-path="f096ff.html"><a href="f096ff.html"><i class="fa fa-check"></i><b>15</b> F096FF</a></li>
+<li class="chapter" data-level="16" data-path="fa0000.html"><a href="fa0000.html"><i class="fa fa-check"></i><b>16</b> FA0000</a></li>
+<li class="chapter" data-level="17" data-path="b4b4b4.html"><a href="b4b4b4.html"><i class="fa fa-check"></i><b>17</b> B4B4B4</a></li>
+<li class="chapter" data-level="18" data-path="f0f0f0.html"><a href="f0f0f0.html"><i class="fa fa-check"></i><b>18</b> F0F0F0</a></li>
+<li class="chapter" data-level="19" data-path="c8.html"><a href="c8.html"><i class="fa fa-check"></i><b>19</b> 0032C8</a></li>
+<li class="chapter" data-level="20" data-path="a0pantanal.html"><a href="a0pantanal.html"><i class="fa fa-check"></i><b>20</b> 0096A0Pantanal</a></li>
+<li class="chapter" data-level="21" data-path="fae6a0.html"><a href="fae6a0.html"><i class="fa fa-check"></i><b>21</b> FAE6A0</a></li>
+<li class="chapter" data-level="22" data-path="f.html"><a href="f.html"><i class="fa fa-check"></i><b>22</b> 58481F</a></li>
+<li class="chapter" data-level="23" data-path="section-1.html"><a href="section-1.html"><i class="fa fa-check"></i><b>23</b> 009900</a></li>
+<li class="chapter" data-level="24" data-path="e.html"><a href="e.html"><i class="fa fa-check"></i><b>24</b> 70663E</a></li>
+<li class="chapter" data-level="25" data-path="cc00.html"><a href="cc00.html"><i class="fa fa-check"></i><b>25</b> 00CC00</a></li>
+<li class="chapter" data-level="26" data-path="e751f.html"><a href="e751f.html"><i class="fa fa-check"></i><b>26</b> 4E751F</a></li>
+<li class="chapter" data-level="27" data-path="section-2.html"><a href="section-2.html"><i class="fa fa-check"></i><b>27</b> 007800</a></li>
+<li class="chapter" data-level="28" data-path="section-3.html"><a href="section-3.html"><i class="fa fa-check"></i><b>28</b> 666000</a></li>
+<li class="chapter" data-level="29" data-path="db400.html"><a href="db400.html"><i class="fa fa-check"></i><b>29</b> 8DB400</a></li>
+<li class="chapter" data-level="30" data-path="d7400.html"><a href="d7400.html"><i class="fa fa-check"></i><b>30</b> 8D7400</a></li>
+<li class="chapter" data-level="31" data-path="a0dc00.html"><a href="a0dc00.html"><i class="fa fa-check"></i><b>31</b> A0DC00</a></li>
+<li class="chapter" data-level="32" data-path="section-4.html"><a href="section-4.html"><i class="fa fa-check"></i><b>32</b> 929900</a></li>
+<li class="chapter" data-level="33" data-path="c00.html"><a href="c00.html"><i class="fa fa-check"></i><b>33</b> 648C00</a></li>
+<li class="chapter" data-level="34" data-path="section-5.html"><a href="section-5.html"><i class="fa fa-check"></i><b>34</b> 000080</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="e" class="section level1" number="24">
+<h1><span class="header-section-number">Capitulo 24</span> 70663E</h1>
+</td>
+<td>
+Floresta fechada, folha de agulha decídua. O dossel das árvores&gt; 70% consiste em comunidades de árvores de folhas agulhas sazonais com um ciclo anual de períodos de folhagem e folhagem.
+</td>
+</tr>
+<tr>
+<td>
+114
+</td>
+<td>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="section-1.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cc00.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/10-modulo10.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

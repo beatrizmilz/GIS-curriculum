@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1638464395439.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3100944403",
+    "id" : "5BCA5BEA",
+    "lastKnownWriteTime" : 1638486197,
+    "last_content_update" : 1638486197755,
+    "path" : "~/GitHub/GIS-curriculum/brazil/ebook-qgis/08-modulo8.Rmd",
+    "project_path" : "08-modulo8.Rmd",
+    "properties" : {
+        "cursorPosition" : "0,20",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

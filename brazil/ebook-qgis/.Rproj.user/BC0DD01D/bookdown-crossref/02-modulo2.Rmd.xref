@@ -1,0 +1,40 @@
+h1:camadas-no-qgis Camadas no QGIS
+h2:introdução-pedagógica Introdução Pedagógica
+h2:ferramentas-e-recursos-necessários Ferramentas e recursos necessários
+h2:pré-requisitos Pré-requisitos
+h2:recursos-adicionais Recursos adicionais
+h2:introdução-temática Introdução temática
+h2:detalhamento-dos-conceitos Detalhamento dos conceitos
+h2:conteúdo-principal Conteúdo principal
+h3:título-da-fase-1-tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas Título da fase 1: Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas
+h4:tipos-de-dados-e-formatos-de-arquivo-comuns 
+h4:tipos-de-fontes-de-dados 
+h4:carregando-camadas-no-qgis 
+h4:o-painel-do-navegador 
+h4:exercício-01.1-o-painel-do-navegador 
+h4:o-painel-de-camadas 
+h4:propriedades-da-camada 
+h4:metadados-geoespaciais 
+h4:exercício-01.2-adicionando-metadados 
+h4:perguntas-do-questionário Perguntas do questionário
+h3:título-da-fase-2-o-gerenciador-de-fonte-de-dados-e-conexão-com-serviços-remotos Título da fase 2: O gerenciador de fonte de dados e conexão com serviços remotos
+h4:o-gerenciador-de-fonte-de-dados 
+h4:exercício-02.1-o-gerenciador-de-fonte-de-dados 
+h4:conectando-qgis-a-serviços-remotos 
+h4:exercício-02.2-conectando-se-a-tiles-xyz 
+h4:exercício-02.3-conectando-se-a-wms-wmts-e-wfs 
+h4:perguntas-do-questionário-1 
+h3:título-da-fase-3-exportando-camadas-camadas-na-memória-temporárias-e-camadas-virtuais Título da Fase 3: Exportando Camadas, Camadas na Memória (Temporárias) e Camadas Virtuais
+h4:exportando-camadas-do-qgis 
+h4:camadas-na-memória 
+h4:camadas-virtuais 
+h4:perguntas-do-questionário-2 
+h3:se-você-quiser-ir-mais-longe Se você quiser ir mais longe:
+h4:instale-alguns-plug-ins-que-servem-como-fontes-de-dados 
+h4:conecte-se-a-instâncias-geonode 
+h4:exercício-tutorial-sobre-camadas-virtuais 
+h3:para-praticar-suas-novas-habilidades-tente Para praticar suas novas habilidades, tente …
+h4:carregar-rasters-e-vetores-encontrados-na-internet 
+h4:carregar-uma-planilha-no-qgis-usando-o-plugin-spreadsheet-layers 
+h3:dicas Dicas
+

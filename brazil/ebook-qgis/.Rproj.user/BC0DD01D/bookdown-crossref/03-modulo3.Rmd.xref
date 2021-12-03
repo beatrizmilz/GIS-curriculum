@@ -1,0 +1,25 @@
+h1:openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução OpenStreetMap e a camada de assentamentos de alta resolução
+h2:introdução-pedagógica Introdução pedagógica
+h2:ferramentas-e-recursos-necessários Ferramentas e recursos necessários
+h2:pré-requisitos Pré-requisitos
+h2:recursos-adicionais Recursos adicionais
+h2:introdução-temática Introdução temática
+h2:análise-dos-conceitos Análise dos conceitos
+h2:conteúdo-principal Conteúdo principal
+h3:título-da-fase-1-dados-do-openstreetmap-osm Título da fase 1: Dados do OpenStreetMap (OSM)
+h4:o-que-é-openstreetmap-osm 
+h4:onde-o-openstreetmap-é-usado 
+h4:como-o-openstreetmap-pode-ser-usado-no-qgis 
+h4:exercício-1-carregando-dados-osm-no-qgis-usando-o-plugin-quickosm 
+h4:perguntas-do-questionário 
+h3:título-da-fase-2-os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl Título da fase 2: Os dados da camada de assentamentos de alta resolução (HRSL)
+h4:o-que-é-high-resolution-settlement-layer-hrsl-ou-camada-de-assentamentos-de-alta-resolução 
+h4:casos-de-uso-do-hrsl 
+h4:exercício-2-carregando-os-dados-hrsl-no-qgis 
+h4:questões-do-questionário 
+h3:se-você-quiser-ir-além Se você quiser ir além:
+h4:use-a-api-overpass-para-criar-uma-consulta-no-osm 
+h3:para-praticar-suas-novas-habilidades-tente Para praticar suas novas habilidades, tente…
+h4:carregar-mais-recursos-do-osm-usando-o-plug-in-quickosm 
+h3:dicas Dicas
+
