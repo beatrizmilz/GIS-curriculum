@@ -3,7 +3,7 @@
 ## Localisations
 - [**Argentina**](argentina/)
 - [**Bangladesh** (in English)](bangladesh/)
-- [**Brazil**](brazil/)
+- [**Brazil**](brazil/) + [**ebook**](brazil/ebook-qgis/_book)
 - [**Egypt**](egypt/)
 - [**Ethiopia** (in English)](ethiopia/)
 - [**Germany**](germany/)
