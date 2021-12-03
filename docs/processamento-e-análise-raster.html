@@ -334,7 +334,7 @@
 <h3><span class="header-section-number">11.4.2</span> Racional do processamento raster</h3>
 <p>Como no caso do processamento de dados vetoriais, a lógica por trás do processamento de dados raster é baseada na mesma capacidade dos sistemas de informação geográfica de armazenar, processar e representar informações dos fenômenos do mundo real; apenas isso a maneira como isso é feito difere. Em vez de ter pontos, linhas e polígonos distintos armazenados como coleções de coordenadas x e y, temos uma matriz de valores que cobre uma área específica como uma malha. Para ter uma imagem mais clara em mente, imagine os mapas de temperatura exibidos na TV. A temperatura é um campo contínuo, não há lugares na superfície da Terra sem temperatura, seja ela positiva, negativa ou 0.</p>
 <p>Muitas operações podem ser realizadas em conjuntos de dados raster, e o conceito de geoprocessamento detalhado no módulo 8 também se aplica aqui. O termo usado para abranger as operações que podem ser realizadas em rasters é <em>algebra de mapa</em>.</p>
-<p><strong>Álgebra de mapa</strong> representa um conjunto de operações primitivas<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> em um GIS que permite duas ou mais camadas raster de <em>dimensões semelhantes</em> produzirem uma nova camada raster (mapa) usando várias operações, como adição, subtração, comparação etc.</p>
+<p><strong>Álgebra de mapa</strong> representa um conjunto de operações primitivas<a href="plugins-qgis.html#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> em um GIS que permite duas ou mais camadas raster de <em>dimensões semelhantes</em> produzirem uma nova camada raster (mapa) usando várias operações, como adição, subtração, comparação etc.</p>
 <p>Existem quatro categorias de operações que podem ser executadas em rasters, como segue:</p>
 <ul>
 <li>Operações aritméticas: adição, subtração, multiplicação, divisão.</li>
@@ -348,7 +348,7 @@
 <p>Lembrando quais são os 4 tipos de resolução de uma imagem de satélite (raster com valores atribuídos à área da célula - pixels):</p>
 <ol style="list-style-type: decimal">
 <li><p><strong>Resolução espacial</strong> corresponde ao tamanho elementar da superfície do solo medida, é expressa em unidades de comprimento e representa o comprimento de um lado do pixel (consulte a figura 9.3). Por exemplo, como você viu no módulo 3, o High Resolution Settlement Layer Data tem uma resolução espacial de 30 metros, ou seja, cada pixel do conjunto de dados estima o número de pessoas que vivem em um raio de 30 metros.</p></li>
-<li><p><strong>Resolução temporal</strong> está associada a imagens aéreas (imagens adquiridas por satélites, aviões, helicópteros, drones) e corresponde ao período entre 2 imagens consecutivas do mesmo ponto na Terra, tiradas nas mesmas condições (como tanto quanto possível), como a mesma aeronave, mesma altitude etc. Por exemplo, Landsat 8 tem uma resolução temporal de 16 dias, ou seja, cada ponto na Terra é revisitado pelo satélite Landsat 8 a cada 16 dias<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p></li>
+<li><p><strong>Resolução temporal</strong> está associada a imagens aéreas (imagens adquiridas por satélites, aviões, helicópteros, drones) e corresponde ao período entre 2 imagens consecutivas do mesmo ponto na Terra, tiradas nas mesmas condições (como tanto quanto possível), como a mesma aeronave, mesma altitude etc. Por exemplo, Landsat 8 tem uma resolução temporal de 16 dias, ou seja, cada ponto na Terra é revisitado pelo satélite Landsat 8 a cada 16 dias<a href="plugins-qgis.html#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p></li>
 <li><p><strong>Resolução espectral</strong> - os sensores a bordo de satélites ou aviões capturam a radiação eletromagnética proveniente de todos os objetos na Terra - água, assentamentos, florestas, estradas, edifícios, terra nua etc. - e os sensores são especificamente construídos para capturá-la em uma determinada banda espectral conhecida (ou comprimento de onda). O olho humano pode ver uma parte muito pequena do espectro eletromagnético - a luz visível (vermelha, verde e azul), mas os sensores podem ‘ver’ muito mais! (ver figura 9.4)</p></li>
 </ol>
 <div class="figure">
@@ -735,7 +735,7 @@ Mistura de tipos de floresta
 </td>
 </tr>
 </table>
-<p>Para organizar melhor suas camadas, agrupe-as por categoria, da seguinte maneira: para as 5 camadas raster de cobertura de terra, crie um grupo denominado Cobertura de Terra (Land Cover) (no Painel de Camadas, clique no botão Adicionar Grupo<img src="media/modulo9/add-group-btn.png" title="Botão Adicionar Grupo" alt="Botão Adicionar Grupo" />). Para o modelo de superfície digital, crie um grupo denominado JAXA <a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> SRTM DEM.</p>
+<p>Para organizar melhor suas camadas, agrupe-as por categoria, da seguinte maneira: para as 5 camadas raster de cobertura de terra, crie um grupo denominado Cobertura de Terra (Land Cover) (no Painel de Camadas, clique no botão Adicionar Grupo<img src="media/modulo9/add-group-btn.png" title="Botão Adicionar Grupo" alt="Botão Adicionar Grupo" />). Para o modelo de superfície digital, crie um grupo denominado JAXA <a href="plugins-qgis.html#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> SRTM DEM.</p>
 <p>Não se esqueça de adicionar também o limite da área de trabalho, cidade do Rio de Janeiro, que é um conjunto de dados vetoriais.</p>
 <p>A janela do seu mapa QGIS deve ser semelhante à figura 9.6, talvez em cores ligeiramente diferentes.</p>
 <div class="figure">
@@ -827,7 +827,7 @@ Mistura de tipos de floresta
 <p class="caption">Selecionando as camadas SRTM para mesclar</p>
 </div>
 <p>Figura 9.15a - Selecionando as camadas SRTM para mesclar</p>
-<p>[Parâmetros do algoritmo de processamento de mesclagem](media/modulo9/fig915_b.png " Parâmetros do algoritmo de processamento de mesclagem ")</p>
+<p>[Parâmetros do algoritmo de processamento de mesclagem](media/modulo9/fig915_b.png ” Parâmetros do algoritmo de processamento de mesclagem “)</p>
 <p>Figura 9.15b - Parâmetros do algoritmo de processamento de mesclagem</p>
 <div class="figure">
 <img src="media/modulo9/fig915_c.png" title="Mosaico de todos os arquivos DSM correspondentes à nossa região de trabalho" alt="" />
@@ -1002,7 +1002,7 @@ Mistura de tipos de floresta
 <p class="caption">Camadas raster cortadas pelo contorno da cidade do Rio de Janeiro</p>
 </div>
 <p>Figura 9.24 - Camadas raster cortadas pelo contorno da cidade do Rio de Janeiro.</p>
-<p>Agora, imagine que você tenha que apresentar um relatório sobre onde a maioria das pessoas está morando, mas levando em consideração a altitude<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Você deve saber quantas pessoas vivem entre 0 e 200 m de altitude na cidade do Rio de Janeiro. Existem alguns elementos a serem considerados. Em primeiro lugar, quais são os dados que iremos utilizar e quais são as suas características. Para população, temos os dados da camada HRSL e, para relevo, temos o ALOS World 3D - 30m (AW3D30). Ambas as camadas raster possuem resolução espacial de 30m, o que nos permite prosseguir com outras considerações. O relevo é um fenômeno contínuo, a distribuição da população não, mas o relatório não faria sentido sendo feito pelo pixel de 30m. Precisamos identificar todos os pixels com valores de célula de 0 a 200. Considerando o histograma de DSM para nossa região de interesse, vimos que a maioria dos valores de célula está entre 0 e 200m. Podemos proceder à confecção de um mapa de relevo básico com base nas seguintes divisões:</p>
+<p>Agora, imagine que você tenha que apresentar um relatório sobre onde a maioria das pessoas está morando, mas levando em consideração a altitude<a href="plugins-qgis.html#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Você deve saber quantas pessoas vivem entre 0 e 200 m de altitude na cidade do Rio de Janeiro. Existem alguns elementos a serem considerados. Em primeiro lugar, quais são os dados que iremos utilizar e quais são as suas características. Para população, temos os dados da camada HRSL e, para relevo, temos o ALOS World 3D - 30m (AW3D30). Ambas as camadas raster possuem resolução espacial de 30m, o que nos permite prosseguir com outras considerações. O relevo é um fenômeno contínuo, a distribuição da população não, mas o relatório não faria sentido sendo feito pelo pixel de 30m. Precisamos identificar todos os pixels com valores de célula de 0 a 200. Considerando o histograma de DSM para nossa região de interesse, vimos que a maioria dos valores de célula está entre 0 e 200m. Podemos proceder à confecção de um mapa de relevo básico com base nas seguintes divisões:</p>
 <ol style="list-style-type: decimal">
 <li>0 - 50m</li>
 <li>51 - 100m</li>
@@ -1017,7 +1017,7 @@ Mistura de tipos de floresta
 <p class="caption">Representação Clipped_Reprojected_SRTM_DEM</p>
 </div>
 <p>Figura 9.25 - Representação Clipped_Reprojected_SRTM_DEM</p>
-<p>Para calcular o número de pessoas com base nos dados raster HRSL que vivem até 200 metros de altitude na cidade do Rio de Janeiro, devemos ver quais pixels se enquadram em cada uma dessas categorias. Para fazer isso, usaremos a <strong>Calculadora Raster</strong>. Esta é uma funcionalidade que permite ao usuário realizar cálculos com base nos valores de pixel raster existentes. Os resultados são gravados em uma nova camada raster em um formato compatível com GDAL<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>Para calcular o número de pessoas com base nos dados raster HRSL que vivem até 200 metros de altitude na cidade do Rio de Janeiro, devemos ver quais pixels se enquadram em cada uma dessas categorias. Para fazer isso, usaremos a <strong>Calculadora Raster</strong>. Esta é uma funcionalidade que permite ao usuário realizar cálculos com base nos valores de pixel raster existentes. Os resultados são gravados em uma nova camada raster em um formato compatível com GDAL<a href="plugins-qgis.html#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
 <p>Existem várias maneiras de abrir o calclulator raster no QGIS. Você pode fazer isso na barra de menus <strong>Raster ‣ Raster Calculadora</strong> ou pesquisando na calculadora raster na caixa de ferramentas de processamento ou na barra localizadora. Se executarmos a Calculadora Raster sob análise Raster na Caixa de Ferramentas de Processamento, a janela da Figura 9.26b deve aparecer.</p>
 <div class="figure">
 <img src="media/modulo9/fig926_a.png" title="Abrindo a calculadora raster" alt="" />
@@ -1148,7 +1148,7 @@ Mistura de tipos de floresta
 <p>Figura 9.38 - Exemplo de diferentes resoluções específicas para diferentes imagens de satélite - Landsat e SPOT - para a mesma área</p>
 <p>(Crédito da foto: Congedo, L. e Munafò, M, (2013) Avaliação da Mudança da Cobertura do Solo Usando Sensoriamento Remoto: Objetivos, Métodos e Resultados, Roma: Sapienza University. Disponível em: <a href="http://www.planning4adaptation.eu/" class="uri">http://www.planning4adaptation.eu/</a>)</p>
 <p>A Figura 9.38 detalha a relação entre a resolução das imagens de satélite e informações de cobertura do solo extraídas dessas imagens capturadas. Lembre-se, conforme detalhamos no início, que o valor da célula de pixel é atribuído a toda a área que cobre, mas isso não significa que essa seja a realidade no terreno. Estas representam decisões tomadas pelos especialistas que derivam vários produtos com base em imagens de observação da Terra - todos documentados em artigos revisados ​​por pares e descrições de algoritmos. Outras explicações estão além do escopo deste módulo, mas é importante ter em mente a relação entre o que um sensor a bordo de um satélite captura e os produtos que usamos.</p>
-<p>Voltando à nossa região de interesse - a cidade do Rio de Janeiro - podemos testar essas diferenças com os dados de que dispomos. Carregamos em nosso projeto QGIS as 5 camadas raster de LandCover por 5 anos: 2015, 2016, 2017, 2018 e 2019. Em seguida, carregaremos um mosaico de imagens do Sentinel-2<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>. Vamos carregar a camada WMS EOX Sentinel-2 sem nuvem, disponível <a href="https://s2maps.eu/">aqui</a>. Lembrando do módulo 2, para adicionar uma camada WMS, vá para <strong>Camada ‣ Adicionar camada ‣ Adicionar camada WM/WMTS ..</strong></p>
+<p>Voltando à nossa região de interesse - a cidade do Rio de Janeiro - podemos testar essas diferenças com os dados de que dispomos. Carregamos em nosso projeto QGIS as 5 camadas raster de LandCover por 5 anos: 2015, 2016, 2017, 2018 e 2019. Em seguida, carregaremos um mosaico de imagens do Sentinel-2<a href="plugins-qgis.html#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>. Vamos carregar a camada WMS EOX Sentinel-2 sem nuvem, disponível <a href="https://s2maps.eu/">aqui</a>. Lembrando do módulo 2, para adicionar uma camada WMS, vá para <strong>Camada ‣ Adicionar camada ‣ Adicionar camada WM/WMTS ..</strong></p>
 <p>Quando a janela adicionar abrir, use os seguintes parâmetros:</p>
 <pre><code>Nome: EOX Sentinel-2
 URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</code></pre>
@@ -1377,17 +1377,6 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 ## Notas</p>
 
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p>Uma operação primitiva é um cálculo básico executado por um algoritmo.<a href="processamento-e-análise-raster.html#fnref1" class="footnote-back">↩︎</a></p></li>
-<li id="fn2"><p>A resolução temporal depende da latitude.<a href="processamento-e-análise-raster.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p>JAXA é a Agência Japonesa de Exploração Aeroespacial<a href="processamento-e-análise-raster.html#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p>Para o propósito deste exercício, consideraremos o DSM como um modelo de elevação digital. Para obter mais detalhes sobre as diferenças, consulte a Divisão de conceitos seção<a href="processamento-e-análise-raster.html#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p>A Geospatial Data Abstraction Library (GDAL) é uma biblioteca de software de computador para leitura e gravação de formatos de dados geoespaciais vetoriais e raster.<a href="processamento-e-análise-raster.html#fnref5" class="footnote-back">↩︎</a></p></li>
-<li id="fn6"><p>O Sentinel-2 é uma missão de observação da Terra do Programa Copernicus que adquire sistematicamente imagens ópticas em alta resolução espacial (10 ma 60 m) em águas terrestres e costeiras. Para mais detalhes, acesse <a href="https://sentinel.esa.int/web/sentinel/missions/sentinel-2">aqui</a>.<a href="processamento-e-análise-raster.html#fnref6" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
             </section>
 

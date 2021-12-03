@@ -43,7 +43,7 @@ As ferramentas e recursos necessários para este módulo são:
 * Open source definition - [https://opensource.org/osd](https://opensource.org/osd)
 
 
-### Introdução temática
+## Introdução temática
 
 Vamos começar com um exemplo:
 
@@ -53,18 +53,13 @@ The True Size Of ("O verdadeiro tamanho de") ([https://thetruesize.com/](https:/
 
 ![True Size Of](media/modulo0/true-size-of.png "O verdadeiro tamanho dos países")
 
-#### Detalhando os conceitos
 
 Então por que isso acontece? Como você aprenderá neste módulo, é difícil representar a forma tridimensional da Terra em uma folha de papel plana. Para fazer isso, os cartógrafos usam o que é chamado de **projeção cartográfica**, para projetar os pontos da superfície tridimensional da Terra em uma superfície plana. No entanto, ao fazer isso, eles introduzem alguma **distorção**. Essa distorção pode ser de forma, tamanho, direção e distâncias dos objetos representados no mapa. Todos os mapas têm pelo menos uma dessas distorções. Por causa dessa distorção, um mapa nunca pode mostrar toda a verdade sobre a Terra.
 
 No mapa online que usamos, o mapa de fundo que não muda de tamanho (em cinza) é um exemplo de **dados raster**. Os dados raster são representações do mundo baseadas em pixels, semelhantes a como fotografias funcionam. Enquanto isso, a forma dos países que podemos mover são exemplos de **dados vetor, ou vetoriais**. Os dados vetoriais, ao contrário dos rasters, representam o mundo usando objetos discretos (no sentido matemático da palavra), como pontos, linhas e polígonos.
 
 
-### Conteúdo principal
-
-#### Título da Fase 1: Mapas e Coordenadas
-
-##### Conteúdo / Tutorial
+## Mapas e Coordenadas
 
 Quando as pessoas pensam na Terra atualmente, elas geralmente imaginam uma massa esférica azul, verde, branca e marrom flutuando no espaço. É por isso que tradicionalmente usamos globos para representar a Terra.
 
@@ -90,7 +85,7 @@ No entanto, embora o globo seja capaz de capturar a maioria das características
 É aqui que entram os mapas. Os mapas corrigem essas duas desvantagens dos globos, representando a Terra como uma superfície plana. Ao fazer isso, os mapas se tornam portáteis e adequados para uma infinidade de usos. Dito isso, os mapas também apresentam uma desvantagem própria. Através do processo de conversão de um objeto tridimensional (globo) em um bidimensional (mapa), distorções são geradas, de tal forma que é impossível para um mapa capturar perfeitamente as diferentes características da Terra (ou seja, formas, áreas e direções).
 
 
-###### Projeções cartográficas
+### Projeções cartográficas
 
 Uma projeção cartográfica é usada para achatar a superfície da Terra (ou de um globo qualquer) em um plano, a fim de criar um mapa. Este processo de transformação gera distorção.
 
@@ -251,7 +246,7 @@ A projeção de um mapa também pode ser classificada de acordo com seu **aspect
 Figura 10. Aspectos de uma projeção cartográfica
 
 
-###### Sistemas de referência de coordenadas
+### Sistemas de referência de coordenadas
 
 Um **Sistema de Referência de Coordenadas (SRC, ou CRS na sigla em inglês)** é usado para especificar a localização de um objeto na superfície da Terra por meio do uso de coordenadas. SRCs podem ser classificados em dois:
 
@@ -274,7 +269,7 @@ Alguns códigos EPSG comuns incluem:
 *   **EPSG: 4674** - Sistema de Referência SIRGAS 2000, utilizado nas Américas a partir do ano 2000
 
 
-##### Quiz
+### Quiz
 
 1. Que tipo de projeção é melhor para os seguintes casos?
     1. um mapa de uso geral que precisa ter uma aparência agradável
@@ -288,9 +283,7 @@ Alguns códigos EPSG comuns incluem:
     7. Distância e direção
 
 
-#### Título da fase 2: Tipos de dados espaciais
-
-##### Conteúdo / Tutorial
+## Tipos de dados espaciais
 
 Em sua essência, um Sistema de Informação Geográfica (SIG) deve ser capaz de modelar objetos, informações e fenômenos do mundo real, como limites de lotes, rios, estradas, temperatura, etc. Ele faz isso por meio de modelos de dados espaciais.
 
@@ -304,7 +297,7 @@ Os modelos de dados espaciais são compostos de dois componentes principais que,
 Existem dois modelos principais de dados espaciais: **raster** e **vetorial**. Embora qualquer objeto do mundo real possa ser representado por qualquer um dos dois modelos de dados, um deles é geralmente melhor para representar certos objetos do mundo real do que o outro.
 
 
-###### Dados raster
+### Dados raster
 
 Os dados raster são mais utilizados para representar fenômenos contínuos, como elevação ou temperatura.
 
@@ -320,7 +313,7 @@ Figura 12. Um raster consiste em pixels de tamanhos iguais em linhas e colunas.
 Um pixel raster pode conter apenas um valor de cada vez. Assim, um raster pode modelar apenas um objeto ou fenômeno por vez.
 
 
-###### Dados vetoriais
+### Dados vetoriais
 
 Os dados vetoriais são mais utilizados para representar objetos discretos.
 
@@ -336,7 +329,7 @@ Figura 13. Um vetor consiste em feições com seus atributos correspondentes.
 Comparado aos pixels raster, uma feição vetorial pode conter mais de um valor por vez. Esses valores são armazenados como colunas na tabela de atributos. Cada feição é armazenada como uma linha.
 
 
-##### Quiz
+### Quiz
 
 1. Qual tipo de dado pode representar melhor os seguintes objetos / fenômenos:
     1. estradas
@@ -345,9 +338,7 @@ Comparado aos pixels raster, uma feição vetorial pode conter mais de um valor 
     4. perigo de inundação
 
 
-#### Título da Fase 3: Sistema de Informação Geográfica (SIG)
-
-##### Conteúdo / Tutorial
+## Sistema de Informação Geográfica (SIG)
 
 As informações geográficas e de localização tornaram-se onipresentes no século 21 em todos os níveis de granularidade. Temos satélites, aeronaves e até drones comerciais que são capazes de capturar grandes quantidades de dados brutos em grandes áreas por longos períodos de tempo. Existem também sensores que coletam e reúnem informações de localização, como o GPS e outros aplicativos em nossos telefones e dispositivos.
 
@@ -372,16 +363,14 @@ _SIG não é apenas mapeamento_. Embora a elaboração de mapas seja um dos aspe
 Todas as partes da estrutura SIG moderna - dos dados às pessoas - são essenciais para garantir seu sucesso.
 
 
-##### Perguntas do questionário
+### Perguntas do questionário
 
 1. Verdadeiro ou falso:
     1. Um SIG só pode ser usado com dados geoespaciais.
     2. Um mapa é sempre o resultado ao se usar um SIG.
     3. Aprender SIG é difícil e caro.
 
-#### Título da Fase 4 (adicional): Software Livre e de Código Aberto para uso Geoespacial (FOSS4G)
-
-##### Conteúdo / Tutorial
+## Software Livre e de Código Aberto para uso Geoespacial (FOSS4G)
 
 QGIS é apenas um exemplo de software livre e de código aberto para uso geoespacial (FOSS4G). Outros exemplos de FOSS4G são GRASS, PostGIS, GeoServer, GeoNode, etc. Esses aplicativos FOSS4G são ótimas ferramentas para trabalhar não só porque são confiáveis, mas também porque, sendo gratuitos e de código aberto, têm uma barreira de entrada menor e são altamente personalizáveis para qualquer necessidade. Você pode encontrar uma variedade de softwares geoespaciais gratuitos e de código aberto para cada necessidade e para cada parte do "stack" geoespacial.
 
@@ -391,7 +380,7 @@ QGIS é apenas um exemplo de software livre e de código aberto para uso geoespa
 Figura 14. Uma amostra de stack geoespacial de código aberto (ou FOSS4G) (de Simon Nitz ([https://twitter.com/si_nitz?lang=en](https://twitter.com/si_nitz?lang=en)))
 
 
-###### Software grátis
+### Software grátis
 
 __Livre como em liberdade e não apenas grátis.__
 
@@ -405,33 +394,18 @@ Software livre é o software que adere às Quatro Liberdades Essenciais do Softw
 4. A liberdade de distribuir cópias de suas versões modificadas para outros (liberdade 3). Ao fazer isso, você pode dar a toda a comunidade a chance de se beneficiar com suas mudanças. O acesso ao código-fonte é uma pré-condição para isso.
 
 
-###### Código aberto
+### Código aberto
 
 Softwares de código aberto são aqueles que possuem licenças que permitem uso sem precisar pagar royalties e que permitem a reutilização do software, juntamente com acesso livre ao código-fonte. Por convenção, essas licenças de código aberto são aquelas que estão em conformidade com a definição de código aberto prevista pela Open Source Initiative. O código-fonte aberto não só garante acesso gratuito ao software e código-fonte, mas também a capacidade de redistribuir o software sem custos adicionais.
 
 Por causa da natureza aberta do software de código aberto, ele também é um ótimo modelo de desenvolvimento de software, no qual todos são livres para atualizar, melhorar, modificar e compartilhar suas modificações com a comunidade.
 
 
-###### OSGeo
+### OSGeo
 
 Existem muitos softwares geoespaciais de código aberto e, às vezes, a parte mais difícil é saber onde e como começar a trabalhar com esses softwares. Felizmente, a Open Source Geospatial Foundation (OSGeo) ([https://www.osgeo.org/](https://www.osgeo.org/)) existe para ajudar a promover a adoção global de tecnologia geoespacial aberta e apoiar o desenvolvimento dessas tecnologias.
 
 
-##### Perguntas do questionário
-
-N/D
-
-
-#### Se você quiser ir mais longe
+## Se você quiser ir mais longe
 
 Se você quiser testar usar aplicativos FOSS4G facilmente, experimente o OSGeoLive ([https://live.osgeo.org/en/index.html](https://live.osgeo.org/en/index.html)) que é uma distribuição Linux (sistema operacional) que vem pré-instalado com QGIS, GRASS e outros aplicativos FOSS4G.
-
-
-#### Para praticar suas novas habilidades, tente...
-
-N/D
-
-
-#### Dicas
-
-N/D
