@@ -2,6 +2,7 @@
 argentina/**/data
 bangladesh/**/data
 brazil/**/data
+brazil/ebook-qgis/_book
 egypt/**/data
 ethiopia/**/data
 germany/**/data
@@ -27,3 +28,4 @@ south-africa/module4/data/HRSL_Gauteng_Population*
 south-africa/module5/data/HRSL_Gauteng_Population*
 south-africa/module6/data/HRSL_Gauteng_Population*
 south-africa/module7/data/HRSL_Gauteng_Population*
+.Rproj.user
