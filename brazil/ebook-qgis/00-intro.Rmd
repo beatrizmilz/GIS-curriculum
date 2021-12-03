@@ -117,7 +117,7 @@ Ao escolher qual projeção cartográfica usar, é importante que você consider
 
 Existem várias classificações de projeções cartográficas. A primeira é baseada nas **características que elas preservam**.
 
-*   Projeções de mapa **conforme** ou **ortomórficas** são aquelas que preservam a forma ou a conformidade angular. Estes são comumente usados para fins de navegação ou meteorológicos. As formas são preservadas, mas as áreas são distorcidas. Quanto maior a área, maior a distorção.
+*   Projeções de mapa **conforme** ou **ortomórficas** são aquelas que preservam a forma ou a conformidade angular. Estes são comumente usados para fins de navegação ou meteorológicos. As formas são preservadas, mas as áreas são distorcidas. Quanto maior a área, maior a distorção.
 *   Projeções de mapa de **equivalente** ou **de igual área** são aquelas que preservam a proporção ou áreas relativas dos objetos no mapa. Nesse tipo de projeção cartográfica, quanto maior a área mapeada, mais precisa ela será.
 *   As projeções cartográficas **equidistantes** preservam a distância das linhas que originam em um ou dois pontos no mapa ou têm escala adequada ao longo de uma ou mais linhas.
 *   As projeções cartográficas **azimutais** preservam a direção a partir de um ou dois pontos no mapa. São úteis para mapear rotas de aeronaves e embarcações marítimas entre portos.
