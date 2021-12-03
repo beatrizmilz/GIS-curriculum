@@ -11,6 +11,6 @@ description: |
   The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: escola-de-dados/GIS-curriculum
 ---
 
