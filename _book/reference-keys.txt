@@ -227,11 +227,10 @@ introdução-pedagógica-9
 adquirir-as-seguintes-habilidades
 ferramentas-e-recursos-necessários-9
 pré-requisitos-10
-conteúdo-principal-1
-fase-1-introdução-à-mentalidade-do-plugin
+introdução-à-mentalidade-do-plugin
 o-gerenciador-de-plugins
 perguntas-do-questionário-18
-fase-2-alguns-plugins-interresantes
+alguns-plugins-interesantes
 discovery
 polygon-divider
 load-them-all

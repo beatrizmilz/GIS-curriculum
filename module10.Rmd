@@ -7,7 +7,7 @@
 Este módulo irá destacar alguns dos plugins mais interessantes e úteis que a comunidade internacional QGIS desenvolveu e disponibilizou para todos usarem. Neste módulo, você irá:
 
 
-## Adquirir as seguintes habilidades:
+### Adquirir as seguintes habilidades:
 
 * Como pesquisar e instalar um novo plugin
 * Como alternar entre os diferentes repositórios de plugins
@@ -15,21 +15,18 @@ Este módulo irá destacar alguns dos plugins mais interessantes e úteis que a 
 * Detalhes sobre algumas das funcionalidades de plugins mais populares.
 
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 * Este módulo foi preparado usando [QGIS versão 3.16.1 - Hannover](https://qgis.org/en/site/forusers/download.html)
 
 
-## Pré-requisitos:
+### Pré-requisitos:
 
 * Conhecimento básico de operação um computador
 * Uma compreensão robusta de todos os módulos, pois os plugins que apresentaremos se aplicam a várias noções / elementos que você aprendeu ao longo deste currículo, como vetores, rasters, tabelas de atributos, regras cartográficas e muitos outros.
 
 
-## Conteúdo principal
-
-
-### Fase 1: Introdução à mentalidade do plugin
+## Introdução à mentalidade do plugin
 
 Uma das muitas vantagens da comunidade de código aberto - composta por desenvolvedores e usuários - é a incrível velocidade com que os desenvolvimentos e melhorias acontecem, e a maneira como novas ideias surgem e são colocadas em prática.
 
@@ -147,7 +144,7 @@ Detalhar como relatar um problema de software no Github excede o escopo deste m�
 * Título e descrição, número de downloads, página inicial, links do repositório de código, nome do desenvolvedor, uma descrição resumida.
 
 
-### Fase 2: Alguns plugins interresantes
+## Alguns plugins interesantes
 
 Plugins podem ser classificados em várias categorias, dependendo do que se considera importante. A seguir, identificamos os 2:
 
@@ -174,7 +171,7 @@ Embora na descrição não haja nenhuma menção sobre isso, vá para a página 
 Nas páginas a seguir, identificaremos e forneceremos exemplos curto de alguns plugins que consideramos úteis. Por favor, tenha em mente que esta é uma pequena lista do extenso universo de plugins, então fique à vontade para explorar mais.
 
 
-#### **Discovery**
+### **Discovery**
 
 
 ![Alt_text](media/modulo10/fig109_a.png "image_tooltip")
@@ -211,7 +208,7 @@ O plugin oferece a possibilidade de encontrar vetores por pesquisa de texto junt
 Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique o plugin Discovery [página da web](https://www.lutraconsulting.co.uk/projects/discovery/).
 
 
-#### **Polygon Divider**
+### **Polygon Divider**
 
 
 ![Alt_text](media/modulo10/fig1010_a.png "image_tooltip")
@@ -242,7 +239,7 @@ Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mai
 
 
 
-#### **Load Them All**
+### **Load Them All**
 
 
 ![Alt_text](media/modulo10/fig1011_a.png "image_tooltip")
@@ -275,7 +272,7 @@ Figura 10.11d - Usando o plugin Load Them All para carregar vários rasters
 Para obter uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique a [página da web do plugin](https://github.com/gacarrillor/loadthemall).
 
 
-#### **Raster tracer**
+### **Raster tracer**
 
 
 ![Alt_text](media/modulo10/fig1012_a.png "image_tooltip")
@@ -316,7 +313,7 @@ A figura 10.12d apresenta o resultado.
 Figura 10.12d - Linha desenhada semiautomática seguindo a cor indicada.
 
 
-#### **Active Fire**
+### **Active Fire**
 
 
 ![ALT_TEXT](media/modulo10/fig1013_a.png "image_tooltip")
@@ -337,7 +334,7 @@ Figura 10.13b - Usando o plugin Active Fire para carregar produtos de incêndio 
 O plugin também calcula o número de pixels de incêndio registrados.
 
 
-#### **[Qgis2web](https://github.com/tomchadwin/qgis2web)**
+### **[Qgis2web](https://github.com/tomchadwin/qgis2web)**
 
 
 ![Alt_text](media/modulo10/fig1014_a.png "image_tooltip")
@@ -378,7 +375,7 @@ Este plugin QGIS é uma ótima ferramenta para ajudá-lo a preparar seus mapas p
 Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique a qgis2web [página da web](https://github.com/tomchadwin/qgis2web).
 
 
-#### **DataPlotly**
+### **DataPlotly**
 
 
 ![Alt_text](media/modulo10/fig1015_a.png "image_tooltip")
@@ -502,7 +499,7 @@ Figura 10.15p - Subplots em uma linha
 Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique o DataPlotly [webpage](https: // github .com / ghtmtt / DataPlotly).
 
 
-#### **Plugin QuickMapServices / OpenLayers**
+### **Plugin QuickMapServices / OpenLayers**
 
 
 ![Alt_text](media/modulo10/fig1016_a1.png "image_tooltip")
@@ -540,7 +537,7 @@ Figura 10.16d - Dados vetoriais carregados (estradas) sobrepostos ao mapa OSM St
 Para uma descrição detalhada dos recursos dos plugins, juntamente com um tutorial mais abrangente, verifique seus página da web: [QuickMapServices](https://nextgis.com/blog/quickmapservices/) e [OpenLayer Plugin](https://github.com/sourcepole/qgis-openlayers-plugin).
 
 
-#### **Table2Style**
+### **Table2Style**
 
 
 ![Alt_text](media/modulo10/fig1017_a.png "image_tooltip")
@@ -797,7 +794,7 @@ Figura 10.17g - Conjunto de dados raster estilizado automaticamente usando o plu
 Para uma descrição detalhada do plugin veja [https://github.com/ptarroso/table2style](https://github.com/ptarroso/table2style).
 
 
-#### **ORS Tools**
+### **ORS Tools**
 
 
 ![Alt_text](media/modulo10/fig1018_a.png "image_tooltip")
@@ -890,11 +887,11 @@ O plugin, assim como o openroutingservice, tem mais a oferecer, mas deixamos voc
 #### **Perguntas do questionário**
 
 1. Os plugins QGIS podem ser executados fora da plataforma QGIS?
-* _ <span style = "text-decoration: underline;"> Não </span>. _
-* _Sim. _
+* <span style = "text-decoration: underline;"> Não </span>
+* _Sim_
 2. Para usar um plugin QGIS, é necessário aprender a programar.
-* _ <span style = "text-decoration: underline;"> Não. </span> _
-* _Sim. _
+* <span style = "text-decoration: underline;"> Não </span>
+* _Sim_
 3. É altamente recomendável que todos os plugins sejam instalados através do Gerenciador de Plug-ins, mesmo se eles pudessem ser instalados baixando o arquivo zip e colocando-o na pasta QGIS correta.
-* _Não._
-* _ <span style = "text-decoration: underline;"> Sim. </span> _
+* Não
+* <span style = "text-decoration: underline;"> Sim </span>
