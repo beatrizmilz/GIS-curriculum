@@ -22,7 +22,7 @@ Eles também devem aprender:
 
 O módulo também irá discutir algumas nuances do QGIS e o que o torna único ou diferente de outros softwares GIS, como formatos de arquivo QGIS.
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 As ferramentas e recursos necessários para este módulo são:
 
@@ -31,17 +31,17 @@ As ferramentas e recursos necessários para este módulo são:
 *   QGIS 3.16 instalado no computador ([https://qgis.org/en/site/forusers/download.html](https://qgis.org/en/site/forusers/download.html))
 
 
-## Pré-requisitos
+### Pré-requisitos
 
 *   Conhecimento básico de informática
 
-## Recursos adicionais
+### Recursos adicionais
 
 * Manual do usuário QGIS - [https://docs.qgis.org/3.16/en/docs/user_manual/](https://docs.qgis.org/3.16/en/docs/user_manual/)
 * Manual de treinamento QGIS - [https://docs.qgis.org/3.16/en/docs/training_manual/index.html](https://docs.qgis.org/3.16/en/docs/training_manual/index.html )
 
 
-## Introdução temática
+### Introdução aos conceitos
 
 O mapa abaixo ([https://flic.kr/p/2jFfGJP](https://flic.kr/p/2jFfGJP)), de Andrés Felipe Lancheros Sánchez, mostra partes da cidade de Bogotá na Colômbia feitas no estilo da pintura "Noite estrelada" de Vincent van Gogh.
 
@@ -66,18 +66,14 @@ Este último ([https://flic.kr/p/2kqVzsg](https://flic.kr/p/v2kqVzsg)) é de ten
 O que todos esses mapas têm em comum? Todos eles foram feitos usando o QGIS.
 
 
-## Detalhamento dos conceitos
-
 Os mapas mostrados acima foram todos criados no QGIS ([https://qgis.org/en/site/](https://qgis.org/en/site/)), um Sistema de Informação Geográfica (SIG, ou GIS) gratuito e de código aberto. O QGIS pode ser usado com todos os tipos de dados espaciais (como dados de basquete no último exemplo) e não apenas com dados geoespaciais relacionados à Terra.
 
 As pessoas são capazes de criar mapas maravilhosos e surpreendentes, como os exemplos acima, porque o QGIS é gratuito, de código aberto e possui recursos poderosos de gerenciamento de dados, análise e apresentação.
 
 
-## Conteúdo principal
+## Introdução ao QGIS e à interface do QGIS
 
-### Título da fase 1: Introdução ao QGIS e à interface do QGIS
-
-#### **O que é o QGIS**
+### **O que é o QGIS**
 
 **QGIS**, conhecido como Quantum GIS antes de seu lançamento 2.X, é um Sistema de Informação Geoespacial (GIS) maduro, multiplataforma, gratuito e de código aberto.
 
@@ -86,7 +82,7 @@ As pessoas são capazes de criar mapas maravilhosos e surpreendentes, como os ex
 Por ser multiplataforma, o QGIS pode ser executado em GNU / Linux, macOS, Windows e até mesmo Android.
 
 
-#### **Ciclo de lançamento e versões**
+### **Ciclo de lançamento e versões**
 
 Os lançamentos e o desenvolvimento do QGIS seguem um cronograma / roteiro baseado no tempo ([https://www.qgis.org/en/site/getinvolved/development/roadmap.html](https://www.qgis.org/en/site/ getinvolved / development / roadmap.html)).
 
@@ -107,7 +103,7 @@ Então, qual versão você deve usar? Depende. Se você precisa de uma versão q
 Para obter mais informações, visite: [https://bnhr.xyz/2020/10/26/about-qgis-versions-release-cycle-english.html](https://bnhr.xyz/2020/10/26/ about-qgis-versions-release-cycle-english.html)
 
 
-#### **Exemplos de mapas QGIS**
+### **Exemplos de mapas QGIS**
 
 
 ![QGIS Map Showcase](media/modulo1/qgis-map-showcase.png "QGIS Map Showcase")
@@ -117,7 +113,7 @@ Figura 1.1. Demonstração do mapa QGIS
 Para mais mapas criados com o QGIS, visite: [https://www.flickr.com/groups/2244553@N22/pool/with/50355460063/](https://www.flickr.com/groups/2244553@N22/ piscina/com/50355460063/)
 
 
-#### **Instalando o QGIS**
+## **Instalando o QGIS**
 
 QGIS é multiplataforma e funciona em Linux, Windows e macOS. Sendo de código aberto, você pode construir e instalar o QGIS a partir de seu código-fonte, disponível em [https://github.com/qgis/QGIS/](https://github.com/qgis/QGIS/).
 
@@ -140,7 +136,7 @@ Observe que o QGIS está [removendo lentamente o suporte de 32 bits para Windows
 Para o **macOS**, existem instaladores oficiais "All-in-one" assinados para macOS High Sierra (10.13) e mais recentes. O QGIS ainda não foi autenticado conforme exigido pelas regras de segurança do macOS Catalina (10.15). Na primeira inicialização, clique com o botão direito no ícone do aplicativo QGIS, segure a tecla Option e escolha Abrir.
 
 
-#### **Partes da interface do QGIS**
+### **Partes da interface do QGIS**
 
 Depois de instalar o QGIS, você pode executá-lo ou abri-lo como faria com qualquer programa em seu computador. Ao abrir o QGIS, você será saudado com a Interface do Usuário (IU, ou UI em inglês) padrão que se parecerá com a abaixo.
 
@@ -178,7 +174,7 @@ Uma das belezas do QGIS é a personalização ele que oferece aos seus usuários
 Figura 1.4. A interface QGIS com algumas personalizações
 
 
-#### **Tutorial / Exercício 1: Mudando a aparência e layout da interface QGIS**
+### **Tutorial / Exercício 1: Mudando a aparência e layout da interface QGIS**
 
 1. Abra o **QGIS**
 2. Clique no menu **Visão**
@@ -201,7 +197,7 @@ Figura 1.4. A interface QGIS com algumas personalizações
 Para redefinir sua tela para as configurações padrão, vá para **Configurações ‣ Opções ‣ Guia Sistema ‣ Configurações ‣ Botão Redefinir** e reinicie o QGIS.
 
 
-#### **Perguntas do questionário**
+### **Perguntas do questionário**
 
 1. Verdadeiro ou falso:
     1. Você pode ter várias telas de mapa - ***Verdadeiro***
@@ -209,7 +205,7 @@ Para redefinir sua tela para as configurações padrão, vá para **Configuraç�
     3. Você só pode colocar painéis no lado esquerdo ou direito da tela do mapa - ***Falso (você também pode colocar painéis acima ou abaixo da tela do mapa)***
 
 
-### Título da fase 2: Complementos (Complementos) QGIS
+## Complementos (Complementos) QGIS
 
 A capacidade de adicionar, criar e estender a funcionalidade do QGIS por meio de complementos (ou plug-ins) é um de seus recursos mais poderosos.
 
@@ -254,7 +250,7 @@ A **Barra de Pesquisa** permite que você pesquise complementos encontrados no(s
 Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 
 
-#### **Tutorial / Exercício 2: Instalando um complemento QGIS**
+### **Tutorial / Exercício 2: Instalando um complemento QGIS**
 
 1. Abra a caixa de diálogo **Gerenciar e instalar complementos** em **Complementos ‣ Gerenciar e instalar complementos** na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.
 
@@ -274,14 +270,14 @@ Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 3. Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em **Complementos ‣ Memory Layer Saver** na barra de menus, enquanto o plugin QuickOSM deve estar disponível em **Vetor ‣ QuickOSM** na barra de menus.
 
 
-#### **Perguntas do questionário**
+### **Perguntas do questionário**
 
 1. Verdadeiro ou falso
     1. Você pode remover ou desinstalar os complementos do Core - ***Falso***
     2. Você pode adicionar complementos que não são encontrados no repositório oficial de complementos do QGIS - ***Verdadeiro***
 
 
-### Título da Fase 3: Configurações QGIS
+## Configurações QGIS
 
 **Configurações do sistema e do projeto**
 
@@ -324,7 +320,7 @@ Figura 1.10. Acessando perfis de usuário
 
 Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em **Configurações ‣ Perfis de usuário ‣ Abrir pasta de perfil ativo**.
 
-#### **Tutorial / Exercício 03: Criando um Perfil de Usuário**
+### **Tutorial / Exercício 03: Criando um Perfil de Usuário**
 
 1. Vá para **Configurações ‣ Perfis de usuário ‣ Novo perfil ...**
 
@@ -340,16 +336,16 @@ Os perfis de usuário são salvos em um diretório em seu computador que pode se
 4. Você percebe alguma diferença no novo perfil do usuário? Verifique a interface do usuário, os complementos e as configurações do perfil antigo e do novo perfil que você criou.
 
 
-#### **Perguntas do questionário**
+### **Perguntas do questionário**
 
 1. Verdadeiro ou falso
     1. Você só pode ter um perfil de usuário no QGIS. - ***Falso (você pode ter vários perfis de usuário)***
     2. Você não pode substituir as configurações e propriedades do sistema. - ***Falso***
 
 
-### Título da Fase 4 (adicional): Formatos de arquivo do QGIS
+## Formatos de arquivo do QGIS
 
-#### **Arquivo de projeto QGIS (QGS / QGZ)**
+### **Arquivo de projeto QGIS (QGS / QGZ)**
 
 Projetos QGIS estão para QGIS como arquivos .mxd são para ArcMap. Esses arquivos vêm como **QGS (*.qgs)** ou **QGZ (*.qgz)**. A principal diferença entre os dois é que o formato QGZ é um arquivo compactado (zip) contendo um arquivo QGS e um arquivo QGD. O formato QGS é um formato XML para armazenar projetos QGIS. O arquivo QGD é o banco de dados sqlite associado do projeto QGIS que contém dados auxiliares para o projeto. Se não houver dados auxiliares, o arquivo QGD ficará vazio.
 
@@ -370,7 +366,7 @@ Um arquivo de projeto QGIS contém tudo o que é necessário para armazenar um p
 Os arquivos do projeto QGIS podem ser salvos em um banco de dados GeoPackage ou PostGIS. Salvar o arquivo do projeto junto com o arquivo de estilo e as camadas correspondentes em um único GeoPackage facilita o compartilhamento de projetos QGIS.
 
 
-#### **Definição da camada QGIS (QLR)**
+### **Definição da camada QGIS (QLR)**
 
 Um arquivo de definição de camada QGIS (**QLR**) é um arquivo XML que contém um ponteiro para a fonte de dados da camada, além das informações de estilo QGIS para a camada. Atualmente, um arquivo QLR corresponde a uma única camada apenas.
 
@@ -379,7 +375,7 @@ O caso de uso para este arquivo é simples: ter um único arquivo para abrir uma
 Um exemplo de uso de QLR é para abrir uma camada de um banco de dados PostGIS. Em vez de se conectar ao banco de dados, encontrar a camada e aplicar um filtro, você pode apenas abrir um arquivo .qlr que aponta para a camada PostGIS correta com seu estilo e filtro correspondentes.
 
 
-#### **Arquivo de estilo QGIS (QML)**
+### **Arquivo de estilo QGIS (QML)**
 
 **QML** é um formato XML para armazenar estilos de camadas. Um arquivo QML (.qml) contém todas as informações que dizem ao QGIS como renderizar geometrias de feições que incluem definições de símbolos, tamanhos e rotações, rótulos, opacidade, modo de mesclagem e muito mais.
 
@@ -390,7 +386,7 @@ Por exemplo, se você tiver um GeoJSON chamado `regioes.geojson` e um arquivo QM
 Ao usar GeoPackages (.gpkg), um arquivo .qml muitas vezes não é necessário, pois você pode salvar o estilo de uma camada diretamente no geopacote.
 
 
-### Se você quiser ir mais longe:
+## Se você quiser ir mais longe:
 
 Você pode tentar criar seu próprio plugin QGIS. Se não houver um complemento que faça o que você deseja, você pode criar um você mesmo.
 
@@ -408,8 +404,3 @@ Para obter mais informações, consulte: [https://bnhr.xyz/2018/10/08/qgis-plugi
 * Altere outras configurações do QGIS.
     * Crie um sistema de referência de coordenadas personalizado
     * Adicione uma tela inicial personalizada ([https://bnhr.xyz/2020/09/05/custom-splash-screen-qgis.html](https://bnhr.xyz/2020/09/05/custom-splash -screen-qgis.html))
-
-
-### Dicas
-
-N/D
