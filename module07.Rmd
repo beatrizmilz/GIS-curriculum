@@ -6,13 +6,13 @@
 
 Este módulo foi desenvolvido para te ensinar como usar as ferramentas QGIS para criar uma nova camada GIS. Nele, você aprenderá conceitos como digitalização e georreferenciamento.
 
-## Pré-requisitos
+### Pré-requisitos
 
 * Um bom conhecimento de todos os módulos anteriores
 * Conhecimento básico de operação de um computador
 
 
-## Recursos adicionais
+### Recursos adicionais
 
 * Criação de camadas - [https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html)
 * Digitalização de áreas florestais - [https://docs.qgis.org/3.16/en/docs/training_manual/forestry/stands_digitazing.html?highlight=digitizing](https://docs. qgis.org/3.16/en/docs/training_manual/forestry/stands_digitazing.html?highlight=digitizing)
@@ -32,7 +32,7 @@ Vamos imaginar que seu departamento esteja planejando construir novos hospitais 
 Figura 7.1: Imagens de sensoriamento remoto de diferentes áreas costeiras. A. Dados interferométricos do radar de abertura sintética (IFSAR) (usando microondas para coletar dados para a criação de imagens representativas), B. dados topográficos e batimétricos LIDAR (dados de altura e elevação representados por cores), C. imagens hiperespectrais (adicionando cor à energia invisível) , e D. fotografia digital (cores visíveis do olho humano representadas como elas próprias)
 
 
-## Detalhamento dos conceitos
+### Detalhamento dos conceitos
 
 Digitalizar em SIG é o processo de “traçar”, de forma geograficamente correta, informações de mídias/mapas. O processo de georreferenciamento conta com a coordenação de pontos na imagem digitalizada (dados a serem georreferenciados) com pontos em dados geograficamente referenciados (dados para os quais a imagem será georreferenciada). Ao “vincular” pontos na imagem com essas mesmas localizações nos dados geograficamente referenciados, você criará uma transformação que converte a localização de toda a imagem na localização geográfica correta.
 
@@ -44,16 +44,16 @@ Figura 7.2: Aqui, os edifícios foram digitalizado (traçados) em cima de uma fo
 Georreferenciamento, por outro lado, é o processo de obtenção de uma imagem digital, que pode ser por exemplo um mapa geológico digitalizado ou uma imagem de um mapa topográfico, e de adicionar informações geográficas à imagem para que o GIS ou software de mapeamento possam 'posicionar' a imagem em seu local correto no mundo real.
 
 
-## Conteúdo principal
+### Conteúdo principal
 
 O QGIS permite que você crie novas camadas em diferentes formatos. Ele fornece ferramentas para criar GeoPackage, Shapefile, SpatiaLite, formato GPX e camadas Temporary Scratch (também conhecidas como camadas de memória). A edição permite adicionar, excluir e modificar recursos em conjuntos de dados vetoriais. A primeira etapa é colocar o conjunto de dados no modo de edição. Selecione a camada no painel Camadas e clique em Camada | Alternar edição. Como alternativa, você pode clicar com o botão direito do mouse em uma camada no painel Camadas e escolher Alternar Edição no menu de contexto. Várias camadas podem ser editadas ao mesmo tempo. A camada que está sendo editada atualmente é aquela selecionada no painel Camadas. Uma vez no modo de edição, a barra de ferramentas de digitalização pode ser usada para adicionar, excluir e modificar recursos.
 
 Digitalizar, como você deve ter adivinhado, é a arte (ou ciência) de criar dados vetoriais digitais a partir de outra fonte, como uma imagem raster. Para começar a digitalização, devemos primeiro entrar no modo de edição. O software GIS geralmente requer um modo separado para edição, para evitar que os usuários editem ou apaguem acidentalmente dados importantes. O modo de edição é ativado ou desativado individualmente para cada camada.
 
 
-### Título da Fase 1: Criando uma nova camada GeoPackage ou Shapefile
+## Criando uma nova camada GeoPackage ou Shapefile
 
-#### **Criando uma nova camada GeoPackage**
+### **Criando uma nova camada GeoPackage**
 
 1. Para criar uma nova camada GeoPackage, pressione o botão Nova Camada GeoPackage ![Alt_text](media/modulo7/geopackage-button.png "image_tooltip")
  no menu Camada Criar Nova Camada ou na barra de ferramentas do Datasource Manager. A caixa de diálogo Nova Camada GeoPackage será exibida conforme mostrado na Figura 7.3.
@@ -78,7 +78,7 @@ Figura 7.3: Diálogo de nova camada GeoPackage
 8. Quando estiver satisfeito com os atributos, clique em OK. O QGIS adicionará a nova camada à legenda, e você poderá começar a editá-la.
 
 
-#### **Criando um novo Shapefile**
+### **Criando um novo Shapefile**
 
 1. Para criar uma nova camada de formato ESRI Shapefile, pressione ![Alt_text](media/modulo7/mActionNewVectorLayer.png "image_tooltip") Novo botão Shapefile Layer… no menu Camada ‣ Criar Nova Camada ‣ ou na barra de ferramentas Data Source Manager. A caixa de diálogo Nova Camada Shapefile será exibida conforme mostrado na Figura 7.4.
 
@@ -102,9 +102,9 @@ Figura 7.4: Diálogo da nova camada do shapefile
 9. Quando estiver satisfeito com os atributos, clique em OK. O QGIS adicionará a nova camada à legenda e você poderá editá-la conforme descrito a seguir, 'Digitalizando uma camada existente'.
 
 
-### Título da fase 2: digitalizando uma camada existente
+## Digitalizando uma camada existente
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 Este tutorial mostrará como criar um novo arquivo usando dados auxiliares, como imagens de satélite fornecidas pelo Google. É importante saber qual tipo de feições (geometrias) você gostaria de criar de antemão; por exemplo, seriam pontos, linhas ou polígonos? Quando criamos a camada, devemos definir que tipo de dados ela conterá. O objetivo deste tutorial é criar um tipo de dado que possa ser facilmente manipulado, analisado e armazenado em um sistema GIS, daí a necessidade de criar arquivos vetoriais. Criaremos recursos de polígono como exemplo.
 
@@ -235,9 +235,9 @@ Se você cometer um erro ao digitalizar um recurso, poderá editá-lo posteriorm
 17. Agora tente sozinho, digitalize todos os edifícios na imagem.
 
 
-### Título da Fase 3: Georreferenciando um mapa Topográfico
+## Georreferenciando um mapa Topográfico
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 Para georreferenciar o mapa;
 
