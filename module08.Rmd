@@ -114,7 +114,7 @@ Geoprocessamento é um termo geral usado para definir qualquer operação ou pro
 Figura 8.4 - Elementos de uma operação de geoprocessamento
 
 
-## Entendendo seus dados.
+## Entendendo seus dados
 
 Existem muitas operações de geoprocessamento que podem ser realizadas sobre dados vetoriais, as mais comuns sendo a sobreposição de feições geográficas, seleção e análise de recursos, processamento de topologia e conversão de dados. Nesta primeira fase, vamos nos familiarizar com alguns desses, entendendo como funcionam e quais os resultados que podemos esperar deles.
 
@@ -167,9 +167,9 @@ Descobrimos que a unidade de medida é o metro, portanto os comprimentos são me
 * Execute estatísticas básicas nas camadas carregadas para obter uma melhor compreensão de seus dados (figura 8.7):
 
 ```
-Menu de vetores ‣ Análise ‣ Campo para estatística básica
+Menu de vetores > Análise > Campo para estatística básica
 
-Janela da caixa de ferramentas de processamento ‣ pesquisa por 'stats'`
+Janela da caixa de ferramentas de processamento > pesquisa por 'stats'`
 ```
 
 ![Estatísticas básicas para campos](media/modulo8/fig87.png "Estatísticas básicas para campos")
@@ -352,7 +352,7 @@ Vamos executar mais um algoritmo para ter uma ideia de quais são os atributos d
 * camada road - atributo fclass;
 * camada landuse - atributo fclass;
 
-Para isso, vá para **Vetor ‣ Analisar ‣ Listar valores únicos** (figura 8.19). Depois, clique em "Executar processo em Lote...", na parte inferior da janela.
+Para isso, vá para **Vetor > Analisar > Listar valores únicos** (figura 8.19). Depois, clique em "Executar processo em Lote...", na parte inferior da janela.
 
 
 ![Listar valores únicos em uma funcionalidade de camada vetorial](media/modulo8/fig819_a.png "Listar valores únicos em uma funcionalidade de camada vetorial")
@@ -420,7 +420,7 @@ Tabela 8.1 - Tabela que identifica quantos e quais são os valores únicos para 
 
 Para uma análise mais aprofundada dos atributos de nossas camadas vetoriais, usaremos o plugin Group Stats. Ele foi desenvolvido para oferecer suporte ao cálculo de estatísticas para grupos de recursos em uma camada vetorial, tornando-o muito útil para obter mais compreensão de seus dados, bem como para detectar possíveis erros nos atributos.
 
-Primeiro, certifique-se de ter instalado e ativado o plugin Group Stats. Em seguida, para abrir a janela Group Stats, vá para **Vetor ‣ Group Stats ‣ Group Stats**.
+Primeiro, certifique-se de ter instalado e ativado o plugin Group Stats. Em seguida, para abrir a janela Group Stats, vá para **Vetor > Group Stats > Group Stats**.
 
 ![Plugin Group Stats](media/modulo8/fig820_a.png "plugin Group Stats")
 
@@ -471,7 +471,7 @@ Esta segunda fase do módulo leva a um trabalho mais aprofundado para processar 
 
 Existem muitas operações que podem ser realizadas em um ou mais conjuntos de dados geoespaciais e, durante esta primeira etapa, executaremos algumas das mais comuns para entender como funcionam.
 
-**Buffer.** Imagine que você precise analisar uma nova legislação que exige que em uma área de 500 metros ao redor de locais de culto não possa haver outra construção. Você gostaria de ver onde exatamente essas delimitações estão e talvez até quantos metros quadrados isso representa para o seu distrito. O primeiro passo é definir um buffer em torno dos locais de culto: **Vector ‣ ferramentas de geoprocessamento ‣ Buffer (Amortecedor)**. Quando a janela do buffer abrir, defina os parâmetros como na figura 8.23:
+**Buffer.** Imagine que você precise analisar uma nova legislação que exige que em uma área de 500 metros ao redor de locais de culto não possa haver outra construção. Você gostaria de ver onde exatamente essas delimitações estão e talvez até quantos metros quadrados isso representa para o seu distrito. O primeiro passo é definir um buffer em torno dos locais de culto: **Vector > ferramentas de geoprocessamento > Buffer (Amortecedor)**. Quando a janela do buffer abrir, defina os parâmetros como na figura 8.23:
 
 
 ![Definindo os parâmetros para um buffer de 500 m ao redor dos locais de culto](media/modulo8/fig823.png "Definindo os parâmetros para um buffer de 500 m ao redor dos locais de culto")
@@ -492,7 +492,7 @@ Para responder completamente à pergunta inicial, o próximo passo é calcular a
 
 Figura 8.25 - Calcule a área para a camada recém-obtida e, em seguida, calcule usando Group Stats a soma total.
 
-**Recortar** Imagine que você queira saber onde estão todas as áreas industriais delineadas em seu distrito e também quantos edifícios estão dentro desse perímetro. Ao inspecionar visualmente seus dados vetoriais, você percebe que há várias áreas industriais que contêm vários edifícios. Você deseja separar esses edifícios e usá-los posteriormente. O primeiro passo é selecionar todos os recursos da camada de uso do solo que tenham como atributo industrial (ver módulo 6 para saber como fazer isso). Em seguida, você vai para **Vetor ‣ Geoprocessamento ‣ Recortar** e escolhe como a camada a ser recortada buildings. Seus resultados devem ser semelhantes à figura 8.27b.
+**Recortar** Imagine que você queira saber onde estão todas as áreas industriais delineadas em seu distrito e também quantos edifícios estão dentro desse perímetro. Ao inspecionar visualmente seus dados vetoriais, você percebe que há várias áreas industriais que contêm vários edifícios. Você deseja separar esses edifícios e usá-los posteriormente. O primeiro passo é selecionar todos os recursos da camada de uso do solo que tenham como atributo industrial (ver módulo 6 para saber como fazer isso). Em seguida, você vai para **Vetor > Geoprocessamento > Recortar** e escolhe como a camada a ser recortada buildings. Seus resultados devem ser semelhantes à figura 8.27b.
 
 
 ![Figura 8.26a - Selecione landuse fclass = industrial](media/modulo8/fig826_a.png "Figura 8.26a - Selecione landuse fclass = industrial")
@@ -519,7 +519,7 @@ Figura 8.27b - Resultados da funcionalidade de clipe
 
 **Polígonos de Thiessen (Voronoi).** Imagine que você tenha que tomar uma série de decisões administrativas em seu distrito com base no número de escolas existentes e em quais áreas específicas elas atendem. A análise geoespacial pode ser útil. Você pode começar calculando os polígonos de Thiessen. Com base em uma área contendo pelo menos dois pontos, um polígono de Thiessen é uma forma bidimensional cujos limites contêm todo o espaço que está mais próximo de um ponto dentro da área do que qualquer outro ponto sem a área. Um bom exemplo de uso é em meteorologia, onde estações meteorológicas são pontos discretos, mas as informações coletadas são consideradas medidas na superfície com base nos polígonos de Thiessen.
 
-Para responder à pergunta acima, vamos executar o algoritmo apenas para pontos que têm o atributo escola no tipo. Portanto, faça a seleção conforme as instruções no módulo 6. Você deve ter 88 recursos selecionados na camada pois_cleaned. Vá para **Vetor ‣ Geometria ‣ Polígonos de Voronoi** Depois de definir os parâmetros - selecione a camada de pontos para a qual queremos os polígonos de Voronoi calculados e uma extensão de 30% para que toda a cidade do Recife esteja contida, você deve ver um resultado como na figura 8.28d.
+Para responder à pergunta acima, vamos executar o algoritmo apenas para pontos que têm o atributo escola no tipo. Portanto, faça a seleção conforme as instruções no módulo 6. Você deve ter 88 recursos selecionados na camada pois_cleaned. Vá para **Vetor > Geometria > Polígonos de Voronoi** Depois de definir os parâmetros - selecione a camada de pontos para a qual queremos os polígonos de Voronoi calculados e uma extensão de 30% para que toda a cidade do Recife esteja contida, você deve ver um resultado como na figura 8.28d.
 
 
 ![Filtrando a camada de poi para obter todas as escolas](media/modulo8/fig828_a.png "Filtrando a camada de poi para obter todas as escolas")
@@ -550,7 +550,7 @@ Vamos supor que você tenha que apresentar um relatório que permitirá compara�
 3. Comprimento total dos cursos d'água para cada unidade;
 4. número total de edifícios públicos para cada unidade (escolas, jardins de infância, hospitais, prefeituras etc.).
 
-Vimos que existem ferramentas que podem nos auxiliar no cálculo da superfície total ocupada por um determinado tipo de recurso, no entanto, o primeiro passo é criar nossas unidades 2X2 - grades de células. Para fazer isso, vá para: **Vetor ‣ Investigar ‣ Criar grade ..** Defina os parâmetros para:
+Vimos que existem ferramentas que podem nos auxiliar no cálculo da superfície total ocupada por um determinado tipo de recurso, no entanto, o primeiro passo é criar nossas unidades 2X2 - grades de células. Para fazer isso, vá para: **Vetor > Investigar > Criar grade ..** Defina os parâmetros para:
 - Tipo de grade - Retângulo (polígono)
 - Extensão da grade - camada limites_mun_recife
 - Espaçamento horizontal - 2 km
@@ -633,11 +633,11 @@ Figura 8.34d - Calculando a área de cada recurso.
 
 Figura 8.34e - Configuração dos parâmetros do GroupStat para somar as áreas verdes por cada célula de grade de 2X2km.
 
-Em seguida, salve os resultados como um arquivo .csv denominado `espacos_verdes_grade`. Vá para **Data ‣ Save all to CSV file**
+Em seguida, salve os resultados como um arquivo .csv denominado `espacos_verdes_grade`. Vá para **Data > Save all to CSV file**
 
 Execute Group Stats para o espaço construído da mesma maneira e salve-o como um arquivo csv denominado `espacos_construidos_grade`.
 
-A seguir, vamos trazer os 2 arquivos csv calculados com GroupStat para o QGIS (**Camada ‣ Adicionar camada ‣ Adicionar camada de texto delimitado** - veja mais detalhes no módulo 2).
+A seguir, vamos trazer os 2 arquivos csv calculados com GroupStat para o QGIS (**Camada > Adicionar camada > Adicionar camada de texto delimitado** - veja mais detalhes no módulo 2).
 
 
 ![Carregando espacos_verdes_grade CSV](media/modulo8/fig835_a.png "Carregando espacos_verdes_grade CSV")
@@ -746,7 +746,7 @@ Figura 8.39 - Distribuição espacial de unidades de 2X2km com a maioria dos cur
 
 3. número total de edifícios públicos (escolas, jardins de infância, hospitais, prefeituras etc.) para cada célula da grade
 
-Para contar o número total de prédios públicos na unidade 2X2, usaremos o pois_cleaned. Primeiro, executamos **Vetor ‣ Analisar ‣ Lista de Valores Únicos** e decidimos qual edifício consideramos público. Selecionaremos em nossa camada de dados de pontos vetoriais (pois) os seguintes recursos: `"fclass" IN ('arts_centre', 'embassy', 'hospital', 'library', 'museum', 'school', 'university', 'monument')`. Sua seleção deve ter 324 recursos no total.
+Para contar o número total de prédios públicos na unidade 2X2, usaremos o pois_cleaned. Primeiro, executamos **Vetor > Analisar > Lista de Valores Únicos** e decidimos qual edifício consideramos público. Selecionaremos em nossa camada de dados de pontos vetoriais (pois) os seguintes recursos: `"fclass" IN ('arts_centre', 'embassy', 'hospital', 'library', 'museum', 'school', 'university', 'monument')`. Sua seleção deve ter 324 recursos no total.
 
 
 ![Selecionando POIs públicos](media/modulo8/fig840_a.png "Selecionando POIs públicos")
@@ -758,7 +758,7 @@ Figura 8.40a - Seleção de POIs públicos
 
 Figura 8.40b - POIS público selecionado
 
-Para responder à nossa solicitação, usaremos o algoritmo **Vetor ‣ Analisar ‣ Contagem de pontos em polígono**. Este algoritmo pega uma camada de pontos e uma camada de polígono e conta o número de pontos da primeira em cada polígono da segunda. Uma nova camada de polígonos é gerada, com exatamente o mesmo conteúdo da camada de polígonos de entrada, mas contendo um campo adicional com a contagem de pontos correspondente a cada polígono. Defina a camada de ponto para pois_cleand e a camada de grade de polígono com as informações calculadas na rodada anterior. Para os pontos, marque os **Apenas feições selecionadas**, para que o algoritmo calcule apenas os pontos selecionados - os POIs públicos. Salve o arquivo de saída como pontos_publicos_grade.
+Para responder à nossa solicitação, usaremos o algoritmo **Vetor > Analisar > Contagem de pontos em polígono**. Este algoritmo pega uma camada de pontos e uma camada de polígono e conta o número de pontos da primeira em cada polígono da segunda. Uma nova camada de polígonos é gerada, com exatamente o mesmo conteúdo da camada de polígonos de entrada, mas contendo um campo adicional com a contagem de pontos correspondente a cada polígono. Defina a camada de ponto para pois_cleand e a camada de grade de polígono com as informações calculadas na rodada anterior. Para os pontos, marque os **Apenas feições selecionadas**, para que o algoritmo calcule apenas os pontos selecionados - os POIs públicos. Salve o arquivo de saída como pontos_publicos_grade.
 
 
 ![Contar POIS públicos em cada grade de 2km X 2km](media/modulo8/fig840_c.png "Contar POIS públicos em cada grade de 2km X 2km")
@@ -786,7 +786,7 @@ P: Qual das três ferramentas de geoprocessamento você usaria para mesclar duas
 
 R: Dissolver.
 
-## Geoestatística. Interpolação - estimativa de dados faltantes
+## Geoestatística e interpolação
 
 A última fase do módulo de dados vetoriais apresenta o conceito de estimativa de dados. Estamos acostumados a estimar quase diariamente em vários tópicos, por exemplo, quanto tempo levará para ir de casa para o trabalho em certas condições. Estamos acostumados a dar nosso melhor palpite, com base em experiências anteriores e palpites. No entanto, ao estimar dados faltantes, a estimativa é substituída por equações matemáticas muito bem definidas com limitações bem conhecidas.
 
@@ -814,7 +814,7 @@ Mergulhar na matemática por trás de cada algoritmo de interpolação está al�
 
 Como o exercício é puramente para fins de demonstração, criaremos nosso próprio conjunto de dados de ponto - para representar as estações meteorológicas onde os valores de precipitação foram registrados no decorrer de uma semana.
 
-Assim, o primeiro passo é criar uma nova camada vetorial - tipo de ponto - com pontos atribuídos aleatoriamente dentro da extensão do Recife. Existem várias maneiras de fazer isso, seja com o algoritmo de **Pontos aleatórios em polígonos ..** ou com o algoritmo **Pontos aleatórios em limites de camada ..**. Vá para **Vetor ‣ Analisar ‣ Pontos aleatórios em polígonos (Random points in polygons)…**. Você também pode pesquisar o algoritmo na caixa de ferramentas de processamento ou na barra do localizador. Escolha como parâmetros:
+Assim, o primeiro passo é criar uma nova camada vetorial - tipo de ponto - com pontos atribuídos aleatoriamente dentro da extensão do Recife. Existem várias maneiras de fazer isso, seja com o algoritmo de **Pontos aleatórios em polígonos ..** ou com o algoritmo **Pontos aleatórios em limites de camada ..**. Vá para **Vetor > Analisar > Pontos aleatórios em polígonos (Random points in polygons)…**. Você também pode pesquisar o algoritmo na caixa de ferramentas de processamento ou na barra do localizador. Escolha como parâmetros:
 * 93 pontos
 * mínimo 5 km.
 
@@ -880,13 +880,13 @@ Figura 8.47 - Conjuntos de dados interpolados
 
 As estações meteorológicas são visíveis na tela do mapa e nas camadas você pode ver todos os 7 conjuntos de dados raster recém-criados que representam os valores de precipitação para cada dia no Recife.
 
-A seguir, vamos mudar a simbologia das 7 camadas para uma mais colorida (**Propriedades ‣ Simbologia ‣ Banda única falsa cor ‣ Magma**).
+A seguir, vamos mudar a simbologia das 7 camadas para uma mais colorida (**Propriedades > Simbologia > Banda única falsa cor > Magma**).
 
 Olhando para os dados de ponto e os conjuntos de dados raster criados com base neles, podemos perceber que agora temos valores para toda a região e não apenas no local medido. Existem muitos algoritmos de processamento que podem ser aplicados a esses rasters para extrair informações, mas mais sobre isso no próximo módulo - processamento e visualização de dados raster.
 
 No entanto, como temos valores interpolados para 7 dias, vamos preparar uma curta animação sobre como os valores de precipitação evoluíram para o Recife.
 
-Para fazer isso, abra a caixa de diálogo **Propriedades de test_meteo_stations_1 raster ‣ clique na guia Temporal ‣ marque a opção Temporal ‣ selecione as datas de início e término**, como na figura 8.48. Faça o mesmo para todas as 7 camadas raster.
+Para fazer isso, abra a caixa de diálogo **Propriedades de test_meteo_stations_1 raster > clique na guia Temporal > marque a opção Temporal > selecione as datas de início e término**, como na figura 8.48. Faça o mesmo para todas as 7 camadas raster.
 
 
 ![Configurando informações temporais para o conjunto de dados raster (1)](media/modulo8/fig848_a.png "Configurando informações temporais para o conjunto de dados raster (1)")
@@ -900,7 +900,7 @@ Para fazer isso, abra a caixa de diálogo **Propriedades de test_meteo_stations_
 Figura 8.48 - Definição de informações temporais para o conjunto de dados raster (1, 2, 7).
 
 
-Abra o Painel do Controlador Temporal (pode ser encontrado em ** Exibir ‣ Painéis ‣ Painel do Controlador Temporal **) e defina os parâmetros como na figura 8.49.
+Abra o Painel do Controlador Temporal (pode ser encontrado em ** Exibir > Painéis > Painel do Controlador Temporal **) e defina os parâmetros como na figura 8.49.
 
 
 ![Defina os parâmetros do Painel de controle de tempo](media/modulo8/fig849.png "Defina os parâmetros do Painel de controle de tempo")

@@ -106,8 +106,8 @@ QuickOSM funciona consultando as tags (chaves e valores) dos recursos do OSM. Pa
 
 Figura 3.2. Camadas do Rio de Janeiro (capital e centro da cidade) carregadas no QGIS
 
-2. Certifique-se de que o plugin QuickOSM está instalado e ativado. Ele deve aparecer em **Vetor ‣ QuickOSM** na barra de menus. Caso contrário, instale e ative o plug-in primeiro usando a caixa de diálogo Gerenciar e instalar plug-ins.
-3. Abra o plugin QuickOSM (**Vetor ‣ QuickOSM ‣ QuickOSM**). Uma caixa de diálogo deve abrir com cinco guias:
+2. Certifique-se de que o plugin QuickOSM está instalado e ativado. Ele deve aparecer em **Vetor > QuickOSM** na barra de menus. Caso contrário, instale e ative o plug-in primeiro usando a caixa de diálogo Gerenciar e instalar plug-ins.
+3. Abra o plugin QuickOSM (**Vetor > QuickOSM > QuickOSM**). Uma caixa de diálogo deve abrir com cinco guias:
 
     1. Consulta rápida
         * Permite ao usuário criar e executar uma consulta simples com uma combinação de valor-chave para carregar um subconjunto de dados de recursos OSM que atenda aos requisitos da consulta.

@@ -1,0 +1,7476 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.8.13)  6 DEC 2021 20:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ebook-gis.tex
+(./ebook-gis.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (./krantz.cls
+Document Class: krantz 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\trimheight=\dimen138
+\trimwidth=\dimen139
+\normaltextheight=\dimen140
+\tempa=\dimen141
+\tempdimen=\dimen142
+\htrim=\dimen143
+\vtrimtop=\dimen144
+\vtrimbot=\dimen145
+\ul@box=\box47
+\ur@box=\box48
+\ll@box=\box49
+\lr@box=\box50
+\@cipboxa=\box51
+\@cipboxb=\box52
+\@ciprulewidth=\dimen146
+\c@part=\count173
+\c@chapter=\count174
+\c@section=\count175
+\c@subsection=\count176
+\c@subsubsection=\count177
+\c@paragraph=\count178
+\c@subparagraph=\count179
+\secwd=\dimen147
+\subsecwd=\dimen148
+\subsubsecwd=\dimen149
+\c@figure=\count180
+\c@table=\count181
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\c@numauthors=\count182
+\section@toc@skip=\skip49
+\SectionTOCWidth=\skip50
+\subsection@toc@skip=\skip51
+\SubSectionTOCWidth=\skip52
+\subsubsection@toc@skip=\skip53
+\SubSubSectionTOCWidth=\skip54
+\paragraph@toc@skip=\skip55
+\ParagraphTOCWidth=\skip56
+\subparagraph@toc@skip=\skip57
+\@AUonebox=\box53
+\@AUtwobox=\box54
+\@AUthreebox=\box55
+\@AUfourbox=\box56
+\@AUaffonebox=\box57
+\@AUafftwobox=\box58
+\@AUaffthreebox=\box59
+\@AUafffourbox=\box60
+\@finalAUboxfromone=\box61
+\@finalAUboxfromtwo=\box62
+\@finalAUboxfromthree=\box63
+\@finalAUboxfromfour=\box64
+\c@chaptocdepth=\count183
+\bibindent=\dimen150
+\tempbox=\box65
+\nomenwidth=\dimen151
+\@tablebox=\box66
+\@tabletitlebox=\box67
+\@tablewidth=\dimen152
+\@tabletitlewidth=\dimen153
+\max@tablewidth=\dimen154
+\tempbox=\box68
+\tempdimen=\dimen155
+\tempbox=\box69
+\notewidth=\dimen156
+\wherebox=\box70
+\wherewidth=\dimen157
+\listtextleftmargin=\skip58
+\listtextleftmarginii=\skip59
+\listtextleftmarginiii=\skip60
+\listtextrightmargin=\skip61
+\listlabelleftskip=\skip62
+\listlabelleftskipii=\skip63
+\listlabelleftskipiii=\skip64
+\abovelistskipi=\skip65
+\belowlistskipi=\skip66
+\abovelistskipii=\skip67
+\belowlistskipii=\skip68
+\abovelistskipiii=\skip69
+\belowlistskipiii=\skip70
+\labelsepi=\skip71
+\labelsepii=\skip72
+\labelsepiii=\skip73
+\itemsepi=\skip74
+\itemsepii=\skip75
+\itemsepiii=\skip76
+\enumdimwd=\dimen158
+\enumdim=\dimen159
+\concolwidth=\dimen160
+\stempbox=\box71
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip77
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen161
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count184
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count185
+\leftroot@=\count186
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count187
+\DOTSCASE@=\count188
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box72
+\strutbox@=\box73
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count189
+\c@MaxMatrixCols=\count190
+\dotsspace@=\muskip16
+\c@parentequation=\count191
+\dspbrk@lvl=\count192
+\tag@help=\toks16
+\row@=\count193
+\column@=\count194
+\maxfields@=\count195
+\andhelp@=\toks17
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks18
+\multlinegap=\skip78
+\multlinetaggap=\skip79
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/
+share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-01-09 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2020-01-29 L3 backend support: XeTeX
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count196
+\l__color_backend_stack_int=\count197
+\g__graphics_track_int=\count198
+\l__pdf_internal_box=\box74
+\g__pdf_backend_object_int=\count199
+\g__pdf_backend_annotation_int=\count266
+\g__pdf_backend_link_int=\count267
+))
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-10-27 L3 Experimental document command parser
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count268
+\l__fontspec_language_int=\count269
+\l__fontspec_strnum_int=\count270
+\l__fontspec_tmp_int=\count271
+\l__fontspec_tmpa_int=\count272
+\l__fontspec_tmpb_int=\count273
+\l__fontspec_tmpc_int=\count274
+\l__fontspec_em_int=\count275
+\l__fontspec_emdef_int=\count276
+\l__fontspec_strong_int=\count277
+\l__fontspec_strongdef_int=\count278
+\l__fontspec_tmpa_dim=\dimen170
+\l__fontspec_tmpb_dim=\dimen171
+\l__fontspec_tmpc_dim=\dimen172
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share
+/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\g__um_fam_int=\count279
+\g__um_fonts_used_int=\count280
+\l__um_primecount_int=\count281
+\g__um_primekern_muskip=\muskip17
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2020/12/07 v2.8 Micro-typographical refinements (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\MT@toks=\toks21
+\MT@count=\count282
+LaTeX Info: Redefining \textls on input line 788.
+\MT@outer@kern=\dimen173
+LaTeX Info: Redefining \textmicrotypecontext on input line 1358.
+\MT@listname@count=\count283
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2020/12/07 v2.8 Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 254.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2020-06-15 v2.0f non-zero parskip adjustments
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count284
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2016/05/11 v2.12 Predefined colors according to Unix/X11 (UK)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2020/12/30 v 0.09a modify URL breaks
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen174
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count287
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count288
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen175
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count289
+\Field@Width=\dimen176
+\Fld@charsize=\dimen177
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box75
+\c@Hy@AnnotLevel=\count293
+\HyField@AnnotCount=\count294
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+) (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip80
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count297
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip81
+\LTright=\skip82
+\LTpre=\skip83
+\LTpost=\skip84
+\LTchunksize=\count298
+\LTcapwidth=\dimen178
+\LT@head=\box76
+\LT@firsthead=\box77
+\LT@foot=\box78
+\LT@lastfoot=\box79
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
+\LT@p@ftn=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count303
+\@cmidlb=\count304
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count305
+\@lastruleclass=\count306
+\@thisrulewidth=\dimen191
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen192
+\ar@mcellbox=\box80
+\extrarowheight=\dimen193
+\NC@list=\toks23
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box81
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count307
+\calc@Bcount=\count308
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip87
+\calc@Bskip=\skip88
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count309
+\calc@Cskip=\skip89
+) (/usr/share/texlive/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/02/04 v1.1d hyperref aware footnote.sty (JFB)
+\FNH@notes=\box82
+\FNH@width=\dimen196
+\FNH@toks=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen197
+\Gin@req@width=\dimen198
+) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2020/12/08 v1.51 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+)
+\XKV@depth=\count310
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\xpg@normalclass=\XeTeXcharclass1
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+)
+Package polyglossia Info: Default language is latex.
+) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-portuguese.ldf
+File: gloss-portuguese.ldf polyglossia: module for portuguese
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {portuguese/script}  =>  {latin}
+>  {portuguese/lcscript}  =>  {latin}
+>  {portuguese/scripttag}  =>  {}
+>  {portuguese/language}  =>  {Portuguese}
+>  {portuguese/langtag}  =>  {PTG}
+>  {portuguese/bcp47}  =>  {pt-PT}
+>  {portuguese/hyphennames}  =>  {portuges,portuguese}
+>  {portuguese/direction}  =>  {LR}
+>  {portuguese/hyphenmins}  =>  {2,3}
+>  {portuguese/frenchspacing}  =>  {false}
+>  {portuguese/indentfirst}  =>  {false}
+>  {portuguese/fontsetup}  =>  {true}
+>  {portuguese/envname}  =>  {portuguese}
+>  {portuguese/babelname}  =>  {portuges}
+>  {portuguese/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {portuguese/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `portugues
+e'
+(polyglossia)                I will use \language=\l@nohyphenation instead on i
+nput line 10.
+
+\l@portuguese = a dialect from \language\l@nohyphenation 
+Package polyglossia Info: Option: portuguese, variant=portuguese.
+)
+Package polyglossia Info: Default language is portuguese.
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip90
+\bibsep=\skip91
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count311
+) (./ebook-gis.aux
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `portuges'
+
+(polyglossia)                I will use \language=\l@nohyphenation instead on i
+nput line 20.
+
+\l@portuges = a dialect from \language\l@nohyphenation 
+)
+\openout1 = `ebook-gis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 99.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 99.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 99.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 99.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 99.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 99.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 99.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
+(fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
+(fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
+(fontspec)             \fontdimen 13\font =3.63pt\relax \fontdimen 14\font
+(fontspec)             =3.63pt\relax \fontdimen 15\font =2.89pt\relax
+(fontspec)             \fontdimen 16\font =2.47pt\relax \fontdimen 17\font
+(fontspec)             =2.47pt\relax \fontdimen 18\font =2.5pt\relax
+(fontspec)             \fontdimen 19\font =2.0pt\relax \fontdimen 22\font
+(fontspec)             =2.5pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 99.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 99.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 99.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 99.
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
+
+
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\f
+ontdimen
+(fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
+(fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
+(fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 9
+9.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 99.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 99.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 99.
+LaTeX Info: Redefining \microtypecontext on input line 99.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package hyperref Info: Link coloring ON on input line 99.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count312
+)
+LaTeX Info: Redefining \ref on input line 99.
+LaTeX Info: Redefining \pageref on input line 99.
+LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \rmfamily on input line 99.
+LaTeX Info: Redefining \sffamily on input line 99.
+LaTeX Info: Redefining \ttfamily on input line 99.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[1
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[2
+
+]
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 105
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 105
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 105
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 105
+[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 105
+[]
+ []
+
+(./ebook-gis.toc
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 4.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Underfull \hbox (badness 1565) in paragraph at lines 91--91
+ [] [][]\TU/lmr/bx/n/10 OpenStreetMap e a camada de assentamentos de alta 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[3] [4])
+\tf@toc=\write3
+\openout3 = `ebook-gis.toc'.
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[6
+
+]
+Underfull \vbox (badness 10000) detected at line 108
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 108
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 108
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 108
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 108
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 108
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 108
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 108
+[]
+ []
+
+Capítulo 1.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[7
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[8
+
+]
+Underfull \vbox (badness 10000) detected at line 130
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 130
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 130
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 130
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 130
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 130
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 130
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 130
+[]
+ []
+
+Capítulo 2.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[9
+
+]
+File: media/modulo0/true-size-of.png Graphic file (type bmp)
+<media/modulo0/true-size-of.png>
+[10]
+Overfull \hbox (163.26894pt too wide) in paragraph at lines 229--230
+[]\TU/lmr/m/n/10 Figura 1. A Bola de Gude Azul ( https://commons.wikimedia.org/
+wiki/Earth#/media/File:The_Blue_Marble.jpg) 
+ []
+
+
+Overfull \hbox (149.93004pt too wide) in paragraph at lines 231--232
+[]\TU/lmr/m/n/10 Figura 2. Globo de l’Isle (1765) ( https://commons.wikimedia.o
+rg/wiki/Globe#/media/File:3quarter_globe.jpg) 
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 233--234
+[]\TU/lmr/m/n/10 No entanto, embora o globo seja capaz de capturar a maioria da
+s
+ []
+
+[11]
+File: media/modulo0/dalandan.png Graphic file (type bmp)
+<media/modulo0/dalandan.png>
+[12]
+Underfull \hbox (badness 6188) in paragraph at lines 284--285
+[]\TU/lmr/m/n/10 Características principais como \TU/lmr/bx/n/10 Forma \TU/lmr/
+m/n/10 e \TU/lmr/bx/n/10 Área \TU/lmr/m/n/10 são \TU/lmr/bx/n/10 mutuamente
+ []
+
+[13]
+File: media/modulo0/conformal.png Graphic file (type bmp)
+<media/modulo0/conformal.png>
+File: media/modulo0/authalic.png Graphic file (type bmp)
+<media/modulo0/authalic.png>
+File: media/modulo0/equidistant.png Graphic file (type bmp)
+<media/modulo0/equidistant.png>
+File: media/modulo0/az-equidistant.png Graphic file (type bmp)
+<media/modulo0/az-equidistant.png>
+
+Underfull \hbox (badness 1014) in paragraph at lines 396--397
+[]\TU/lmr/m/n/10 Outra maneira de classificar as projeções do mapa é pela \TU/l
+mr/bx/n/10 superfície
+ []
+
+[14] [15]
+File: media/modulo0/cylinder.png Graphic file (type bmp)
+<media/modulo0/cylinder.png>
+
+Underfull \hbox (badness 1097) in paragraph at lines 404--405
+\TU/lmr/m/n/10 (latitude) encontrando-se em ângulos retos com as distâncias ent
+re os
+ []
+
+File: media/modulo0/cone.png Graphic file (type bmp)
+<media/modulo0/cone.png>
+File: media/modulo0/plane.png Graphic file (type bmp)
+<media/modulo0/plane.png>
+File: media/modulo0/aspects.png Graphic file (type bmp)
+<media/modulo0/aspects.png>
+[16] [17] [18] [19]
+Underfull \hbox (badness 10000) detected at line 476
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 476
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 489
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 489
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 501
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 501
+[][][]
+ []
+
+[20]
+File: media/modulo0/spatial-model.png Graphic file (type bmp)
+<media/modulo0/spatial-model.png>
+[21]
+Underfull \hbox (badness 2103) in paragraph at lines 544--545
+\TU/lmr/m/n/10 modelling), pois você pode combinar rasters por meio de operaçõe
+s
+ []
+
+File: media/modulo0/raster.png Graphic file (type bmp)
+<media/modulo0/raster.png>
+[22]
+Underfull \hbox (badness 1755) in paragraph at lines 563--564
+[]\TU/lmr/m/n/10 Os vetores são comumente usados quando necessitamos precisão c
+om
+ []
+
+File: media/modulo0/vector.png Graphic file (type bmp)
+<media/modulo0/vector.png>
+
+Underfull \hbox (badness 10000) detected at line 582
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 582
+[][][]
+ []
+
+[23]
+Underfull \hbox (badness 1147) in paragraph at lines 626--628
+[]\TU/lmr/bx/n/10 Métodos e análises \TU/lmr/m/n/10 - referem-se à ciência e ma
+temática em SIG,
+ []
+
+[24]
+Underfull \hbox (badness 1062) in paragraph at lines 628--630
+\TU/lmr/m/n/10 pode ser considerada como um componente separado, pois se refere
+
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 628--630
+\TU/lmr/m/n/10 especificamente aos meios pelos quais um SIG representa os dados
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 642
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 642
+[][][]
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 657--657
+[]\TU/lmr/bx/n/12 Software Livre e de Código Aberto para uso
+ []
+
+File: media/modulo0/foss4g-stack.jpeg Graphic file (type bmp)
+<media/modulo0/foss4g-stack.jpeg>
+
+Underfull \hbox (badness 10000) detected at line 680
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 680
+[][][]
+ []
+
+[25]
+Underfull \hbox (badness 10000) detected at line 682
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 682
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 684
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 684
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 686
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 686
+[][][]
+ []
+
+[26] [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[28
+
+]
+Underfull \vbox (badness 10000) detected at line 707
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 707
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 707
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 707
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 707
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 707
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 707
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 707
+[]
+ []
+
+Capítulo 3.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[29
+
+]
+File: media/modulo1/sample-1.jpg Graphic file (type bmp)
+<media/modulo1/sample-1.jpg>
+File: media/modulo1/sample-2.jpg Graphic file (type bmp)
+<media/modulo1/sample-2.jpg>
+File: media/modulo1/sample-3.jpg Graphic file (type bmp)
+<media/modulo1/sample-3.jpg>
+[30] [31]
+File: media/modulo1/sample-4.jpg Graphic file (type bmp)
+<media/modulo1/sample-4.jpg>
+[32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
+\TU/lmr/m/n/10 Os lançamentos e o desenvolvimento do QGIS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 839--840
+\TU/lmr/m/n/10 seguem um cronograma / roteiro baseado no tempo
+ []
+
+[34]
+File: media/modulo1/qgis-map-showcase.png Graphic file (type bmp)
+<media/modulo1/qgis-map-showcase.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+[]\TU/lmr/m/n/10 Para mais mapas criados com o QGIS, visite:
+ []
+
+[35]
+Underfull \hbox (badness 2213) in paragraph at lines 887--888
+[]\TU/lmr/m/n/10 Instaladores e instruções de instalação também estão disponíve
+is em
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 887--888
+[][]$[] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []
+ [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []$[][] \TU/lmr
+/m/n/10 ou [][]https:
+ []
+
+[36]
+File: media/modulo1/qgis-interface.png Graphic file (type bmp)
+<media/modulo1/qgis-interface.png>
+[37]
+File: media/modulo1/qgis-interface-parts.png Graphic file (type bmp)
+<media/modulo1/qgis-interface-parts.png>
+[38]
+File: media/modulo1/qgis-interface-custom.png Graphic file (type bmp)
+<media/modulo1/qgis-interface-custom.png>
+
+Underfull \hbox (badness 10000) detected at line 959
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 959
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 961
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 961
+[][][]
+ []
+
+File: media/modulo1/ex01-01.png Graphic file (type bmp)
+<media/modulo1/ex01-01.png>
+
+Underfull \hbox (badness 10000) detected at line 975
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 975
+[][][]
+ []
+
+File: media/modulo1/ex01-02.png Graphic file (type bmp)
+<media/modulo1/ex01-02.png>
+
+Underfull \hbox (badness 10000) detected at line 989
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 989
+[][][]
+ []
+
+File: media/modulo1/ex01-03.png Graphic file (type bmp)
+<media/modulo1/ex01-03.png>
+
+Underfull \hbox (badness 10000) detected at line 1003
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1003
+[][][]
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 1003--1005
+\TU/lmr/m/n/10 mostrar na interface do usuário. Alguns dos painéis úteis
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1005
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1005
+[][][]
+ []
+
+[39] [40]
+Underfull \hbox (badness 10000) detected at line 1019
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1019
+[][][]
+ []
+
+[41]
+Underfull \hbox (badness 10000) detected at line 1056
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1056
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1058
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1058
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1060
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1060
+[][][]
+ []
+
+
+Overfull \hbox (21.04501pt too wide) in paragraph at lines 1066--1068
+[]\TU/lmr/bx/n/10 Linux\TU/lmr/m/n/10 : .local/share/QGIS/QGIS3/profiles/defaul
+t/python/plugins 
+ []
+
+
+Overfull \hbox (122.95541pt too wide) in paragraph at lines 1068--1070
+[]\TU/lmr/bx/n/10 Mac OS X\TU/lmr/m/n/10 : Biblioteca/Aplicativo/Suporte/QGIS/Q
+GIS3/profiles/default/python/plugins 
+ []
+
+
+Overfull \hbox (179.195pt too wide) in paragraph at lines 1070--1071
+[]\TU/lmr/bx/n/10 Windows: \TU/lmtt/m/n/10 C:\Usuário\<Nome>\AppData\Roaming\QG
+IS\QGIS3\profiles\default\python\plugins 
+ []
+
+File: media/modulo1/plugins-menu.png Graphic file (type bmp)
+<media/modulo1/plugins-menu.png>
+[42]
+File: media/modulo1/manage-and-install-plugins-dialog.png Graphic file (type bm
+p)
+<media/modulo1/manage-and-install-plugins-dialog.png>
+
+Underfull \hbox (badness 10000) detected at line 1119
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1119
+[][][]
+ []
+
+[43]
+File: media/modulo1/plugins-menu-2.png Graphic file (type bmp)
+<media/modulo1/plugins-menu-2.png>
+File: media/modulo1/manage-and-install-plugins-dialog.png Graphic file (type bm
+p)
+<media/modulo1/manage-and-install-plugins-dialog.png>
+
+Underfull \hbox (badness 10000) detected at line 1139
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1139
+[][][]
+ []
+
+File: media/modulo1/memory-layer-saver-plugin.png Graphic file (type bmp)
+<media/modulo1/memory-layer-saver-plugin.png>
+File: media/modulo1/quickosm-plugin.png Graphic file (type bmp)
+<media/modulo1/quickosm-plugin.png>
+
+Underfull \hbox (badness 10000) detected at line 1171
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1171
+[][][]
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 1171--1172
+[]\TU/lmr/m/n/10 Verifique se os complementos foram instalados com sucesso.
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 1171--1172
+\TU/lmr/m/n/10 O plugin Memory Layer Saver deve estar disponível em
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1181
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1181
+[][][]
+ []
+
+[44] [45]
+File: media/modulo1/settings-1.png Graphic file (type bmp)
+<media/modulo1/settings-1.png>
+File: media/modulo1/settings-2.png Graphic file (type bmp)
+<media/modulo1/settings-2.png>
+File: media/modulo1/change-theme.png Graphic file (type bmp)
+<media/modulo1/change-theme.png>
+[46] [47] [48]
+File: media/modulo1/user-profiles-1.png Graphic file (type bmp)
+<media/modulo1/user-profiles-1.png>
+
+Underfull \hbox (badness 10000) detected at line 1259
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1259
+[][][]
+ []
+
+File: media/modulo1/user-profiles-2.png Graphic file (type bmp)
+<media/modulo1/user-profiles-2.png>
+
+Underfull \hbox (badness 10000) detected at line 1273
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1273
+[][][]
+ []
+
+[49]
+File: media/modulo1/user-profiles-3.png Graphic file (type bmp)
+<media/modulo1/user-profiles-3.png>
+
+Underfull \hbox (badness 10000) detected at line 1286
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1286
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1288
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1288
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1298
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1298
+[][][]
+ []
+
+[50] [51]
+Underfull \hbox (badness 1237) in paragraph at lines 1371--1372
+\TU/lmr/m/n/10 Você pode tentar criar seu próprio plugin QGIS. Se não houver um
+
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 1375--1376
+[]\TU/lmr/m/n/10 Claro, você sempre pode criar um plugin do zero. Se você estiv
+er
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 1375--1376
+\TU/lmr/m/n/10 Python, é uma boa ideia verificar o PyQGIS Developer Cookbook
+ []
+
+[52]
+Overfull \hbox (29.75pt too wide) in paragraph at lines 1396--1397
+[]\TU/lmr/m/n/10 Adicione uma tela inicial personalizada ([][]https://bnhr.xyz/
+2020/09/05/custom-
+ []
+
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[54
+
+]
+Underfull \vbox (badness 10000) detected at line 1401
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1401
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1401
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1401
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1401
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1401
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1401
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 1401
+[]
+ []
+
+Capítulo 4.
+
+Underfull \hbox (badness 1466) in paragraph at lines 1450--1451
+[]\TU/lmr/m/n/10 QGIS 3.16 instalado no computador ([][]https://qgis.org/en/sit
+e/forusers
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[55
+
+]
+File: media/modulo2/spatial-layers.jpg Graphic file (type bmp)
+<media/modulo2/spatial-layers.jpg>
+[56] [57] [58]
+Underfull \hbox (badness 1412) in paragraph at lines 1539--1540
+[]\TU/lmr/m/n/10 Alguns formatos de arquivo de imagem contêm georreferenciament
+o e
+ []
+
+
+Overfull \hbox (37.56587pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.3Tipos de dados, formatos de arquivo, o painel do 
+navegador e o painel de camadas  \TU/lmr/m/n/10 59
+ []
+
+[59]
+Underfull \hbox (badness 10000) detected at line 1577
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1577
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1579
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1579
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1581
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1581
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1583
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1583
+[][][]
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1595--1596
+[]\TU/lmr/m/n/10 Para saber mais sobre o painel do navegador, acesse:
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1604
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1604
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1606
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1606
+[][][]
+ []
+
+File: media/modulo2/qgis-browser-1.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-1.png>
+
+Underfull \hbox (badness 10000) detected at line 1622
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1622
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1624
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1624
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1626
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1626
+[][][]
+ []
+
+File: media/modulo2/symbol-vector.png Graphic file (type bmp)
+<media/modulo2/symbol-vector.png>
+File: media/modulo2/symbol-raster.png Graphic file (type bmp)
+<media/modulo2/symbol-raster.png>
+File: media/modulo2/symbol-db.png Graphic file (type bmp)
+<media/modulo2/symbol-db.png>
+File: media/modulo2/symbol-table.png Graphic file (type bmp)
+<media/modulo2/symbol-table.png>
+File: media/modulo2/qgis-browser-2.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-2.png>
+
+Underfull \hbox (badness 10000) detected at line 1641
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1641
+[][][]
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 1655--1656
+[]\TU/lmr/m/n/10 um arquivo de valores separados por vírgula (CSV)
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1658
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1658
+[][][]
+ []
+
+
+Overfull \hbox (37.56587pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.3Tipos de dados, formatos de arquivo, o painel do 
+navegador e o painel de camadas  \TU/lmr/m/n/10 61
+ []
+
+[61] [62]
+Overfull \hbox (37.56587pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.3Tipos de dados, formatos de arquivo, o painel do 
+navegador e o painel de camadas  \TU/lmr/m/n/10 63
+ []
+
+[63]
+File: media/modulo2/qgis-browser-3.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-3.png>
+File: media/modulo2/qgis-browser-layer-properties.png Graphic file (type bmp)
+<media/modulo2/qgis-browser-layer-properties.png>
+
+Underfull \hbox (badness 10000) detected at line 1681
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1681
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1683
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1683
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1696
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1696
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
+[]\TU/lmr/m/n/10 Tente carregar as camadas \TU/lmr/bx/n/10 br_pais\TU/lmr/m/n/1
+0 , \TU/lmr/bx/n/10 br_ufs \TU/lmr/m/n/10 e
+ []
+
+File: media/modulo2/vector-layers-loaded-1.png Graphic file (type bmp)
+<media/modulo2/vector-layers-loaded-1.png>
+[64]
+Overfull \hbox (37.56587pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.3Tipos de dados, formatos de arquivo, o painel do 
+navegador e o painel de camadas  \TU/lmr/m/n/10 65
+ []
+
+[65]
+File: media/modulo2/layers-panel-1.png Graphic file (type bmp)
+<media/modulo2/layers-panel-1.png>
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
+[]\TU/lmr/m/n/10 Para saber mais sobre o painel de camadas, acesse:
+ []
+
+
+Overfull \hbox (60.17pt too wide) in paragraph at lines 1728--1729
+[][]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/introduction/
+general_tools.html#layers-
+ []
+
+File: media/modulo2/layer-properties.png Graphic file (type bmp)
+<media/modulo2/layer-properties.png>
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 1761--1762
+\TU/lmr/m/n/10 adicionem Formulários personalizados para adicionar novos dados
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 1770--1772
+[]\TU/lmr/m/n/10 Categorias às quais os dados pertencem, como categorias ISO e
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 1787--1788
+[]\TU/lmr/m/n/10 Para saber mais sobre as propriedades da camada vetorial, aces
+se:
+ []
+
+
+Overfull \hbox (85.45001pt too wide) in paragraph at lines 1787--1788
+[][]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/working_with_
+vector/vector_properties.html[][] 
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 1789--1790
+[]\TU/lmr/m/n/10 Para saber mais sobre as propriedades da camada raster, vá par
+a:
+ []
+
+
+Overfull \hbox (82.29001pt too wide) in paragraph at lines 1789--1790
+[][]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/working_with_
+raster/raster_properties.html[][] 
+ []
+
+[68]
+Underfull \hbox (badness 2932) in paragraph at lines 1798--1799
+[]\TU/lmr/m/n/10 A importância dos metadados é que eles não apenas promovem a
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 1798--1799
+\TU/lmr/m/n/10 transparência, mas também facilitam o compartilhamento de dados 
+e
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1807
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1807
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1809
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1809
+[][][]
+ []
+
+File: media/modulo2/metadata-1.png Graphic file (type bmp)
+<media/modulo2/metadata-1.png>
+
+Underfull \hbox (badness 10000) detected at line 1825
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1825
+[][][]
+ []
+
+[69]
+File: media/modulo2/metadata-2.png Graphic file (type bmp)
+<media/modulo2/metadata-2.png>
+
+Underfull \hbox (badness 10000) detected at line 1841
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1841
+[][][]
+ []
+
+File: media/modulo2/metadata-3.png Graphic file (type bmp)
+<media/modulo2/metadata-3.png>
+
+Underfull \hbox (badness 10000) detected at line 1858
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1858
+[][][]
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 1864--1866
+[]\TU/lmr/m/n/10 Todos os arquivos vetoriais são shapefiles. - *** Falso
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 1864--1866
+\TU/lmr/m/n/10 (um shapefile é um formato de arquivo de um arquivo
+ []
+
+[70] [71]
+File: media/modulo2/data-source-manager-1.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-1.png>
+[72]
+Underfull \hbox (badness 10000) detected at line 1896
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1896
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1898
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1898
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1905--1906
+[]\TU/lmr/m/n/10 Vamos carregar o arquivo vetorial (br_rj_hospitais)
+ []
+
+File: media/modulo2/data-source-manager-search.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-search.png>
+[73]
+File: media/modulo2/data-source-manager-vector.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-vector.png>
+
+Underfull \hbox (badness 10000) detected at line 1934
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1934
+[][][]
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 1939--1940
+\TU/lmr/m/n/10 e arquivos remotos podem ser carregados por meio de
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 1939--1940
+\TU/lmr/m/n/10 um protocolo como HTTP, nuvem, etc. Há um raster
+ []
+
+File: media/modulo2/data-source-manager-search.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-search.png>
+
+Underfull \hbox (badness 1424) in paragraph at lines 1947--1949
+[]\TU/lmr/m/n/10 Fonte: Selecione o geopackage br_rj usando o botão
+ []
+
+File: media/modulo2/data-source-manager-raster.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-raster.png>
+[74]
+Underfull \hbox (badness 10000) detected at line 1968
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 1968
+[][][]
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 1975--1976
+[]\TU/lmr/m/n/10 CSVs e outros arquivos de texto delimitados podem ser
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 1975--1976
+\TU/lmr/m/n/10 e até mesmo arrastando-os para a Tela do Mapa. No
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 1983--1985
+[]\TU/lmr/m/n/10 Se os CSVs forem carregados por meio do painel do
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 1985--1986
+[]\TU/lmr/m/n/10 Se você encontrar problemas ao preservar os tipos de
+ []
+
+[75]
+Underfull \hbox (badness 3942) in paragraph at lines 1990--1991
+[]\TU/lmr/m/n/10 Há um arquivo CSV na pasta de dados denominado
+ []
+
+File: media/modulo2/data-source-manager-search.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-search.png>
+
+Underfull \hbox (badness 1286) in paragraph at lines 2024--2025
+[]\TU/lmr/m/n/10 Usar índice espacial adicione um índice espacial à
+ []
+
+File: media/modulo2/data-source-manager-csv.png Graphic file (type bmp)
+<media/modulo2/data-source-manager-csv.png>
+File: media/modulo2/layers-panel-2.png Graphic file (type bmp)
+<media/modulo2/layers-panel-2.png>
+File: media/modulo2/map-canvas-1.png Graphic file (type bmp)
+<media/modulo2/map-canvas-1.png>
+[76]
+Underfull \hbox (badness 10000) detected at line 2076
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2076
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2078
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2078
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2080
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2080
+[][][]
+ []
+
+
+Overfull \hbox (199.0pt too wide) in paragraph at lines 2086--2086
+[]    \TU/lmtt/m/n/10 URL: https://server.arcgisonline.com/ArcGIS/rest/services
+/World_Imagery/MapServer/tile/{z}/{y}/{x}[] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2093
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2093
+[][][]
+ []
+
+[77] [78]
+File: media/modulo2/xyz-1.png Graphic file (type bmp)
+<media/modulo2/xyz-1.png>
+
+Underfull \hbox (badness 10000) detected at line 2109
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2109
+[][][]
+ []
+
+File: media/modulo2/xyz-2.png Graphic file (type bmp)
+<media/modulo2/xyz-2.png>
+
+Underfull \hbox (badness 10000) detected at line 2125
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2125
+[][][]
+ []
+
+File: media/modulo2/xyz-3.png Graphic file (type bmp)
+<media/modulo2/xyz-3.png>
+[79] [80]
+Underfull \hbox (badness 10000) detected at line 2153
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2153
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2155
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2155
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2157
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2157
+[][][]
+ []
+
+
+Overfull \hbox (461.5pt too wide) in paragraph at lines 2163--2163
+[]\TU/lmtt/m/n/10 URL de: https://api.mapbox.com/styles/v1/osmph/cjqrynb300m522
+sper0emmgs6/wmts?access_token=sk.eyJ1Ijoib3NtcGgiLCJhIjoiY2pxbjF6czN2MGllbTQy4b
+XVUOW44ZDlMS[] 
+ []
+
+File: media/modulo2/wms-1.png Graphic file (type bmp)
+<media/modulo2/wms-1.png>
+
+LaTeX Warning: Float too large for page by 24.52925pt on input line 2171.
+
+
+Underfull \hbox (badness 10000) detected at line 2180
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2180
+[][][]
+ []
+
+[81] [82]
+File: media/modulo2/wms-2.png Graphic file (type bmp)
+<media/modulo2/wms-2.png>
+
+LaTeX Warning: Float too large for page by 36.09203pt on input line 2187.
+
+
+Underfull \hbox (badness 10000) detected at line 2196
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2196
+[][][]
+ []
+
+File: media/modulo2/wms-3.png Graphic file (type bmp)
+<media/modulo2/wms-3.png>
+
+Underfull \hbox (badness 10000) detected at line 2212
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2212
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2221
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2221
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2232--2232
+[]\TU/lmr/bx/n/12 Exportando Camadas, Camadas na Memória
+ []
+
+File: media/modulo2/exporting-layers.png Graphic file (type bmp)
+<media/modulo2/exporting-layers.png>
+
+Overfull \hbox (37.66457pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.7Exportando Camadas, Camadas na Memória (Temporári
+as) e Camadas Virtuais  \TU/lmr/m/n/10 83
+ []
+
+[83] [84]
+Overfull \hbox (37.66457pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.7Exportando Camadas, Camadas na Memória (Temporári
+as) e Camadas Virtuais  \TU/lmr/m/n/10 85
+ []
+
+[85]
+File: media/modulo2/save-vector.png Graphic file (type bmp)
+<media/modulo2/save-vector.png>
+File: media/modulo2/symbol-temp.png Graphic file (type bmp)
+<media/modulo2/symbol-temp.png>
+File: media/modulo2/symbol-temp.png Graphic file (type bmp)
+<media/modulo2/symbol-temp.png>
+[86]
+Overfull \hbox (37.66457pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.7Exportando Camadas, Camadas na Memória (Temporári
+as) e Camadas Virtuais  \TU/lmr/m/n/10 87
+ []
+
+[87]
+Underfull \hbox (badness 10000) detected at line 2311
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2311
+[][][]
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 2321--2322
+[]\TU/lmr/m/n/10 Quando a camada de base para uma camada virtual é
+ []
+
+[88]
+Underfull \hbox (badness 10000) detected at line 2354
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2354
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2356
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2356
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2358
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2358
+[][][]
+ []
+
+File: media/modulo2/connect-geonode.png Graphic file (type bmp)
+<media/modulo2/connect-geonode.png>
+
+Underfull \hbox (badness 10000) detected at line 2381
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2381
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2383
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2383
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2385
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2385
+[][][]
+ []
+
+File: media/modulo2/symbol-gpkg.png Graphic file (type bmp)
+<media/modulo2/symbol-gpkg.png>
+File: media/modulo2/virtual-1.png Graphic file (type bmp)
+<media/modulo2/virtual-1.png>
+File: media/modulo2/virtual-2.png Graphic file (type bmp)
+<media/modulo2/virtual-2.png>
+
+Overfull \hbox (37.66457pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.7Exportando Camadas, Camadas na Memória (Temporári
+as) e Camadas Virtuais  \TU/lmr/m/n/10 89
+ []
+
+[89] [90]
+Overfull \hbox (37.66457pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.7Exportando Camadas, Camadas na Memória (Temporári
+as) e Camadas Virtuais  \TU/lmr/m/n/10 91
+ []
+
+[91]
+Underfull \hbox (badness 10000) detected at line 2407
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2407
+[][][]
+ []
+
+File: media/modulo2/symbol-edit.png Graphic file (type bmp)
+<media/modulo2/symbol-edit.png>
+
+Underfull \hbox (badness 10000) detected at line 2409
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2409
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2411
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2411
+[][][]
+ []
+
+File: media/modulo2/symbol-add-point.png Graphic file (type bmp)
+<media/modulo2/symbol-add-point.png>
+
+Underfull \hbox (badness 10000) detected at line 2413
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2413
+[][][]
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 2413--2414
+[]\TU/lmr/m/n/10 Digitalize árvores individuais clicando em sua localização e
+ []
+
+File: media/modulo2/virtual-3.png Graphic file (type bmp)
+<media/modulo2/virtual-3.png>
+
+Underfull \hbox (badness 10000) detected at line 2427
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2427
+[][][]
+ []
+
+File: media/modulo2/symbol-save-edits.png Graphic file (type bmp)
+<media/modulo2/symbol-save-edits.png>
+[92]
+File: media/modulo2/virtual-4.png Graphic file (type bmp)
+<media/modulo2/virtual-4.png>
+
+Underfull \hbox (badness 10000) detected at line 2441
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2441
+[][][]
+ []
+
+File: media/modulo2/symbol-virtual.png Graphic file (type bmp)
+<media/modulo2/symbol-virtual.png>
+
+Underfull \hbox (badness 10000) detected at line 2444
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2444
+[][][]
+ []
+
+File: media/modulo2/virtual-5.png Graphic file (type bmp)
+<media/modulo2/virtual-5.png>
+File: media/modulo2/virtual-6.png Graphic file (type bmp)
+<media/modulo2/virtual-6.png>
+
+Overfull \hbox (37.66457pt too wide) has occurred while \output is active
+ [][][][]  \TU/lmr/m/it/10 4.8Exportando Camadas, Camadas na Memória (Temporári
+as) e Camadas Virtuais  \TU/lmr/m/n/10 93
+ []
+
+[93] [94]
+Underfull \hbox (badness 1521) in paragraph at lines 2476--2476
+[]\TU/lmr/bx/n/11 Carregar uma planilha no QGIS usando o plugin
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 2480--2481
+[]\TU/lmr/m/n/10 Leia aqui: [][]https://bnhr.xyz/2018/07/27/plugin-fridays-spre
+adsheet-layers-
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2489
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2489
+[][][]
+ []
+
+[95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[96
+
+]
+Underfull \vbox (badness 10000) detected at line 2493
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 2493
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2493
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 2493
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2493
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 2493
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 2493
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 2493
+[]
+ []
+
+Capítulo 5.
+
+Underfull \hbox (badness 3078) in paragraph at lines 2500--2501
+\TU/lmr/m/n/10 Este módulo apresentará o OpenStreetMap (OSM) e a camada de
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[97
+
+]
+Overfull \hbox (458.61781pt too wide) in paragraph at lines 2566--2567
+[]\TU/lmr/m/n/10 HDX HRSL - [][]https://data.humdata.org/search?organization=fa
+cebook&q=%22High%20Resolution%20Population%20Density%20Maps%20%2B%20Demographic
+%20Estimates%22[][] 
+ []
+
+[98]
+File: media/modulo3/osm.png Graphic file (type bmp)
+<media/modulo3/osm.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2595--2596
+[]\TU/lmr/m/n/10 Para obter mais informações sobre por que o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2595--2596
+\TU/lmr/m/n/10 OpenStreetMap existe e sua importância, veja:
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 2604--2605
+\TU/lmr/m/n/10 propósitos diferentes. Essa é a liberdade proporcionada pelo ObD
+L.
+ []
+
+[99]
+Underfull \hbox (badness 1552) in paragraph at lines 2617--2618
+[]\TU/lmr/m/n/10 Você pode adicionar outros tiles derivados do OSM no QGIS, com
+o
+ []
+
+[100]
+Underfull \hbox (badness 10000) detected at line 2636
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2636
+[][][]
+ []
+
+File: media/modulo3/quickosm-1.png Graphic file (type bmp)
+<media/modulo3/quickosm-1.png>
+
+Underfull \hbox (badness 10000) detected at line 2651
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2651
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2653
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2653
+[][][]
+ []
+
+[101]
+File: media/modulo3/quickosm-2.png Graphic file (type bmp)
+<media/modulo3/quickosm-2.png>
+
+Underfull \hbox (badness 10000) detected at line 2715
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2715
+[][][]
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 2715--2716
+[]\TU/lmr/m/n/10 Carregue todas as rodovias dentro da extensão da camada
+ []
+
+File: media/modulo3/quickosm-3.png Graphic file (type bmp)
+<media/modulo3/quickosm-3.png>
+
+Underfull \hbox (badness 10000) detected at line 2749
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2749
+[][][]
+ []
+
+[102] [103] [104]
+File: media/modulo3/quickosm-4.png Graphic file (type bmp)
+<media/modulo3/quickosm-4.png>
+
+Underfull \hbox (badness 10000) detected at line 2765
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2765
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2767
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2767
+[][][]
+ []
+
+File: media/modulo3/quickosm-5.png Graphic file (type bmp)
+<media/modulo3/quickosm-5.png>
+
+Underfull \hbox (badness 10000) detected at line 2782
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2782
+[][][]
+ []
+
+File: media/modulo3/quickosm-6.png Graphic file (type bmp)
+<media/modulo3/quickosm-6.png>
+[105] [106] [107]
+Underfull \hbox (badness 10000) detected at line 2816
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2816
+[][][]
+ []
+
+File: media/modulo3/quickosm-7.png Graphic file (type bmp)
+<media/modulo3/quickosm-7.png>
+
+Underfull \hbox (badness 10000) detected at line 2832
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2832
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2841
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2841
+[][][]
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 2856--2856
+[]\TU/lmr/bx/n/12 Os dados da camada de assentamentos de alta
+ []
+
+[108]
+Underfull \hbox (badness 10000) in paragraph at lines 2863--2864
+[]\TU/lmr/m/n/10 Grades populacionais foram desenvolvidas para 140 países
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2863--2864
+\TU/lmr/m/n/10 e podem ser acessadas no Humanitarian Data Exchange
+ []
+
+
+Overfull \hbox (246.76997pt too wide) in paragraph at lines 2863--2864
+\TU/lmr/m/n/10 ([][]https://data.humdata.org/search?organization=facebook&q=%22
+High%20Resolution%20Population%20Density%20Maps%20%2B%
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2873
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2873
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2875
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2875
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2877
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2877
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2879
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2879
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2881
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2881
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2883
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2883
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2885
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2885
+[][][]
+ []
+
+File: media/modulo3/hdx.png Graphic file (type bmp)
+<media/modulo3/hdx.png>
+[109]
+Overfull \hbox (19.25pt too wide) in paragraph at lines 2905--2906
+[]\TU/lmr/m/n/10 População aberta e desafios abertos - [][]https://engineering.
+fb.com/2016/11/15/core-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2907--2908
+[]\TU/lmr/m/n/10 Conectando o mundo com mapas melhores -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2907--2908
+[][]\TU/lmr/m/n/10 https://engineering.fb.com/2016/02/21/core-data/connecting-t
+he-world-
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2920
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2920
+[][][]
+ []
+
+File: media/modulo3/hrsl-1.png Graphic file (type bmp)
+<media/modulo3/hrsl-1.png>
+
+Underfull \hbox (badness 10000) detected at line 2936
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2936
+[][][]
+ []
+
+[110]
+Underfull \hbox (badness 10000) detected at line 2938
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2938
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2948
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2948
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2950
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2950
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2952
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2952
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2961--2962
+\TU/lmr/m/n/10 A API Overpass ([][]https://wiki.openstreetmap.org/wiki/Overpass
+_API[][]),
+ []
+
+[111]
+Underfull \hbox (badness 10000) detected at line 2969
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2969
+[][][]
+ []
+
+File: media/modulo3/quickosm-6.png Graphic file (type bmp)
+<media/modulo3/quickosm-6.png>
+
+Underfull \hbox (badness 10000) detected at line 2985
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 2985
+[][][]
+ []
+
+[112]
+File: media/modulo3/overpass-1.png Graphic file (type bmp)
+<media/modulo3/overpass-1.png>
+
+Underfull \hbox (badness 10000) detected at line 3001
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3001
+[][][]
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 3001--3002
+[]\TU/lmr/m/n/10 Edite a consulta e adicione a linha \TU/lmr/bx/n/10 <has-kv k=
+“name”
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3001--3002
+\TU/lmr/bx/n/10 v=“Subway”/> \TU/lmr/m/n/10 após cada linha <has-kv k=“amenity”
+
+ []
+
+File: media/modulo3/overpass-2.png Graphic file (type bmp)
+<media/modulo3/overpass-2.png>
+
+Underfull \hbox (badness 10000) detected at line 3017
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3017
+[][][]
+ []
+
+File: media/modulo3/overpass-3.png Graphic file (type bmp)
+<media/modulo3/overpass-3.png>
+
+Underfull \hbox (badness 10000) detected at line 3033
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3033
+[][][]
+ []
+
+[113] [114]
+Underfull \hbox (badness 3623) in paragraph at lines 3042--3042
+[]\TU/lmr/bx/n/10 Carregar mais recursos do OSM usando o plug-in
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3048
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3048
+[][][]
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 3054--3055
+\TU/lmr/m/n/10 Se você não conseguir encontrar a feição que deseja ou precisa n
+o
+ []
+
+[115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[116
+
+]
+Underfull \vbox (badness 10000) detected at line 3057
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3057
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3057
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3057
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3057
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3057
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3057
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3057
+[]
+ []
+
+Capítulo 6.
+
+Underfull \hbox (badness 4699) in paragraph at lines 3090--3092
+[]\TU/lmr/m/n/10 Camada do limite administrativo do Rio de Janeiro (dentro de
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[117
+
+] [118]
+Underfull \hbox (badness 10000) in paragraph at lines 3159--3160
+[]\TU/lmr/m/n/10 defina sua simbologia e rótulos. Essas opções são as
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 3159--3160
+\TU/lmr/m/n/10 mesmas disponíveis na caixa de diálogo Propriedades do vetor
+ []
+
+
+Overfull \hbox (132.62999pt too wide) in paragraph at lines 3159--3160
+\TU/lmr/m/n/10 ([][]https://docs.qgis.org/3.16/en/docs/user_manual/working_with
+_vector/vector_properties.html#vector-
+ []
+
+File: media/modulo4/layer-styling.png Graphic file (type bmp)
+<media/modulo4/layer-styling.png>
+File: media/modulo4/style-vector.png Graphic file (type bmp)
+<media/modulo4/style-vector.png>
+File: media/modulo4/style-raster.png Graphic file (type bmp)
+<media/modulo4/style-raster.png>
+
+Underfull \hbox (badness 1248) in paragraph at lines 3206--3207
+\TU/lmr/m/n/10 QGIS oferece quatro tipos diferentes de renderização. A escolha 
+do
+ []
+
+[119] [120]
+
+Package hyperref Warning: Suppressing link with empty target on input line 3213
+.
+
+
+Overfull \hbox (254.65pt too wide) in paragraph at lines 3213--3215
+[]\TU/lmr/m/n/10 Valores paletados / únicos (https://docs.qgis.org/3.16/en/docs
+/user_manual/working_with_raster/raster_properties.html#paletted)
+ []
+
+
+Overfull \hbox (242.27pt too wide) in paragraph at lines 3215--3217
+[]\TU/lmr/m/n/10 Faixa única de cinzas ([][]https://docs.qgis.org/3.16/en/docs/
+user_manual/working_with_raster/raster_properties.html#singleband-
+ []
+
+
+Overfull \hbox (227.89001pt too wide) in paragraph at lines 3217--3219
+[]\TU/lmr/m/n/10 Banda simples falsa-cor ([][]https://docs.qgis.org/3.16/en/doc
+s/user_manual/working_with_raster/raster_properties.html#label-
+ []
+
+
+Overfull \hbox (188.79999pt too wide) in paragraph at lines 3219--3220
+[]\TU/lmr/m/n/10 Hillshade ([][](https://docs.qgis.org/3.16/en/docs/user_manual
+/working_with_raster/raster_properties.html#hillshade-
+ []
+
+[121]
+Underfull \hbox (badness 2359) in paragraph at lines 3238--3240
+[]\TU/lmr/m/n/10 Com base em regras - use para criar estilos baseados em regras
+
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3270
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3270
+[][][]
+ []
+
+[122]
+Underfull \hbox (badness 10000) detected at line 3272
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3272
+[][][]
+ []
+
+File: media/modulo4/add-vector.png Graphic file (type bmp)
+<media/modulo4/add-vector.png>
+
+Underfull \hbox (badness 10000) detected at line 3274
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3274
+[][][]
+ []
+
+File: media/modulo4/default-vector-render.png Graphic file (type bmp)
+<media/modulo4/default-vector-render.png>
+
+Overfull \hbox (57.92578pt too wide) in paragraph at lines 3277--3278
+[][]\TU/lmr/m/n/10 Renderização
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3286
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3286
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3288
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3288
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3290
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3290
+[][][]
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 3290--3292
+[]\TU/lmr/m/n/10 Altere a \TU/lmr/bx/n/10 Cor do preenchimento \TU/lmr/m/n/10 p
+ara \TU/lmr/bx/n/10 Preenchimento
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 3290--3292
+\TU/lmr/bx/n/10 transparente\TU/lmr/m/n/10 . Dica: Clique na seta suspensa em C
+or do
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3292
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3292
+[][][]
+ []
+
+File: media/modulo4/no-fill-render.png Graphic file (type bmp)
+<media/modulo4/no-fill-render.png>
+[123]
+Underfull \hbox (badness 10000) detected at line 3308
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3308
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3310
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3310
+[][][]
+ []
+
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 3310.
+File: media/modulo4/vector-style.png Graphic file (type bmp)
+<media/modulo4/vector-style.png>
+
+Underfull \hbox (badness 10000) detected at line 3326
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3326
+[][][]
+ []
+
+File: media/modulo4/final-vector-render.png Graphic file (type bmp)
+<media/modulo4/final-vector-render.png>
+
+Underfull \hbox (badness 10000) detected at line 3342
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3342
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3352
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3352
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3354
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3354
+[][][]
+ []
+
+[124] [125]
+Underfull \hbox (badness 10000) detected at line 3356
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3356
+[][][]
+ []
+
+File: media/modulo4/qgis9.png Graphic file (type bmp)
+<media/modulo4/qgis9.png>
+
+Underfull \hbox (badness 10000) detected at line 3372
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3372
+[][][]
+ []
+
+File: media/modulo4/hrsl-style.png Graphic file (type bmp)
+<media/modulo4/hrsl-style.png>
+
+Underfull \hbox (badness 10000) detected at line 3388
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3388
+[][][]
+ []
+
+File: media/modulo4/zoom-in.png Graphic file (type bmp)
+<media/modulo4/zoom-in.png>
+
+Underfull \hbox (badness 10000) detected at line 3404
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3404
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3414
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3414
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3416
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3416
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3418
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3418
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3427
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3427
+[][][]
+ []
+
+[126] [127]
+Underfull \hbox (badness 10000) detected at line 3438
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3438
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3455
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3455
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3466
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3466
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3498
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3498
+[][][]
+ []
+
+File: media/modulo4/initial-workspace.png Graphic file (type bmp)
+<media/modulo4/initial-workspace.png>
+
+Underfull \hbox (badness 10000) detected at line 3514
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3514
+[][][]
+ []
+
+File: media/modulo4/customise-effects-button.png Graphic file (type bmp)
+<media/modulo4/customise-effects-button.png>
+File: media/modulo4/draw-effects.png Graphic file (type bmp)
+<media/modulo4/draw-effects.png>
+[128]
+Underfull \hbox (badness 10000) detected at line 3532
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3532
+[][][]
+ []
+
+File: media/modulo4/new-effects-dialog.png Graphic file (type bmp)
+<media/modulo4/new-effects-dialog.png>
+
+Underfull \hbox (badness 10000) detected at line 3548
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3548
+[][][]
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 3548--3549
+[]\TU/lmr/m/n/10 Você pode ver que atualmente o único efeito listado é um
+ []
+
+File: media/modulo4/blur-effect.png Graphic file (type bmp)
+<media/modulo4/blur-effect.png>
+
+Underfull \hbox (badness 10000) detected at line 3564
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3564
+[][][]
+ []
+
+File: media/modulo4/blurry-result.png Graphic file (type bmp)
+<media/modulo4/blurry-result.png>
+
+Underfull \hbox (badness 10000) detected at line 3580
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3580
+[][][]
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 3580--3581
+[]\TU/lmr/m/n/10 Vamos usar a caixa de diálogo \TU/lmr/bx/n/10 Propriedades dos
+ efeitos
+ []
+
+[129] [130] [131] [132]
+File: media/modulo4/drop-shadow.png Graphic file (type bmp)
+<media/modulo4/drop-shadow.png>
+
+Underfull \hbox (badness 10000) detected at line 3596
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3596
+[][][]
+ []
+
+File: media/modulo4/drop-shadow-result.png Graphic file (type bmp)
+<media/modulo4/drop-shadow-result.png>
+
+Underfull \hbox (badness 10000) detected at line 3612
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3612
+[][][]
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 3612--3613
+\TU/lmr/bx/n/10 brilho interno \TU/lmr/m/n/10 sobre um \TU/lmr/bx/n/10 efeito f
+onte \TU/lmr/m/n/10 com uma \TU/lmr/bx/n/10 sombra
+ []
+
+[133] [134]
+Underfull \hbox (badness 10000) detected at line 3648
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3648
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3650
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3650
+[][][]
+ []
+
+File: media/modulo4/centroid.png Graphic file (type bmp)
+<media/modulo4/centroid.png>
+
+Underfull \hbox (badness 10000) detected at line 3666
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3666
+[][][]
+ []
+
+File: media/modulo4/centroid-result.png Graphic file (type bmp)
+<media/modulo4/centroid-result.png>
+
+Underfull \hbox (badness 10000) detected at line 3682
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3682
+[][][]
+ []
+
+File: media/modulo4/expression.png Graphic file (type bmp)
+<media/modulo4/expression.png>
+[135] [136]
+Underfull \hbox (badness 10000) detected at line 3684
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3684
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3686
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3686
+[][][]
+ []
+
+[137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[138
+
+]
+Underfull \vbox (badness 10000) detected at line 3690
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3690
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3690
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3690
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3690
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3690
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 3690
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 3690
+[]
+ []
+
+Capítulo 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3759--3761
+[]\TU/lmr/m/n/10 QGIS Map LayOut - [][]https://docs.qgis.org/3.16/en/
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[139
+
+] [140]
+File: media/modulo5/print_comp2.png Graphic file (type bmp)
+<media/modulo5/print_comp2.png>
+
+Underfull \hbox (badness 1584) in paragraph at lines 3799--3800
+[]\TU/lmr/bx/n/10 elementos e propriedades do mapa\TU/lmr/m/n/10 : os mapas con
+têm muitas
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3814
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3814
+[][][]
+ []
+
+[141]
+Underfull \hbox (badness 10000) detected at line 3816
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3816
+[][][]
+ []
+
+File: media/modulo5/export-map-canvas-image.png Graphic file (type bmp)
+<media/modulo5/export-map-canvas-image.png>
+File: media/modulo5/export-map-canvas.png Graphic file (type bmp)
+<media/modulo5/export-map-canvas.png>
+
+Underfull \hbox (badness 10000) detected at line 3838
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3838
+[][][]
+ []
+
+File: media/modulo5/exported-map-canvas.png Graphic file (type bmp)
+<media/modulo5/exported-map-canvas.png>
+
+Underfull \hbox (badness 10000) detected at line 3856
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3856
+[][][]
+ []
+
+[142] [143]
+File: media/modulo5/new-print-layout.png Graphic file (type bmp)
+<media/modulo5/new-print-layout.png>
+
+Underfull \hbox (badness 10000) detected at line 3872
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3872
+[][][]
+ []
+
+File: media/modulo5/newprint_composer.png Graphic file (type bmp)
+<media/modulo5/newprint_composer.png>
+File: media/modulo5/new-print-layout-name.png Graphic file (type bmp)
+<media/modulo5/new-print-layout-name.png>
+
+Underfull \hbox (badness 10000) detected at line 3888
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3888
+[][][]
+ []
+
+File: media/modulo5/new-print-layout-window.png Graphic file (type bmp)
+<media/modulo5/new-print-layout-window.png>
+
+Underfull \hbox (badness 10000) detected at line 3904
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3904
+[][][]
+ []
+
+File: media/modulo5/add_new_map_to_layout.png Graphic file (type bmp)
+<media/modulo5/add_new_map_to_layout.png>
+[144] [145]
+File: media/modulo5/print-layout-map.png Graphic file (type bmp)
+<media/modulo5/print-layout-map.png>
+
+Underfull \hbox (badness 10000) detected at line 3922
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3922
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3924
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3924
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3926
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3926
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3935
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3935
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3946
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3946
+[][][]
+ []
+
+[146]
+Underfull \hbox (badness 10000) detected at line 3957
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3957
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3983
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3983
+[][][]
+ []
+
+File: media/modulo5/add_title.png Graphic file (type bmp)
+<media/modulo5/add_title.png>
+[147]
+File: media/modulo5/print-layout-with-title.png Graphic file (type bmp)
+<media/modulo5/print-layout-with-title.png>
+
+Underfull \hbox (badness 10000) detected at line 3999
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 3999
+[][][]
+ []
+
+File: media/modulo5/scale-bar.png Graphic file (type bmp)
+<media/modulo5/scale-bar.png>
+File: media/modulo5/legend.png Graphic file (type bmp)
+<media/modulo5/legend.png>
+File: media/modulo5/attribution.png Graphic file (type bmp)
+<media/modulo5/attribution.png>
+
+Underfull \hbox (badness 10000) detected at line 4030
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4030
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4032
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4032
+[][][]
+ []
+
+File: media/modulo5/export-image-btn.png Graphic file (type bmp)
+<media/modulo5/export-image-btn.png>
+[148] [149]
+File: media/modulo5/img-parameters.png Graphic file (type bmp)
+<media/modulo5/img-parameters.png>
+File: media/modulo5/exported-map.png Graphic file (type bmp)
+<media/modulo5/exported-map.png>
+
+Underfull \hbox (badness 10000) detected at line 4058
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4058
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4060
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4060
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4062
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4062
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4071
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4071
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4082
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4082
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4084
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4084
+[][][]
+ []
+
+[150] [151]
+Underfull \hbox (badness 2213) in paragraph at lines 4088--4088
+[]\TU/lmr/bx/n/12 Automatizando a criação de mapas usando os
+ []
+
+File: media/modulo5/atlas-coverage.png Graphic file (type bmp)
+<media/modulo5/atlas-coverage.png>
+File: media/modulo5/atlas-attr.png Graphic file (type bmp)
+<media/modulo5/atlas-attr.png>
+
+Underfull \hbox (badness 10000) detected at line 4114
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4114
+[][][]
+ []
+
+[152] [153]
+Underfull \hbox (badness 10000) detected at line 4116
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4116
+[][][]
+ []
+
+File: media/modulo5/atlas-print-layout.png Graphic file (type bmp)
+<media/modulo5/atlas-print-layout.png>
+
+Underfull \hbox (badness 10000) detected at line 4132
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4132
+[][][]
+ []
+
+File: media/modulo5/atlas-settings-btn.png Graphic file (type bmp)
+<media/modulo5/atlas-settings-btn.png>
+File: media/modulo5/generate-atlas.png Graphic file (type bmp)
+<media/modulo5/generate-atlas.png>
+
+LaTeX Warning: Float too large for page by 24.02782pt on input line 4139.
+
+
+Underfull \hbox (badness 10000) detected at line 4148
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4148
+[][][]
+ []
+
+[154] [155]
+File: media/modulo5/coverage-layer.png Graphic file (type bmp)
+<media/modulo5/coverage-layer.png>
+
+LaTeX Warning: Float too large for page by 24.0237pt on input line 4155.
+
+
+Underfull \hbox (badness 10000) detected at line 4164
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4164
+[][][]
+ []
+
+File: media/modulo5/atlas-controlled.png Graphic file (type bmp)
+<media/modulo5/atlas-controlled.png>
+
+LaTeX Warning: Float too large for page by 22.98717pt on input line 4171.
+
+
+Underfull \hbox (badness 10000) detected at line 4180
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4180
+[][][]
+ []
+
+File: media/modulo5/atlas-preview-btn.png Graphic file (type bmp)
+<media/modulo5/atlas-preview-btn.png>
+File: media/modulo5/atlas-toolbar-nav.png Graphic file (type bmp)
+<media/modulo5/atlas-toolbar-nav.png>
+
+Underfull \hbox (badness 1881) in paragraph at lines 4180--4181
+[]\TU/lmr/m/n/10 Para visualizar seu Atlas, clique no botão Visualizar Atlas
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 4180--4181
+[] \TU/lmr/m/n/10 na barra de ferramentas Atlas. Isso mostrará os
+ []
+
+File: media/modulo5/atlas-preview.png Graphic file (type bmp)
+<media/modulo5/atlas-preview.png>
+
+Underfull \hbox (badness 10000) detected at line 4196
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4196
+[][][]
+ []
+
+File: media/modulo5/atlas-export-btn.png Graphic file (type bmp)
+<media/modulo5/atlas-export-btn.png>
+File: media/modulo5/atlas-outputs.png Graphic file (type bmp)
+<media/modulo5/atlas-outputs.png>
+
+Underfull \hbox (badness 10000) detected at line 4211
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4211
+[][][]
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 4211--4213
+[]\TU/lmr/bx/n/10 DICA\TU/lmr/m/n/10 : Para este exemplo, mapeamos apenas a cam
+ada de
+ []
+
+[156] [157] [158] [159]
+Underfull \hbox (badness 10000) detected at line 4213
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4213
+[][][]
+ []
+
+[160]
+Underfull \vbox (badness 10000) detected at line 4219
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4219
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4219
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4219
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4219
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4219
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4219
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4219
+[]
+ []
+
+Capítulo 8.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[161
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4296--4297
+[]\TU/lmr/m/n/10 Expressões QGIS - [][]https://docs.qgis.org/3.16/en/docs/
+ []
+
+[162] [163]
+Underfull \hbox (badness 10000) detected at line 4411
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4411
+[][][]
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 4411--4412
+[]\TU/lmr/m/n/10 Carregue a camada vetorial de UFs PHL (encontrada em
+ []
+
+File: media/modulo6/many-polygons.png Graphic file (type bmp)
+<media/modulo6/many-polygons.png>
+[164]
+Underfull \hbox (badness 10000) detected at line 4427
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4427
+[][][]
+ []
+
+File: media/modulo6/open-attribute-btn.png Graphic file (type bmp)
+<media/modulo6/open-attribute-btn.png>
+File: media/modulo6/attribute-tab.png Graphic file (type bmp)
+<media/modulo6/attribute-tab.png>
+File: media/modulo6/dock-attr-btn.png Graphic file (type bmp)
+<media/modulo6/dock-attr-btn.png>
+File: media/modulo6/docked-attribute-tab.png Graphic file (type bmp)
+<media/modulo6/docked-attribute-tab.png>
+
+Underfull \hbox (badness 10000) detected at line 4452
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4452
+[][][]
+ []
+
+[165] [166]
+Underfull \hbox (badness 10000) detected at line 4454
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4454
+[][][]
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 4454--4455
+[]\TU/lmr/m/n/10 Verifique as configurações do projeto; Acesse: \TU/lmr/bx/n/10
+ Projeto >
+ []
+
+File: media/modulo6/gen-settings.png Graphic file (type bmp)
+<media/modulo6/gen-settings.png>
+
+Underfull \hbox (badness 10000) detected at line 4470
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4470
+[][][]
+ []
+
+File: media/modulo6/field_calculator.png Graphic file (type bmp)
+<media/modulo6/field_calculator.png>
+[167]
+File: media/modulo6/fieldcalc.png Graphic file (type bmp)
+<media/modulo6/fieldcalc.png>
+
+Underfull \hbox (badness 10000) detected at line 4492
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4492
+[][][]
+ []
+
+File: media/modulo6/area.png Graphic file (type bmp)
+<media/modulo6/area.png>
+
+Underfull \hbox (badness 10000) detected at line 4509
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4509
+[][][]
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 4509--4511
+[]\TU/lmr/m/n/10 Uma tabela de atributos é um banco de dados ou arquivo
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4511
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4511
+[][][]
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 4511--4513
+\TU/lmr/m/n/10 que cada linha represente uma característica e cada coluna
+ []
+
+[168]
+Underfull \hbox (badness 10000) detected at line 4513
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4513
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4523
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4523
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4525
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4525
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4527
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4527
+[][][]
+ []
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 4531--4531
+[]\TU/lmr/bx/n/12 Entender e trabalhar com dados de atributos,
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4542
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4542
+[][][]
+ []
+
+[169]
+File: media/modulo6/add-layers.png Graphic file (type bmp)
+<media/modulo6/add-layers.png>
+
+Underfull \hbox (badness 10000) detected at line 4568
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4568
+[][][]
+ []
+
+File: media/modulo6/select_features_button.png Graphic file (type bmp)
+<media/modulo6/select_features_button.png>
+File: media/modulo6/select.png Graphic file (type bmp)
+<media/modulo6/select.png>
+
+Underfull \hbox (badness 10000) detected at line 4590
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4590
+[][][]
+ []
+
+File: media/modulo6/selected-canvas.png Graphic file (type bmp)
+<media/modulo6/selected-canvas.png>
+File: media/modulo6/selected-attr.png Graphic file (type bmp)
+<media/modulo6/selected-attr.png>
+[170] [171]
+Underfull \hbox (badness 10000) detected at line 4620
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4620
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4622
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4622
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4624
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4624
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4634
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4634
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4636
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4636
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4638
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4638
+[][][]
+ []
+
+[172]
+Overfull \hbox (136.555pt too wide) in paragraph at lines 4649--4651
+[]\TU/lmr/m/n/10 Aba Expressão ([][]https: //docs.qgis .org/2.18/en/docs/user_m
+anual/working_with_vector/expression.html
+ []
+
+
+Overfull \hbox (207.08pt too wide) in paragraph at lines 4651--4652
+[]\TU/lmr/m/n/10 Aba Editor de funções ([][]https://docs.qgis.org/2.18/en/docs/
+user_manual/working_with_vector/expression.html#function-
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 4651--4652
+\TU/lmr/m/n/10 editor[][]) que ajuda a estender a lista de funções criando funç
+ões
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4663
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4663
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4675
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4675
+[][][]
+ []
+
+
+Overfull \hbox (120.25pt too wide) in paragraph at lines 4683--4683
+[]     \TU/lmtt/m/n/10 WHEN "pop_density" >= 50 AND  "pop_density" < 150 THEN [
+]Medium population density[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4690
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4690
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4702
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4702
+[][][]
+ []
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 4707--4707
+[]\TU/lmtt/m/n/10 "density level" = []High population density[] and "price_m2" 
+> 10000[] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4714
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4714
+[][][]
+ []
+
+[173]
+Underfull \hbox (badness 10000) detected at line 4724
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4724
+[][][]
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 4724--4726
+[]\TU/lmr/m/n/10 Tanto a calculadora de campo quanto o diálogo Selecionar
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4726
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4726
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4728
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4728
+[][][]
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 4728--4729
+[]\TU/lmr/m/n/10 As expressões podem ser usadas para aplicar um estilo -
+ []
+
+[174]
+Underfull \vbox (badness 10000) detected at line 4732
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4732
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4732
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4732
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4732
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4732
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 4732
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 4732
+[]
+ []
+
+Capítulo 9.
+
+Overfull \hbox (281.38pt too wide) in paragraph at lines 4760--4762
+[]\TU/lmr/m/n/10 Digitalização de áreas florestais - [][]https://docs.qgis.org/
+3.16/en/docs/training_manual/forestry/stands_digitazing.html?highlight=digitizi
+ng[][] 
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[175
+
+
+]
+File: media/modulo7/rs-images.png Graphic file (type bmp)
+<media/modulo7/rs-images.png>
+[176]
+File: media/modulo7/buildings.png Graphic file (type bmp)
+<media/modulo7/buildings.png>
+[177]
+Underfull \hbox (badness 10000) detected at line 4812
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4812
+[][][]
+ []
+
+File: media/modulo7/geopackage-button.png Graphic file (type bmp)
+<media/modulo7/geopackage-button.png>
+File: media/modulo7/new-geopackage-dialog.png Graphic file (type bmp)
+<media/modulo7/new-geopackage-dialog.png>
+
+Underfull \hbox (badness 10000) detected at line 4828
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4828
+[][][]
+ []
+
+File: media/modulo7/database-file-location.png Graphic file (type bmp)
+<media/modulo7/database-file-location.png>
+
+Underfull \hbox (badness 10000) detected at line 4830
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4830
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4832
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4832
+[][][]
+ []
+
+[178] [179]
+Underfull \hbox (badness 10000) detected at line 4834
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4834
+[][][]
+ []
+
+File: media/modulo7/mActionSetProjection.png Graphic file (type bmp)
+<media/modulo7/mActionSetProjection.png>
+
+Underfull \hbox (badness 10000) detected at line 4836
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4836
+[][][]
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 4846--4848
+[]\TU/lmr/m/n/10 Dependendo do formato de dados selecionado, insira o
+ []
+
+File: media/modulo7/mActionNewAttribute.png Graphic file (type bmp)
+<media/modulo7/mActionNewAttribute.png>
+
+Underfull \hbox (badness 10000) detected at line 4851
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4851
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4853
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4853
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4863
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4863
+[][][]
+ []
+
+File: media/modulo7/mActionNewVectorLayer.png Graphic file (type bmp)
+<media/modulo7/mActionNewVectorLayer.png>
+File: media/modulo7/new-shapefile-dialog.png Graphic file (type bmp)
+<media/modulo7/new-shapefile-dialog.png>
+
+Underfull \hbox (badness 10000) detected at line 4878
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4878
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4880
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4880
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4882
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4882
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4884
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4884
+[][][]
+ []
+
+[180] [181]
+Underfull \hbox (badness 10000) detected at line 4886
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4886
+[][][]
+ []
+
+File: media/modulo7/mActionSetProjection.png Graphic file (type bmp)
+<media/modulo7/mActionSetProjection.png>
+
+Underfull \hbox (badness 10000) detected at line 4888
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4888
+[][][]
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 4898--4900
+[]\TU/lmr/m/n/10 Dependendo do formato de dados selecionado, insira o
+ []
+
+File: media/modulo7/mActionNewAttribute.png Graphic file (type bmp)
+<media/modulo7/mActionNewAttribute.png>
+
+Underfull \hbox (badness 10000) detected at line 4903
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4903
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4905
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4905
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4920
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4920
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4922
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4922
+[][][]
+ []
+
+File: media/modulo7/new-project.png Graphic file (type bmp)
+<media/modulo7/new-project.png>
+[182]
+Underfull \hbox (badness 10000) detected at line 4924
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4924
+[][][]
+ []
+
+File: media/modulo7/new-vector.png Graphic file (type bmp)
+<media/modulo7/new-vector.png>
+
+Underfull \hbox (badness 10000) detected at line 4946
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4946
+[][][]
+ []
+
+File: media/modulo7/xyz-2.png Graphic file (type bmp)
+<media/modulo7/xyz-2.png>
+
+LaTeX Warning: Float too large for page by 1.65057pt on input line 4953.
+
+File: media/modulo7/xyz-3.png Graphic file (type bmp)
+<media/modulo7/xyz-3.png>
+
+Underfull \hbox (badness 10000) detected at line 4968
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4968
+[][][]
+ []
+
+File: media/modulo7/digitize-zoom.png Graphic file (type bmp)
+<media/modulo7/digitize-zoom.png>
+
+Underfull \hbox (badness 10000) detected at line 4984
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4984
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4986
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4986
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4988
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4988
+[][][]
+ []
+
+File: media/modulo7/edit-layer.png Graphic file (type bmp)
+<media/modulo7/edit-layer.png>
+
+Underfull \hbox (badness 10000) detected at line 4990
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4990
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4992
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 4992
+[][][]
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 4992--4993
+[]\TU/lmr/m/n/10 Assim que estiver no modo de edição, as ferramentas de
+ []
+
+[183] [184] [185] [186]
+File: media/modulo7/digi-toolbar.png Graphic file (type bmp)
+<media/modulo7/digi-toolbar.png>
+
+Underfull \hbox (badness 10000) detected at line 5034
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5034
+[][][]
+ []
+
+File: media/modulo7/add-feature.png Graphic file (type bmp)
+<media/modulo7/add-feature.png>
+
+Underfull \hbox (badness 2393) in paragraph at lines 5034--5036
+[]\TU/lmr/m/n/10 Clique no botão \TU/lmr/m/it/10 Adicionar feição [] \TU/lmr/m/
+n/10 para iniciar a
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5036
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5036
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5038
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5038
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5040
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5040
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5042
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5042
+[][][]
+ []
+
+File: media/modulo7/digitize-1.png Graphic file (type bmp)
+<media/modulo7/digitize-1.png>
+File: media/modulo7/digitize-2.png Graphic file (type bmp)
+<media/modulo7/digitize-2.png>
+[187] [188]
+Underfull \hbox (badness 10000) detected at line 5066
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5066
+[][][]
+ []
+
+File: media/modulo7/digitize-3.png Graphic file (type bmp)
+<media/modulo7/digitize-3.png>
+
+Underfull \hbox (badness 1681) in paragraph at lines 5077--5078
+[]\TU/lmr/m/n/10 Se você cometer um erro ao digitalizar um recurso, poderá edit
+á-lo
+ []
+
+File: media/modulo7/select-feature.png Graphic file (type bmp)
+<media/modulo7/select-feature.png>
+[189]
+Underfull \hbox (badness 10000) detected at line 5118
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5118
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5133
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5133
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5135
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5135
+[][][]
+ []
+
+File: media/modulo7/add-raster.png Graphic file (type bmp)
+<media/modulo7/add-raster.png>
+File: media/modulo7/georeferencer.png Graphic file (type bmp)
+<media/modulo7/georeferencer.png>
+
+Underfull \hbox (badness 10000) detected at line 5153
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5153
+[][][]
+ []
+
+File: media/modulo7/georef-settings-btn.png Graphic file (type bmp)
+<media/modulo7/georef-settings-btn.png>
+
+Underfull \hbox (badness 10000) detected at line 5155
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5155
+[][][]
+ []
+
+File: media/modulo7/dots.png Graphic file (type bmp)
+<media/modulo7/dots.png>
+[190] [191]
+Underfull \hbox (badness 10000) detected at line 5157
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5157
+[][][]
+ []
+
+File: media/modulo7/transformation-settings.png Graphic file (type bmp)
+<media/modulo7/transformation-settings.png>
+
+Underfull \hbox (badness 10000) detected at line 5192
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5192
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5194
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5194
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5196
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5196
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5198
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5198
+[][][]
+ []
+
+File: media/modulo7/add-point.png Graphic file (type bmp)
+<media/modulo7/add-point.png>
+
+Underfull \hbox (badness 10000) detected at line 5200
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5200
+[][][]
+ []
+
+File: media/modulo7/georef-1.png Graphic file (type bmp)
+<media/modulo7/georef-1.png>
+File: media/modulo7/georef-2.png Graphic file (type bmp)
+<media/modulo7/georef-2.png>
+
+Underfull \hbox (badness 10000) detected at line 5224
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5224
+[][][]
+ []
+
+File: media/modulo7/georef-3.png Graphic file (type bmp)
+<media/modulo7/georef-3.png>
+[192] [193] [194] [195]
+Underfull \hbox (badness 10000) detected at line 5241
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5241
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5243
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5243
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5245
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5245
+[][][]
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 5245--5247
+[]\TU/lmr/m/n/10 Adicione mais pontos de controle até ficar satisfeito com os
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5247
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5247
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5249
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5249
+[][][]
+ []
+
+File: media/modulo7/georef-start-btn.png Graphic file (type bmp)
+<media/modulo7/georef-start-btn.png>
+
+Underfull \hbox (badness 2443) in paragraph at lines 5249--5250
+[]\TU/lmr/m/n/10 Finalmente, georreferencie seu mapa com \TU/lmr/bx/n/10 Arquiv
+o Iniciar
+ []
+
+File: media/modulo7/georef-4.png Graphic file (type bmp)
+<media/modulo7/georef-4.png>
+File: media/modulo7/georef-5.png Graphic file (type bmp)
+<media/modulo7/georef-5.png>
+
+Underfull \hbox (badness 10000) detected at line 5277
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5277
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5279
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5279
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5281
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5281
+[][][]
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 5281--5283
+[]\TU/lmr/m/n/10 Quais fatores podem afetar a precisão dos dados durante a
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5283
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5283
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5285
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5285
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5294
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5294
+[][][]
+ []
+
+[196] [197]
+Underfull \hbox (badness 10000) detected at line 5306
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5306
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5318
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5318
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5330
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5330
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5340
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5340
+[][][]
+ []
+
+[198]
+Underfull \vbox (badness 10000) detected at line 5352
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 5352
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 5352
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 5352
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 5352
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 5352
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 5352
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 5352
+[]
+ []
+
+Capítulo 10.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[199
+
+
+]
+Overfull \hbox (75.98999pt too wide) in paragraph at lines 5427--5429
+[][][]\TU/lmr/m/n/10 https://docs.qgis.org/3.16/en/docs/user_manual/working_wit
+h_vector/functions_list.html[][] 
+ []
+
+
+Overfull \hbox (201.4pt too wide) in paragraph at lines 5429--5431
+[][][]\TU/lmr/m/n/10 http://www.geo.hunter.cuny.edu/~jochen/gtech361/lectures/l
+ecture12/concepts/01%20What%20is%20geoprocessing.htm[][] 
+ []
+
+[200]
+File: media/modulo8/fig81.png Graphic file (type bmp)
+<media/modulo8/fig81.png>
+File: media/modulo8/fig82.png Graphic file (type bmp)
+<media/modulo8/fig82.png>
+[201]
+File: media/modulo8/fig83.png Graphic file (type bmp)
+<media/modulo8/fig83.png>
+[202]
+Underfull \hbox (badness 1043) in paragraph at lines 5490--5491
+[]\TU/lmr/m/n/10 Devido à importância dos metadados, suas categorias (suas defi
+nições,
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 5490--5491
+\TU/lmr/m/n/10 nome, que tipo de informação eles podem armazenar etc.) seguem
+ []
+
+[203]
+Underfull \hbox (badness 2932) in paragraph at lines 5501--5502
+[]\TU/lmr/bx/n/10 Análise de dados espaciais \TU/lmr/m/n/10 (sinônimos: análise
+ espacial, análise
+ []
+
+[204]
+File: media/modulo8/fig84.png Graphic file (type bmp)
+<media/modulo8/fig84.png>
+File: media/modulo8/fig85.png Graphic file (type bmp)
+<media/modulo8/fig85.png>
+[205]
+Overfull \hbox (146.5pt too wide) in paragraph at lines 5566--5566
+[]\TU/lmtt/m/n/10 Clique duas vezes na camada de interesse - Propriedades - Inf
+ormações - Contagem de recursos[] 
+ []
+
+
+Overfull \hbox (120.25pt too wide) in paragraph at lines 5566--5566
+[]\TU/lmtt/m/n/10 Abra a tabela de atributos da camada de interesse e olhe na p
+arte superior lado central[] 
+ []
+
+File: media/modulo8/fig86.png Graphic file (type bmp)
+<media/modulo8/fig86.png>
+[206]
+Overfull \hbox (36.25pt too wide) in paragraph at lines 5602--5602
+[]\TU/lmtt/m/n/10 Janela da caixa de ferramentas de processamento > pesquisa po
+r []stats[][][] 
+ []
+
+File: media/modulo8/fig87.png Graphic file (type bmp)
+<media/modulo8/fig87.png>
+File: media/modulo8/fig88.png Graphic file (type bmp)
+<media/modulo8/fig88.png>
+[207] [208] [209]
+File: media/modulo8/fig89_a.png Graphic file (type bmp)
+<media/modulo8/fig89_a.png>
+File: media/modulo8/fig89_b.png Graphic file (type bmp)
+<media/modulo8/fig89_b.png>
+File: media/modulo8/fig810.png Graphic file (type bmp)
+<media/modulo8/fig810.png>
+[210] [211] [212]
+File: media/modulo8/fig811.png Graphic file (type bmp)
+<media/modulo8/fig811.png>
+File: media/modulo8/fig812.png Graphic file (type bmp)
+<media/modulo8/fig812.png>
+File: media/modulo8/fig813.png Graphic file (type bmp)
+<media/modulo8/fig813.png>
+[213] [214]
+File: media/modulo8/fig814.png Graphic file (type bmp)
+<media/modulo8/fig814.png>
+File: media/modulo8/fig815.png Graphic file (type bmp)
+<media/modulo8/fig815.png>
+[215] [216]
+File: media/modulo8/fig816.png Graphic file (type bmp)
+<media/modulo8/fig816.png>
+File: media/modulo8/fig817_a.png Graphic file (type bmp)
+<media/modulo8/fig817_a.png>
+File: media/modulo8/fig817_b.png Graphic file (type bmp)
+<media/modulo8/fig817_b.png>
+[217] [218]
+File: media/modulo8/fig819_a.png Graphic file (type bmp)
+<media/modulo8/fig819_a.png>
+File: media/modulo8/fig819_b.png Graphic file (type bmp)
+<media/modulo8/fig819_b.png>
+[219]
+Overfull \hbox (1947.25pt too wide) in paragraph at lines 5860--5860
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []parking;dormitory;stilt_house;NULL;pav
+ilion;greenhouse;ruins;transportation;college;yes;chapel;boathouse;retail;super
+market;Prédio;college;industrial;farm;house;garages;garage;university;public;sh
+ed;roof;carport;church;temple;service;residential;hotel;warehouse;shop;cowshed;
+civic;kindergarten;stadium;apartments;semidetached_house;office;cabin;school;co
+nstruction;commercial;terrace;grandstand;hospital;government[][] 
+ []
+
+
+Overfull \hbox (4735.0pt too wide) in paragraph at lines 5870--5870
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []recycling;artwork;tourist_info;shoe_sh
+op;department_store;greengrocer;bicycle_rental;pharmacy;vending_any;hairdresser
+;post_box;car_wash;laundry;newsagent;drinking_water;outdoor_shop;community_cent
+re;florist;fast_food;pitch;computer_shop;viewpoint;car_sharing;dog_park;guestho
+use;theatre;travel_agent;library;convenience;waste_basket;bank;car_rental;super
+market;college;wayside_shrine;university;car_dealership;optician;hostel;telepho
+ne;toilet;pub;jeweller;bar;courthouse;embassy;monument;doctors;video_shop;camer
+a_surveillance;hospital;bicycle_shop;fire_station;ruins;mall;playground;mobile_
+phone_shop;beverages;gift_shop;lighthouse;toy_shop;clothes;bench;dentist;bakery
+;water_tower;sports_shop;police;sports_centre;kiosk;cafe;shelter;cinema;attract
+ion;museum;bookshop;motel;chalet;furniture_shop;post_office;atm;hotel;fountain;
+restaurant;doityourself;arts_centre;beauty_shop;comms_tower;tower;memorial;scho
+ol;stationery;park;nightclub;camp_site[][] 
+ []
+
+[220]
+Overfull \hbox (225.25pt too wide) in paragraph at lines 5890--5890
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []buddhist;christian_evangelical;muslim;
+christian;christian_catholic;christian_methodist[][] 
+ []
+
+
+Overfull \hbox (771.25pt too wide) in paragraph at lines 5900--5900
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []secondary_link;primary_link;path;trunk
+_link;service;track;residential;track_grade3;primary;living_street;unclassified
+;trunk;pedestrian;tertiary_link;footway;tertiary;steps;secondary;cycleway[][] 
+ []
+
+
+Overfull \hbox (561.25pt too wide) in paragraph at lines 5910--5910
+[]  []\TU/lmtt/m/n/10 UNIQUE_VALUES[]: []allotments;farmland;orchard;cemetery;g
+rass;recreation_ground;park;farmyard;industrial;meadow;heath;commercial;forest;
+scrub;retail;military;residential[][] 
+ []
+
+File: media/modulo8/fig820_a.png Graphic file (type bmp)
+<media/modulo8/fig820_a.png>
+File: media/modulo8/fig820_b.png Graphic file (type bmp)
+<media/modulo8/fig820_b.png>
+File: media/modulo8/fig821.png Graphic file (type bmp)
+<media/modulo8/fig821.png>
+[221]
+Underfull \hbox (badness 1371) in paragraph at lines 5948--5949
+[]\TU/lmr/m/n/10 Outra análise interessante pode ser executada na camada vetori
+al de
+ []
+
+File: media/modulo8/fig822.png Graphic file (type bmp)
+<media/modulo8/fig822.png>
+
+Underfull \hbox (badness 10000) detected at line 5965
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5965
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5981
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5981
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5995
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 5995
+[][][]
+ []
+
+[222] [223] [224] [225]
+File: media/modulo8/fig823.png Graphic file (type bmp)
+<media/modulo8/fig823.png>
+File: media/modulo8/fig824.png Graphic file (type bmp)
+<media/modulo8/fig824.png>
+File: media/modulo8/fig825.png Graphic file (type bmp)
+<media/modulo8/fig825.png>
+[226] [227] [228]
+File: media/modulo8/fig826_a.png Graphic file (type bmp)
+<media/modulo8/fig826_a.png>
+File: media/modulo8/fig826_b.png Graphic file (type bmp)
+<media/modulo8/fig826_b.png>
+File: media/modulo8/fig827_a.png Graphic file (type bmp)
+<media/modulo8/fig827_a.png>
+File: media/modulo8/fig827_b.png Graphic file (type bmp)
+<media/modulo8/fig827_b.png>
+[229] [230]
+File: media/modulo8/fig828_a.png Graphic file (type bmp)
+<media/modulo8/fig828_a.png>
+File: media/modulo8/fig828_b.png Graphic file (type bmp)
+<media/modulo8/fig828_b.png>
+File: media/modulo8/fig828_c.png Graphic file (type bmp)
+<media/modulo8/fig828_c.png>
+File: media/modulo8/fig828_d.png Graphic file (type bmp)
+<media/modulo8/fig828_d.png>
+[231] [232] [233]
+Underfull \hbox (badness 10000) detected at line 6129
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6129
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6131
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6131
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6133
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6133
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6135
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6135
+[][][]
+ []
+
+File: media/modulo8/fig829_a.png Graphic file (type bmp)
+<media/modulo8/fig829_a.png>
+File: media/modulo8/fig829_b.png Graphic file (type bmp)
+<media/modulo8/fig829_b.png>
+[234] [235]
+Underfull \hbox (badness 10000) detected at line 6168
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6168
+[][][]
+ []
+
+File: media/modulo8/fig830_a.png Graphic file (type bmp)
+<media/modulo8/fig830_a.png>
+File: media/modulo8/fig830_b.png Graphic file (type bmp)
+<media/modulo8/fig830_b.png>
+[236]
+File: media/modulo8/fig831.png Graphic file (type bmp)
+<media/modulo8/fig831.png>
+File: media/modulo8/fig832.png Graphic file (type bmp)
+<media/modulo8/fig832.png>
+File: media/modulo8/fig833.png Graphic file (type bmp)
+<media/modulo8/fig833.png>
+
+Underfull \hbox (badness 1609) in paragraph at lines 6219--6220
+[]\TU/lmtt/m/n/10 park[], []recreation_ground[])\TU/lmr/m/n/10 . Na tabela de a
+tributos, no campo
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 6219--6220
+\TU/lmr/m/n/10 de expressão digite: \TU/lmtt/m/n/10 "fclass" IN ( []forest[], [
+]grass[], []meadow[],
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 6219--6220
+\TU/lmtt/m/n/10 ([]commercial[], []industrial[], []retail[], []residential[])\T
+U/lmr/m/n/10 , escrevendo
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 6219--6220
+\TU/lmtt/m/n/10 ([]commercial[], []industrial[], []retail[], []residential[])\T
+U/lmr/m/n/10 . Selecione
+ []
+
+[237] [238]
+File: media/modulo8/fig834_a.png Graphic file (type bmp)
+<media/modulo8/fig834_a.png>
+File: media/modulo8/fig834_b.png Graphic file (type bmp)
+<media/modulo8/fig834_b.png>
+File: media/modulo8/fig834_c.png Graphic file (type bmp)
+<media/modulo8/fig834_c.png>
+File: media/modulo8/fig834_d.png Graphic file (type bmp)
+<media/modulo8/fig834_d.png>
+[239] [240]
+File: media/modulo8/fig834_e.png Graphic file (type bmp)
+<media/modulo8/fig834_e.png>
+
+Underfull \hbox (badness 2293) in paragraph at lines 6265--6266
+[]\TU/lmr/m/n/10 Em seguida, salve os resultados como um arquivo .csv denominad
+o
+ []
+
+File: media/modulo8/fig835_a.png Graphic file (type bmp)
+<media/modulo8/fig835_a.png>
+File: media/modulo8/fig835_b.png Graphic file (type bmp)
+<media/modulo8/fig835_b.png>
+File: media/modulo8/add_join_btn.png Graphic file (type bmp)
+<media/modulo8/add_join_btn.png>
+File: media/modulo8/fig835_c.png Graphic file (type bmp)
+<media/modulo8/fig835_c.png>
+[241]
+File: media/modulo8/fig836_a.png Graphic file (type bmp)
+<media/modulo8/fig836_a.png>
+File: media/modulo8/fig836_b.png Graphic file (type bmp)
+<media/modulo8/fig836_b.png>
+[242] [243]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 6328--6328
+[]\TU/lmtt/m/n/10 WHEN (verde_por IS NULL) AND (construido_por IS NOT NULL) THE
+N 999[] 
+ []
+
+
+Overfull \hbox (15.25pt too wide) in paragraph at lines 6328--6328
+[]\TU/lmtt/m/n/10 WHEN (construido_por IS NULL) AND (verde_por IS NOT NULL) THE
+N 1000[] 
+ []
+
+File: media/modulo8/fig837_a.png Graphic file (type bmp)
+<media/modulo8/fig837_a.png>
+File: media/modulo8/fig837_b.png Graphic file (type bmp)
+<media/modulo8/fig837_b.png>
+File: media/modulo8/fig837_c.png Graphic file (type bmp)
+<media/modulo8/fig837_c.png>
+File: media/modulo8/fig837_d.png Graphic file (type bmp)
+<media/modulo8/fig837_d.png>
+File: media/modulo8/fig837_e.png Graphic file (type bmp)
+<media/modulo8/fig837_e.png>
+[244] [245] [246] [247]
+Underfull \hbox (badness 10000) detected at line 6377
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6377
+[][][]
+ []
+
+File: media/modulo8/fig838_a.png Graphic file (type bmp)
+<media/modulo8/fig838_a.png>
+File: media/modulo8/fig838_b.png Graphic file (type bmp)
+<media/modulo8/fig838_b.png>
+File: media/modulo8/fig838_c.png Graphic file (type bmp)
+<media/modulo8/fig838_c.png>
+[248] [249] [250] [251] [252]
+File: media/modulo8/fig839.png Graphic file (type bmp)
+<media/modulo8/fig839.png>
+
+Underfull \hbox (badness 10000) detected at line 6427
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6427
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6430--6431
+\TU/lmtt/m/n/10 "fclass" IN ([]arts_centre[], []embassy[], []hospital[], []libr
+ary[],
+ []
+
+File: media/modulo8/fig840_a.png Graphic file (type bmp)
+<media/modulo8/fig840_a.png>
+File: media/modulo8/fig840_b.png Graphic file (type bmp)
+<media/modulo8/fig840_b.png>
+[253] [254]
+File: media/modulo8/fig840_c.png Graphic file (type bmp)
+<media/modulo8/fig840_c.png>
+File: media/modulo8/fig840_d.png Graphic file (type bmp)
+<media/modulo8/fig840_d.png>
+[255]
+Underfull \hbox (badness 1092) in paragraph at lines 6477--6478
+\TU/lmr/m/n/10 duas camadas vetoriais semelhantes? Polígonos de Voronoi, dissol
+ver,
+ []
+
+[256]
+File: media/modulo8/fig841.png Graphic file (type bmp)
+<media/modulo8/fig841.png>
+
+LaTeX Warning: Float too large for page by 24.01328pt on input line 6502.
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 6506--6507
+[]\TU/lmr/m/n/10 Como pode ser observado, através do QGIS o usuário tem acesso 
+a
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 6510--6511
+[]\TU/lmr/m/n/10 Como o exercício é puramente para fins de demonstração, criare
+mos
+ []
+
+[257] [258]
+File: media/modulo8/fig842.png Graphic file (type bmp)
+<media/modulo8/fig842.png>
+File: media/modulo8/fig843.png Graphic file (type bmp)
+<media/modulo8/fig843.png>
+
+Underfull \hbox (badness 10000) detected at line 6544
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6544
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6546
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6546
+[][][]
+ []
+
+[259]
+Underfull \hbox (badness 10000) detected at line 6548
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6548
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6550
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6550
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6552
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6552
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6554
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6554
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6556
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6556
+[][][]
+ []
+
+File: media/modulo8/fig844.png Graphic file (type bmp)
+<media/modulo8/fig844.png>
+File: media/modulo8/fig845.png Graphic file (type bmp)
+<media/modulo8/fig845.png>
+File: media/modulo8/fig846.png Graphic file (type bmp)
+<media/modulo8/fig846.png>
+File: media/modulo8/fig847.png Graphic file (type bmp)
+<media/modulo8/fig847.png>
+[260] [261] [262]
+Underfull \hbox (badness 10000) in paragraph at lines 6612--6613
+[]\TU/lmr/m/n/10 Para fazer isso, abra a caixa de diálogo \TU/lmr/bx/n/10 Propr
+iedades de
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 6612--6613
+\TU/lmr/bx/n/10 test_meteo_stations_1 raster > clique na guia Temporal >
+ []
+
+File: media/modulo8/fig848_a.png Graphic file (type bmp)
+<media/modulo8/fig848_a.png>
+File: media/modulo8/fig848_b.png Graphic file (type bmp)
+<media/modulo8/fig848_b.png>
+File: media/modulo8/fig848_c.png Graphic file (type bmp)
+<media/modulo8/fig848_c.png>
+File: media/modulo8/fig849.png Graphic file (type bmp)
+<media/modulo8/fig849.png>
+[263] [264] [265]
+File: media/modulo8/play-btn.png Graphic file (type bmp)
+<media/modulo8/play-btn.png>
+File: media/modulo8/fig850.png Graphic file (type bmp)
+<media/modulo8/fig850.png>
+
+Underfull \hbox (badness 10000) detected at line 6660
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6660
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6670
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6670
+[][][]
+ []
+
+[266]
+Underfull \vbox (badness 10000) detected at line 6676
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 6676
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 6676
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 6676
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 6676
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 6676
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 6676
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 6676
+[]
+ []
+
+Capítulo 11.
+
+Underfull \hbox (badness 1960) in paragraph at lines 6698--6700
+[]\TU/lmr/m/n/10 as quatro resoluções de um raster (espacial, temporal, espectr
+al e
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[267
+
+
+]
+File: media/modulo9/fig91.png Graphic file (type bmp)
+<media/modulo9/fig91.png>
+[268]
+File: media/modulo9/fig92.png Graphic file (type bmp)
+<media/modulo9/fig92.png>
+[269]
+Underfull \hbox (badness 1603) in paragraph at lines 6790--6791
+[]\TU/lmr/m/n/10 As operações exponenciais e logarítmicas usam funções expoente
+s e
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6802
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6802
+[][][]
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 6802--6804
+[]\TU/lmr/bx/n/10 Resolução espacial \TU/lmr/m/n/10 corresponde ao tamanho elem
+entar da
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6804
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6804
+[][][]
+ []
+
+[270]
+Underfull \hbox (badness 10000) detected at line 6806
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6806
+[][][]
+ []
+
+File: media/modulo9/fig94.png Graphic file (type bmp)
+<media/modulo9/fig94.png>
+
+Underfull \hbox (badness 10000) detected at line 6822
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6822
+[][][]
+ []
+
+[271]
+File: media/modulo9/fig95.png Graphic file (type bmp)
+<media/modulo9/fig95.png>
+[272]
+Underfull \hbox (badness 1205) in paragraph at lines 6844--6845
+\TU/lmr/m/n/10 o [][]programa Copernicus[][], abriu a porta para um fluxo avass
+alador de
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 6861--6862
+[]\TU/lmr/m/n/10 Como os dados da camada de assentamento de alta resolução fora
+m
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6866
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6866
+[][][]
+ []
+
+[273]
+Underfull \hbox (badness 10000) detected at line 6868
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 6868
+[][][]
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 6868--6869
+[]\TU/lmr/m/n/10 O Mapa Dinâmico de Cobertura do Solo é um produto do
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 6868--6869
+\TU/lmr/m/n/10 todas as classes de cobertura do solo básicas que fornecem
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 6868--6869
+\TU/lmr/m/n/10 estimativas proporcionais para cobertura vegetal/solo para os
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 6868--6869
+\TU/lmr/m/n/10 tipos de cobertura do solo. O produto possui 3 bandas:
+ []
+
+[274] [275] [276] [277]
+File: media/modulo9/add-group-btn.png Graphic file (type bmp)
+<media/modulo9/add-group-btn.png>
+File: media/modulo9/fig96.png Graphic file (type bmp)
+<media/modulo9/fig96.png>
+[278]
+File: media/modulo9/fig97.png Graphic file (type bmp)
+<media/modulo9/fig97.png>
+[279]
+File: media/modulo9/fig98.png Graphic file (type bmp)
+<media/modulo9/fig98.png>
+File: media/modulo9/fig99_a.png Graphic file (type bmp)
+<media/modulo9/fig99_a.png>
+File: media/modulo9/fig99_b.png Graphic file (type bmp)
+<media/modulo9/fig99_b.png>
+[280] [281]
+File: media/modulo9/fig910.png Graphic file (type bmp)
+<media/modulo9/fig910.png>
+
+Underfull \hbox (badness 6978) in paragraph at lines 7142--7143
+[]\TU/lmr/m/n/10 Figura 9.10 - Método de reamostragem - vizinho mais próximo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7142--7143
+\TU/lmr/m/n/10 (crédito da foto: documentação ILWIS - [][](http://spatial-
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 7144--7145
+[]\TU/lmr/m/n/10 Os pixels de entrada são representados por linhas pretas trace
+jadas,
+ []
+
+[282]
+File: media/modulo9/fig911.png Graphic file (type bmp)
+<media/modulo9/fig911.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7154--7155
+[]\TU/lmr/m/n/10 Figura 9.11 - Método de reamostragem - bilinear (crédito da
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 7154--7155
+\TU/lmr/m/n/10 foto: documentação ILWIS - [][](http://spatial-analyst.net/ILWIS
+/htm/
+ []
+
+File: media/modulo9/batch-btn.png Graphic file (type bmp)
+<media/modulo9/batch-btn.png>
+
+Underfull \hbox (badness 2269) in paragraph at lines 7160--7161
+\TU/lmr/m/n/10 sses de dados, com interação mínima do usuário. A maioria das
+ []
+
+File: media/modulo9/fig912.png Graphic file (type bmp)
+<media/modulo9/fig912.png>
+
+Underfull \hbox (badness 3009) in paragraph at lines 7165--7165
+[]\TU/lmr/bx/n/10 Figura 11.12 []\TU/lmr/m/n/10 Guia de processamento em lote e
+m uma janela de
+ []
+
+[283]
+File: media/modulo9/fig913_a.png Graphic file (type bmp)
+<media/modulo9/fig913_a.png>
+File: media/modulo9/fig913_b.png Graphic file (type bmp)
+<media/modulo9/fig913_b.png>
+File: media/modulo9/fig913_c.png Graphic file (type bmp)
+<media/modulo9/fig913_c.png>
+[284] [285]
+File: media/modulo9/fig914.png Graphic file (type bmp)
+<media/modulo9/fig914.png>
+File: media/modulo9/fig915_a.png Graphic file (type bmp)
+<media/modulo9/fig915_a.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 7218--7219
+[]\TU/lmr/m/n/10 [Parâmetros do algoritmo de processamento de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7218--7219
+\TU/lmr/m/n/10 mesclagem](media/modulo9/fig915_b.png ” Parâmetros do algoritmo
+ []
+
+File: media/modulo9/fig915_c.png Graphic file (type bmp)
+<media/modulo9/fig915_c.png>
+[286] [287]
+File: media/modulo9/fig915_d.png Graphic file (type bmp)
+<media/modulo9/fig915_d.png>
+File: media/modulo9/fig916.png Graphic file (type bmp)
+<media/modulo9/fig916.png>
+[288] [289]
+Overfull \hbox (25.75pt too wide) in paragraph at lines 7321--7321
+[]    \TU/lmtt/m/n/10 DATUM["Sistema de Referencia Geocentrico para las America
+S 2000",[] 
+ []
+
+[290]
+Overfull \hbox (57.25pt too wide) in paragraph at lines 7321--7321
+[]    \TU/lmtt/m/n/10 Upper Left  (  623321.946, 7484067.546) ( 43d47[]56.18"W,
+ 22d44[]46.58"S)[] 
+ []
+
+
+Overfull \hbox (57.25pt too wide) in paragraph at lines 7321--7321
+[]    \TU/lmtt/m/n/10 Lower Left  (  623321.946, 7446104.398) ( 43d47[]45.28"W,
+ 23d 5[]20.90"S)[] 
+ []
+
+
+Overfull \hbox (57.25pt too wide) in paragraph at lines 7321--7321
+[]    \TU/lmtt/m/n/10 Upper Right (  695168.362, 7484067.546) ( 43d 5[]58.02"W,
+ 22d44[]22.13"S)[] 
+ []
+
+
+Overfull \hbox (57.25pt too wide) in paragraph at lines 7321--7321
+[]    \TU/lmtt/m/n/10 Lower Right (  695168.362, 7446104.398) ( 43d 5[]40.79"W,
+ 23d 4[]56.04"S)[] 
+ []
+
+
+Overfull \hbox (57.25pt too wide) in paragraph at lines 7321--7321
+[]    \TU/lmtt/m/n/10 Center      (  659245.154, 7465085.972) ( 43d26[]49.98"W,
+ 22d54[]52.81"S)[] 
+ []
+
+File: media/modulo9/fig917.png Graphic file (type bmp)
+<media/modulo9/fig917.png>
+
+Underfull \hbox (badness 1540) in paragraph at lines 7335--7336
+[]\TU/lmr/m/n/10 Pressione o botão \TU/lmtt/m/n/10 Calcular histograma \TU/lmr/
+m/n/10 e a pena QIS o computará
+ []
+
+[291]
+File: media/modulo9/fig918.png Graphic file (type bmp)
+<media/modulo9/fig918.png>
+File: media/modulo9/fig919.png Graphic file (type bmp)
+<media/modulo9/fig919.png>
+[292] [293]
+File: media/modulo9/fig920.png Graphic file (type bmp)
+<media/modulo9/fig920.png>
+File: media/modulo9/fig921.png Graphic file (type bmp)
+<media/modulo9/fig921.png>
+[294]
+Underfull \hbox (badness 10000) detected at line 7398
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7398
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7414
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7414
+[][][]
+ []
+
+[295]
+Underfull \hbox (badness 10000) detected at line 7430
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7430
+[][][]
+ []
+
+[296]
+File: media/modulo9/fig922.png Graphic file (type bmp)
+<media/modulo9/fig922.png>
+File: media/modulo9/fig923.png Graphic file (type bmp)
+<media/modulo9/fig923.png>
+
+Underfull \hbox (badness 1642) in paragraph at lines 7467--7467
+[]\TU/lmr/bx/n/10 Figura 11.27 []\TU/lmr/m/n/10 Processo em lote recortando tod
+as as camadas raster
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 7472--7477
+\TU/lmr/m/n/10 sim para: \TU/lmtt/m/n/10 Igualar a Extensão da imagem recortada
+ com a Extensão
+ []
+
+File: media/modulo9/fig924.png Graphic file (type bmp)
+<media/modulo9/fig924.png>
+[297] [298]
+Underfull \hbox (badness 10000) detected at line 7494
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7494
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7496
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7496
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7498
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7498
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7500
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7500
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7502
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7502
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7504
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7504
+[][][]
+ []
+
+File: media/modulo9/fig925.png Graphic file (type bmp)
+<media/modulo9/fig925.png>
+File: media/modulo9/fig926_a.png Graphic file (type bmp)
+<media/modulo9/fig926_a.png>
+File: media/modulo9/fig926_b.png Graphic file (type bmp)
+<media/modulo9/fig926_b.png>
+[299] [300]
+Underfull \hbox (badness 2573) in paragraph at lines 7537--7538
+[]\TU/lmr/m/n/10 Nesta janela, podemos reconhecer as operações detalhadas na se
+ção
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 7537--7538
+\TU/lmr/m/n/10 3). \TU/lmr/bx/n/10 Clipped_Reprojected_SRTM_DEM @ 1 \TU/lmr/m/n
+/10 A convenção de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7539--7540
+[]\TU/lmr/m/n/10 A seguir, iremos ‘fatiar’ nossa camada raster
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 7539--7540
+\TU/lmr/m/n/10 Clipped_Reprojected_SRTM_DEM para extrair apenas os pixels com
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 7539--7540
+\TU/lmr/m/n/10 mosaic_clipped representam dados numéricos contínuos (não valore
+s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7545--7546
+[]\TU/lmr/m/n/10 Defina a \TU/lmr/bx/n/10 Camada de referência  \TU/lmr/m/n/10 
+como **
+ []
+
+File: media/modulo9/fig927.png Graphic file (type bmp)
+<media/modulo9/fig927.png>
+File: media/modulo9/fig928.png Graphic file (type bmp)
+<media/modulo9/fig928.png>
+[301] [302]
+File: media/modulo9/fig929.png Graphic file (type bmp)
+<media/modulo9/fig929.png>
+File: media/modulo9/fig930.png Graphic file (type bmp)
+<media/modulo9/fig930.png>
+
+Underfull \hbox (badness 2856) in paragraph at lines 7588--7588
+[]\TU/lmr/bx/n/10 Figura 11.35 []\TU/lmr/m/n/10 Usando calculadora raster para 
+identificar classes de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7593--7594
+[]\TU/lmr/m/n/10 Ao contrário do uso anterior da calculadora raster, usamos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7593--7594
+\TU/lmr/m/n/10 2 conjuntos de dados raster diferentes para obter o resultado
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 7593--7594
+\TU/lmr/m/n/10 desejado, mas você observará que mesmo que haja pixels fora de
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 7593--7594
+\TU/lmr/m/n/10 Reprojected_hrsl_rj_capital_populacao_200m.tif no resultado, o v
+alor
+ []
+
+File: media/modulo9/fig931.png Graphic file (type bmp)
+<media/modulo9/fig931.png>
+[303]
+File: media/modulo9/fig932.png Graphic file (type bmp)
+<media/modulo9/fig932.png>
+File: media/modulo9/fig933_a.png Graphic file (type bmp)
+<media/modulo9/fig933_a.png>
+[304] [305]
+File: media/modulo9/fig933_b.png Graphic file (type bmp)
+<media/modulo9/fig933_b.png>
+File: media/modulo9/fig934.png Graphic file (type bmp)
+<media/modulo9/fig934.png>
+
+Underfull \hbox (badness 1057) in paragraph at lines 7649--7650
+[]\TU/lmr/m/n/10 Para encontrar nossa resposta, usaremos \TU/lmr/bx/n/10 Estatí
+sticas Zonais\TU/lmr/m/n/10 . Para
+ []
+
+File: media/modulo9/fig935.png Graphic file (type bmp)
+<media/modulo9/fig935.png>
+File: media/modulo9/fig936.png Graphic file (type bmp)
+<media/modulo9/fig936.png>
+File: media/modulo9/fig937.png Graphic file (type bmp)
+<media/modulo9/fig937.png>
+[306] [307] [308]
+Underfull \hbox (badness 10000) detected at line 7688
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7688
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7704
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7704
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7720
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 7720
+[][][]
+ []
+
+[309]
+File: media/modulo9/fig938.png Graphic file (type bmp)
+<media/modulo9/fig938.png>
+[310] [311]
+Overfull \hbox (36.25pt too wide) in paragraph at lines 7759--7759
+[]\TU/lmtt/m/n/10 URL : https://tiles.maps.eox.at/wms?service=wms&request=getca
+pabilities[] 
+ []
+
+File: media/modulo9/fig939.png Graphic file (type bmp)
+<media/modulo9/fig939.png>
+File: media/modulo9/fig940.png Graphic file (type bmp)
+<media/modulo9/fig940.png>
+File: media/modulo9/mapswipe-btn.png Graphic file (type bmp)
+<media/modulo9/mapswipe-btn.png>
+File: media/modulo9/fig941.png Graphic file (type bmp)
+<media/modulo9/fig941.png>
+File: media/modulo9/fig942.png Graphic file (type bmp)
+<media/modulo9/fig942.png>
+File: media/modulo9/fig943.png Graphic file (type bmp)
+<media/modulo9/fig943.png>
+[312] [313] [314] [315]
+File: media/modulo9/fig944.png Graphic file (type bmp)
+<media/modulo9/fig944.png>
+
+Underfull \hbox (badness 1137) in paragraph at lines 7821--7822
+\TU/lmr/bx/n/10 (downsampling) \TU/lmr/m/n/10 é reamostragem para resolução inf
+erior/tamanhos de
+ []
+
+[316]
+Underfull \hbox (badness 4859) in paragraph at lines 7827--7828
+[]\TU/lmr/m/n/10 Para reamostrar, vá para \TU/lmr/bx/n/10 Raster > Projeções > 
+Reprojetar
+ []
+
+File: media/modulo9/fig945.png Graphic file (type bmp)
+<media/modulo9/fig945.png>
+
+Underfull \hbox (badness 1789) in paragraph at lines 7855--7856
+[]\TU/lmr/m/n/10 Siga as etapas exatas, exceto que para o parâmetro do método d
+e
+ []
+
+File: media/modulo9/fig946_a.png Graphic file (type bmp)
+<media/modulo9/fig946_a.png>
+File: media/modulo9/fig946_b.png Graphic file (type bmp)
+<media/modulo9/fig946_b.png>
+[317] [318]
+File: media/modulo9/fig947.png Graphic file (type bmp)
+<media/modulo9/fig947.png>
+File: media/modulo9/fig948_a.png Graphic file (type bmp)
+<media/modulo9/fig948_a.png>
+File: media/modulo9/fig948_b.png Graphic file (type bmp)
+<media/modulo9/fig948_b.png>
+File: media/modulo9/fig948_c.png Graphic file (type bmp)
+<media/modulo9/fig948_c.png>
+File: media/modulo9/fig949.png Graphic file (type bmp)
+<media/modulo9/fig949.png>
+[319] [320] [321]
+File: media/modulo9/fig950_a.png Graphic file (type bmp)
+<media/modulo9/fig950_a.png>
+File: media/modulo9/fig950_b.png Graphic file (type bmp)
+<media/modulo9/fig950_b.png>
+File: media/modulo9/fig951.png Graphic file (type bmp)
+<media/modulo9/fig951.png>
+[322] [323]
+File: media/modulo9/fig952.png Graphic file (type bmp)
+<media/modulo9/fig952.png>
+[324]
+File: media/modulo9/fig953_a.png Graphic file (type bmp)
+<media/modulo9/fig953_a.png>
+File: media/modulo9/fig953_b.png Graphic file (type bmp)
+<media/modulo9/fig953_b.png>
+File: media/modulo9/fig954.png Graphic file (type bmp)
+<media/modulo9/fig954.png>
+File: media/modulo9/fig955.png Graphic file (type bmp)
+<media/modulo9/fig955.png>
+File: media/modulo9/fig956.png Graphic file (type bmp)
+<media/modulo9/fig956.png>
+[325] [326] [327]
+File: media/modulo9/fig957.png Graphic file (type bmp)
+<media/modulo9/fig957.png>
+File: media/modulo9/fig958.png Graphic file (type bmp)
+<media/modulo9/fig958.png>
+File: media/modulo9/fig959.png Graphic file (type bmp)
+<media/modulo9/fig959.png>
+[328] [329]
+File: media/modulo9/fig960.png Graphic file (type bmp)
+<media/modulo9/fig960.png>
+
+Underfull \hbox (badness 1565) in paragraph at lines 8062--8063
+[]\TU/lmr/m/n/10 Os resultados são, como esperado, salvos na tabela de atributo
+s do
+ []
+
+File: media/modulo9/fig961.png Graphic file (type bmp)
+<media/modulo9/fig961.png>
+File: media/modulo9/fig962.png Graphic file (type bmp)
+<media/modulo9/fig962.png>
+[330] [331]
+Underfull \hbox (badness 10000) detected at line 8095
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8095
+[][][]
+ []
+
+[332]
+Underfull \hbox (badness 10000) detected at line 8109
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8109
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8123
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8123
+[][][]
+ []
+
+[333]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (336.25pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[334
+
+]
+Underfull \vbox (badness 10000) detected at line 8155
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 8155
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 8155
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 8155
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 8155
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 8155
+[]
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 8155
+ []
+
+
+Overfull \hbox (336.25pt too wide) detected at line 8155
+[]
+ []
+
+Capítulo 12.
+
+Underfull \hbox (badness 1430) in paragraph at lines 8202--8203
+\TU/lmr/m/n/10 por desenvolvedores e usuários - é a incrível velocidade com que
+ os
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+ [][][][] 
+ []
+
+[335
+
+] [336]
+File: media/modulo10/fig101.png Graphic file (type bmp)
+<media/modulo10/fig101.png>
+File: media/modulo10/fig102_a.png Graphic file (type bmp)
+<media/modulo10/fig102_a.png>
+File: media/modulo10/fig102_b.png Graphic file (type bmp)
+<media/modulo10/fig102_b.png>
+File: media/modulo10/fig103.png Graphic file (type bmp)
+<media/modulo10/fig103.png>
+[337] [338]
+File: media/modulo10/fig104.png Graphic file (type bmp)
+<media/modulo10/fig104.png>
+[339]
+Underfull \hbox (badness 10000) detected at line 8283
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8283
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8285
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8285
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8287
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8287
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8289
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8289
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8291
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8291
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8293
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8293
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8295
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8295
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8297
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8297
+[][][]
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 8300--8301
+[]\TU/lmr/m/n/10 Na figura 10.5, todos os elementos de metadados mencionados sã
+o
+ []
+
+File: media/modulo10/fig105.png Graphic file (type bmp)
+<media/modulo10/fig105.png>
+[340]
+File: media/modulo10/fig106_a.png Graphic file (type bmp)
+<media/modulo10/fig106_a.png>
+File: media/modulo10/fig106_b.png Graphic file (type bmp)
+<media/modulo10/fig106_b.png>
+File: media/modulo10/fig107.png Graphic file (type bmp)
+<media/modulo10/fig107.png>
+[341]
+Underfull \hbox (badness 10000) detected at line 8349
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8349
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8365
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8365
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8381
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 8381
+[][][]
+ []
+
+[342] [343]
+File: media/modulo10/fig108.png Graphic file (type bmp)
+<media/modulo10/fig108.png>
+[344]
+File: media/modulo10/fig109_a.png Graphic file (type bmp)
+<media/modulo10/fig109_a.png>
+[345]
+File: media/modulo10/fig109_b.png Graphic file (type bmp)
+<media/modulo10/fig109_b.png>
+File: media/modulo10/fig109_c.png Graphic file (type bmp)
+<media/modulo10/fig109_c.png>
+File: media/modulo10/fig109_d.png Graphic file (type bmp)
+<media/modulo10/fig109_d.png>
+[346] [347]
+File: media/modulo10/fig1010_a.png Graphic file (type bmp)
+<media/modulo10/fig1010_a.png>
+File: media/modulo10/fig1010_b.png Graphic file (type bmp)
+<media/modulo10/fig1010_b.png>
+
+Underfull \hbox (badness 1596) in paragraph at lines 8517--8518
+[]\TU/lmr/m/n/10 Escolha como camada de entrada a camada de polígono do Rio de
+ []
+
+File: media/modulo10/fig1010_c.png Graphic file (type bmp)
+<media/modulo10/fig1010_c.png>
+[348] [349]
+File: media/modulo10/fig1011_a.png Graphic file (type bmp)
+<media/modulo10/fig1011_a.png>
+File: media/modulo10/fig1011_b.png Graphic file (type bmp)
+<media/modulo10/fig1011_b.png>
+File: media/modulo10/fig1011_c.png Graphic file (type bmp)
+<media/modulo10/fig1011_c.png>
+[350] [351]
+File: media/modulo10/fig1011_d.png Graphic file (type bmp)
+<media/modulo10/fig1011_d.png>
+File: media/modulo10/fig1012_a.png Graphic file (type bmp)
+<media/modulo10/fig1012_a.png>
+[352]
+Underfull \hbox (badness 1033) in paragraph at lines 8589--8590
+[]\TU/lmr/m/n/10 Usando o Gerenciador de plugins, pesquise e instale o Raster T
+racer.
+ []
+
+[353]
+Underfull \hbox (badness 1033) in paragraph at lines 8593--8594
+[]\TU/lmr/m/n/10 Dito isso, traga o mapa topográfico da cidade de Angeles (\TU/
+lmtt/m/n/10 Camada -
+ []
+
+File: media/modulo10/fig1012_b.png Graphic file (type bmp)
+<media/modulo10/fig1012_b.png>
+File: media/modulo10/fig1012_c.png Graphic file (type bmp)
+<media/modulo10/fig1012_c.png>
+File: media/modulo10/fig1012_d.png Graphic file (type bmp)
+<media/modulo10/fig1012_d.png>
+File: media/modulo10/fig1013_a.png Graphic file (type bmp)
+<media/modulo10/fig1013_a.png>
+[354] [355]
+Underfull \hbox (badness 1038) in paragraph at lines 8640--8641
+\TU/lmr/m/n/10 de interesse. Os produtos de incêndio são produzidos pela NASA e
+
+ []
+
+File: media/modulo10/fig1013_b.png Graphic file (type bmp)
+<media/modulo10/fig1013_b.png>
+File: media/modulo10/fig1014_a.png Graphic file (type bmp)
+<media/modulo10/fig1014_a.png>
+[356] [357]
+File: media/modulo10/fig1014_b.png Graphic file (type bmp)
+<media/modulo10/fig1014_b.png>
+File: media/modulo10/fig1014_c.png Graphic file (type bmp)
+<media/modulo10/fig1014_c.png>
+File: media/modulo10/fig1014_d.png Graphic file (type bmp)
+<media/modulo10/fig1014_d.png>
+[358] [359]
+File: media/modulo10/fig1015_a.png Graphic file (type bmp)
+<media/modulo10/fig1015_a.png>
+
+Underfull \hbox (badness 4217) in paragraph at lines 8718--8719
+[]\TU/lmr/m/n/10 O plugin DataPlotly foi desenvolvido especificamente para supo
+rtar
+ []
+
+File: media/modulo10/fig1015_b.png Graphic file (type bmp)
+<media/modulo10/fig1015_b.png>
+[360]
+File: media/modulo10/fig1015_c.png Graphic file (type bmp)
+<media/modulo10/fig1015_c.png>
+File: media/modulo10/fig1015_d.png Graphic file (type bmp)
+<media/modulo10/fig1015_d.png>
+File: media/modulo10/fig1015_e.png Graphic file (type bmp)
+<media/modulo10/fig1015_e.png>
+[361] [362]
+File: media/modulo10/fig1015_f.png Graphic file (type bmp)
+<media/modulo10/fig1015_f.png>
+File: media/modulo10/fig1015_g.png Graphic file (type bmp)
+<media/modulo10/fig1015_g.png>
+File: media/modulo10/fig1015_h.png Graphic file (type bmp)
+<media/modulo10/fig1015_h.png>
+File: media/modulo10/fig1015_i.png Graphic file (type bmp)
+<media/modulo10/fig1015_i.png>
+[363] [364] [365]
+File: media/modulo10/fig1015_j.png Graphic file (type bmp)
+<media/modulo10/fig1015_j.png>
+File: media/modulo10/fig1015_k.png Graphic file (type bmp)
+<media/modulo10/fig1015_k.png>
+File: media/modulo10/fig1015_l.png Graphic file (type bmp)
+<media/modulo10/fig1015_l.png>
+File: media/modulo10/fig1015_m.png Graphic file (type bmp)
+<media/modulo10/fig1015_m.png>
+[366] [367]
+File: media/modulo10/fig1015_o.png Graphic file (type bmp)
+<media/modulo10/fig1015_o.png>
+File: media/modulo10/fig1015_p.png Graphic file (type bmp)
+<media/modulo10/fig1015_p.png>
+File: media/modulo10/fig1016_a1.png Graphic file (type bmp)
+<media/modulo10/fig1016_a1.png>
+File: media/modulo10/fig1016_a2.png Graphic file (type bmp)
+<media/modulo10/fig1016_a2.png>
+[368] [369] [370]
+File: media/modulo10/fig1016_b.png Graphic file (type bmp)
+<media/modulo10/fig1016_b.png>
+File: media/modulo10/fig1016_c.png Graphic file (type bmp)
+<media/modulo10/fig1016_c.png>
+File: media/modulo10/fig1016_d.png Graphic file (type bmp)
+<media/modulo10/fig1016_d.png>
+[371] [372]
+File: media/modulo10/fig1017_a.png Graphic file (type bmp)
+<media/modulo10/fig1017_a.png>
+File: media/modulo10/fig1017_b.png Graphic file (type bmp)
+<media/modulo10/fig1017_b.png>
+
+Underfull \hbox (badness 1194) in paragraph at lines 8952--8953
+[]\TU/lmr/m/n/10 Figura 10.17b - Exemplos de situações em que os valores dos pi
+xels
+ []
+
+[373] [374] [375] [376]
+File: media/modulo10/fig1017_c.png Graphic file (type bmp)
+<media/modulo10/fig1017_c.png>
+[377]
+File: media/modulo10/fig1017_d.png Graphic file (type bmp)
+<media/modulo10/fig1017_d.png>
+File: media/modulo10/fig1017_e.png Graphic file (type bmp)
+<media/modulo10/fig1017_e.png>
+[378]
+File: media/modulo10/fig1017_f.png Graphic file (type bmp)
+<media/modulo10/fig1017_f.png>
+
+LaTeX Warning: Float too large for page by 24.04315pt on input line 9142.
+
+File: media/modulo10/fig1017_g.png Graphic file (type bmp)
+<media/modulo10/fig1017_g.png>
+File: media/modulo10/fig1018_a.png Graphic file (type bmp)
+<media/modulo10/fig1018_a.png>
+[379] [380] [381]
+File: media/modulo10/fig1018_b.png Graphic file (type bmp)
+<media/modulo10/fig1018_b.png>
+
+Underfull \hbox (badness 10000) detected at line 9195
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9195
+[][][]
+ []
+
+File: media/modulo10/fig1018_c.png Graphic file (type bmp)
+<media/modulo10/fig1018_c.png>
+
+Underfull \hbox (badness 10000) detected at line 9211
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9211
+[][][]
+ []
+
+[382]
+File: media/modulo10/fig1018_d.png Graphic file (type bmp)
+<media/modulo10/fig1018_d.png>
+
+Underfull \hbox (badness 10000) detected at line 9227
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9227
+[][][]
+ []
+
+File: media/modulo10/fig1018_e.png Graphic file (type bmp)
+<media/modulo10/fig1018_e.png>
+
+Underfull \hbox (badness 10000) detected at line 9243
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9243
+[][][]
+ []
+
+File: media/modulo10/fig1018_f.png Graphic file (type bmp)
+<media/modulo10/fig1018_f.png>
+
+Underfull \hbox (badness 10000) detected at line 9259
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9259
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9261
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9261
+[][][]
+ []
+
+File: media/modulo10/fig1018_g.png Graphic file (type bmp)
+<media/modulo10/fig1018_g.png>
+
+Underfull \hbox (badness 1052) in paragraph at lines 9272--9273
+[]\TU/lmr/m/n/10 Neste ponto, seu QGIS deve estar pronto para calcular rotas us
+ando
+ []
+
+File: media/modulo10/fig1018_h.png Graphic file (type bmp)
+<media/modulo10/fig1018_h.png>
+[383] [384] [385]
+File: media/modulo10/fig1018_i.png Graphic file (type bmp)
+<media/modulo10/fig1018_i.png>
+File: media/modulo10/fig1018_j.png Graphic file (type bmp)
+<media/modulo10/fig1018_j.png>
+
+Underfull \hbox (badness 10000) detected at line 9313
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9313
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9329
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9329
+[][][]
+ []
+
+[386] [387]
+Underfull \hbox (badness 10000) detected at line 9345
+ [][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 9345
+[][][]
+ []
+
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {portuguese/script}  =>  {latin}
+>  {portuguese/lcscript}  =>  {latin}
+>  {portuguese/scripttag}  =>  {}
+>  {portuguese/language}  =>  {Portuguese}
+>  {portuguese/langtag}  =>  {PTG}
+>  {portuguese/bcp47}  =>  {pt-PT}
+>  {portuguese/hyphennames}  =>  {portuges,portuguese}
+>  {portuguese/direction}  =>  {LR}
+>  {portuguese/hyphenmins}  =>  {2,3}
+>  {portuguese/frenchspacing}  =>  {false}
+>  {portuguese/indentfirst}  =>  {false}
+>  {portuguese/fontsetup}  =>  {true}
+>  {portuguese/envname}  =>  {portuguese}
+>  {portuguese/babelname}  =>  {portuges}
+>  {portuguese/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {portuguese/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+[388] (./ebook-gis.aux
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+) ) 
+Here is how much of TeX's memory you used:
+ 22388 strings out of 479212
+ 422199 string characters out of 5875086
+ 914197 words of memory out of 5000000
+ 41235 multiletter control sequences out of 15000+600000
+ 407031 words of font info for 67 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 98i,8n,122p,1884b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on ebook-gis.pdf (388 pages).

@@ -1,6 +1,7 @@
 # **Processamento e análise raster**
 
 **Autor**: Codrina Ilie
+
 ## Introdução pedagógica
 
 Este módulo está focado em um tipo específico de modelo de dados geográficos: geodados raster.
@@ -400,7 +401,7 @@ A seguir, usaremos uma série de ferramentas que nos permitirão ter uma noção
 
 Depois de carregar todos os conjuntos de dados, vamos verificar o sistema de referência de coordenadas no qual todos os nossos conjuntos de dados estão. Como sabemos dos módulos anteriores, QGIS oferece a possibilidade de reprojetar todos os conjuntos de dados carregados no projeto em tempo real, no entanto, isso pode levar ao geoprocessamento questões ao longo do caminho. Assim, mesmo que todas as camadas estejam sobrepostas corretamente, como se pode dizer pela inspeção visual, procederemos à reprojeção de todas no sistema de coordenadas mais adequado para nossa região de interesse, a cidade do Rio de Janeiro - EPSG: 31983.
 
-Existem várias formas de obter informações nas camadas carregadas no QGIS, algumas fornecendo ao usuário mais detalhes do que outras. Para obter uma visão geral rápida dos metadados de um conjunto de dados, **clique duas vezes na camada e abra Propriedades ‣ Informações**.
+Existem várias formas de obter informações nas camadas carregadas no QGIS, algumas fornecendo ao usuário mais detalhes do que outras. Para obter uma visão geral rápida dos metadados de um conjunto de dados, **clique duas vezes na camada e abra Propriedades > Informações**.
 
 Para a camada hrsl_rj_capital_populacao, a janela de informações seria semelhante à Figura 9.7.
 
@@ -413,7 +414,7 @@ Com relação à nossa primeira pergunta sobre o que CRS está sendo usado para 
 
 Assim, a primeira coisa a fazer é reprojetar todos os conjuntos de dados com os quais trabalharemos no mesmo sistema de coordenadas - EPSG 31983.
 
-Começando com os conjuntos de dados HRSL, vamos para **Raster ‣ Projeções ‣ Reprojetar coordenadas** (ver figura 9.8)
+Começando com os conjuntos de dados HRSL, vamos para **Raster > Projeções > Reprojetar coordenadas** (ver figura 9.8)
 
 
 ![Reprojetar funcionalidade no QGIS](media/modulo9/fig98.png "Reprojetar funcionalidade no QGIS")
@@ -456,7 +457,7 @@ Figura 9.11 - Método de reamostragem - bilinear (crédito da foto: documentaç�
 
 O método bilinear determina o novo valor de uma célula com base em uma distância média ponderada das quatro células de entrada mais próximas centros. É útil para dados contínuos e causará alguma suavização dos dados.
 
-Continuamos a verificar o CRS dos 5 conjuntos de dados de cobertura do solo (Land Cover) que carregamos em nosso projeto QGIS. Acessando **Propriedades da camada ‣ informações**, podemos veja que todas as 5 camadas de cobertura do solo são projetadas em EPSG: 3857 - WGS 84/Pseudo-Mercator. Uma solução seria usar a ferramenta Reproject e configurar para cada camada individualmente. No entanto, uma maneira mais rápida é usar a funcionalidade de reprojeto rodando como um **processo em lote**.
+Continuamos a verificar o CRS dos 5 conjuntos de dados de cobertura do solo (Land Cover) que carregamos em nosso projeto QGIS. Acessando **Propriedades da camada > informações**, podemos veja que todas as 5 camadas de cobertura do solo são projetadas em EPSG: 3857 - WGS 84/Pseudo-Mercator. Uma solução seria usar a ferramenta Reproject e configurar para cada camada individualmente. No entanto, uma maneira mais rápida é usar a funcionalidade de reprojeto rodando como um **processo em lote**.
 
 **Processamento em lote** é a capacidade de executar processos repetitivos sses de dados, com interação mínima do usuário. A maioria das funcionalidades do QGIS tem esta opção disponível e pode ser ativada na janela de processo clicando no botão **Executar processo em lote** ![Botão Executar processo em lote](media/modulo9/batch-btn.png "botão Executar processo em lote") e alternando para a guia Executar processo em lote (consulte a figura 9.12).
 
@@ -485,7 +486,7 @@ Figura 9.13c - Rasters de cobertura de terra reprojetada
 
 Em seguida, vêm os rasters de modelo de superfície digital . Como se pode observar, para cobrir nossa região de interesse, precisávamos de vários _raster tiles_. Quando os arquivos raster se tornam muito grandes - imagine um único arquivo DSM a 30 m para a Europa, que tem mais de 10 milhões de quilômetros quadrados - eles são divididos em **tiles, ou blocos** porque, em áreas menores, são mais facilmente gerenciáveis.
 
-Embora pudéssemos usar a ferramenta reprojetar em lote para reprojetar todos os arquivos raster DSM, em uma inspeção visual, também se pode notar que as delimitações entre cada tile são bastante visíveis, tornando-o, pelo menos, visualmente pouco atraente. O que seria útil é ter uma visão completa do terreno, como um fenômeno contínuo - como é, de fato - sem rupturas artificiais. Para isso, usaremos a ferramenta de mesclagem GDAL, disponível na barra de ferramentas de processamento, para mesclar todos os rasters DSM. Para abri-lo, vá para **Processar ‣ Caixa de ferramentas ** e na barra de pesquisa escreva **Mesclar (ou Merge)** (veja a figura 9.14). Como alternativa, você pode pesquisar por Mesclar na barra do localizador.
+Embora pudéssemos usar a ferramenta reprojetar em lote para reprojetar todos os arquivos raster DSM, em uma inspeção visual, também se pode notar que as delimitações entre cada tile são bastante visíveis, tornando-o, pelo menos, visualmente pouco atraente. O que seria útil é ter uma visão completa do terreno, como um fenômeno contínuo - como é, de fato - sem rupturas artificiais. Para isso, usaremos a ferramenta de mesclagem GDAL, disponível na barra de ferramentas de processamento, para mesclar todos os rasters DSM. Para abri-lo, vá para **Processar > Caixa de ferramentas ** e na barra de pesquisa escreva **Mesclar (ou Merge)** (veja a figura 9.14). Como alternativa, você pode pesquisar por Mesclar na barra do localizador.
 
 
 ![Encontrando a ferramenta de mesclagem GDAL na Caixa de Ferramentas de Processamento](media/modulo9/fig914.png "Encontrando a ferramenta de mesclagem GDAL na Caixa de Ferramentas de Processamento")
@@ -510,7 +511,7 @@ Figura 9.15b - Parâmetros do algoritmo de processamento de mesclagem
 Figura 9.15c - Mosaico de todos os arquivos DSM correspondentes à nossa região de trabalho
 
 
-Agora, podemos proceder à reprojeção do mosaico - um arquivo, em vez de 6 arquivos. Vá para **Raster ‣ Projeção ‣ Reprojetar cordenadas** e defina os parâmetros conhecidos:
+Agora, podemos proceder à reprojeção do mosaico - um arquivo, em vez de 6 arquivos. Vá para **Raster > Projeção > Reprojetar cordenadas** e defina os parâmetros conhecidos:
 
    * SRC original: EPSG 4326
    * SRC de destino: EPSG: 31983
@@ -525,7 +526,7 @@ Neste ponto, devemos ter todas as camadas no mesmo CRS - EPSG 31983.
 Figura 9.15d - Reprojetar raster mesclado
 
 
-Podemos fazer outra verificação para ter certeza que todos os rasters com os quais estamos trabalhando são projetados, bem como obter qualquer informação adicional sobre os dados, executando um processo em lote de informações raster sobre todos. Para abrir a janela de funcionalidade, vá para **Raster ‣ Miscelânea ‣ Informações Raster**. Sua janela de informações raster de processamento em lote deve ser semelhante à figura 9.16.
+Podemos fazer outra verificação para ter certeza que todos os rasters com os quais estamos trabalhando são projetados, bem como obter qualquer informação adicional sobre os dados, executando um processo em lote de informações raster sobre todos. Para abrir a janela de funcionalidade, vá para **Raster > Miscelânea > Informações Raster**. Sua janela de informações raster de processamento em lote deve ser semelhante à figura 9.16.
 
 
 ![Processo em lote para extrair informações em um arquivo HTML separado para várias camadas raster](media/modulo9/fig916.png "Processo em lote para extrair informações em um arquivo HTML separado para várias camadas raster")
@@ -624,7 +625,7 @@ Após pressionar aplicar, o raster será representado usando o novo intervalo m�
 
 Mesmo que a próxima ferramenta que usaremos seja um plugin (veja o módulo 1 para detalhes do plugin), nós o consideramos muito útil para começar a trabalhar com raster. Estamos nos referindo ao plug-in **Value Tool** que permite a identificação imediata dos valores das células passando o mouse sobre as camadas raster.
 
-Vá para **Plug-in ‣ Gerenciar e instalar complementos**, procure o plug-in **Value Tool** e clique em instalar. Depois, clique com o botão direito na barra da janela principal do QGIS para abrir todos os Painéis e Barras de Ferramentas disponíveis em sua instalação do QGIS e selecione o **Value Tool Panel**. Verifique sua interface QGIS para ver onde foi aberta.
+Vá para **Plug-in > Gerenciar e instalar complementos**, procure o plug-in **Value Tool** e clique em instalar. Depois, clique com o botão direito na barra da janela principal do QGIS para abrir todos os Painéis e Barras de Ferramentas disponíveis em sua instalação do QGIS e selecione o **Value Tool Panel**. Verifique sua interface QGIS para ver onde foi aberta.
 
 
 ![The Value Tool Panel](media/modulo9/fig920.png "The Value Tool Panel")
@@ -668,7 +669,7 @@ Como você deve ter notado, devido à estrutura do modelo de dados raster, as ca
 
 Como você notou agora, os conjuntos de dados que carregamos em um GIS - em nosso caso em QGIS - podem ser processados ​​juntos mesmo se forem de natureza diferente, como unir tabelas csv a camadas vetoriais para adicionar informações às geometrias. O mesmo se aplica a dados raster e vetoriais, como veremos.
 
-Para trabalhar apenas com camadas raster que são relevantes para nossa área, usaremos a camada de extensão vetorial (br_rj_capital) para cortar/recortar todas as camadas raster relevantes. Vá para **Raster ‣ Extrair ‣ Recortar raster pela camada de máscada** (veja a figura 9.22). Da mesma forma, você pode pesquisar por Clipe na Barra de Ferramentas de Processamento ou na barra Localizador.
+Para trabalhar apenas com camadas raster que são relevantes para nossa área, usaremos a camada de extensão vetorial (br_rj_capital) para cortar/recortar todas as camadas raster relevantes. Vá para **Raster > Extrair > Recortar raster pela camada de máscada** (veja a figura 9.22). Da mesma forma, você pode pesquisar por Clipe na Barra de Ferramentas de Processamento ou na barra Localizador.
 
 
 ![Usando uma máscara vetorial para extrair os dados raster em uma região específica](media/modulo9/fig922.png "Usando uma máscara vetorial para extrair os dados raster em uma região específica")
@@ -715,7 +716,7 @@ Figura 9.25 - Representação Clipped_Reprojected_SRTM_DEM
 
 Para calcular o número de pessoas com base nos dados raster HRSL que vivem até 200 metros de altitude na cidade do Rio de Janeiro, devemos ver quais pixels se enquadram em cada uma dessas categorias. Para fazer isso, usaremos a **Calculadora Raster**. Esta é uma funcionalidade que permite ao usuário realizar cálculos com base nos valores de pixel raster existentes. Os resultados são gravados em uma nova camada raster em um formato compatível com GDAL[^5].
 
-Existem várias maneiras de abrir o calclulator raster no QGIS. Você pode fazer isso na barra de menus **Raster ‣ Raster Calculadora** ou pesquisando na calculadora raster na caixa de ferramentas de processamento ou na barra localizadora. Se executarmos a Calculadora Raster sob análise Raster na Caixa de Ferramentas de Processamento, a janela da Figura 9.26b deve aparecer.
+Existem várias maneiras de abrir o calclulator raster no QGIS. Você pode fazer isso na barra de menus **Raster > Raster Calculadora** ou pesquisando na calculadora raster na caixa de ferramentas de processamento ou na barra localizadora. Se executarmos a Calculadora Raster sob análise Raster na Caixa de Ferramentas de Processamento, a janela da Figura 9.26b deve aparecer.
 
 
 ![Abrindo a calculadora raster](media/modulo9/fig926_a.png "Abrindo a calculadora raster")
@@ -789,7 +790,7 @@ Figura 9.32 - Distribuição da população que vive abaixo de 200m na ​​cid
 
 Se estivermos interessados ​​no número total de pessoas que vivem abaixo de 200m na ​​cidade do Rio de Janeiro e não na distribuição geográfica por 30 m de resolução espacial, então precisamos somar todos os valores de pixel da camada raster HRSL_DSM. Uma forma de obter este número é transformar o Reprojected_hrsl_rj_capital_populacao_200m de raster para vetor.
 
-Para fazer isso vá para **Raster ‣ Conversão ‣ Raster para vetor (poligonizar)** (ver figura 9.33).
+Para fazer isso vá para **Raster > Conversão > Raster para vetor (poligonizar)** (ver figura 9.33).
 
 
 ![Conversão de raster em vetor](media/modulo9/fig933_a.png "Conversão de raster em vetor")
@@ -849,7 +850,7 @@ E com esta etapa final, respondemos ao nosso exercício, quantas pessoas (e onde
 * _No._
 
 
-## **Trabalho com dados raster e vetoriais.**
+## Trabalho com dados raster e vetoriais
 
 Na fase anterior, temos visto como podemos processar 2 conjuntos de dados raster para derivar novas informações. Usamos o modelo de superfície digital e a Camada de Assentamento de Alta Resolução para descobrir quantas pessoas vivem abaixo de 200m na ​​cidade do Rio de Janeiro. Antes de fazer qualquer análise, verificamos se os conjuntos de dados estavam na mesma projeção e, além disso, se os rasters têm a mesma resolução espacial para que os resultados que obtivemos sejam viáveis. Ao se referir ao sistema de referência de coordenadas, o raciocínio é claro, mas por que a mesma resolução espacial?
 
@@ -866,7 +867,7 @@ Figura 9.38 - Exemplo de diferentes resoluções específicas para diferentes im
 
 A Figura 9.38 detalha a relação entre a resolução das imagens de satélite e informações de cobertura do solo extraídas dessas imagens capturadas. Lembre-se, conforme detalhamos no início, que o valor da célula de pixel é atribuído a toda a área que cobre, mas isso não significa que essa seja a realidade no terreno. Estas representam decisões tomadas pelos especialistas que derivam vários produtos com base em imagens de observação da Terra - todos documentados em artigos revisados ​​por pares e descrições de algoritmos. Outras explicações estão além do escopo deste módulo, mas é importante ter em mente a relação entre o que um sensor a bordo de um satélite captura e os produtos que usamos.
 
-Voltando à nossa região de interesse - a cidade do Rio de Janeiro - podemos testar essas diferenças com os dados de que dispomos. Carregamos em nosso projeto QGIS as 5 camadas raster de LandCover por 5 anos: 2015, 2016, 2017, 2018 e 2019. Em seguida, carregaremos um mosaico de imagens do Sentinel-2[^6]. Vamos carregar a camada WMS EOX Sentinel-2 sem nuvem, disponível [aqui](https://s2maps.eu/). Lembrando do módulo 2, para adicionar uma camada WMS, vá para **Camada ‣ Adicionar camada ‣ Adicionar camada WM/WMTS ..**
+Voltando à nossa região de interesse - a cidade do Rio de Janeiro - podemos testar essas diferenças com os dados de que dispomos. Carregamos em nosso projeto QGIS as 5 camadas raster de LandCover por 5 anos: 2015, 2016, 2017, 2018 e 2019. Em seguida, carregaremos um mosaico de imagens do Sentinel-2[^6]. Vamos carregar a camada WMS EOX Sentinel-2 sem nuvem, disponível [aqui](https://s2maps.eu/). Lembrando do módulo 2, para adicionar uma camada WMS, vá para **Camada > Adicionar camada > Adicionar camada WM/WMTS ..**
 
 Quando a janela adicionar abrir, use os seguintes parâmetros:
 ```
@@ -886,7 +887,7 @@ Após conectar-se com recém-adicionada a camada WMS, carregaremos a camada cham
 
 Figura 9.40 - Camada sem nuvens Sentinel-2 para 2019 por EOX - 4326 para a cidade do Rio de Janeiro
 
-Embora os produtos LandCover tenham sido obtidos usando outros dados de satélite (Proba-V), vamos comparar as 2 camadas para que possamos ter uma noção do que significam as diferentes resoluções. Lembre-se de que o produto LandCover está a 100m e as imagens do Sentinel 2 estão a 10m. Para isso, abriremos o Clipped_Reprojected_LandCover 2019 e a camada WMS. Para fazer comparações entre 2 camadas, usaremos um novo plugin que você deve instalar. Portanto, vá para **Complementos ‣ gerenciar e instalar complementos** e escreva na caixa de pesquisa `MapSwipe Tool`. Depois de instalado, ele deve aparecer como um novo pictograma em sua barra de ferramentas (![Botão da ferramenta MapSwipe](media/modulo9/mapswipe-btn.png "botão da ferramenta MapSwipe")).
+Embora os produtos LandCover tenham sido obtidos usando outros dados de satélite (Proba-V), vamos comparar as 2 camadas para que possamos ter uma noção do que significam as diferentes resoluções. Lembre-se de que o produto LandCover está a 100m e as imagens do Sentinel 2 estão a 10m. Para isso, abriremos o Clipped_Reprojected_LandCover 2019 e a camada WMS. Para fazer comparações entre 2 camadas, usaremos um novo plugin que você deve instalar. Portanto, vá para **Complementos > gerenciar e instalar complementos** e escreva na caixa de pesquisa `MapSwipe Tool`. Depois de instalado, ele deve aparecer como um novo pictograma em sua barra de ferramentas (![Botão da ferramenta MapSwipe](media/modulo9/mapswipe-btn.png "botão da ferramenta MapSwipe")).
 
 
 ![alt_text](media/modulo9/fig941.png "image_tooltip")
@@ -922,7 +923,7 @@ Vamos imaginar o seguinte exercício. Precisamos identificar os números da popu
 
 Uma diferença entre os 2 produtos deve ser destacada: o produto LandCover cobre a **área inteira** da extensão considerada, ao contrário do produto HSRL, onde a camada raster contém estritamente células onde existem valores acima de 0. Esta situação cria problemas quando os valores das células de interpolação são reamostrados, pois não importa o método de interpolação escolhido, que levaria em consideração os pixels circundantes, seguindo um algoritmo específico bem definido e nesta situação particular, os pixels da borda não estão na borda de região de estudo, mas dentro dela. Portanto, em nosso caso demonstrativo, consideraremos aumentar a resolução do produto Land Cover de 100m para 30m de resolução para corresponder à resolução do produto Land Cover. O método de reamostragem que escolhemos é crucial, pois os resultados podem variar significativamente. Para fins de demonstração, faremos uma nova amostra do produto LandCover usando 2 métodos diferentes - Vizinho mais próximo e Moda.
 
-Para reamostrar, vá para **Raster ‣ Projeções ‣ Reprojetar coordenadas.** Na janela, defina os seguintes parâmetros:
+Para reamostrar, vá para **Raster > Projeções > Reprojetar coordenadas.** Na janela, defina os seguintes parâmetros:
 
 * camada de entrada: Clipped_Reprojected_LandCover_2019,
 * CRS de origem e CRS de destino: EPSG: 31983,
@@ -953,7 +954,7 @@ Figura 9.46a - Reamostragem do produto de cobertura do solo usando o método de 
 
 Figura 9.46b - Reamostragem do produto de cobertura do solo usando o método de reamostragem de modo
 
-Ambos os rasters têm a mesma simbologia aplicada e podemos observar que na figura 9.45 existem valores que não se enquadram em nenhuma das categorias - os pixels não estão aparecendo. No entanto, sabemos que o produto Land Cover é uma camada contínua - não tem lacunas entre as mesmas categorias definidas. Vamos ir mais fundo e examinar os histogramas de todas as três camadas. Para isso vá para **Propriedades ‣ Histograma** e escolha Prefs/Ações para mostrar apenas a Banda 1. Salve o histograma clicando no ícone salvar no lado direito da janela (ver figura 9.47).
+Ambos os rasters têm a mesma simbologia aplicada e podemos observar que na figura 9.45 existem valores que não se enquadram em nenhuma das categorias - os pixels não estão aparecendo. No entanto, sabemos que o produto Land Cover é uma camada contínua - não tem lacunas entre as mesmas categorias definidas. Vamos ir mais fundo e examinar os histogramas de todas as três camadas. Para isso vá para **Propriedades > Histograma** e escolha Prefs/Ações para mostrar apenas a Banda 1. Salve o histograma clicando no ícone salvar no lado direito da janela (ver figura 9.47).
 
 
 ![alt_text](media/modulo9/fig947.png "image_tooltip")
@@ -982,7 +983,7 @@ Figura 9.49 - Os 2 produtos raster: Land Cover 2019 e HRSL sobrepostos.
 
 Voltando ao nosso exercício, os requisitos eram identificar os números da população para cada categoria de cobertura do solo que definimos na cidade do Rio de Janeiro. Neste ponto, pré-processamos nossos dados raster, de forma a tê-los no mesmo sistema de coordenadas, com a mesma resolução espacial. Continuaremos com um algoritmo de conversão, transformaremos o conjunto de dados raster Land Cover em um conjunto de dados vetoriais - tipo polígono. Isso nos permitirá identificar mais facilmente a contagem da população para cada categoria de cobertura do solo.
 
-Para conversões, de raster para polígono, bem como de vetor para polígono, vá em **Raster ‣ Conversão** e aqui temos mais opções. Vamos escolher **Raster ‣ Conversão ‣ Raster para vetor (poligonizar)** Vamos converter para vector o último conjunto de dados raster que obtivemos: LC2019_Mode. Seu resultado deve ser semelhante à figura 9.50b.
+Para conversões, de raster para polígono, bem como de vetor para polígono, vá em **Raster > Conversão** e aqui temos mais opções. Vamos escolher **Raster > Conversão > Raster para vetor (poligonizar)** Vamos converter para vector o último conjunto de dados raster que obtivemos: LC2019_Mode. Seu resultado deve ser semelhante à figura 9.50b.
 
 
 ![alt_text](media/modulo9/fig950_a.png "image_tooltip")
@@ -994,7 +995,7 @@ Figura 9.50a - Poligonizando a camada raster LC2019_Mode (30m)
 
 Figura 9.50b - Resultado da poligonização do LC2019_Mode ( 30m) camada raster
 
-Como podemos observar, cada pixel - cada grupo de pixels adjacentes com o mesmo código de categoria (ver tabela 1, página 7) foi convertido em um polígono. No entanto, não estamos interessados ​​em cada região distinta, mas em toda a categoria. Assim, iremos dissolver a camada vetorial obtida usando a identificação de classe (campo `DN`) como atributo comum (**Vetor ‣ Geoprocessamento ‣ Dissolver** - para mais detalhes, verifique o módulo 8).
+Como podemos observar, cada pixel - cada grupo de pixels adjacentes com o mesmo código de categoria (ver tabela 1, página 7) foi convertido em um polígono. No entanto, não estamos interessados ​​em cada região distinta, mas em toda a categoria. Assim, iremos dissolver a camada vetorial obtida usando a identificação de classe (campo `DN`) como atributo comum (**Vetor > Geoprocessamento > Dissolver** - para mais detalhes, verifique o módulo 8).
 
 Anexando o mesmo estilo do raster e notaremos que as mesmas classes vetoriais correspondem às raster (ver figura 9.51).
 
@@ -1012,7 +1013,7 @@ Figura 9.52 - Incompatibilidade de pixels HRSL e o conjunto de dados vetoriais d
 
 Para eliminar este inconveniente, vamos vetorizar a camada HRSL também, só que desta vez iremos transferir o pixel valor da célula a um ponto - o centro geométrico de cada pixel.
 
-Vá para **Processar ‣ Caixa de ferramentas**. Na barra de pesquisa, escreva as palavras-chave `raster ponto` e escolha o algoritmo `Pixels de raster para pontos` (veja a figura 9.53a). Salve a saída como HRSL_points.
+Vá para **Processar > Caixa de ferramentas**. Na barra de pesquisa, escreva as palavras-chave `raster ponto` e escolha o algoritmo `Pixels de raster para pontos` (veja a figura 9.53a). Salve a saída como HRSL_points.
 
 
 ![alt_text](media/modulo9/fig953_a.png "image_tooltip")

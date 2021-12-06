@@ -108,14 +108,14 @@ Além disso, outros conceitos como a funcionalidade de calculadora de campo na t
 A tabela de atributos exibe informações sobre os recursos de uma camada selecionada. Cada linha da tabela representa uma feição (com ou sem geometria) e cada coluna contém uma informação específica sobre a feição. As feições da tabela podem ser pesquisadas, selecionadas, movidas ou mesmo editadas.
 
 
-1. Carregue a camada vetorial de UFs PHL (encontrada em [module6.gpkg](data/module6.gpkg)) no QGIS. Você pode descobrir quantas feições estão no recurso atual **clicando com o botão direito do mouse na camada no painel Camadas ‣ Mostrar contagem de feições**. Como você pode ver abaixo, a camada vetorial tem muitas feições. No total, são 27 feições correspondentes a 27 UFs.
+1. Carregue a camada vetorial de UFs PHL (encontrada em [module6.gpkg](data/module6.gpkg)) no QGIS. Você pode descobrir quantas feições estão no recurso atual **clicando com o botão direito do mouse na camada no painel Camadas > Mostrar contagem de feições**. Como você pode ver abaixo, a camada vetorial tem muitas feições. No total, são 27 feições correspondentes a 27 UFs.
 
 ![Vários polígonos](media/modulo6/many-polygons.png "Vários polígonos")
 
 Figura 6.1: Vários polígonos
 
 
-2. O próximo passo é explorar a interface da tabela de atributos. Abra a tabela de atributos **clicando com o botão direito do mouse na camada no painel Layers ‣ Abrir tabela de atributos**. Você também pode clicar no **botão Abrir Tabela de Atributos** ![Botão Abrir tabela de atributos](media/modulo6/open-attribute-btn.png "botão Abrir tabela de atributos") na Barra de Ferramentas de Atributos. Esta é a aparência da tabela de atributos. A barra de ferramentas tem vários botões; passe o mouse sobre cada botão para ver sua funcionalidade.
+2. O próximo passo é explorar a interface da tabela de atributos. Abra a tabela de atributos **clicando com o botão direito do mouse na camada no painel Layers > Abrir tabela de atributos**. Você também pode clicar no **botão Abrir Tabela de Atributos** ![Botão Abrir tabela de atributos](media/modulo6/open-attribute-btn.png "botão Abrir tabela de atributos") na Barra de Ferramentas de Atributos. Esta é a aparência da tabela de atributos. A barra de ferramentas tem vários botões; passe o mouse sobre cada botão para ver sua funcionalidade.
 
 ![Abrir tabela de atributos](media/modulo6/attribute-tab.png "Abrir tabela de atributos")
 
@@ -130,7 +130,7 @@ Figura 6.3: Tabela de atributos ancorada
 
 3. Para cálculos de área, o Sistema de Referência de Coordenadas deve ser projetado. Isso permite calcular as distâncias corretamente. Lembre-se, nosso interesse é calcular automaticamente a área para cada uma das 27 UFs. Verifique o Sistema de Referência de Coordenadas da camada vetorial. Se for um sistema de referência de coordenadas geográficas, então reprojete a camada para um sistema de coordenadas projetadas. Verifique as diferentes projeções no site [EPSG](https://epsg.io/?q=Brazil+kind%3APROJCRS). No Brasil, usaremos [SIRGAS 2000 / Brazil Mercator](https://epsg.io/5641), EPSG: 5641. Dos módulos anteriores, onde as projeções de mapas são amplamente discutidas, você já deve saber que as projeções de mapas são aplicadas em relação a um local específico na Terra.
 
-4. Verifique as configurações do projeto; Acesse: **Projeto ‣ Propriedades Propriedades ‣ Geral**.
+4. Verifique as configurações do projeto; Acesse: **Projeto > Propriedades Propriedades > Geral**.
 
 ![Planimetric](media/modulo6/gen-settings.png "Planimetric")
 

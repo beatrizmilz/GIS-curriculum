@@ -59,7 +59,7 @@ Então por que isso acontece? Como você aprenderá neste módulo, é difícil r
 No mapa online que usamos, o mapa de fundo que não muda de tamanho (em cinza) é um exemplo de **dados raster**. Os dados raster são representações do mundo baseadas em pixels, semelhantes a como fotografias funcionam. Enquanto isso, a forma dos países que podemos mover são exemplos de **dados vetor, ou vetoriais**. Os dados vetoriais, ao contrário dos rasters, representam o mundo usando objetos discretos (no sentido matemático da palavra), como pontos, linhas e polígonos.
 
 
-## Mapas e Coordenadas
+## Mapas e coordenadas
 
 Quando as pessoas pensam na Terra atualmente, elas geralmente imaginam uma massa esférica azul, verde, branca e marrom flutuando no espaço. É por isso que tradicionalmente usamos globos para representar a Terra.
 
@@ -75,7 +75,6 @@ Quando as pessoas pensam na Terra atualmente, elas geralmente imaginam uma massa
     </td>
    </tr>
 </table>
-
 
 No entanto, embora o globo seja capaz de capturar a maioria das características da Terra, ele possui duas desvantagens principais:
 

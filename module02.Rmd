@@ -63,7 +63,7 @@ Esses conjuntos de dados podem vir em diferentes tipos e formatos. Alguns podem 
 
 ## Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas
 
-### **Tipos de dados e formatos de arquivo comuns**
+### Tipos de dados e formatos de arquivo comuns
 
 Além dos modelos de dados espaciais (rasters e vetores) discutidos no primeiro módulo, a familiaridade com formatos de arquivo geoespaciais e seus prós e contras também é importante para qualquer pessoa que faça análise espacial.
 
@@ -134,7 +134,7 @@ Para saber mais sobre o painel do navegador, acesse: [https://docs.qgis.org/3.16
 #### **Exercício 01.1: O painel do navegador**
 
 1. Abra o QGIS.
-2. Verifique o painel do navegador (Figura 2.2). Se você não conseguir encontrar o painel do navegador, pode torná-lo visível em **Exibir ‣ Painéis ‣ Painel do navegador** na barra de menus.
+2. Verifique o painel do navegador (Figura 2.2). Se você não conseguir encontrar o painel do navegador, pode torná-lo visível em **Exibir > Painéis > Painel do navegador** na barra de menus.
 
 ![O painel do navegador QGIS](media/modulo2/qgis-browser-1.png "O painel do navegador QGIS")
 
@@ -173,7 +173,7 @@ Figura 2.5. Propriedades da camada no painel do navegador
 9. Você pode carregar uma camada do painel do navegador:
 
     1. **clicando duas vezes na camada**
-    2. **clicando com o botão direito na camada ‣ Adicionar camada ao projeto**
+    2. **clicando com o botão direito na camada > Adicionar camada ao projeto**
     3. **arrastando a camada para a área do mapa**
 
 10. Tente carregar as camadas **br_pais**, **br_ufs** e **br_rj_municipios** usando qualquer um dos métodos acima.
@@ -185,7 +185,7 @@ Figura 2.6. As camadas vetoriais carregadas no QGIS
 
 ### **O painel de camadas**
 
-O painel de camadas lista todas as camadas atuais no projeto. Ele ajuda a gerenciar sua visibilidade e ordem e pode ser usado para mostrar as propriedades da camada. O painel de camadas pode ser ativado em **Exibir ‣ Painéis ‣ Painel de camadas** ou usando o atalho **CTRL + 1**. Ele também é chamado de legenda do mapa. Se você carregou todos os vetores do exercício anterior, seu painel de camadas deve aparecer como abaixo:
+O painel de camadas lista todas as camadas atuais no projeto. Ele ajuda a gerenciar sua visibilidade e ordem e pode ser usado para mostrar as propriedades da camada. O painel de camadas pode ser ativado em **Exibir > Painéis > Painel de camadas** ou usando o atalho **CTRL + 1**. Ele também é chamado de legenda do mapa. Se você carregou todos os vetores do exercício anterior, seu painel de camadas deve aparecer como abaixo:
 
 ![Painel de camadas](media/modulo2/layers-panel-1.png "Painel de camadas")
 
@@ -197,12 +197,12 @@ A visibilidade de uma camada pode ser controlada marcando ou desmarcando a caixa
 
 O painel de camadas também permite ao usuário renomear e remover camadas, filtrar a visibilidade da camada, criar e gerenciar grupos de camadas e visualizações de mapas.
 
-A tabela de atributos de uma camada vetorial também pode ser aberta no painel Camadas **clicando com o botão direito do mouse na camada ‣ Abrir tabela de atributos**.
+A tabela de atributos de uma camada vetorial também pode ser aberta no painel Camadas **clicando com o botão direito do mouse na camada > Abrir tabela de atributos**.
 
 Para saber mais sobre o painel de camadas, acesse: [https://docs.qgis.org/3.16/en/docs/user_manual/introduction/general_tools.html#layers-panel](https://docs.qgis.org /3.16/en/docs/user_manual/introduction/general_tools.html#layers-panel)
 
 
-## **Propriedades da camada**
+## Propriedades da camada
 
 Clicar com o botão direito em uma camada no painel Camadas e selecionar Propriedades da camada abrirá a caixa de diálogo Propriedades da camada.
 
@@ -242,7 +242,7 @@ Para saber mais sobre as propriedades da camada vetorial, acesse: [https://docs.
 Para saber mais sobre as propriedades da camada raster, vá para: [https://docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/raster_properties.html](https: //docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/raster_properties.html)
 
 
-## **Metadados geoespaciais**
+## Metadados geoespaciais
 
 Metadados são simplesmente dados sobre os dados. Eles responde, o "quem, o que, quando, onde e como" dos dados e vem em todas as formas e tamanhos. Para fins de GIS, geralmente estamos preocupados com metadados geoespaciais. Os metadados geoespaciais são descritos pelo US Federal Geographic Data Committee (FGDC) como:
 
@@ -288,7 +288,7 @@ Figura 2.11. A guia Informações depois de editar alguns metadados
 
 Se você não quiser usar o painel do navegador para carregar camadas, você sempre pode usar o **Gerenciador de fonte de dados**.
 
-O **Gerenciador de fonte de dados** foi introduzido com o lançamento do QGIS 3. É um local único para adicionar e carregar camadas de diferentes fontes de dados no QGIS. Antes de sua introdução, havia janelas separadas para carregar diferentes fontes de dados (ou seja, uma para rasters, outra para vetores, etc.). Ele pode ser acessado via **Camadas ‣ Gerenciador de fonte de dados** ou **CTRL + L**.
+O **Gerenciador de fonte de dados** foi introduzido com o lançamento do QGIS 3. É um local único para adicionar e carregar camadas de diferentes fontes de dados no QGIS. Antes de sua introdução, havia janelas separadas para carregar diferentes fontes de dados (ou seja, uma para rasters, outra para vetores, etc.). Ele pode ser acessado via **Camadas > Gerenciador de fonte de dados** ou **CTRL + L**.
 
 ![Gerenciador de fonte de dados](media/modulo2/data-source-manager-1.png "Gerenciador de fonte de dados")
 
@@ -387,7 +387,7 @@ Os tiles XYZ geralmente são usados como mapas base e não são utilizados apena
 Para conectar a um servidor de tiles:
 
 1. Vá para **Painel do navegador**
-2. **Clique com o botão direito do mouse em XYZ Tiles ‣ Nova conexão**
+2. **Clique com o botão direito do mouse em XYZ Tiles > Nova conexão**
 3. Adicione o seguinte:
 
 ```
@@ -428,7 +428,7 @@ Enquanto isso, o WFS ou Web Feature Services é outro serviço da Web compatíve
 Para conectar-se a um WMS:
 
 1. Vá para **Painel do navegador**
-2. **Clique com o botão direito em WMS / WMTS ‣ Nova conexão**
+2. **Clique com o botão direito em WMS / WMTS > Nova conexão**
 3. Adicione o seguinte:
 ```
 Nome: Risco de inundação LiPAD 100 anos
@@ -466,7 +466,7 @@ Figura 2.23. Mapa de risco de inundação do WMS carregado no QGIS
 
 ### **Exportando Camadas do QGIS**
 
-Exportar camadas (ou salvar camadas em arquivos) é simples no QGIS. Simplesmente **clique com o botão direito do mouse na camada ‣ Exportar** para visualizar as opções de exportação da camada.
+Exportar camadas (ou salvar camadas em arquivos) é simples no QGIS. Simplesmente **clique com o botão direito do mouse na camada > Exportar** para visualizar as opções de exportação da camada.
 
 ![Exportando uma camada do QGIS](media/modulo2/exporting-layers.png "Exportando uma camada do QGIS")
 
@@ -497,7 +497,7 @@ QGIS entende isso e permite que os usuários criem camadas **temporárias / rasc
 
 Os resultados dos algoritmos de processamento são armazenadas como camadas temporárias por padrão.
 
-A desvantagem das camadas temporárias é que o QGIS “**esquece**” essas “**camadas na memória**” quando é fechado. Para remediar isso, podemos usar o **plugin Memory Layer Saver** para permitir que nossas camadas temporárias sejam persistentes. Ao salvar um projeto QGIS que usa camadas temporárias, é uma boa prática executar / ativar o plugin Memory Layer Saver primeiro. Para usar o plugin Memory Layer Saver, simplesmente vá para **Plugins ‣ Memory Layer Saver** antes de salvar e fechar seu projeto QGIS. Na próxima vez que você abrir seu projeto QGIS, as camadas temporárias (ou camadas na memória) ainda devem estar presentes.
+A desvantagem das camadas temporárias é que o QGIS “**esquece**” essas “**camadas na memória**” quando é fechado. Para remediar isso, podemos usar o **plugin Memory Layer Saver** para permitir que nossas camadas temporárias sejam persistentes. Ao salvar um projeto QGIS que usa camadas temporárias, é uma boa prática executar / ativar o plugin Memory Layer Saver primeiro. Para usar o plugin Memory Layer Saver, simplesmente vá para **Plugins > Memory Layer Saver** antes de salvar e fechar seu projeto QGIS. Na próxima vez que você abrir seu projeto QGIS, as camadas temporárias (ou camadas na memória) ainda devem estar presentes.
 
 É claro que você também pode tornar a camada temporária permanente, exportando a camada para um arquivo. Ao clicar no ícone ![Símbolo de camada temporária](media/modulo2/symbol-temp.png "Símbolo de camada temporária") você abrirá automaticamente uma caixa de diálogo de exportação de camada.
 
@@ -547,7 +547,7 @@ PS Alguns desses plug-ins exigem que você se inscreva para uma conta com o prov
 GeoNode ([https://geonode.org/](https://geonode.org/)) é um sistema de gerenciamento de conteúdo geoespacial de código aberto construído com uma pilha FOSS4G madura que inclui PostGIS, GeoServer, MapStore, etc. Você pode pensar no GeoNode como um portal de dados geoespaciais. Você pode conectar facilmente o QGIS a uma instância GeoNode através do conector GeoNode no Painel do Navegador ou no Gerenciador de Fonte de Dados.
 
 1. Vá para o **Painel do navegador**
-2. Clique com o botão direito em **GeoNode ‣ Nova conexão**
+2. Clique com o botão direito em **GeoNode > Nova conexão**
 3. Adicione o seguinte:
 ```
 Nome: UNESCO IHP-WINS
@@ -572,7 +572,7 @@ Quando for avisado de que o arquivo já existe, selecione Adicionar nova camada.
 ![GeoPackage Layer já existe](media/modulo2/virtual-2.png "GeoPackage Layer já existe")
 
 
-4. Ative a edição na camada `arvores` clicando com o botão direito nela ‣ Alterne a edição ou clique ![Alternar símbolo de edição](media/modulo2/symbol-edit.png "Alternar símbolo de edição") na barra de ferramentas de digitalização.
+4. Ative a edição na camada `arvores` clicando com o botão direito nela > Alterne a edição ou clique ![Alternar símbolo de edição](media/modulo2/symbol-edit.png "Alternar símbolo de edição") na barra de ferramentas de digitalização.
 5. Selecione uma área na imagem de satélite que contenha árvores.
 6. Com a edição ativada, habilite a adição de pontos à camada Árvores clicando em ![Adicionar novo símbolo de ponto](media/modulo2/symbol-add-point.png "[Adicionar novo símbolo de ponto") (CTRL +.).
 7. Digitalize árvores individuais clicando em sua localização e adicionando as informações de atributo. Faça isso para 4 árvores. Para este exercício, você pode apenas adivinhar as informações.

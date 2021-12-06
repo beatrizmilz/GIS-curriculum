@@ -1,4 +1,4 @@
-# Fazendo Mapas
+# Fazendo mapas
 
 **Autor**: Ketty
 
@@ -68,8 +68,8 @@ Neste tutorial, mostraremos duas maneiras de 'Exportar a tela do mapa' para o la
 
 ### **Primeiro método: Exportar a tela do mapa sem o layout de impressão**
 
-1. As camadas de dados já devem estar adicionadas à tela do QGIS. As camadas podem então ser estilizadas para comunicar informações em seus dados. Adicione as decorações do mapa clicando em **Exibir ‣ Decorações**. Selecione sua decoração de mapa preferida. Por exemplo, você pode adicionar o rótulo de título, barra de escala e rótulo de direitos autorais. Para cada decoração, você terá que especificar as configurações em uma caixa de diálogo.
-2. A etapa final é exportar o mapa para o formato de imagem ou PDF. Para fazer isso, clique em **Projeto ‣ Importar/Exportar** e selecione o formato de exportação de sua preferência. A caixa de diálogo de exportação abaixo deve aparecer.
+1. As camadas de dados já devem estar adicionadas à tela do QGIS. As camadas podem então ser estilizadas para comunicar informações em seus dados. Adicione as decorações do mapa clicando em **Exibir > Decorações**. Selecione sua decoração de mapa preferida. Por exemplo, você pode adicionar o rótulo de título, barra de escala e rótulo de direitos autorais. Para cada decoração, você terá que especificar as configurações em uma caixa de diálogo.
+2. A etapa final é exportar o mapa para o formato de imagem ou PDF. Para fazer isso, clique em **Projeto > Importar/Exportar** e selecione o formato de exportação de sua preferência. A caixa de diálogo de exportação abaixo deve aparecer.
 
 
 ![Exportando a tela do mapa como imagem](media/modulo5/export-map-canvas-image.png "Exportando a tela do mapa como imagem")
@@ -162,7 +162,7 @@ Figura 5.10: Adicionar atribuição ao mapa
 
 3. Se o layout do mapa estiver satisfatório, você já pode exportar o mapa um PDF, PNG, JPEG ou SVG, pronto para impressão. Lembre-se também de salvar o layout. Todas as funções de salvamento podem ser acessadas através do menu 'layout'.
 
-4. Salve o mapa como uma imagem usando **Layout ‣ Exportar como imagem** ou clicando no botão **Exportar como imagem** ![Exportar mapa como imagem](media/modulo5/export-image-btn.png "Exportar mapa como imagem"). O QGIS irá perguntar a você em qual arquivo salvar o mapa, bem como os parâmetros da imagem.
+4. Salve o mapa como uma imagem usando **Layout > Exportar como imagem** ou clicando no botão **Exportar como imagem** ![Exportar mapa como imagem](media/modulo5/export-image-btn.png "Exportar mapa como imagem"). O QGIS irá perguntar a você em qual arquivo salvar o mapa, bem como os parâmetros da imagem.
 
 ![Parâmetros de imagem](media/modulo5/img-parameters.png "Parâmetros de imagem")
 

@@ -1,19 +1,44 @@
 --- 
-title: "Introdução ao QGIS"
+title: "Geodados: uma introdução gentil"
 author: "Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie"
 site: bookdown::bookdown_site
-documentclass: book
+documentclass: krantz
 # bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-cover-image: media/cover.jpg
-description: |
- Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data 
+url: 'escola-de-dados.github.io/GIS-curriculum/'
+cover-image: media/cover/cover.jpg
+description: 'Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data' 
 link-citations: yes
+colorlinks: yes
 github-repo: escola-de-dados/GIS-curriculum
+lang: pt
 ---
+
+```{r, setup, include=FALSE}
+knitr::opts_chunk$set(
+  dev = 'png'
+)
+```
+
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link=''}
+knitr::include_graphics('media/cover/cover.jpg', dpi = NA)
+```
 
 # Créditos
 
 Autoria: Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie
 
-Tradução: Bernardo Loureiro
+Tradução e edição em português: Bernardo Loureiro
+
+Realização: School of Data/Open Knowledge
+
+Ebook: Escola de Dados/Open Knowledge Brasil
+
+Repositório da publicação: [https://github.com/escola-de-dados/GIS-curriculum/](https://github.com/escola-de-dados/GIS-curriculum/)
+
+Caso encontre algum erro ou informação desatualizada, por favor, abra uma issue em nosso repositório ([https://github.com/escola-de-dados/GIS-curriculum/issues/new/choose](https://github.com/escola-de-dados/GIS-curriculum/issues/new/choose)) ou entre em contato por email (`escoladedados@ok.org.br`).
+
+## Conjuntos de dados
+
+Todos os conjuntos de dados utilizados nesta publicação estão disponíveis no repositório: [https://github.com/escola-de-dados/GIS-curriculum/tree/gh-pages/data](https://github.com/escola-de-dados/GIS-curriculum/tree/gh-pages/data)
+
+Se preferir, baixe o arquivo `.zip` do repositório e localize os arquivos na pasta `data`: [https://github.com/escola-de-dados/GIS-curriculum/archive/refs/heads/gh-pages.zip](https://github.com/escola-de-dados/GIS-curriculum/archive/refs/heads/gh-pages.zip)

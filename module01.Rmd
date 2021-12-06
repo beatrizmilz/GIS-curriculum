@@ -153,9 +153,9 @@ No centro da interface está uma tela de mapa. Painéis e barras de ferramentas 
 
 **Tela do mapa** - a tela do mapa é onde as camadas carregadas no QGIS são mostradas. Este é também o local onde os filtros, seleções, e simbologias criadas pelo usuário são refletidas. Mais de uma tela de mapa pode estar presente a qualquer momento. Um usuário pode aplicar zoom, panorâmica e até mesmo girar a tela do mapa. Uma tela de mapa também pode mostrar dados 3D.
 
-**Barras de ferramentas** - as barras de ferramentas mostram botões de acesso fácil aos comandos, recursos, complementos do QGIS. Eles podem ser movidos e encaixados na tela do mapa. A lista de barras de ferramentas pode ser encontrada, ativada e desativada na barra de menus em **Exibir ‣ Barras de ferramentas**. Exemplos de barras de ferramentas são a barra de ferramentas de atributos e a barra de ferramentas de digitalização.
+**Barras de ferramentas** - as barras de ferramentas mostram botões de acesso fácil aos comandos, recursos, complementos do QGIS. Eles podem ser movidos e encaixados na tela do mapa. A lista de barras de ferramentas pode ser encontrada, ativada e desativada na barra de menus em **Exibir > Barras de ferramentas**. Exemplos de barras de ferramentas são a barra de ferramentas de atributos e a barra de ferramentas de digitalização.
 
-**Painéis** - os painéis são semelhantes às barras de ferramentas, mas, em vez de botões, fornecem uma interface para funções e recursos mais complexos. O painel de camadas e o painel do navegador são dois exemplos. Semelhante às barras de ferramentas, eles podem ser movidos e encaixados na tela do mapa. A lista de painéis pode ser encontrada, ativada e desativada na barra de menus em **Exibir ‣ Painéis**.
+**Painéis** - os painéis são semelhantes às barras de ferramentas, mas, em vez de botões, fornecem uma interface para funções e recursos mais complexos. O painel de camadas e o painel do navegador são dois exemplos. Semelhante às barras de ferramentas, eles podem ser movidos e encaixados na tela do mapa. A lista de painéis pode ser encontrada, ativada e desativada na barra de menus em **Exibir > Painéis**.
 
 **Barra de status** - a barra de status é comumente encontrada na parte inferior da interface e mostra informações relevantes, como CRS, escala, notificações, etc.
 
@@ -194,7 +194,7 @@ Figura 1.4. A interface QGIS com algumas personalizações
 
 **Resetando a interface QGIS**
 
-Para redefinir sua tela para as configurações padrão, vá para **Configurações ‣ Opções ‣ Guia Sistema ‣ Configurações ‣ Botão Redefinir** e reinicie o QGIS.
+Para redefinir sua tela para as configurações padrão, vá para **Configurações > Opções > Guia Sistema > Configurações > Botão Redefinir** e reinicie o QGIS.
 
 
 ### **Perguntas do questionário**
@@ -218,7 +218,7 @@ Os complementos QGIS podem ser classificados como:
 
 Os complementos podem ser instalados de três (3) maneiras:
 
-1. Através da caixa de diálogo Gerenciar e instalar complementos (**Complementos ‣ Gerenciar e instalar complementos**)
+1. Através da caixa de diálogo Gerenciar e instalar complementos (**Complementos > Gerenciar e instalar complementos**)
 2. Instalando do ZIP, que pode ser acessado na guia **Instalar do ZIP** na caixa de diálogo Gerenciar e instalar complementos.
 3. Adicionando manualmente o código-fonte na pasta de complementos do seu perfil QGIS. Essa pasta geralmente pode ser encontrada em:
     1. **Linux**: .local/share/QGIS/QGIS3/profiles/default/python/plugins
@@ -252,7 +252,7 @@ Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 
 ### **Tutorial / Exercício 2: Instalando um complemento QGIS**
 
-1. Abra a caixa de diálogo **Gerenciar e instalar complementos** em **Complementos ‣ Gerenciar e instalar complementos** na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.
+1. Abra a caixa de diálogo **Gerenciar e instalar complementos** em **Complementos > Gerenciar e instalar complementos** na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.
 
 ![Abrir caixa de diálogo Gerenciar e instalar complementos](media/modulo1/plugins-menu-2.png "Abrir caixa de diálogo Gerenciar e instalar complementos")
 
@@ -267,7 +267,7 @@ Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 
 ![Instalar plugin QuickOSM](media/modulo1/quickosm-plugin.png "Instalar plugin QuickOSM")
 
-3. Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em **Complementos ‣ Memory Layer Saver** na barra de menus, enquanto o plugin QuickOSM deve estar disponível em **Vetor ‣ QuickOSM** na barra de menus.
+3. Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em **Complementos > Memory Layer Saver** na barra de menus, enquanto o plugin QuickOSM deve estar disponível em **Vetor > QuickOSM** na barra de menus.
 
 
 ### **Perguntas do questionário**
@@ -281,7 +281,7 @@ Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 
 **Configurações do sistema e do projeto**
 
-As configurações do QGIS permitem que você edite e gerencie coisas diferentes sobre o QGIS, como perfis de usuário, estilos, sistemas de referência de coordenadas, atalhos de teclado, a interface do usuário, cores padrão, etc. As configurações do sistema podem ser encontradas no menu **Configurações** e são as configurações padrão usadas pelo QGIS, a menos que sejam substituídas pelas configurações de um projeto. As configurações do projeto podem ser encontradas em **Projeto ‣ Propriedades** e referem-se às configurações ou propriedades do projeto atual. Esses valores substituem os padrões do sistema.
+As configurações do QGIS permitem que você edite e gerencie coisas diferentes sobre o QGIS, como perfis de usuário, estilos, sistemas de referência de coordenadas, atalhos de teclado, a interface do usuário, cores padrão, etc. As configurações do sistema podem ser encontradas no menu **Configurações** e são as configurações padrão usadas pelo QGIS, a menos que sejam substituídas pelas configurações de um projeto. As configurações do projeto podem ser encontradas em **Projeto > Propriedades** e referem-se às configurações ou propriedades do projeto atual. Esses valores substituem os padrões do sistema.
 
 ![As Configurações do Sistema](media/modulo1/settings-1.png "As Configurações do Sistema")
 
@@ -294,7 +294,7 @@ Figura 1.8. Configurações do projeto
 
 **Mudando o tema QGIS**
 
-Você pode alterar a aparência do QGIS em **Configurações ‣ Opções ‣ Aba Geral**.
+Você pode alterar a aparência do QGIS em **Configurações > Opções > Aba Geral**.
 
 Você pode escolher entre três temas - padrão (default), Blend of Grey e Night Mapping. Você também pode alterar o tamanho dos ícones, a fonte usada pelo QGIS e outros padrões do sistema.
 
@@ -310,7 +310,7 @@ QGIS 3.X introduziu o conceito de Perfis de Usuário QGIS.
 
 Um perfil de usuário é uma coleção de configurações para complementos instalados, barras de ferramentas habilitadas, organização da interface do usuário e outras configurações. QGIS vem com um Perfil de Usuário padrão chamado default. Perfis de usuário permitem que o usuário crie configurações diferentes para análises específicas (por exemplo, um perfil de usuário específico para gestão de recursos hídricos, digitalização de dados, cartografia, etc.), projetos particulares ou mesmo clientes.
 
-Perfis de usuário podem ser criados e acessados na barra de menus em: **Configurações ‣ Perfis de usuário**.
+Perfis de usuário podem ser criados e acessados na barra de menus em: **Configurações > Perfis de usuário**.
 
 O perfil de usuário ativo é mostrado com [Perfil do usuário] na barra de título.
 
@@ -318,11 +318,11 @@ O perfil de usuário ativo é mostrado com [Perfil do usuário] na barra de tít
 
 Figura 1.10. Acessando perfis de usuário
 
-Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em **Configurações ‣ Perfis de usuário ‣ Abrir pasta de perfil ativo**.
+Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em **Configurações > Perfis de usuário > Abrir pasta de perfil ativo**.
 
 ### **Tutorial / Exercício 03: Criando um Perfil de Usuário**
 
-1. Vá para **Configurações ‣ Perfis de usuário ‣ Novo perfil ...**
+1. Vá para **Configurações > Perfis de usuário > Novo perfil ...**
 
 ![alt_text](media/modulo1/user-profiles-2.png "image_tooltip")
 

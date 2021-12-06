@@ -80,7 +80,7 @@ Figura 7.3: Diálogo de nova camada GeoPackage
 
 ### **Criando um novo Shapefile**
 
-1. Para criar uma nova camada de formato ESRI Shapefile, pressione ![Alt_text](media/modulo7/mActionNewVectorLayer.png "image_tooltip") Novo botão Shapefile Layer… no menu Camada ‣ Criar Nova Camada ‣ ou na barra de ferramentas Data Source Manager. A caixa de diálogo Nova Camada Shapefile será exibida conforme mostrado na Figura 7.4.
+1. Para criar uma nova camada de formato ESRI Shapefile, pressione ![Alt_text](media/modulo7/mActionNewVectorLayer.png "image_tooltip") Novo botão Shapefile Layer… no menu Camada > Criar Nova Camada > ou na barra de ferramentas Data Source Manager. A caixa de diálogo Nova Camada Shapefile será exibida conforme mostrado na Figura 7.4.
 
 ![alt_text](media/modulo7/new-shapefile-dialog.png "image_tooltip")
 
@@ -110,7 +110,7 @@ Este tutorial mostrará como criar um novo arquivo usando dados auxiliares, como
 
 1. Antes de adicionar novos dados vetoriais, você precisa de um conjunto de dados vetoriais (uma camada) para adicioná-los. Em nosso caso, começaremos criando uma nova camada de dados e, em seguida, adicionaremos recursos a ela. Primeiro, devemos definir nosso conjunto de dados.
 2. Crie um novo projeto no QGIS clicando no ícone _Novo Projeto_ ![Alt_text](media/modulo7/new-project.png "image_tooltip").
-3. Vá para _Camada ‣ Criar camada ‣ Nova camada GeoPackage_. Crie uma camada como a da imagem a seguir:
+3. Vá para _Camada > Criar camada > Nova camada GeoPackage_. Crie uma camada como a da imagem a seguir:
 
 ![Alt_text](media/modulo7/new-vector.png "image_tooltip")
 
@@ -139,7 +139,7 @@ Figura 7.6.2: Camada ESRI World Imagery ampliada
 6. Vamos entrar no modo de edição para a camada _edificios_
 7. Selecione _edificios_ no painel Layers
 8. Clique no botão _Alternar Edição_ ![alt_text](media/modulo7/edit-layer.png "image_tooltip").
-9. Se você não conseguir encontrar este botão, certifique-se de que a barra de ferramentas Digitalização está habilitada. Deve haver uma marca de seleção ao lado da entrada do menu _Ver ‣ Barras de ferramentas ‣ Digitalização_
+9. Se você não conseguir encontrar este botão, certifique-se de que a barra de ferramentas Digitalização está habilitada. Deve haver uma marca de seleção ao lado da entrada do menu _Ver > Barras de ferramentas > Digitalização_
 10. Assim que estiver no modo de edição, as ferramentas de digitalização ficarão ativas
 
 ![Ferramentas de digitalização](media/modulo7/digi-toolbar.png "Ferramentas de digitalização")
@@ -222,7 +222,7 @@ Se você cometer um erro ao digitalizar um recurso, poderá editá-lo posteriorm
    </td>
   </tr>
   <tr>
-   <td> Vá para Editar ‣ Desfazer ou pressione Ctrl + Z no teclado
+   <td> Vá para Editar > Desfazer ou pressione Ctrl + Z no teclado
    </td>
    <td> Desfazer erros
    </td>
@@ -241,7 +241,7 @@ Se você cometer um erro ao digitalizar um recurso, poderá editá-lo posteriorm
 
 Para georreferenciar o mapa;
 
-1. Abra a ferramenta Georeferenciador, Raster ► Georeferenciador
+1. Abra a ferramenta Georeferenciador, Raster  Georeferenciador
 2. Clique no botão Adicionar raster ![Adicionar Raster](media/modulo7/add-raster.png "Adicionar Raster") para adicionar o arquivo de imagem do mapa, [Mapa Topográfico de Pampanga](media/modulo7/manhumirim_mg_es.jpeg), como imagem a georreferenciar. O mapa topográfico será adicionado à tela do georreferenciador. Agora você pode ampliar para ler os detalhes do mapa. Uma maneira de fazer isso é lendo os metadados e as informações de legenda na parte inferior e, em seguida, relacionando-os com os recursos no mapa.
 
 ![Mapa na tela do Georeferenciador](media/modulo7/georeferencer.png "Mapa na tela do Georeferenciador")
@@ -250,7 +250,7 @@ Figura 7.9: Mapa na tela do Georreferenciador
 
 Em seguida, você deve definir as configurações de transformação para georreferenciar o mapa:
 
-3. Abra Configurações ► Configurações de transformação ou clique em Transformação Botão de configurações![Alt_text](media/modulo7/georef-settings-btn.png "image_tooltip").
+3. Abra Configurações  Configurações de transformação ou clique em Transformação Botão de configurações![Alt_text](media/modulo7/georef-settings-btn.png "image_tooltip").
 4. Clique no ícone ![Alt_text](media/modulo7/dots.png "image_tooltip") próximo à caixa Raster de saída, vá para a pasta e crie a pasta 'dados pampanga' e nomeie o arquivo como pampanga_georef.tif.
 5. Defina o resto dos parâmetros conforme mostrado abaixo
 
@@ -304,8 +304,8 @@ Figura 7.12: Primeira coordenada para o georreferenciamento
 13. Com três pontos de controle de solo já digitalizados, você poderá ver o erro de georreferenciamento como uma linha vermelha saindo dos pontos. O erro em pixels pode ser visto também na tabela GCP nas colunas dX [pixels] e dY [pixels]. Os residuais não devem ser maiores do que um limite que você definiu. Se forem, você deve revisar os pontos digitalizados e as coordenadas inseridas para descobrir qual é o problema. Você pode usar a imagem acima como um guia.
 
 14. Adicione mais pontos de controle até ficar satisfeito com os resultados esperados.
-14. Você pode salvar o arquivo de GCPs **Arquivo ► Salvar pontos de GCP como…**.
-15. Finalmente, georreferencie seu mapa com **Arquivo ► Iniciar georreferenciamento** ou o botão Iniciar Georreferenciamento ![Botão Iniciar Georreferenciamento](media/modulo7/georef-start-btn.png "botão Iniciar Georreferenciamento").
+14. Você pode salvar o arquivo de GCPs **Arquivo  Salvar pontos de GCP como…**.
+15. Finalmente, georreferencie seu mapa com **Arquivo  Iniciar georreferenciamento** ou o botão Iniciar Georreferenciamento ![Botão Iniciar Georreferenciamento](media/modulo7/georef-start-btn.png "botão Iniciar Georreferenciamento").
 
 ![GCPs adicionados](media/modulo7/georef-4.png "GCPs adicionados")
 
