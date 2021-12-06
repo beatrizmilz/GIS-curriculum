@@ -16,7 +16,7 @@ Eles também devem ser capazes de:
 * carregar o raster HRSL no QGIS
 
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 As ferramentas e recursos necessários para este módulo são:
 
@@ -26,13 +26,13 @@ As ferramentas e recursos necessários para este módulo são:
 * Camadas vetoriais `br_rj_capital` e `br_rj_centro` (dentro de [module3.gpkg](module3.gpkg)).
 
 
-## Pré-requisitos
+### Pré-requisitos
 
 * conhecimento básico de operação de um computador
 * familiaridade com formatos de dados espaciais, a interface QGIS e como carregar camadas no QGIS (conclusão dos Módulos 0, 1 e 2)
 
 
-## Recursos adicionais
+### Recursos adicionais
 
 * OpenStreetMap - [https: / /www.openstreetmap.org/](https://www.openstreetmap.org/)
 * OpenStreetMap Wiki - [https://wiki.openstreetmap.org/](https://wiki.openstreetmap.org/)
@@ -46,16 +46,14 @@ As ferramentas e recursos necessários para este módulo são:
 Os mapas se tornaram onipresentes em nossas vidas diárias. Podemos simplesmente acessar nossos telefones e abrir aplicativos que utilizam mapas e dados de localização. Existem aplicativos que usamos para nos orientar e nos localizar, para navegar e ir de um lugar para outro; mapas são mostrados quando pedimos comida em nosso serviço de entrega favorito, etc. Os mapas se tornaram tão essenciais para o nosso dia a dia que nós tendemos a esquecer que existem lugares no mundo que ainda não estão mapeados ou não foram encontrados nos mapas digitais que usamos.
 
 
-## Análise dos conceitos
+### Análise dos conceitos
 
 A onipresença dos mapas em nossas vidas é um subproduto da grande quantidade de dados de localização e dados espaciais que estamos coletando. As oportunidades e o potencial para criar algo bom a partir dos dados geoespaciais disponíveis para nós são excelentes, mas isso só será possível se esses conjuntos de dados geoespaciais forem gratuitos e abertos.
 
 
-## Conteúdo principal
+## Dados do OpenStreetMap (OSM)
 
-### Título da fase 1: Dados do OpenStreetMap (OSM)
-
-#### **O que é OpenStreetMap (OSM)?**
+### **O que é OpenStreetMap (OSM)?**
 
 OpenStreetMap (OSM) ([https://www.openstreetmap.org/](https://www.openstreetmap.org/)) é um mapa editável gratuito de todo o mundo, construído por voluntários de todo o mundo e lançado com uma licença de conteúdo aberto. É um projeto que cria e distribui dados geográficos gratuitos para o mundo - um mapa do mundo feito pelas pessoas e para as pessoas. Se algo estiver faltando no OSM, você pode adicioná-lo. Se algo estiver errado no OSM, você pode corrigi-lo. OSM é um bem digital comum que amplia muito o valor das informações adicionadas a ele.
 
@@ -70,7 +68,7 @@ Você também pode ler: [https://wiki.openstreetmap.org/wiki/About_OpenStreetMap
 De acordo com o OpenStreetMap, ele possui "dados abertos, licenciados sob a Open Data Commons Open Database License (ODbL)" ([https://opendatacommons.org/licenses/odbl/](https://opendatacommons.org/licenses/odbl/)) pela OpenStreetMap Foundation (OSMF) ([https://osmfoundation.org/](https://osmfoundation.org/)) e você é livre para "copiar, distribuir, transmitir e adaptar nossos dados, desde que dê crédito ao OpenStreetMap e seus contribuidores. Se você alterar ou ampliar nossos dados, poderá distribuir o resultado apenas sob a mesma licença." Ao criar um mapa que usa dados OSM, é necessário dar crédito a “contribuidores do © OpenStreetMap”. Você pode ler mais sobre os direitos autorais e a licença do OpenStreetMap aqui: [https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright)
 
 
-#### **Onde o OpenStreetMap é usado?**
+### **Onde o OpenStreetMap é usado?**
 
 Um dos principais valores do OpenStreetMap é a capacidade de coletar, editar e compartilhar dados de mapas que podem ser usados para muitos propósitos diferentes. Essa é a liberdade proporcionada pelo ObDL. Como o OpenStreetMap permite que os usuários utilizem seus dados com pouquíssimas restrições, há uma grande variedade de aplicativos, serviços e casos de uso que são construídos, estão sendo construídos ou podem ser construídos com o OpenStreetMap. O OpenStreetMap é usado para criar mapas, serviços de roteamento, educação e até mesmo para fins humanitários e de advocacy.
 
@@ -81,7 +79,7 @@ O OpenStreetMap também é uma parte crucial de algumas comunidades de mapeament
 Uma lista de serviços baseados em OpenStreetMap pode ser encontrada em [https://wiki.openstreetmap.org/wiki/List_of_OSM-based_services](https://wiki.openstreetmap.org/wiki/List_of_OSM-based_services).
 
 
-#### **Como o OpenStreetMap pode ser usado no QGIS?**
+### **Como o OpenStreetMap pode ser usado no QGIS?**
 
 Os dados OSM podem ser usados no QGIS de várias maneiras. O primeiro é usando camadas de tiles derivadas de OSM como mapas base. Na verdade, o QGIS vem com uma conexão a uma camada de tiles do OpenStreetMap por padrão. Você pode encontrar essa camada chamada “OpenStreetMap” na lista de tiles XYZ no painel do navegador.
 
@@ -186,9 +184,9 @@ Figura 3.8: Locais de fast food carregados do OSM
     3. O OpenStreetMap só pode ser usado como um mapa online. - *** Falso (você também pode baixar e usar os dados vetoriais criados pelo OpenStreetMap, como ao usá-los com o plugin QuickOSM) ***
 
 
-### Título da fase 2: Os dados da camada de assentamentos de alta resolução (HRSL)
+## Os dados da camada de assentamentos de alta resolução (HRSL)
 
-#### **O que é High Resolution Settlement Layer (HRSL), ou camada de assentamentos de alta resolução?**
+### **O que é High Resolution Settlement Layer (HRSL), ou camada de assentamentos de alta resolução?**
 
 De acordo com o Facebook e o Center for International Earth Science Information Network (CIESIN) da Universidade de Columbia, EUA, o “High Resolution Settlement Layer (HRSL) fornece estimativas da população humana distribuição a uma resolução de 1 segundo de arco (aproximadamente 30 metros) ”.
 
@@ -210,7 +208,7 @@ Para a iteração atual do HRSL, sete mapas / conjuntos de dados para a distribu
 
 Figura 3.9: Dados HRSL em HDX
 
-#### **Casos de uso do HRSL**
+### **Casos de uso do HRSL**
 
 As grades populacionais fornecem informações precisas e de alta resolução tanto sobre o delineamento dos assentamentos em áreas urbanas e rurais quanto sobre o número de pessoas que vivem nelas. Essas informações são úteis para muitas áreas de pesquisa, como resposta a desastres e humanitária, planejamento e desenvolvimento de infraestrutura.
 
@@ -245,9 +243,9 @@ Figura 3.10: O HRSL para Rio de Janeiro, capital
 3. Como a população de uma área foi alocada para os assentamentos?
 
 
-### Se você quiser ir além:  
+## Se você quiser ir além:  
 
-#### **Use a API Overpass para criar uma consulta no OSM**
+### **Use a API Overpass para criar uma consulta no OSM**
 
 A API Overpass ([https://wiki.openstreetmap.org/wiki/Overpass_API](https:/ /wiki.openstreetmap.org/wiki/Overpass_API)), anteriormente conhecido como OSM Server Side Scripting, ou OSM3S antes de 2011, é uma API somente leitura que fornece partes personalizadas selecionadas dos dados do mapa OSM. Ao contrário da API principal, que é otimizada para edição, a API Overpass é otimizada para consumidores de dados para obter um pequeno subconjunto dos cerca de 10 milhões de elementos no OpenStreetMap. Esses subconjuntos podem ser selecionados por critérios de pesquisa, como localização, tipo de objetos, propriedades de tag, proximidade ou combinações deles. A API Overpass serve como back-end para outros serviços baseados em OSM, como o plugin QuickOSM.
 

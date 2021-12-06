@@ -92,14 +92,13 @@ pré-requisitos-3
 recursos-adicionais-3
 introdução-temática-2
 análise-dos-conceitos
-conteúdo-principal
-título-da-fase-1-dados-do-openstreetmap-osm
+dados-do-openstreetmap-osm
 o-que-é-openstreetmap-osm
 onde-o-openstreetmap-é-usado
 como-o-openstreetmap-pode-ser-usado-no-qgis
 exercício-1-carregando-dados-osm-no-qgis-usando-o-plugin-quickosm
 perguntas-do-questionário-7
-título-da-fase-2-os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl
+os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl
 o-que-é-high-resolution-settlement-layer-hrsl-ou-camada-de-assentamentos-de-alta-resolução
 casos-de-uso-do-hrsl
 exercício-2-carregando-os-dados-hrsl-no-qgis
@@ -120,7 +119,7 @@ painel-de-estilo-da-camada
 guia-simbologia-nas-propriedades-das-camadas
 renderização-raster-renderização-de-banda
 renderização-de-vetor
-conteúdo-principal-1
+conteúdo-principal
 fase-1-raster-básico-e-simbologia-vetorial
 conteúdo
 exemplo-1-renderização-vetorial
@@ -142,7 +141,7 @@ pré-requisitos-5
 recursos-adicionais-5
 introdução-temática-4
 detalhamento-dos-conceitos-1
-conteúdo-principal-2
+conteúdo-principal-1
 título-da-fase-1-exportando-a-tela-do-mapa
 primeiro-método-exportar-a-tela-do-mapa-sem-o-layout-de-impressão
 segundo-método-exportar-a-tela-do-mapa-para-a-impressão-layout
@@ -180,7 +179,7 @@ pré-requisitos-7
 recursos-adicionais-7
 introdução-temática-6
 detalhamento-dos-conceitos-3
-conteúdo-principal-3
+conteúdo-principal-2
 título-da-fase-1-criando-uma-nova-camada-geopackage-ou-shapefile
 criando-uma-nova-camada-geopackage
 criando-um-novo-shapefile
@@ -200,7 +199,7 @@ detalhamento-dos-conceitos-4
 o-modelo-de-dados-vetoriais
 metadados
 lógica-do-processamento-vetorial
-conteúdo-principal-4
+conteúdo-principal-3
 fase-1-entendendo-seus-dados.
 etapa-1.-prepare-seu-ambiente-de-trabalho.
 etapa-2.-entenda-o-que-você-está-olhando.
@@ -222,7 +221,7 @@ introdução-temática-8
 detalhamento-dos-conceitos-5
 o-modelo-de-dados
 racional-do-processamento-raster
-conteúdo-principal-5
+conteúdo-principal-4
 fase-1-entendendo-seus-dados-raster.
 etapa-1.-prepare-seu-ambiente-de-trabalho.-1
 etapa-2.-entenda-o-que-você-está-olhando.-1
@@ -237,7 +236,7 @@ introdução-pedagógica-9
 adquirir-as-seguintes-habilidades
 ferramentas-e-recursos-necessários-9
 pré-requisitos-10
-conteúdo-principal-6
+conteúdo-principal-5
 fase-1-introdução-à-mentalidade-do-plugin
 o-gerenciador-de-plugins
 perguntas-do-questionário-20
