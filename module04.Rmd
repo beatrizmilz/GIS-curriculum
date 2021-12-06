@@ -12,7 +12,7 @@ Este módulo foi desenvolvido para te ensinar como mudar a aparência visual de 
 * usando expressões para executar uma operação espacial
 
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 * Computador
 * Conexão com a Internet
@@ -21,13 +21,13 @@ Este módulo foi desenvolvido para te ensinar como mudar a aparência visual de 
 * Clínicas do Rio de Janeiro (dentro de [module4.gpkg](data/module4.gpkg))
 * [Camada de assentamentos de alta resolução do Rio de Janeiro](data/hrsl_rj_capital_populacao.tif )
 
-## Pré-requisitos
+### Pré-requisitos
 
 * Conhecimento básico de operação de um computador
 * Compreensão razoável de todos os módulos anteriores
 
 
-## Recursos adicionais
+### Recursos adicionais
 
 * Simbologia QGIS - [https://docs.qgis.org/3.16/en/docs/training_manual/basic_map/symbology.html ] (https://docs.qgis.org/3.16/en/docs/training_manual/basic_map/symbology.html)
 * Repositório de compartilhamento de estilo - [https://www.gislounge.com/qgis-style-sharing-repository/ ] (https://www.gislounge.com/qgis-style-sharing-repository/)
@@ -46,9 +46,9 @@ Vamos imaginar que você está em uma nova cidade, talvez como turista, a lazer 
 Por isso é sempre importante fazer um “Mapa com diferentes símbolos e cores”. O que você vê em seu mapa depois de aplicar conceitos de estilo é uma representação visual dinâmica dos dados com os quais você está trabalhando.
 
 
-### Painéis, guias e tipos de renderização principais
+## Painéis, guias e tipos de renderização principais
 
-#### **Painel de estilo da camada**
+### **Painel de estilo da camada**
 
 Este painel é um atalho para alguns dos recursos da caixa de diálogo de propriedades da camada. Na verdade, ele oferece uma maneira rápida e prática de definir a renderização e o comportamento de uma camada e de visualizar seus efeitos sem abrir a caixa de diálogo de propriedades da camada.
 
@@ -72,7 +72,7 @@ Para ativar o painel, clique em Visão -> Painéis e, a seguir, marque Estiliza�
 Figura 4.1: Painel de estilo da camada
 
 
-#### **Guia Simbologia nas Propriedades das camadas**
+### **Guia Simbologia nas Propriedades das camadas**
 
 Para acessar a guia Simbologia, clique duas vezes na camada para abrir as Propriedades de Camada -> Clique em Simbologia
 
@@ -87,7 +87,7 @@ Aqui, você pode especificar as configurações como o tipo de renderização, b
 Figura 4.2: Guia de simbologia para dados vetoriais e raster, respectivamente
 
 
-#### **Renderização raster: renderização de banda**
+### **Renderização raster: renderização de banda**
 
 QGIS oferece quatro tipos diferentes de renderização. A escolha do renderizador depende do tipo de dados. O tipo de renderização padrão é a cor cinza de banda única. Você terá que alterá-lo para o tipo apropriado com base no tipo de dados.
 
@@ -98,7 +98,7 @@ QGIS oferece quatro tipos diferentes de renderização. A escolha do renderizado
 * Hillshade ([(https://docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/raster_properties.html#hillshade-renderer](https://docs.qgis.org/3.16/en/docs/ user_manual / working_with_raster / raster_properties.html # hillshade-renderer)) - Cria hillshade (sombras de colina) a partir de uma banda.
 
 
-#### **Renderização de vetor**
+### **Renderização de vetor**
 
 Quando você carrega camadas de dados espaciais no QGIS Desktop, elas são estilizadas com uma renderização de símbolo único aleatória. Para alterar isso, clique em Camada-> Propriedades-> Estilo.
 
@@ -112,19 +112,17 @@ Existem várias opções de renderização disponíveis no menu no canto superio
 * Polígonos invertidos - este é um novo renderizador que permite que uma camada de polígonos seja convertida em uma máscara. Por exemplo, um polígono de limite de cidade usado com este renderizador se tornaria uma máscara ao redor da cidade. Também permite o uso de renderizadores categorizados, graduados e baseados em regras e expressões SQL.
 
 
-## Conteúdo principal
-
-### Fase 1: Raster básico e simbologia vetorial
+## Raster básico e simbologia vetorial
 
 A simbologia de dados vetoriais pode variar de acordo com a transparência, cor, rotação e tamanho.  
 
-#### **Conteúdo**
+### **Conteúdo**
 
 * Propriedades da camada e menu de simbologia
 * Tipos de renderização vetorial
 * Tipos de renderização raster (renderização de banda)
 
-#### **Exemplo 1: Renderização vetorial**
+### **Exemplo 1: Renderização vetorial**
 
 1. Para demonstrar este exemplo, nós usaremos dois conjuntos de dados de exemplo; 1. Clínicas (equipamentos de saúde, identificados no OpenStreetMap com a tag "clinics") e 2. Limite administrativo da cidade do Rio de Janeiro
 2. Adicione as duas camadas vetoriais ao QGIS; Clique no botão Adicionar camada vetorial ![alt_text](media/modulo4/add-vector.png "image_tooltip") ou use o painel do navegador.
@@ -161,7 +159,7 @@ Figura 4.6: Renderização vetorial final
 11. Lembre-se de organizar as camadas no **Painel de camadas** de forma que a camada poligonal fique abaixo da camada de pontos. Isso torna a camada de pontos visível.
 
 
-#### **Exemplo 2: Renderização raster**
+### **Exemplo 2: Renderização raster**
 
 1. Clique duas vezes na camada raster, que também é a camada de densidade populacional. Isso também significa que ela é um conjunto de dados normalizado e, portanto, pode ser visualizado como um mapa coroplético.
 2. Selecione a guia de simbologia no menu que aparece
@@ -211,15 +209,15 @@ Figura 4.9: Mapa ampliado
 4. d. cor multibanda
 
 
-### Fase 2: modos de mesclagem e efeitos de desenho
+## Modos de mesclagem e efeitos de desenho
 
-#### **Conteúdo**
+### **Conteúdo**
 
 * Alterando estruturas de símbolos
 * Alterando efeitos de desenho e modos de mesclagem (blending)
 * Visualização impactante de dados
 
-#### **Tutorial**
+### **Tutorial**
 
 1. Depois de carregar ambas as camadas no QGIS, a tela terá a aparência abaixo. Você notará que ambas as camadas têm um estilo simples. Este tutorial explicará como alterar efeitos de desenho e modos de mesclagem para uma melhor visualização.
 
@@ -273,13 +271,13 @@ Para mais exemplos sobre o que você pode fazer com Modos de mescla e Efeitos de
 * Hillshade no QGIS - [https://bnhr.xyz/2019/02/08/mapping-icebergs-in-qgis. html] (https://bnhr.xyz/2019/02/08/mapping-icebergs-in-qgis.html)
 * Mapeando icebergs no QGIS - [https://bnhr.xyz/2019/02/08/mapping- icebergs-in-qgis.html] (https://bnhr.xyz/2019/02/08/mapping-icebergs-in-qgis.html)
 
-### Fase 3: Substituições definidas por dados e geradores de geometria
+## Substituições definidas por dados e geradores de geometria
 
-#### **Conteúdo**
+### **Conteúdo**
 
 * Executar uma operação espacial dentro da simbologia da camada
 
-#### **Tutorial**
+### **Tutorial**
 
 Um gerador de geometria é um tipo de camada símbolo que permite usar código para criar novas geometrias a partir de feições existentes e usar as novas geometrias 'geradas' como símbolos que podem, por sua vez, ter estilos aplicados. Este é um recurso poderoso e é melhor explicado com um exemplo.
 
@@ -306,12 +304,3 @@ Figura 4.18: Camada de pontos
 5. Com a simbologia do gerador de geometria, você pode realmente ir além da simbologia normal.
 6. Se você quiser ir mais longe, escreva uma consulta espacial para calcular um buffer em torno da camada de pontos, linhas ou polígonos.
 
-
-#### ** Perguntas do questionário **
-
-1.N / A
-
-
-#### ** Respostas do questionário **
-
-1.N / A
