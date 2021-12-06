@@ -18,7 +18,7 @@ Além disso, você terá aprendido as seguintes habilidades;
 * Gerenciando layouts de impressão diferentes
 
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 * Computador
 * Acesso à Internet
@@ -28,13 +28,13 @@ Além disso, você terá aprendido as seguintes habilidades;
 * Unidades Federativas do Brasil, `br_ufs` (dentro de [module5.gpkg](data/module5.gpkg))
 * [RJ High Resolution Settlement Layer](data/hrsl_rj_capital_populacao.tif)
 
-## Pré-requisitos
+### Pré-requisitos
 
 * Conhecimento básico de como operar um computador
 * Uma compreensão de todos os módulos anteriores
 
 
-## Recursos adicionais
+### Recursos adicionais
 
 * QGIS Map LayOut - [https://docs.qgis.org/3.16/en/ docs/training_manual/map_layout/map_layout.html](https://docs.qgis.org/3.16/en/docs/training_manual/map_layout/map_layout.html)
 * Modelos de layout - [https://layout-hub.github.io/](https://layout-hub.github.io/)
@@ -62,13 +62,11 @@ Figura 5.1: Layout de impressão
 * **elementos e propriedades do mapa**: os mapas contêm muitas informações. A maioria dos mapas terá as cinco seguintes coisas: um título, uma legenda, uma grade, uma rosa dos ventos para indicar a direção e uma escala. O título informa o que está sendo representado no mapa.
 
 
-## Conteúdo principal
-
-### Título da fase 1: Exportando a tela do mapa
+## Exportando a tela do mapa
 
 Neste tutorial, mostraremos duas maneiras de 'Exportar a tela do mapa' para o layout de impressão do QGIS. O primeiro método é direto, enquanto o segundo método explora os recursos mais avançados fornecidos pelo layout de impressão.
 
-#### **Primeiro método: Exportar a tela do mapa sem o layout de impressão**
+### **Primeiro método: Exportar a tela do mapa sem o layout de impressão**
 
 1. As camadas de dados já devem estar adicionadas à tela do QGIS. As camadas podem então ser estilizadas para comunicar informações em seus dados. Adicione as decorações do mapa clicando em **Exibir ‣ Decorações**. Selecione sua decoração de mapa preferida. Por exemplo, você pode adicionar o rótulo de título, barra de escala e rótulo de direitos autorais. Para cada decoração, você terá que especificar as configurações em uma caixa de diálogo.
 2. A etapa final é exportar o mapa para o formato de imagem ou PDF. Para fazer isso, clique em **Projeto ‣ Importar/Exportar** e selecione o formato de exportação de sua preferência. A caixa de diálogo de exportação abaixo deve aparecer.
@@ -86,7 +84,7 @@ Figura 5.2: Exportando o mapa
 
 Figura 5.3: Tela do mapa exportada como imagem
 
-#### **Segundo método: Exportar a tela do mapa para a impressão layout**
+### **Segundo método: Exportar a tela do mapa para a impressão layout**
 
 1. Neste tutorial, faremos um mapa mostrando a 1.) localização dos centros de saúde e 2.) densidade populacional do Rio de Janeiro. As camadas de dados já devem ser adicionadas à tela do QGIS. As camadas podem então ser estilizadas para comunicar as informações dos seus dados.
 
@@ -112,13 +110,13 @@ Figura 5.6: A janela Layout de impressão
 
 Figura 5.7: Adicionar mapa a Layout de impressão
 
-#### **Perguntas do questionário **
+### **Perguntas do questionário **
 
 1. O que é a tela do mapa QGIS? (caixas de seleção)
 2. Qual é a utilidade do layout de impressão? (caixas de seleção)
 3. Qual dos seguintes não é um elemento do mapa? (botão de radio)
 
-#### **Respostas do questionário **
+### **Respostas do questionário **
 
 1. a. mostra o mapa composto de camadas de mapa sobrepostas
    b. permite interação com o mapa e camadas
@@ -134,10 +132,10 @@ Figura 5.7: Adicionar mapa a Layout de impressão
    d. Cores e designs
 
 
-### Título da fase 2: Adicionando e editando elementos do mapa ao layout de impressão
+## Adicionando e editando elementos do mapa ao layout de impressão
 
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 Agora que o mapa estilizado foi adicionado ao layout de impressão, é hora de adicionar elementos importantes como o título, escala, legenda, grade, metadados etc. para o layout de impressão. A maioria dos botões está localizada à esquerda do layout de impressão.
 
@@ -174,14 +172,14 @@ Figura 5.10: Adicionar atribuição ao mapa
 
 Figura 5.11 : Mapa exportado como imagem
 
-#### **Perguntas do questionário**
+### **Perguntas do questionário**
 
 1. Em qual das seguintes guias você pode alterar as propriedades dos elementos do mapa? (botão de opção)
 2. Qual é a diferença entre o layout do mapa e o layout de impressão?
 3. Como você pode adicionar texto de atribuição ao layout do mapa?
 
 
-#### **Respostas do questionário **
+### **Respostas do questionário **
 
 1. a. Composição
    b. Propriedades do item
@@ -190,9 +188,9 @@ Figura 5.11 : Mapa exportado como imagem
 3. Adicione uma caixa de título e digite o texto de atribuição. Observe que a caixa de título permite que você adicione todas as formas de texto ao seu mapa.
 
 
-### Título da Fase 3: Automatizando a criação de mapas usando os recursos do Atlas
+## Automatizando a criação de mapas usando os recursos do Atlas
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 Se sua organização publica mapas impressos ou on-line, geralmente você precisa criar muitos mapas com o mesmo modelo - geralmente um para cada unidade administrativa ou região de interesse. Criar esses mapas manualmente pode levar muito tempo e, se você quiser atualizá-los regularmente, isso pode se tornar uma tarefa árdua. O QGIS tem uma ferramenta chamada Atlas que pode ajudá-lo a criar um modelo de mapa e publicar facilmente um grande número de mapas para diferentes regiões geográficas. Vamos tomar as diferentes Unidades Federativas do Brasil como exemplo:
 
@@ -250,13 +248,3 @@ Figura 5.18: Resultado do Atlas
 8. **DICA**: Você pode usar as expressões QGIS e substituições definidas por dados para definir os outros elementos do mapa em seu Atlas para que eles também mudem dinamicamente, dependendo da feição da camada de cobertura que está sendo mapeado. Por exemplo, você pode usar uma expressão QGIS chamando o valor do campo NAME_1 em seu rótulo para que ele mude dinamicamente para exibir o valor de NAME_1 para a feição atual que está sendo mapeada.
 
 Para obter mais informações sobre o Atlas QGIS, consulte: [https://www.youtube.com/watch?v=tOnMJBUvEjY](https://www.youtube.com/watch?v=tOnMJBUvEjY).
-
-
-#### **Perguntas do questionário**
-
-n/a
-
-
-#### **Respostas do questionário**
-
-n/a
