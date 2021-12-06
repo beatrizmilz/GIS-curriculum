@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="pt" xml:lang="pt">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 3 Introdução ao QGIS | Introdução ao QGIS</title>
+  <title>Capitulo 3 Introdução ao QGIS | Geodados: uma introdução gentil</title>
   <meta name="description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 3 Introdução ao QGIS | Introdução ao QGIS" />
+  <meta property="og:title" content="Capitulo 3 Introdução ao QGIS | Geodados: uma introdução gentil" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="/media/cover.jpg" />
+  <meta property="og:url" content="escola-de-dados.github.io/GIS-curriculum/" />
+  <meta property="og:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
   <meta property="og:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="github-repo" content="escola-de-dados/GIS-curriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 3 Introdução ao QGIS | Introdução ao QGIS" />
+  <meta name="twitter:title" content="Capitulo 3 Introdução ao QGIS | Geodados: uma introdução gentil" />
   
   <meta name="twitter:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
-  <meta name="twitter:image" content="/media/cover.jpg" />
+  <meta name="twitter:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
 
 <meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
 
@@ -69,10 +69,13 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Introdução ao QGis</a></li>
+<li><a href="./">Geodados: uma introdução gentil</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#conjuntos-de-dados"><i class="fa fa-check"></i><b>1.1</b> Conjuntos de dados</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i><b>2</b> Introdução</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introdução.html"><a href="introdução.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>2.1</b> Introdução suave a conceitos de GIS</a>
@@ -83,7 +86,7 @@
 <li class="chapter" data-level="2.1.4" data-path="introdução.html"><a href="introdução.html#recursos-adicionais"><i class="fa fa-check"></i><b>2.1.4</b> Recursos adicionais</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="introdução.html"><a href="introdução.html#introdução-temática"><i class="fa fa-check"></i><b>2.2</b> Introdução temática</a></li>
-<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e Coordenadas</a>
+<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e coordenadas</a>
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="introdução.html"><a href="introdução.html#projeções-cartográficas"><i class="fa fa-check"></i><b>2.3.1</b> Projeções cartográficas</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introdução.html"><a href="introdução.html#sistemas-de-referência-de-coordenadas"><i class="fa fa-check"></i><b>2.3.2</b> Sistemas de referência de coordenadas</a></li>
@@ -163,14 +166,14 @@
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3</b> Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> <strong>Tipos de dados e formatos de arquivo comuns</strong></a></li>
+<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> Tipos de dados e formatos de arquivo comuns</a></li>
 <li class="chapter" data-level="4.3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-fontes-de-dados"><i class="fa fa-check"></i><b>4.3.2</b> <strong>Tipos de fontes de dados</strong></a></li>
 <li class="chapter" data-level="4.3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#carregando-camadas-no-qgis"><i class="fa fa-check"></i><b>4.3.3</b> <strong>Carregando camadas no QGIS</strong></a></li>
 <li class="chapter" data-level="4.3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-do-navegador"><i class="fa fa-check"></i><b>4.3.4</b> <strong>O painel do navegador</strong></a></li>
 <li class="chapter" data-level="4.3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3.5</b> <strong>O painel de camadas</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> <strong>Propriedades da camada</strong></a></li>
-<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> <strong>Metadados geoespaciais</strong></a>
+<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> Propriedades da camada</a></li>
+<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> Metadados geoespaciais</a>
 <ul>
 <li class="chapter" data-level="4.5.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#exercício-01.2-adicionando-metadados"><i class="fa fa-check"></i><b>4.5.1</b> <strong>Exercício 01.2: Adicionando metadados</strong></a></li>
 </ul></li>
@@ -256,7 +259,7 @@
 <li class="chapter" data-level="6.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#tutorial-1"><i class="fa fa-check"></i><b>6.6.2</b> <strong>Tutorial</strong></a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo Mapas</a>
+<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo mapas</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>7.1</b> Introdução Pedagógica</a>
 <ul>
@@ -352,7 +355,7 @@
 <li class="chapter" data-level="10.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#o-modelo-de-dados-vetoriais"><i class="fa fa-check"></i><b>10.3</b> O modelo de dados vetoriais</a></li>
 <li class="chapter" data-level="10.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#metadados"><i class="fa fa-check"></i><b>10.4</b> Metadados</a></li>
 <li class="chapter" data-level="10.5" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#lógica-do-processamento-vetorial"><i class="fa fa-check"></i><b>10.5</b> Lógica do processamento vetorial</a></li>
-<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados."><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados.</a>
+<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados"><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados</a>
 <ul>
 <li class="chapter" data-level="10.6.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-1.-prepare-seu-ambiente-de-trabalho."><i class="fa fa-check"></i><b>10.6.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
 <li class="chapter" data-level="10.6.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-2.-entenda-o-que-você-está-olhando."><i class="fa fa-check"></i><b>10.6.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
@@ -360,27 +363,30 @@
 <li class="chapter" data-level="10.6.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-4.-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos."><i class="fa fa-check"></i><b>10.6.4</b> <strong>Etapa 4. Observe as informações anexadas aos pontos, linhas e polígonos.</strong></a></li>
 </ul></li>
 <li class="chapter" data-level="10.7" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-ao-processamento-vetorial"><i class="fa fa-check"></i><b>10.7</b> Introdução ao processamento vetorial</a></li>
-<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística.-interpolação---estimativa-de-dados-faltantes"><i class="fa fa-check"></i><b>10.8</b> Geoestatística. Interpolação - estimativa de dados faltantes</a></li>
+<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística-e-interpolação"><i class="fa fa-check"></i><b>10.8</b> Geoestatística e interpolação</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html"><i class="fa fa-check"></i><b>11</b> <strong>Processamento e análise raster</strong></a>
 <ul>
-<li class="chapter" data-level="11.0.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.0.1</b> Ferramentas e recursos necessários</a></li>
-<li class="chapter" data-level="11.0.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.0.2</b> Pré-requisitos:</a></li>
-<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.1</b> O modelo de dados</a></li>
-<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.2</b> Racional do processamento raster</a></li>
-<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.3</b> Entendendo seus dados raster.</a>
+<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>11.1</b> Introdução pedagógica</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.3.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
-<li class="chapter" data-level="11.3.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.3.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+<li class="chapter" data-level="11.1.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.1.1</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="11.1.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.1.2</b> Pré-requisitos:</a></li>
 </ul></li>
-<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.4</b> Introdução ao trabalho com dados raster</a></li>
-<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais."><i class="fa fa-check"></i><b>11.5</b> <strong>Trabalho com dados raster e vetoriais.</strong></a></li>
-<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.6</b> Referências:</a></li>
-<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.7</b> Notas</a></li>
+<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.2</b> O modelo de dados</a></li>
+<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.3</b> Racional do processamento raster</a></li>
+<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.4</b> Entendendo seus dados raster.</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.4.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
+<li class="chapter" data-level="11.4.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.4.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.5</b> Introdução ao trabalho com dados raster</a></li>
+<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais"><i class="fa fa-check"></i><b>11.6</b> Trabalho com dados raster e vetoriais</a></li>
+<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.7</b> Referências:</a></li>
+<li class="chapter" data-level="11.8" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.8</b> Notas</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="plugins-qgis.html"><a href="plugins-qgis.html"><i class="fa fa-check"></i><b>12</b> Plugins QGIS</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
+<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-10"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
 <ul>
 <li class="chapter" data-level="12.1.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#adquirir-as-seguintes-habilidades"><i class="fa fa-check"></i><b>12.1.1</b> Adquirir as seguintes habilidades:</a></li>
 <li class="chapter" data-level="12.1.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#ferramentas-e-recursos-necessários-9"><i class="fa fa-check"></i><b>12.1.2</b> Ferramentas e recursos necessários</a></li>
@@ -405,7 +411,7 @@
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado com o bookdown</a></li>
 
 </ul>
 
@@ -416,7 +422,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGIS</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Geodados: uma introdução gentil</a>
           </h1>
         </div>
 
@@ -555,8 +561,8 @@
 <p>No centro da interface está uma tela de mapa. Painéis e barras de ferramentas podem ser posicionados em torno dessa tela. Os painéis também podem ser acoplados para criar um painel com várias abas. Existem também outras partes da interface, como a interface Python, janelas de complemento, etc.</p>
 <p><strong>Barra de menus</strong> - a barra de menus é um menu hierárquico simples que fornece acesso às funções e comandos do QGIS. Geralmente está localizado na parte superior da interface.</p>
 <p><strong>Tela do mapa</strong> - a tela do mapa é onde as camadas carregadas no QGIS são mostradas. Este é também o local onde os filtros, seleções, e simbologias criadas pelo usuário são refletidas. Mais de uma tela de mapa pode estar presente a qualquer momento. Um usuário pode aplicar zoom, panorâmica e até mesmo girar a tela do mapa. Uma tela de mapa também pode mostrar dados 3D.</p>
-<p><strong>Barras de ferramentas</strong> - as barras de ferramentas mostram botões de acesso fácil aos comandos, recursos, complementos do QGIS. Eles podem ser movidos e encaixados na tela do mapa. A lista de barras de ferramentas pode ser encontrada, ativada e desativada na barra de menus em <strong>Exibir ‣ Barras de ferramentas</strong>. Exemplos de barras de ferramentas são a barra de ferramentas de atributos e a barra de ferramentas de digitalização.</p>
-<p><strong>Painéis</strong> - os painéis são semelhantes às barras de ferramentas, mas, em vez de botões, fornecem uma interface para funções e recursos mais complexos. O painel de camadas e o painel do navegador são dois exemplos. Semelhante às barras de ferramentas, eles podem ser movidos e encaixados na tela do mapa. A lista de painéis pode ser encontrada, ativada e desativada na barra de menus em <strong>Exibir ‣ Painéis</strong>.</p>
+<p><strong>Barras de ferramentas</strong> - as barras de ferramentas mostram botões de acesso fácil aos comandos, recursos, complementos do QGIS. Eles podem ser movidos e encaixados na tela do mapa. A lista de barras de ferramentas pode ser encontrada, ativada e desativada na barra de menus em <strong>Exibir &gt; Barras de ferramentas</strong>. Exemplos de barras de ferramentas são a barra de ferramentas de atributos e a barra de ferramentas de digitalização.</p>
+<p><strong>Painéis</strong> - os painéis são semelhantes às barras de ferramentas, mas, em vez de botões, fornecem uma interface para funções e recursos mais complexos. O painel de camadas e o painel do navegador são dois exemplos. Semelhante às barras de ferramentas, eles podem ser movidos e encaixados na tela do mapa. A lista de painéis pode ser encontrada, ativada e desativada na barra de menus em <strong>Exibir &gt; Painéis</strong>.</p>
 <p><strong>Barra de status</strong> - a barra de status é comumente encontrada na parte inferior da interface e mostra informações relevantes, como CRS, escala, notificações, etc.</p>
 <p><strong>Barra Localizadora</strong> - a barra Localizadora é encontrada no canto inferior esquerdo da interface do QGIS. Ele permite que o usuário acesse facilmente camadas, campos, algoritmos de processamento e outras funcionalidades no QGIS. Este é um dos recursos mais poderosos do QGIS.</p>
 <div class="figure">
@@ -600,7 +606,7 @@
 <li>Mova as <strong>Barras de Ferramentas</strong> e <strong>Painéis</strong> para as posições que fizerem mais sentido para você</li>
 </ol>
 <p><strong>Resetando a interface QGIS</strong></p>
-<p>Para redefinir sua tela para as configurações padrão, vá para <strong>Configurações ‣ Opções ‣ Guia Sistema ‣ Configurações ‣ Botão Redefinir</strong> e reinicie o QGIS.</p>
+<p>Para redefinir sua tela para as configurações padrão, vá para <strong>Configurações &gt; Opções &gt; Guia Sistema &gt; Configurações &gt; Botão Redefinir</strong> e reinicie o QGIS.</p>
 </div>
 <div id="perguntas-do-questionário-1" class="section level3" number="3.3.3">
 <h3><span class="header-section-number">3.3.3</span> <strong>Perguntas do questionário</strong></h3>
@@ -625,7 +631,7 @@
 </ul>
 <p>Os complementos podem ser instalados de três (3) maneiras:</p>
 <ol style="list-style-type: decimal">
-<li>Através da caixa de diálogo Gerenciar e instalar complementos (<strong>Complementos ‣ Gerenciar e instalar complementos</strong>)</li>
+<li>Através da caixa de diálogo Gerenciar e instalar complementos (<strong>Complementos &gt; Gerenciar e instalar complementos</strong>)</li>
 <li>Instalando do ZIP, que pode ser acessado na guia <strong>Instalar do ZIP</strong> na caixa de diálogo Gerenciar e instalar complementos.</li>
 <li>Adicionando manualmente o código-fonte na pasta de complementos do seu perfil QGIS. Essa pasta geralmente pode ser encontrada em:
 <ol style="list-style-type: decimal">
@@ -658,7 +664,7 @@
 <div id="tutorial-exercício-2-instalando-um-complemento-qgis" class="section level3" number="3.4.1">
 <h3><span class="header-section-number">3.4.1</span> <strong>Tutorial / Exercício 2: Instalando um complemento QGIS</strong></h3>
 <ol style="list-style-type: decimal">
-<li>Abra a caixa de diálogo <strong>Gerenciar e instalar complementos</strong> em <strong>Complementos ‣ Gerenciar e instalar complementos</strong> na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.</li>
+<li>Abra a caixa de diálogo <strong>Gerenciar e instalar complementos</strong> em <strong>Complementos &gt; Gerenciar e instalar complementos</strong> na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.</li>
 </ol>
 <div class="figure">
 <img src="media/modulo1/plugins-menu-2.png" title="Abrir caixa de diálogo Gerenciar e instalar complementos" alt="" />
@@ -686,7 +692,7 @@
 <p class="caption">Instalar plugin QuickOSM</p>
 </div>
 <ol start="3" style="list-style-type: decimal">
-<li>Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em <strong>Complementos ‣ Memory Layer Saver</strong> na barra de menus, enquanto o plugin QuickOSM deve estar disponível em <strong>Vetor ‣ QuickOSM</strong> na barra de menus.</li>
+<li>Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em <strong>Complementos &gt; Memory Layer Saver</strong> na barra de menus, enquanto o plugin QuickOSM deve estar disponível em <strong>Vetor &gt; QuickOSM</strong> na barra de menus.</li>
 </ol>
 </div>
 <div id="perguntas-do-questionário-2" class="section level3" number="3.4.2">
@@ -703,7 +709,7 @@
 <div id="configurações-qgis" class="section level2" number="3.5">
 <h2><span class="header-section-number">3.5</span> Configurações QGIS</h2>
 <p><strong>Configurações do sistema e do projeto</strong></p>
-<p>As configurações do QGIS permitem que você edite e gerencie coisas diferentes sobre o QGIS, como perfis de usuário, estilos, sistemas de referência de coordenadas, atalhos de teclado, a interface do usuário, cores padrão, etc. As configurações do sistema podem ser encontradas no menu <strong>Configurações</strong> e são as configurações padrão usadas pelo QGIS, a menos que sejam substituídas pelas configurações de um projeto. As configurações do projeto podem ser encontradas em <strong>Projeto ‣ Propriedades</strong> e referem-se às configurações ou propriedades do projeto atual. Esses valores substituem os padrões do sistema.</p>
+<p>As configurações do QGIS permitem que você edite e gerencie coisas diferentes sobre o QGIS, como perfis de usuário, estilos, sistemas de referência de coordenadas, atalhos de teclado, a interface do usuário, cores padrão, etc. As configurações do sistema podem ser encontradas no menu <strong>Configurações</strong> e são as configurações padrão usadas pelo QGIS, a menos que sejam substituídas pelas configurações de um projeto. As configurações do projeto podem ser encontradas em <strong>Projeto &gt; Propriedades</strong> e referem-se às configurações ou propriedades do projeto atual. Esses valores substituem os padrões do sistema.</p>
 <div class="figure">
 <img src="media/modulo1/settings-1.png" title="As Configurações do Sistema" alt="" />
 <p class="caption">As Configurações do Sistema</p>
@@ -715,7 +721,7 @@
 </div>
 <p>Figura 1.8. Configurações do projeto</p>
 <p><strong>Mudando o tema QGIS</strong></p>
-<p>Você pode alterar a aparência do QGIS em <strong>Configurações ‣ Opções ‣ Aba Geral</strong>.</p>
+<p>Você pode alterar a aparência do QGIS em <strong>Configurações &gt; Opções &gt; Aba Geral</strong>.</p>
 <p>Você pode escolher entre três temas - padrão (default), Blend of Grey e Night Mapping. Você também pode alterar o tamanho dos ícones, a fonte usada pelo QGIS e outros padrões do sistema.</p>
 <div class="figure">
 <img src="media/modulo1/change-theme.png" title="Configurações gerais do QGIS" alt="" />
@@ -726,18 +732,18 @@
 <p><strong>Perfis de usuário</strong></p>
 <p>QGIS 3.X introduziu o conceito de Perfis de Usuário QGIS.</p>
 <p>Um perfil de usuário é uma coleção de configurações para complementos instalados, barras de ferramentas habilitadas, organização da interface do usuário e outras configurações. QGIS vem com um Perfil de Usuário padrão chamado default. Perfis de usuário permitem que o usuário crie configurações diferentes para análises específicas (por exemplo, um perfil de usuário específico para gestão de recursos hídricos, digitalização de dados, cartografia, etc.), projetos particulares ou mesmo clientes.</p>
-<p>Perfis de usuário podem ser criados e acessados na barra de menus em: <strong>Configurações ‣ Perfis de usuário</strong>.</p>
+<p>Perfis de usuário podem ser criados e acessados na barra de menus em: <strong>Configurações &gt; Perfis de usuário</strong>.</p>
 <p>O perfil de usuário ativo é mostrado com [Perfil do usuário] na barra de título.</p>
 <div class="figure">
 <img src="media/modulo1/user-profiles-1.png" title="Acessando perfis de usuário" alt="" />
 <p class="caption">Acessando perfis de usuário</p>
 </div>
 <p>Figura 1.10. Acessando perfis de usuário</p>
-<p>Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em <strong>Configurações ‣ Perfis de usuário ‣ Abrir pasta de perfil ativo</strong>.</p>
+<p>Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em <strong>Configurações &gt; Perfis de usuário &gt; Abrir pasta de perfil ativo</strong>.</p>
 <div id="tutorial-exercício-03-criando-um-perfil-de-usuário" class="section level3" number="3.5.1">
 <h3><span class="header-section-number">3.5.1</span> <strong>Tutorial / Exercício 03: Criando um Perfil de Usuário</strong></h3>
 <ol style="list-style-type: decimal">
-<li>Vá para <strong>Configurações ‣ Perfis de usuário ‣ Novo perfil …</strong></li>
+<li>Vá para <strong>Configurações &gt; Perfis de usuário &gt; Novo perfil …</strong></li>
 </ol>
 <div class="figure">
 <img src="media/modulo1/user-profiles-2.png" title="image_tooltip" alt="" />
@@ -843,8 +849,8 @@
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
@@ -859,7 +865,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/module01.Rmd",
+"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module01.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -870,7 +876,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["_main.pdf", "_main.epub"],
+"download": ["ebook-gis.pdf", "ebook-gis.epub"],
 "search": {
 "engine": "fuse",
 "options": null

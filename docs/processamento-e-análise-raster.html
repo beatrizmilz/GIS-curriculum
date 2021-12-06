@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="pt" xml:lang="pt">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 11 Processamento e análise raster | Introdução ao QGIS</title>
+  <title>Capitulo 11 Processamento e análise raster | Geodados: uma introdução gentil</title>
   <meta name="description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 11 Processamento e análise raster | Introdução ao QGIS" />
+  <meta property="og:title" content="Capitulo 11 Processamento e análise raster | Geodados: uma introdução gentil" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="/media/cover.jpg" />
+  <meta property="og:url" content="escola-de-dados.github.io/GIS-curriculum/" />
+  <meta property="og:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
   <meta property="og:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="github-repo" content="escola-de-dados/GIS-curriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 11 Processamento e análise raster | Introdução ao QGIS" />
+  <meta name="twitter:title" content="Capitulo 11 Processamento e análise raster | Geodados: uma introdução gentil" />
   
   <meta name="twitter:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
-  <meta name="twitter:image" content="/media/cover.jpg" />
+  <meta name="twitter:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
 
 <meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
 
@@ -69,10 +69,13 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Introdução ao QGis</a></li>
+<li><a href="./">Geodados: uma introdução gentil</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#conjuntos-de-dados"><i class="fa fa-check"></i><b>1.1</b> Conjuntos de dados</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i><b>2</b> Introdução</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introdução.html"><a href="introdução.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>2.1</b> Introdução suave a conceitos de GIS</a>
@@ -83,7 +86,7 @@
 <li class="chapter" data-level="2.1.4" data-path="introdução.html"><a href="introdução.html#recursos-adicionais"><i class="fa fa-check"></i><b>2.1.4</b> Recursos adicionais</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="introdução.html"><a href="introdução.html#introdução-temática"><i class="fa fa-check"></i><b>2.2</b> Introdução temática</a></li>
-<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e Coordenadas</a>
+<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e coordenadas</a>
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="introdução.html"><a href="introdução.html#projeções-cartográficas"><i class="fa fa-check"></i><b>2.3.1</b> Projeções cartográficas</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introdução.html"><a href="introdução.html#sistemas-de-referência-de-coordenadas"><i class="fa fa-check"></i><b>2.3.2</b> Sistemas de referência de coordenadas</a></li>
@@ -163,14 +166,14 @@
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3</b> Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> <strong>Tipos de dados e formatos de arquivo comuns</strong></a></li>
+<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> Tipos de dados e formatos de arquivo comuns</a></li>
 <li class="chapter" data-level="4.3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-fontes-de-dados"><i class="fa fa-check"></i><b>4.3.2</b> <strong>Tipos de fontes de dados</strong></a></li>
 <li class="chapter" data-level="4.3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#carregando-camadas-no-qgis"><i class="fa fa-check"></i><b>4.3.3</b> <strong>Carregando camadas no QGIS</strong></a></li>
 <li class="chapter" data-level="4.3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-do-navegador"><i class="fa fa-check"></i><b>4.3.4</b> <strong>O painel do navegador</strong></a></li>
 <li class="chapter" data-level="4.3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3.5</b> <strong>O painel de camadas</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> <strong>Propriedades da camada</strong></a></li>
-<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> <strong>Metadados geoespaciais</strong></a>
+<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> Propriedades da camada</a></li>
+<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> Metadados geoespaciais</a>
 <ul>
 <li class="chapter" data-level="4.5.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#exercício-01.2-adicionando-metadados"><i class="fa fa-check"></i><b>4.5.1</b> <strong>Exercício 01.2: Adicionando metadados</strong></a></li>
 </ul></li>
@@ -256,7 +259,7 @@
 <li class="chapter" data-level="6.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#tutorial-1"><i class="fa fa-check"></i><b>6.6.2</b> <strong>Tutorial</strong></a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo Mapas</a>
+<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo mapas</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>7.1</b> Introdução Pedagógica</a>
 <ul>
@@ -352,7 +355,7 @@
 <li class="chapter" data-level="10.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#o-modelo-de-dados-vetoriais"><i class="fa fa-check"></i><b>10.3</b> O modelo de dados vetoriais</a></li>
 <li class="chapter" data-level="10.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#metadados"><i class="fa fa-check"></i><b>10.4</b> Metadados</a></li>
 <li class="chapter" data-level="10.5" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#lógica-do-processamento-vetorial"><i class="fa fa-check"></i><b>10.5</b> Lógica do processamento vetorial</a></li>
-<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados."><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados.</a>
+<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados"><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados</a>
 <ul>
 <li class="chapter" data-level="10.6.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-1.-prepare-seu-ambiente-de-trabalho."><i class="fa fa-check"></i><b>10.6.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
 <li class="chapter" data-level="10.6.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-2.-entenda-o-que-você-está-olhando."><i class="fa fa-check"></i><b>10.6.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
@@ -360,27 +363,30 @@
 <li class="chapter" data-level="10.6.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-4.-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos."><i class="fa fa-check"></i><b>10.6.4</b> <strong>Etapa 4. Observe as informações anexadas aos pontos, linhas e polígonos.</strong></a></li>
 </ul></li>
 <li class="chapter" data-level="10.7" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-ao-processamento-vetorial"><i class="fa fa-check"></i><b>10.7</b> Introdução ao processamento vetorial</a></li>
-<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística.-interpolação---estimativa-de-dados-faltantes"><i class="fa fa-check"></i><b>10.8</b> Geoestatística. Interpolação - estimativa de dados faltantes</a></li>
+<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística-e-interpolação"><i class="fa fa-check"></i><b>10.8</b> Geoestatística e interpolação</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html"><i class="fa fa-check"></i><b>11</b> <strong>Processamento e análise raster</strong></a>
 <ul>
-<li class="chapter" data-level="11.0.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.0.1</b> Ferramentas e recursos necessários</a></li>
-<li class="chapter" data-level="11.0.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.0.2</b> Pré-requisitos:</a></li>
-<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.1</b> O modelo de dados</a></li>
-<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.2</b> Racional do processamento raster</a></li>
-<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.3</b> Entendendo seus dados raster.</a>
+<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>11.1</b> Introdução pedagógica</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.3.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
-<li class="chapter" data-level="11.3.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.3.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+<li class="chapter" data-level="11.1.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.1.1</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="11.1.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.1.2</b> Pré-requisitos:</a></li>
 </ul></li>
-<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.4</b> Introdução ao trabalho com dados raster</a></li>
-<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais."><i class="fa fa-check"></i><b>11.5</b> <strong>Trabalho com dados raster e vetoriais.</strong></a></li>
-<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.6</b> Referências:</a></li>
-<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.7</b> Notas</a></li>
+<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.2</b> O modelo de dados</a></li>
+<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.3</b> Racional do processamento raster</a></li>
+<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.4</b> Entendendo seus dados raster.</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.4.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
+<li class="chapter" data-level="11.4.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.4.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.5</b> Introdução ao trabalho com dados raster</a></li>
+<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais"><i class="fa fa-check"></i><b>11.6</b> Trabalho com dados raster e vetoriais</a></li>
+<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.7</b> Referências:</a></li>
+<li class="chapter" data-level="11.8" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.8</b> Notas</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="plugins-qgis.html"><a href="plugins-qgis.html"><i class="fa fa-check"></i><b>12</b> Plugins QGIS</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
+<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-10"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
 <ul>
 <li class="chapter" data-level="12.1.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#adquirir-as-seguintes-habilidades"><i class="fa fa-check"></i><b>12.1.1</b> Adquirir as seguintes habilidades:</a></li>
 <li class="chapter" data-level="12.1.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#ferramentas-e-recursos-necessários-9"><i class="fa fa-check"></i><b>12.1.2</b> Ferramentas e recursos necessários</a></li>
@@ -405,7 +411,7 @@
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado com o bookdown</a></li>
 
 </ul>
 
@@ -416,7 +422,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGIS</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Geodados: uma introdução gentil</a>
           </h1>
         </div>
 
@@ -426,8 +432,9 @@
             <section class="normal" id="section-">
 <div id="processamento-e-análise-raster" class="section level1" number="11">
 <h1><span class="header-section-number">Capitulo 11</span> <strong>Processamento e análise raster</strong></h1>
-<p><strong>Autor</strong>: Codrina Ilie
-## Introdução pedagógica</p>
+<p><strong>Autor</strong>: Codrina Ilie</p>
+<div id="introdução-pedagógica-9" class="section level2" number="11.1">
+<h2><span class="header-section-number">11.1</span> Introdução pedagógica</h2>
 <p>Este módulo está focado em um tipo específico de modelo de dados geográficos: geodados raster.</p>
 <p>Ao final deste módulo, os alunos terão a compreensão básica dos seguintes conceitos:</p>
 <ul>
@@ -440,8 +447,8 @@
 <li>Processamento em lote</li>
 <li>detecção de alteração</li>
 </ul>
-<div id="ferramentas-e-recursos-necessários-8" class="section level3" number="11.0.1">
-<h3><span class="header-section-number">11.0.1</span> Ferramentas e recursos necessários</h3>
+<div id="ferramentas-e-recursos-necessários-8" class="section level3" number="11.1.1">
+<h3><span class="header-section-number">11.1.1</span> Ferramentas e recursos necessários</h3>
 <ul>
 <li>Este módulo foi preparado usando <a href="https://qgis.org/en/site/forusers/download.html">QGIS versão 3.16 - Hannover</a></li>
 <li><a href="data/module9.gpkg">module9.gpkg</a>
@@ -454,15 +461,16 @@
 <li>O sistema de referência de coordenadas usado é o SIRGAS 2000 UTM 23 sul, EPSG 31983.</li>
 </ul>
 </div>
-<div id="pré-requisitos-9" class="section level3" number="11.0.2">
-<h3><span class="header-section-number">11.0.2</span> Pré-requisitos:</h3>
+<div id="pré-requisitos-9" class="section level3" number="11.1.2">
+<h3><span class="header-section-number">11.1.2</span> Pré-requisitos:</h3>
 <ul>
 <li>Conhecimento básico de como operar um computador</li>
 <li>Uma compreensão robusta dos módulos 0, 1, 2, 6 e 8 dos este currículo.</li>
 </ul>
 </div>
-<div id="o-modelo-de-dados" class="section level2" number="11.1">
-<h2><span class="header-section-number">11.1</span> O modelo de dados</h2>
+</div>
+<div id="o-modelo-de-dados" class="section level2" number="11.2">
+<h2><span class="header-section-number">11.2</span> O modelo de dados</h2>
 <p>raster Um raster é uma matriz regular de valores, como na figura 9.1.</p>
 <div class="figure">
 <img src="media/modulo9/fig91.png" title="Uma matriz de valores" alt="" />
@@ -477,8 +485,8 @@
 <p>Figura 9.2 - No lado esquerdo, os valores são atribuídos aos centróides.</p>
 <p>À direita, os valores são atribuídos à área da célula da grade - o pixel.</p>
 </div>
-<div id="racional-do-processamento-raster" class="section level2" number="11.2">
-<h2><span class="header-section-number">11.2</span> Racional do processamento raster</h2>
+<div id="racional-do-processamento-raster" class="section level2" number="11.3">
+<h2><span class="header-section-number">11.3</span> Racional do processamento raster</h2>
 <p>Como no caso do processamento de dados vetoriais, a lógica por trás do processamento de dados raster é baseada na mesma capacidade dos sistemas de informação geográfica de armazenar, processar e representar informações dos fenômenos do mundo real; apenas isso a maneira como isso é feito difere. Em vez de ter pontos, linhas e polígonos distintos armazenados como coleções de coordenadas x e y, temos uma matriz de valores que cobre uma área específica como uma malha. Para ter uma imagem mais clara em mente, imagine os mapas de temperatura exibidos na TV. A temperatura é um campo contínuo, não há lugares na superfície da Terra sem temperatura, seja ela positiva, negativa ou 0.</p>
 <p>Muitas operações podem ser realizadas em conjuntos de dados raster, e o conceito de geoprocessamento detalhado no módulo 8 também se aplica aqui. O termo usado para abranger as operações que podem ser realizadas em rasters é <em>algebra de mapa</em>.</p>
 <p><strong>Álgebra de mapa</strong> representa um conjunto de operações primitivas[^1] em um GIS que permite duas ou mais camadas raster de <em>dimensões semelhantes</em> produzirem uma nova camada raster (mapa) usando várias operações, como adição, subtração, comparação etc.</p>
@@ -516,11 +524,11 @@
 <p>Figura 9.5 - Exemplo de um histograma, onde x é uma camada raster</p>
 <p>Por que é isso é importante em nosso contexto? Porque, como mencionado no início, um raster é uma matriz de valores numéricos contínuos (lembre-se do exemplo da temperatura) e um histograma ajuda o usuário a entender como os valores de seus rasters são distribuídos. Cada barra agrupa os valores das células que caem em um intervalo específico, quanto maior a barra, mais células têm valores nesse intervalo específico. Caso o raster tenha mais de uma banda, então o histograma será computado para cada uma. Não há lacunas entre os intervalos representados em um histograma, o histograma é usado apenas para dados contínuos.</p>
 </div>
-<div id="entendendo-seus-dados-raster." class="section level2" number="11.3">
-<h2><span class="header-section-number">11.3</span> Entendendo seus dados raster.</h2>
+<div id="entendendo-seus-dados-raster." class="section level2" number="11.4">
+<h2><span class="header-section-number">11.4</span> Entendendo seus dados raster.</h2>
 <p>Nas últimas duas décadas, o número de satélites capturando dados da Terra cresceu exponencialmente. Além disso, uma política de acesso a dados abertos que foi adotada por diferentes agências espaciais, como a NASA para o <a href="https://www.usgs.gov/core-science-systems/nli/landsat/landsat-data-access?qt-science_support_page_related_con=0#qt-science_support_page_related_con">programa Landsat</a> ou a Agência Espacial Europeia para o <a href="https://www.copernicus.eu/en/access-data">programa Copernicus</a>, abriu a porta para um fluxo avassalador de Dados de observação da Terra. Como consequência natural, o progresso científico de algoritmos, metodologias e o desenvolvimento de ferramentas mais poderosas para processar dados raster - especialmente imagens de satélite - tem sido impressionante e extenso em campos como agricultura, silvicultura, desenvolvimento urbano, atividades humanitárias, oceano e mar monitoramento de água, segurança e muito mais. Nas três fases a seguir, apresentaremos algumas das técnicas de processamento mais comuns e quais resultados esperar delas.</p>
-<div id="etapa-1.-prepare-seu-ambiente-de-trabalho.-1" class="section level3" number="11.3.1">
-<h3><span class="header-section-number">11.3.1</span> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></h3>
+<div id="etapa-1.-prepare-seu-ambiente-de-trabalho.-1" class="section level3" number="11.4.1">
+<h3><span class="header-section-number">11.4.1</span> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></h3>
 <p>Vamos começar adicionando ao seu projeto QGIS todos os conjuntos de dados raster com os quais estaremos trabalhando, como segue:</p>
 <ul>
 <li>Dados de camada de assentamento de alta resolução (HRSL)</li>
@@ -888,11 +896,11 @@ Mistura de tipos de floresta
 </div>
 <p>Figura 9.6 - Conjuntos de dados raster carregados</p>
 </div>
-<div id="etapa-2.-entenda-o-que-você-está-olhando.-1" class="section level3" number="11.3.2">
-<h3><span class="header-section-number">11.3.2</span> <strong>Etapa 2. Entenda o que você está olhando.</strong></h3>
+<div id="etapa-2.-entenda-o-que-você-está-olhando.-1" class="section level3" number="11.4.2">
+<h3><span class="header-section-number">11.4.2</span> <strong>Etapa 2. Entenda o que você está olhando.</strong></h3>
 <p>A seguir, usaremos uma série de ferramentas que nos permitirão ter uma noção melhor dos dados com os quais estamos trabalhando.</p>
 <p>Depois de carregar todos os conjuntos de dados, vamos verificar o sistema de referência de coordenadas no qual todos os nossos conjuntos de dados estão. Como sabemos dos módulos anteriores, QGIS oferece a possibilidade de reprojetar todos os conjuntos de dados carregados no projeto em tempo real, no entanto, isso pode levar ao geoprocessamento questões ao longo do caminho. Assim, mesmo que todas as camadas estejam sobrepostas corretamente, como se pode dizer pela inspeção visual, procederemos à reprojeção de todas no sistema de coordenadas mais adequado para nossa região de interesse, a cidade do Rio de Janeiro - EPSG: 31983.</p>
-<p>Existem várias formas de obter informações nas camadas carregadas no QGIS, algumas fornecendo ao usuário mais detalhes do que outras. Para obter uma visão geral rápida dos metadados de um conjunto de dados, <strong>clique duas vezes na camada e abra Propriedades ‣ Informações</strong>.</p>
+<p>Existem várias formas de obter informações nas camadas carregadas no QGIS, algumas fornecendo ao usuário mais detalhes do que outras. Para obter uma visão geral rápida dos metadados de um conjunto de dados, <strong>clique duas vezes na camada e abra Propriedades &gt; Informações</strong>.</p>
 <p>Para a camada hrsl_rj_capital_populacao, a janela de informações seria semelhante à Figura 9.7.</p>
 <div class="figure">
 <img src="media/modulo9/fig97.png" title="Extraindo metadados básicos de uma camada raster" alt="" />
@@ -901,7 +909,7 @@ Mistura de tipos de floresta
 <p>Figura 9.7 - Extraindo metadados básicos de uma camada raster</p>
 <p>Com relação à nossa primeira pergunta sobre o que CRS está sendo usado para o conjuntos de dados que carregamos, podemos observar que mesmo que o HRSL seja sobreposto corretamente, a projeção do conjunto de dados nativo é EPSG 4326 - WGS 84, com unidades medidas em graus. Também identificamos que esta camada raster específica possui apenas uma banda, porém o tamanho do pixel é difícil de ler, pois a medição é em graus e não em metros, o que tornaria mais fácil de entender.</p>
 <p>Assim, a primeira coisa a fazer é reprojetar todos os conjuntos de dados com os quais trabalharemos no mesmo sistema de coordenadas - EPSG 31983.</p>
-<p>Começando com os conjuntos de dados HRSL, vamos para <strong>Raster ‣ Projeções ‣ Reprojetar coordenadas</strong> (ver figura 9.8)</p>
+<p>Começando com os conjuntos de dados HRSL, vamos para <strong>Raster &gt; Projeções &gt; Reprojetar coordenadas</strong> (ver figura 9.8)</p>
 <div class="figure">
 <img src="media/modulo9/fig98.png" title="Reprojetar funcionalidade no QGIS" alt="" />
 <p class="caption">Reprojetar funcionalidade no QGIS</p>
@@ -935,7 +943,7 @@ Mistura de tipos de floresta
 </div>
 <p>Figura 9.11 - Método de reamostragem - bilinear (crédito da foto: documentação ILWIS - <a href="http://spatial-analyst.net/ILWIS/htm/ilwisapp/resample_functionality.htm">(http://spatial-analyst.net/ILWIS/htm/ ilwisapp/resample_functionality.htm</a>)</p>
 <p>O método bilinear determina o novo valor de uma célula com base em uma distância média ponderada das quatro células de entrada mais próximas centros. É útil para dados contínuos e causará alguma suavização dos dados.</p>
-<p>Continuamos a verificar o CRS dos 5 conjuntos de dados de cobertura do solo (Land Cover) que carregamos em nosso projeto QGIS. Acessando <strong>Propriedades da camada ‣ informações</strong>, podemos veja que todas as 5 camadas de cobertura do solo são projetadas em EPSG: 3857 - WGS 84/Pseudo-Mercator. Uma solução seria usar a ferramenta Reproject e configurar para cada camada individualmente. No entanto, uma maneira mais rápida é usar a funcionalidade de reprojeto rodando como um <strong>processo em lote</strong>.</p>
+<p>Continuamos a verificar o CRS dos 5 conjuntos de dados de cobertura do solo (Land Cover) que carregamos em nosso projeto QGIS. Acessando <strong>Propriedades da camada &gt; informações</strong>, podemos veja que todas as 5 camadas de cobertura do solo são projetadas em EPSG: 3857 - WGS 84/Pseudo-Mercator. Uma solução seria usar a ferramenta Reproject e configurar para cada camada individualmente. No entanto, uma maneira mais rápida é usar a funcionalidade de reprojeto rodando como um <strong>processo em lote</strong>.</p>
 <p><strong>Processamento em lote</strong> é a capacidade de executar processos repetitivos sses de dados, com interação mínima do usuário. A maioria das funcionalidades do QGIS tem esta opção disponível e pode ser ativada na janela de processo clicando no botão <strong>Executar processo em lote</strong> <img src="media/modulo9/batch-btn.png" title="botão Executar processo em lote" alt="Botão Executar processo em lote" /> e alternando para a guia Executar processo em lote (consulte a figura 9.12).</p>
 <div class="figure">
 <img src="media/modulo9/fig912.png" title="Guia de processamento em lote em uma janela de funcionalidade QGIS" alt="" />
@@ -959,7 +967,7 @@ Mistura de tipos de floresta
 </div>
 <p>Figura 9.13c - Rasters de cobertura de terra reprojetada</p>
 <p>Em seguida, vêm os rasters de modelo de superfície digital . Como se pode observar, para cobrir nossa região de interesse, precisávamos de vários <em>raster tiles</em>. Quando os arquivos raster se tornam muito grandes - imagine um único arquivo DSM a 30 m para a Europa, que tem mais de 10 milhões de quilômetros quadrados - eles são divididos em <strong>tiles, ou blocos</strong> porque, em áreas menores, são mais facilmente gerenciáveis.</p>
-<p>Embora pudéssemos usar a ferramenta reprojetar em lote para reprojetar todos os arquivos raster DSM, em uma inspeção visual, também se pode notar que as delimitações entre cada tile são bastante visíveis, tornando-o, pelo menos, visualmente pouco atraente. O que seria útil é ter uma visão completa do terreno, como um fenômeno contínuo - como é, de fato - sem rupturas artificiais. Para isso, usaremos a ferramenta de mesclagem GDAL, disponível na barra de ferramentas de processamento, para mesclar todos os rasters DSM. Para abri-lo, vá para <strong>Processar ‣ Caixa de ferramentas </strong> e na barra de pesquisa escreva <strong>Mesclar (ou Merge)</strong> (veja a figura 9.14). Como alternativa, você pode pesquisar por Mesclar na barra do localizador.</p>
+<p>Embora pudéssemos usar a ferramenta reprojetar em lote para reprojetar todos os arquivos raster DSM, em uma inspeção visual, também se pode notar que as delimitações entre cada tile são bastante visíveis, tornando-o, pelo menos, visualmente pouco atraente. O que seria útil é ter uma visão completa do terreno, como um fenômeno contínuo - como é, de fato - sem rupturas artificiais. Para isso, usaremos a ferramenta de mesclagem GDAL, disponível na barra de ferramentas de processamento, para mesclar todos os rasters DSM. Para abri-lo, vá para <strong>Processar &gt; Caixa de ferramentas </strong> e na barra de pesquisa escreva <strong>Mesclar (ou Merge)</strong> (veja a figura 9.14). Como alternativa, você pode pesquisar por Mesclar na barra do localizador.</p>
 <div class="figure">
 <img src="media/modulo9/fig914.png" title="Encontrando a ferramenta de mesclagem GDAL na Caixa de Ferramentas de Processamento" alt="" />
 <p class="caption">Encontrando a ferramenta de mesclagem GDAL na Caixa de Ferramentas de Processamento</p>
@@ -971,14 +979,14 @@ Mistura de tipos de floresta
 <p class="caption">Selecionando as camadas SRTM para mesclar</p>
 </div>
 <p>Figura 9.15a - Selecionando as camadas SRTM para mesclar</p>
-<p>[Parâmetros do algoritmo de processamento de mesclagem](media/modulo9/fig915_b.png ” Parâmetros do algoritmo de processamento de mesclagem “)</p>
+<p>[Parâmetros do algoritmo de processamento de mesclagem](media/modulo9/fig915_b.png " Parâmetros do algoritmo de processamento de mesclagem ")</p>
 <p>Figura 9.15b - Parâmetros do algoritmo de processamento de mesclagem</p>
 <div class="figure">
 <img src="media/modulo9/fig915_c.png" title="Mosaico de todos os arquivos DSM correspondentes à nossa região de trabalho" alt="" />
 <p class="caption">Mosaico de todos os arquivos DSM correspondentes à nossa região de trabalho</p>
 </div>
 <p>Figura 9.15c - Mosaico de todos os arquivos DSM correspondentes à nossa região de trabalho</p>
-<p>Agora, podemos proceder à reprojeção do mosaico - um arquivo, em vez de 6 arquivos. Vá para <strong>Raster ‣ Projeção ‣ Reprojetar cordenadas</strong> e defina os parâmetros conhecidos:</p>
+<p>Agora, podemos proceder à reprojeção do mosaico - um arquivo, em vez de 6 arquivos. Vá para <strong>Raster &gt; Projeção &gt; Reprojetar cordenadas</strong> e defina os parâmetros conhecidos:</p>
 <ul>
 <li>SRC original: EPSG 4326</li>
 <li>SRC de destino: EPSG: 31983</li>
@@ -991,7 +999,7 @@ Mistura de tipos de floresta
 <p class="caption">Reprojetar raster mesclado</p>
 </div>
 <p>Figura 9.15d - Reprojetar raster mesclado</p>
-<p>Podemos fazer outra verificação para ter certeza que todos os rasters com os quais estamos trabalhando são projetados, bem como obter qualquer informação adicional sobre os dados, executando um processo em lote de informações raster sobre todos. Para abrir a janela de funcionalidade, vá para <strong>Raster ‣ Miscelânea ‣ Informações Raster</strong>. Sua janela de informações raster de processamento em lote deve ser semelhante à figura 9.16.</p>
+<p>Podemos fazer outra verificação para ter certeza que todos os rasters com os quais estamos trabalhando são projetados, bem como obter qualquer informação adicional sobre os dados, executando um processo em lote de informações raster sobre todos. Para abrir a janela de funcionalidade, vá para <strong>Raster &gt; Miscelânea &gt; Informações Raster</strong>. Sua janela de informações raster de processamento em lote deve ser semelhante à figura 9.16.</p>
 <div class="figure">
 <img src="media/modulo9/fig916.png" title="Processo em lote para extrair informações em um arquivo HTML separado para várias camadas raster" alt="" />
 <p class="caption">Processo em lote para extrair informações em um arquivo HTML separado para várias camadas raster</p>
@@ -1075,7 +1083,7 @@ Mistura de tipos de floresta
 <p>Figura 9.19 - Selecionando os valores mínimo e máximo para reclassificar o raster</p>
 <p>Após pressionar aplicar, o raster será representado usando o novo intervalo mínimo-máximo selecionado. Esta funcionalidade permite ao usuário ignorar valores extremos que podem esticar ab-normalmente o raster.</p>
 <p>Mesmo que a próxima ferramenta que usaremos seja um plugin (veja o módulo 1 para detalhes do plugin), nós o consideramos muito útil para começar a trabalhar com raster. Estamos nos referindo ao plug-in <strong>Value Tool</strong> que permite a identificação imediata dos valores das células passando o mouse sobre as camadas raster.</p>
-<p>Vá para <strong>Plug-in ‣ Gerenciar e instalar complementos</strong>, procure o plug-in <strong>Value Tool</strong> e clique em instalar. Depois, clique com o botão direito na barra da janela principal do QGIS para abrir todos os Painéis e Barras de Ferramentas disponíveis em sua instalação do QGIS e selecione o <strong>Value Tool Panel</strong>. Verifique sua interface QGIS para ver onde foi aberta.</p>
+<p>Vá para <strong>Plug-in &gt; Gerenciar e instalar complementos</strong>, procure o plug-in <strong>Value Tool</strong> e clique em instalar. Depois, clique com o botão direito na barra da janela principal do QGIS para abrir todos os Painéis e Barras de Ferramentas disponíveis em sua instalação do QGIS e selecione o <strong>Value Tool Panel</strong>. Verifique sua interface QGIS para ver onde foi aberta.</p>
 <div class="figure">
 <img src="media/modulo9/fig920.png" title="The Value Tool Panel" alt="" />
 <p class="caption">The Value Tool Panel</p>
@@ -1091,8 +1099,8 @@ Mistura de tipos de floresta
 <p>A primeira guia - Tabela - apresenta uma lista de todas as camadas raster carregadas e os valores das células, conforme o usuário move o mouse. Também existe a possibilidade de selecionar com quantas casas decimais os valores devem ser exibidos. Se o mouse for passado fora de uma extensão da camada raster, ao invés de um valor, uma mensagem será exibida: “fora da extensão”.</p>
 <p>A segunda guia - Gráfico - exibe em um gráfico unido todos os valores que lê na posição do mouse. Ele permite que o usuário insira valores para mínimo e máximo no eixo Y - que é o eixo dos valores da célula. O eixo X lista todas as bandas do raster que exibe na tabela, com os números de ordem correspondentes: a banda que tem o número 1 na primeira guia, também será a número 1 no gráfico.</p>
 <p>A terceira aba permite ao usuário customizar o que a <code>Value Tool</code> exibe: quais camadas (todas, apenas as visíveis ou as selecionadas) e quais bandas mostrar.</p>
-<div id="perguntas-do-questionário-15" class="section level4" number="11.3.2.1">
-<h4><span class="header-section-number">11.3.2.1</span> <strong>Perguntas do questionário</strong></h4>
+<div id="perguntas-do-questionário-15" class="section level4" number="11.4.2.1">
+<h4><span class="header-section-number">11.4.2.1</span> <strong>Perguntas do questionário</strong></h4>
 <ol style="list-style-type: decimal">
 <li>As camadas raster podem ser reprojetadas em outros sistemas de coordenadas?</li>
 </ol>
@@ -1117,12 +1125,12 @@ Mistura de tipos de floresta
 </div>
 </div>
 </div>
-<div id="introdução-ao-trabalho-com-dados-raster" class="section level2" number="11.4">
-<h2><span class="header-section-number">11.4</span> Introdução ao trabalho com dados raster</h2>
+<div id="introdução-ao-trabalho-com-dados-raster" class="section level2" number="11.5">
+<h2><span class="header-section-number">11.5</span> Introdução ao trabalho com dados raster</h2>
 <p>Agora que aprendemos como extrair informações básicas nos conjuntos de dados raster carregados, continuaremos com um processamento de dados raster mais aprofundado em a fim de obter novos rasters derivados e, em conseqüência, mais informações.</p>
 <p>Como você deve ter notado, devido à estrutura do modelo de dados raster, as camadas que carregamos estão se expandindo em nossa região de interesse - a cidade do Rio de Janeiro. Isso é indesejável por vários motivos, mas principalmente porque você acaba processando mais dados do que realmente precisa, o que se traduz em maiores necessidades de armazenamento e processamento do computador. É por isso que, antes de seguirmos para qualquer outra etapa, teremos certeza de que processaremos exatamente a quantidade de dados de que precisamos. <strong>Esteja ciente</strong> ao começar a trabalhar em seus próprios conjuntos de dados, que o tamanho dos arquivos é um fator importante quando se trata de tempos de processamento. Quanto maiores os arquivos, mais tempo será necessário. Por causa da estrutura de dados do modelo - raster vs vetor - os arquivos raster são geralmente muito maiores.</p>
 <p>Como você notou agora, os conjuntos de dados que carregamos em um GIS - em nosso caso em QGIS - podem ser processados ​​juntos mesmo se forem de natureza diferente, como unir tabelas csv a camadas vetoriais para adicionar informações às geometrias. O mesmo se aplica a dados raster e vetoriais, como veremos.</p>
-<p>Para trabalhar apenas com camadas raster que são relevantes para nossa área, usaremos a camada de extensão vetorial (br_rj_capital) para cortar/recortar todas as camadas raster relevantes. Vá para <strong>Raster ‣ Extrair ‣ Recortar raster pela camada de máscada</strong> (veja a figura 9.22). Da mesma forma, você pode pesquisar por Clipe na Barra de Ferramentas de Processamento ou na barra Localizador.</p>
+<p>Para trabalhar apenas com camadas raster que são relevantes para nossa área, usaremos a camada de extensão vetorial (br_rj_capital) para cortar/recortar todas as camadas raster relevantes. Vá para <strong>Raster &gt; Extrair &gt; Recortar raster pela camada de máscada</strong> (veja a figura 9.22). Da mesma forma, você pode pesquisar por Clipe na Barra de Ferramentas de Processamento ou na barra Localizador.</p>
 <div class="figure">
 <img src="media/modulo9/fig922.png" title="Usando uma máscara vetorial para extrair os dados raster em uma região específica" alt="" />
 <p class="caption">Usando uma máscara vetorial para extrair os dados raster em uma região específica</p>
@@ -1162,7 +1170,7 @@ Mistura de tipos de floresta
 </div>
 <p>Figura 9.25 - Representação Clipped_Reprojected_SRTM_DEM</p>
 <p>Para calcular o número de pessoas com base nos dados raster HRSL que vivem até 200 metros de altitude na cidade do Rio de Janeiro, devemos ver quais pixels se enquadram em cada uma dessas categorias. Para fazer isso, usaremos a <strong>Calculadora Raster</strong>. Esta é uma funcionalidade que permite ao usuário realizar cálculos com base nos valores de pixel raster existentes. Os resultados são gravados em uma nova camada raster em um formato compatível com GDAL[^5].</p>
-<p>Existem várias maneiras de abrir o calclulator raster no QGIS. Você pode fazer isso na barra de menus <strong>Raster ‣ Raster Calculadora</strong> ou pesquisando na calculadora raster na caixa de ferramentas de processamento ou na barra localizadora. Se executarmos a Calculadora Raster sob análise Raster na Caixa de Ferramentas de Processamento, a janela da Figura 9.26b deve aparecer.</p>
+<p>Existem várias maneiras de abrir o calclulator raster no QGIS. Você pode fazer isso na barra de menus <strong>Raster &gt; Raster Calculadora</strong> ou pesquisando na calculadora raster na caixa de ferramentas de processamento ou na barra localizadora. Se executarmos a Calculadora Raster sob análise Raster na Caixa de Ferramentas de Processamento, a janela da Figura 9.26b deve aparecer.</p>
 <div class="figure">
 <img src="media/modulo9/fig926_a.png" title="Abrindo a calculadora raster" alt="" />
 <p class="caption">Abrindo a calculadora raster</p>
@@ -1217,7 +1225,7 @@ Mistura de tipos de floresta
 </div>
 <p>Figura 9.32 - Distribuição da população que vive abaixo de 200m na ​​cidade do Rio de Janeiro, representado com uma resolução de 30m.</p>
 <p>Se estivermos interessados ​​no número total de pessoas que vivem abaixo de 200m na ​​cidade do Rio de Janeiro e não na distribuição geográfica por 30 m de resolução espacial, então precisamos somar todos os valores de pixel da camada raster HRSL_DSM. Uma forma de obter este número é transformar o Reprojected_hrsl_rj_capital_populacao_200m de raster para vetor.</p>
-<p>Para fazer isso vá para <strong>Raster ‣ Conversão ‣ Raster para vetor (poligonizar)</strong> (ver figura 9.33).</p>
+<p>Para fazer isso vá para <strong>Raster &gt; Conversão &gt; Raster para vetor (poligonizar)</strong> (ver figura 9.33).</p>
 <div class="figure">
 <img src="media/modulo9/fig933_a.png" title="Conversão de raster em vetor" alt="" />
 <p class="caption">Conversão de raster em vetor</p>
@@ -1255,8 +1263,8 @@ Mistura de tipos de floresta
 </div>
 <p>Figura 9.37 - Camada vetorial resultante das estatísticas zonais</p>
 <p>E com esta etapa final, respondemos ao nosso exercício, quantas pessoas (e onde) vivem abaixo de 200 m na cidade do Rio de Janeiro.</p>
-<div id="perguntas-do-questionário-16" class="section level4" number="11.4.0.1">
-<h4><span class="header-section-number">11.4.0.1</span> <strong>Perguntas do questionário</strong></h4>
+<div id="perguntas-do-questionário-16" class="section level4" number="11.5.0.1">
+<h4><span class="header-section-number">11.5.0.1</span> <strong>Perguntas do questionário</strong></h4>
 <ol style="list-style-type: decimal">
 <li>Os dados rasterizados podem ser recortados?</li>
 </ol>
@@ -1280,8 +1288,8 @@ Mistura de tipos de floresta
 </ul>
 </div>
 </div>
-<div id="trabalho-com-dados-raster-e-vetoriais." class="section level2" number="11.5">
-<h2><span class="header-section-number">11.5</span> <strong>Trabalho com dados raster e vetoriais.</strong></h2>
+<div id="trabalho-com-dados-raster-e-vetoriais" class="section level2" number="11.6">
+<h2><span class="header-section-number">11.6</span> Trabalho com dados raster e vetoriais</h2>
 <p>Na fase anterior, temos visto como podemos processar 2 conjuntos de dados raster para derivar novas informações. Usamos o modelo de superfície digital e a Camada de Assentamento de Alta Resolução para descobrir quantas pessoas vivem abaixo de 200m na ​​cidade do Rio de Janeiro. Antes de fazer qualquer análise, verificamos se os conjuntos de dados estavam na mesma projeção e, além disso, se os rasters têm a mesma resolução espacial para que os resultados que obtivemos sejam viáveis. Ao se referir ao sistema de referência de coordenadas, o raciocínio é claro, mas por que a mesma resolução espacial?</p>
 <p>Lembrando a resolução espacial, é o tamanho da superfície do solo medido em unidades de comprimento, ou seja, o tamanho do pixel medido no solo. Se um raster tem uma resolução de 30m, isso significa que o menor objeto linear que conseguimos detectar naquela imagem é de 30m, qualquer menor e não conseguimos detectá-lo. Continuando a analogia, podemos compará-la com a escala de um mapa. Se um mapa tem uma escala de 1: 25.000, significa que 1 unidade de comprimento no mapa representa 25.000 unidades no solo, ou seja, 1 cm é 25.000 cm, 1 cm no mapa equivale a 250 m no solo. Por exemplo, uma estrada de 2 km teria 8 cm no mapa.</p>
 <p>Por que isso é importante ao trabalhar com conjuntos de dados raster? A Figura 9.38 pode oferecer uma explicação.</p>
@@ -1292,7 +1300,7 @@ Mistura de tipos de floresta
 <p>Figura 9.38 - Exemplo de diferentes resoluções específicas para diferentes imagens de satélite - Landsat e SPOT - para a mesma área</p>
 <p>(Crédito da foto: Congedo, L. e Munafò, M, (2013) Avaliação da Mudança da Cobertura do Solo Usando Sensoriamento Remoto: Objetivos, Métodos e Resultados, Roma: Sapienza University. Disponível em: <a href="http://www.planning4adaptation.eu/" class="uri">http://www.planning4adaptation.eu/</a>)</p>
 <p>A Figura 9.38 detalha a relação entre a resolução das imagens de satélite e informações de cobertura do solo extraídas dessas imagens capturadas. Lembre-se, conforme detalhamos no início, que o valor da célula de pixel é atribuído a toda a área que cobre, mas isso não significa que essa seja a realidade no terreno. Estas representam decisões tomadas pelos especialistas que derivam vários produtos com base em imagens de observação da Terra - todos documentados em artigos revisados ​​por pares e descrições de algoritmos. Outras explicações estão além do escopo deste módulo, mas é importante ter em mente a relação entre o que um sensor a bordo de um satélite captura e os produtos que usamos.</p>
-<p>Voltando à nossa região de interesse - a cidade do Rio de Janeiro - podemos testar essas diferenças com os dados de que dispomos. Carregamos em nosso projeto QGIS as 5 camadas raster de LandCover por 5 anos: 2015, 2016, 2017, 2018 e 2019. Em seguida, carregaremos um mosaico de imagens do Sentinel-2[^6]. Vamos carregar a camada WMS EOX Sentinel-2 sem nuvem, disponível <a href="https://s2maps.eu/">aqui</a>. Lembrando do módulo 2, para adicionar uma camada WMS, vá para <strong>Camada ‣ Adicionar camada ‣ Adicionar camada WM/WMTS ..</strong></p>
+<p>Voltando à nossa região de interesse - a cidade do Rio de Janeiro - podemos testar essas diferenças com os dados de que dispomos. Carregamos em nosso projeto QGIS as 5 camadas raster de LandCover por 5 anos: 2015, 2016, 2017, 2018 e 2019. Em seguida, carregaremos um mosaico de imagens do Sentinel-2[^6]. Vamos carregar a camada WMS EOX Sentinel-2 sem nuvem, disponível <a href="https://s2maps.eu/">aqui</a>. Lembrando do módulo 2, para adicionar uma camada WMS, vá para <strong>Camada &gt; Adicionar camada &gt; Adicionar camada WM/WMTS ..</strong></p>
 <p>Quando a janela adicionar abrir, use os seguintes parâmetros:</p>
 <pre><code>Nome: EOX Sentinel-2
 URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</code></pre>
@@ -1307,7 +1315,7 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 <p class="caption">alt_text</p>
 </div>
 <p>Figura 9.40 - Camada sem nuvens Sentinel-2 para 2019 por EOX - 4326 para a cidade do Rio de Janeiro</p>
-<p>Embora os produtos LandCover tenham sido obtidos usando outros dados de satélite (Proba-V), vamos comparar as 2 camadas para que possamos ter uma noção do que significam as diferentes resoluções. Lembre-se de que o produto LandCover está a 100m e as imagens do Sentinel 2 estão a 10m. Para isso, abriremos o Clipped_Reprojected_LandCover 2019 e a camada WMS. Para fazer comparações entre 2 camadas, usaremos um novo plugin que você deve instalar. Portanto, vá para <strong>Complementos ‣ gerenciar e instalar complementos</strong> e escreva na caixa de pesquisa <code>MapSwipe Tool</code>. Depois de instalado, ele deve aparecer como um novo pictograma em sua barra de ferramentas (<img src="media/modulo9/mapswipe-btn.png" title="botão da ferramenta MapSwipe" alt="Botão da ferramenta MapSwipe" />).</p>
+<p>Embora os produtos LandCover tenham sido obtidos usando outros dados de satélite (Proba-V), vamos comparar as 2 camadas para que possamos ter uma noção do que significam as diferentes resoluções. Lembre-se de que o produto LandCover está a 100m e as imagens do Sentinel 2 estão a 10m. Para isso, abriremos o Clipped_Reprojected_LandCover 2019 e a camada WMS. Para fazer comparações entre 2 camadas, usaremos um novo plugin que você deve instalar. Portanto, vá para <strong>Complementos &gt; gerenciar e instalar complementos</strong> e escreva na caixa de pesquisa <code>MapSwipe Tool</code>. Depois de instalado, ele deve aparecer como um novo pictograma em sua barra de ferramentas (<img src="media/modulo9/mapswipe-btn.png" title="botão da ferramenta MapSwipe" alt="Botão da ferramenta MapSwipe" />).</p>
 <div class="figure">
 <img src="media/modulo9/fig941.png" title="image_tooltip" alt="" />
 <p class="caption">alt_text</p>
@@ -1335,7 +1343,7 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 <p><strong>Reamostragem</strong> refere-se à alteração dos valores das células devido a mudanças na grade de células raster e há apenas 2 opções: (1) <strong>aumento da resolução (upsampling)</strong> refere-se aos casos em que estamos convertendo para uma resolução maior/células menores e (2) <strong>redução da resolução (downsampling)</strong> é reamostragem para resolução inferior/tamanhos de células maiores.</p>
 <p>Vamos imaginar o seguinte exercício. Precisamos identificar os números da população para cada categoria de cobertura do solo que definimos na cidade do Rio de Janeiro. Como explicado acima, precisamos <em>processar</em> os dados que temos para obter resultados viáveis ​​de nossa análise, ou seja, em nosso caso, precisamos trazer ambos os nossos conjuntos de dados raster para a mesma resolução espacial. Conforme detalhado acima, podemos aumentar ou diminuir as dimensões dos pixels. Deve-se destacar que a reamostragem, com aumento ou redução da escala, envolverá um processo de interpolação (ver página 12 para mais detalhes) - portanto, o resultado introduz um erro estatístico. A prática usual é reamostrar todos os rasters para corresponder ao raster com a resolução mais baixa, mas novamente esta decisão deve ser tomada levando em consideração todos os fatores envolvidos. Detalhar o processo de tomada de decisão para reamostrar camadas raster excede em muito o escopo deste currículo.</p>
 <p>Uma diferença entre os 2 produtos deve ser destacada: o produto LandCover cobre a <strong>área inteira</strong> da extensão considerada, ao contrário do produto HSRL, onde a camada raster contém estritamente células onde existem valores acima de 0. Esta situação cria problemas quando os valores das células de interpolação são reamostrados, pois não importa o método de interpolação escolhido, que levaria em consideração os pixels circundantes, seguindo um algoritmo específico bem definido e nesta situação particular, os pixels da borda não estão na borda de região de estudo, mas dentro dela. Portanto, em nosso caso demonstrativo, consideraremos aumentar a resolução do produto Land Cover de 100m para 30m de resolução para corresponder à resolução do produto Land Cover. O método de reamostragem que escolhemos é crucial, pois os resultados podem variar significativamente. Para fins de demonstração, faremos uma nova amostra do produto LandCover usando 2 métodos diferentes - Vizinho mais próximo e Moda.</p>
-<p>Para reamostrar, vá para <strong>Raster ‣ Projeções ‣ Reprojetar coordenadas.</strong> Na janela, defina os seguintes parâmetros:</p>
+<p>Para reamostrar, vá para <strong>Raster &gt; Projeções &gt; Reprojetar coordenadas.</strong> Na janela, defina os seguintes parâmetros:</p>
 <ul>
 <li>camada de entrada: Clipped_Reprojected_LandCover_2019,</li>
 <li>CRS de origem e CRS de destino: EPSG: 31983,</li>
@@ -1362,7 +1370,7 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 <p class="caption">alt_text</p>
 </div>
 <p>Figura 9.46b - Reamostragem do produto de cobertura do solo usando o método de reamostragem de modo</p>
-<p>Ambos os rasters têm a mesma simbologia aplicada e podemos observar que na figura 9.45 existem valores que não se enquadram em nenhuma das categorias - os pixels não estão aparecendo. No entanto, sabemos que o produto Land Cover é uma camada contínua - não tem lacunas entre as mesmas categorias definidas. Vamos ir mais fundo e examinar os histogramas de todas as três camadas. Para isso vá para <strong>Propriedades ‣ Histograma</strong> e escolha Prefs/Ações para mostrar apenas a Banda 1. Salve o histograma clicando no ícone salvar no lado direito da janela (ver figura 9.47).</p>
+<p>Ambos os rasters têm a mesma simbologia aplicada e podemos observar que na figura 9.45 existem valores que não se enquadram em nenhuma das categorias - os pixels não estão aparecendo. No entanto, sabemos que o produto Land Cover é uma camada contínua - não tem lacunas entre as mesmas categorias definidas. Vamos ir mais fundo e examinar os histogramas de todas as três camadas. Para isso vá para <strong>Propriedades &gt; Histograma</strong> e escolha Prefs/Ações para mostrar apenas a Banda 1. Salve o histograma clicando no ícone salvar no lado direito da janela (ver figura 9.47).</p>
 <div class="figure">
 <img src="media/modulo9/fig947.png" title="image_tooltip" alt="" />
 <p class="caption">alt_text</p>
@@ -1390,7 +1398,7 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 </div>
 <p>Figura 9.49 - Os 2 produtos raster: Land Cover 2019 e HRSL sobrepostos.</p>
 <p>Voltando ao nosso exercício, os requisitos eram identificar os números da população para cada categoria de cobertura do solo que definimos na cidade do Rio de Janeiro. Neste ponto, pré-processamos nossos dados raster, de forma a tê-los no mesmo sistema de coordenadas, com a mesma resolução espacial. Continuaremos com um algoritmo de conversão, transformaremos o conjunto de dados raster Land Cover em um conjunto de dados vetoriais - tipo polígono. Isso nos permitirá identificar mais facilmente a contagem da população para cada categoria de cobertura do solo.</p>
-<p>Para conversões, de raster para polígono, bem como de vetor para polígono, vá em <strong>Raster ‣ Conversão</strong> e aqui temos mais opções. Vamos escolher <strong>Raster ‣ Conversão ‣ Raster para vetor (poligonizar)</strong> Vamos converter para vector o último conjunto de dados raster que obtivemos: LC2019_Mode. Seu resultado deve ser semelhante à figura 9.50b.</p>
+<p>Para conversões, de raster para polígono, bem como de vetor para polígono, vá em <strong>Raster &gt; Conversão</strong> e aqui temos mais opções. Vamos escolher <strong>Raster &gt; Conversão &gt; Raster para vetor (poligonizar)</strong> Vamos converter para vector o último conjunto de dados raster que obtivemos: LC2019_Mode. Seu resultado deve ser semelhante à figura 9.50b.</p>
 <div class="figure">
 <img src="media/modulo9/fig950_a.png" title="image_tooltip" alt="" />
 <p class="caption">alt_text</p>
@@ -1401,7 +1409,7 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 <p class="caption">alt_text</p>
 </div>
 <p>Figura 9.50b - Resultado da poligonização do LC2019_Mode ( 30m) camada raster</p>
-<p>Como podemos observar, cada pixel - cada grupo de pixels adjacentes com o mesmo código de categoria (ver tabela 1, página 7) foi convertido em um polígono. No entanto, não estamos interessados ​​em cada região distinta, mas em toda a categoria. Assim, iremos dissolver a camada vetorial obtida usando a identificação de classe (campo <code>DN</code>) como atributo comum (<strong>Vetor ‣ Geoprocessamento ‣ Dissolver</strong> - para mais detalhes, verifique o módulo 8).</p>
+<p>Como podemos observar, cada pixel - cada grupo de pixels adjacentes com o mesmo código de categoria (ver tabela 1, página 7) foi convertido em um polígono. No entanto, não estamos interessados ​​em cada região distinta, mas em toda a categoria. Assim, iremos dissolver a camada vetorial obtida usando a identificação de classe (campo <code>DN</code>) como atributo comum (<strong>Vetor &gt; Geoprocessamento &gt; Dissolver</strong> - para mais detalhes, verifique o módulo 8).</p>
 <p>Anexando o mesmo estilo do raster e notaremos que as mesmas classes vetoriais correspondem às raster (ver figura 9.51).</p>
 <div class="figure">
 <img src="media/modulo9/fig951.png" title="image_tooltip" alt="" />
@@ -1415,7 +1423,7 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 </div>
 <p>Figura 9.52 - Incompatibilidade de pixels HRSL e o conjunto de dados vetoriais de cobertura do solo</p>
 <p>Para eliminar este inconveniente, vamos vetorizar a camada HRSL também, só que desta vez iremos transferir o pixel valor da célula a um ponto - o centro geométrico de cada pixel.</p>
-<p>Vá para <strong>Processar ‣ Caixa de ferramentas</strong>. Na barra de pesquisa, escreva as palavras-chave <code>raster ponto</code> e escolha o algoritmo <code>Pixels de raster para pontos</code> (veja a figura 9.53a). Salve a saída como HRSL_points.</p>
+<p>Vá para <strong>Processar &gt; Caixa de ferramentas</strong>. Na barra de pesquisa, escreva as palavras-chave <code>raster ponto</code> e escolha o algoritmo <code>Pixels de raster para pontos</code> (veja a figura 9.53a). Salve a saída como HRSL_points.</p>
 <div class="figure">
 <img src="media/modulo9/fig953_a.png" title="image_tooltip" alt="" />
 <p class="caption">alt_text</p>
@@ -1490,8 +1498,8 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 <p>Figura 9.62 - Saída dos atributos de Join por algoritmo de localização (resumo)</p>
 <p>Nesta terceira fase do nosso módulo 9, trabalhamos com dados raster e também com dados vetoriais. Vimos mais de perto o que significa reamostragem e quais são as implicações das características dos rasters, como sistema de referência de coordenadas, resolução espacial etc. Na maioria das vezes, deve-se trabalhar com conjuntos de dados raster e vetoriais e, portanto, é importante saber que é possível de várias maneiras. Também testamos várias conversões, de raster para vetor e vice-versa. No entanto, em nosso processamento não devemos perder de vista os fenômenos que estamos estudando, bem como a escala inicial em que os dados foram coletados, seja vetorial ou raster. Ao realizar conversões, é importante saber a correspondência entre a escala do mapa e a resolução do raster. Segundo o cartógrafo Waldo Tobler “a regra é dividir o denominador da escala do mapa por 1000 para obter o tamanho detectável em metros. A resolução é metade desse valor.” Em outras palavras, a fórmula seria: <code>escala do mapa = resolução do raster (em m) X 2 X 1000.</code></p>
 <p>As soluções dadas aos nossos exercícios neste módulo, como também no módulo 8, são apenas uma forma de resolver os requisitos. À medida que se avança no estudo das ferramentas de código aberto para geoespacial, descobre-se que existem várias possibilidades para se chegar ao mesmo resultado - algumas melhores do que outras.</p>
-<div id="perguntas-do-questionário-17" class="section level4" number="11.5.0.1">
-<h4><span class="header-section-number">11.5.0.1</span> Perguntas do questionário</h4>
+<div id="perguntas-do-questionário-17" class="section level4" number="11.6.0.1">
+<h4><span class="header-section-number">11.6.0.1</span> Perguntas do questionário</h4>
 <ol style="list-style-type: decimal">
 <li>Qual é o nome do processo pelo qual a resolução de um conjunto de dados raster pode ser aumentada ou diminuída?</li>
 </ol>
@@ -1512,13 +1520,13 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 </ul>
 </div>
 </div>
-<div id="referências" class="section level2" number="11.6">
-<h2><span class="header-section-number">11.6</span> Referências:</h2>
+<div id="referências" class="section level2" number="11.7">
+<h2><span class="header-section-number">11.7</span> Referências:</h2>
 <p>Centro para Rede Internacional de Informação em Ciências da Terra - CIESIN - Universidade de Columbia. 2018. Gridded Population of the World, Versão 4 (GPWv4): Population Density, Revisão 11. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). <a href="https://doi.org/10.7927/H49C6VHW">https://doi.org/10.7927/H49C6VHW</a>. Acessado em DAY MONTH YEAR.</p>
 <p>Métodos de reamostragem: <a href="https://gisgeography.com/raster-resampling/">https://gisgeography.com/raster-resampling/</a></p>
 </div>
-<div id="notas" class="section level2" number="11.7">
-<h2><span class="header-section-number">11.7</span> Notas</h2>
+<div id="notas" class="section level2" number="11.8">
+<h2><span class="header-section-number">11.8</span> Notas</h2>
 <p><sup>[1] Uma operação primitiva é um cálculo básico executado por um algoritmo.</sup></p>
 <p><sup>[2]: A resolução temporal depende da latitude.</sup></p>
 <p><sup>[3]: JAXA é a Agência Japonesa de Exploração Aeroespacial.</sup></p>
@@ -1549,8 +1557,8 @@ URL : https://tiles.maps.eox.at/wms?service=wms&amp;request=getcapabilities</cod
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
@@ -1565,7 +1573,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/module09.Rmd",
+"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module09.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -1576,7 +1584,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["_main.pdf", "_main.epub"],
+"download": ["ebook-gis.pdf", "ebook-gis.epub"],
 "search": {
 "engine": "fuse",
 "options": null

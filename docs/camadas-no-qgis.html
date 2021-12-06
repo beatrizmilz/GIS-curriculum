@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="pt" xml:lang="pt">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 4 Camadas no QGIS | Introdução ao QGIS</title>
+  <title>Capitulo 4 Camadas no QGIS | Geodados: uma introdução gentil</title>
   <meta name="description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 4 Camadas no QGIS | Introdução ao QGIS" />
+  <meta property="og:title" content="Capitulo 4 Camadas no QGIS | Geodados: uma introdução gentil" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="/media/cover.jpg" />
+  <meta property="og:url" content="escola-de-dados.github.io/GIS-curriculum/" />
+  <meta property="og:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
   <meta property="og:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="github-repo" content="escola-de-dados/GIS-curriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 4 Camadas no QGIS | Introdução ao QGIS" />
+  <meta name="twitter:title" content="Capitulo 4 Camadas no QGIS | Geodados: uma introdução gentil" />
   
   <meta name="twitter:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
-  <meta name="twitter:image" content="/media/cover.jpg" />
+  <meta name="twitter:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
 
 <meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
 
@@ -69,10 +69,13 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Introdução ao QGis</a></li>
+<li><a href="./">Geodados: uma introdução gentil</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#conjuntos-de-dados"><i class="fa fa-check"></i><b>1.1</b> Conjuntos de dados</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i><b>2</b> Introdução</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introdução.html"><a href="introdução.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>2.1</b> Introdução suave a conceitos de GIS</a>
@@ -83,7 +86,7 @@
 <li class="chapter" data-level="2.1.4" data-path="introdução.html"><a href="introdução.html#recursos-adicionais"><i class="fa fa-check"></i><b>2.1.4</b> Recursos adicionais</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="introdução.html"><a href="introdução.html#introdução-temática"><i class="fa fa-check"></i><b>2.2</b> Introdução temática</a></li>
-<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e Coordenadas</a>
+<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e coordenadas</a>
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="introdução.html"><a href="introdução.html#projeções-cartográficas"><i class="fa fa-check"></i><b>2.3.1</b> Projeções cartográficas</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introdução.html"><a href="introdução.html#sistemas-de-referência-de-coordenadas"><i class="fa fa-check"></i><b>2.3.2</b> Sistemas de referência de coordenadas</a></li>
@@ -163,14 +166,14 @@
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3</b> Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> <strong>Tipos de dados e formatos de arquivo comuns</strong></a></li>
+<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> Tipos de dados e formatos de arquivo comuns</a></li>
 <li class="chapter" data-level="4.3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-fontes-de-dados"><i class="fa fa-check"></i><b>4.3.2</b> <strong>Tipos de fontes de dados</strong></a></li>
 <li class="chapter" data-level="4.3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#carregando-camadas-no-qgis"><i class="fa fa-check"></i><b>4.3.3</b> <strong>Carregando camadas no QGIS</strong></a></li>
 <li class="chapter" data-level="4.3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-do-navegador"><i class="fa fa-check"></i><b>4.3.4</b> <strong>O painel do navegador</strong></a></li>
 <li class="chapter" data-level="4.3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3.5</b> <strong>O painel de camadas</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> <strong>Propriedades da camada</strong></a></li>
-<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> <strong>Metadados geoespaciais</strong></a>
+<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> Propriedades da camada</a></li>
+<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> Metadados geoespaciais</a>
 <ul>
 <li class="chapter" data-level="4.5.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#exercício-01.2-adicionando-metadados"><i class="fa fa-check"></i><b>4.5.1</b> <strong>Exercício 01.2: Adicionando metadados</strong></a></li>
 </ul></li>
@@ -256,7 +259,7 @@
 <li class="chapter" data-level="6.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#tutorial-1"><i class="fa fa-check"></i><b>6.6.2</b> <strong>Tutorial</strong></a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo Mapas</a>
+<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo mapas</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>7.1</b> Introdução Pedagógica</a>
 <ul>
@@ -352,7 +355,7 @@
 <li class="chapter" data-level="10.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#o-modelo-de-dados-vetoriais"><i class="fa fa-check"></i><b>10.3</b> O modelo de dados vetoriais</a></li>
 <li class="chapter" data-level="10.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#metadados"><i class="fa fa-check"></i><b>10.4</b> Metadados</a></li>
 <li class="chapter" data-level="10.5" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#lógica-do-processamento-vetorial"><i class="fa fa-check"></i><b>10.5</b> Lógica do processamento vetorial</a></li>
-<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados."><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados.</a>
+<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados"><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados</a>
 <ul>
 <li class="chapter" data-level="10.6.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-1.-prepare-seu-ambiente-de-trabalho."><i class="fa fa-check"></i><b>10.6.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
 <li class="chapter" data-level="10.6.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-2.-entenda-o-que-você-está-olhando."><i class="fa fa-check"></i><b>10.6.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
@@ -360,27 +363,30 @@
 <li class="chapter" data-level="10.6.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-4.-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos."><i class="fa fa-check"></i><b>10.6.4</b> <strong>Etapa 4. Observe as informações anexadas aos pontos, linhas e polígonos.</strong></a></li>
 </ul></li>
 <li class="chapter" data-level="10.7" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-ao-processamento-vetorial"><i class="fa fa-check"></i><b>10.7</b> Introdução ao processamento vetorial</a></li>
-<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística.-interpolação---estimativa-de-dados-faltantes"><i class="fa fa-check"></i><b>10.8</b> Geoestatística. Interpolação - estimativa de dados faltantes</a></li>
+<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística-e-interpolação"><i class="fa fa-check"></i><b>10.8</b> Geoestatística e interpolação</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html"><i class="fa fa-check"></i><b>11</b> <strong>Processamento e análise raster</strong></a>
 <ul>
-<li class="chapter" data-level="11.0.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.0.1</b> Ferramentas e recursos necessários</a></li>
-<li class="chapter" data-level="11.0.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.0.2</b> Pré-requisitos:</a></li>
-<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.1</b> O modelo de dados</a></li>
-<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.2</b> Racional do processamento raster</a></li>
-<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.3</b> Entendendo seus dados raster.</a>
+<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>11.1</b> Introdução pedagógica</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.3.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
-<li class="chapter" data-level="11.3.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.3.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+<li class="chapter" data-level="11.1.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.1.1</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="11.1.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.1.2</b> Pré-requisitos:</a></li>
 </ul></li>
-<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.4</b> Introdução ao trabalho com dados raster</a></li>
-<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais."><i class="fa fa-check"></i><b>11.5</b> <strong>Trabalho com dados raster e vetoriais.</strong></a></li>
-<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.6</b> Referências:</a></li>
-<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.7</b> Notas</a></li>
+<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.2</b> O modelo de dados</a></li>
+<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.3</b> Racional do processamento raster</a></li>
+<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.4</b> Entendendo seus dados raster.</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.4.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
+<li class="chapter" data-level="11.4.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.4.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.5</b> Introdução ao trabalho com dados raster</a></li>
+<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais"><i class="fa fa-check"></i><b>11.6</b> Trabalho com dados raster e vetoriais</a></li>
+<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.7</b> Referências:</a></li>
+<li class="chapter" data-level="11.8" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.8</b> Notas</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="plugins-qgis.html"><a href="plugins-qgis.html"><i class="fa fa-check"></i><b>12</b> Plugins QGIS</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
+<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-10"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
 <ul>
 <li class="chapter" data-level="12.1.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#adquirir-as-seguintes-habilidades"><i class="fa fa-check"></i><b>12.1.1</b> Adquirir as seguintes habilidades:</a></li>
 <li class="chapter" data-level="12.1.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#ferramentas-e-recursos-necessários-9"><i class="fa fa-check"></i><b>12.1.2</b> Ferramentas e recursos necessários</a></li>
@@ -405,7 +411,7 @@
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado com o bookdown</a></li>
 
 </ul>
 
@@ -416,7 +422,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGIS</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Geodados: uma introdução gentil</a>
           </h1>
         </div>
 
@@ -488,7 +494,7 @@
 <div id="tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas" class="section level2" number="4.3">
 <h2><span class="header-section-number">4.3</span> Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</h2>
 <div id="tipos-de-dados-e-formatos-de-arquivo-comuns" class="section level3" number="4.3.1">
-<h3><span class="header-section-number">4.3.1</span> <strong>Tipos de dados e formatos de arquivo comuns</strong></h3>
+<h3><span class="header-section-number">4.3.1</span> Tipos de dados e formatos de arquivo comuns</h3>
 <p>Além dos modelos de dados espaciais (rasters e vetores) discutidos no primeiro módulo, a familiaridade com formatos de arquivo geoespaciais e seus prós e contras também é importante para qualquer pessoa que faça análise espacial.</p>
 <p>A maioria das pessoas que são novas em GIS geralmente são apresentadas aos dados espaciais por meio de shapefiles. A maioria das pessoas nunca supera esse formato e usa shapefiles para todos os tipos e formas de dados vetoriais. Isso é semelhante a como uma marca específica como a Coca Cola começa a ser usada como o termo geral para refrigerantes. Isso não é necessariamente errado, mas é lamentável, pois os shapefiles são apenas um dos muitos tipos de formato de dados vetoriais. Na verdade, há muitos outros formatos de vetor como geopackage, geojson, topojson e flatgeobuf. O formato do shapefile, embora onipresente, tem algumas limitações significativas, como:</p>
 <ul>
@@ -542,7 +548,7 @@
 <h4><span class="header-section-number">4.3.4.1</span> <strong>Exercício 01.1: O painel do navegador</strong></h4>
 <ol style="list-style-type: decimal">
 <li>Abra o QGIS.</li>
-<li>Verifique o painel do navegador (Figura 2.2). Se você não conseguir encontrar o painel do navegador, pode torná-lo visível em <strong>Exibir ‣ Painéis ‣ Painel do navegador</strong> na barra de menus.</li>
+<li>Verifique o painel do navegador (Figura 2.2). Se você não conseguir encontrar o painel do navegador, pode torná-lo visível em <strong>Exibir &gt; Painéis &gt; Painel do navegador</strong> na barra de menus.</li>
 </ol>
 <div class="figure">
 <img src="media/modulo2/qgis-browser-1.png" title="O painel do navegador QGIS" alt="" />
@@ -585,7 +591,7 @@
 <li><p>Você pode carregar uma camada do painel do navegador:</p>
 <ol style="list-style-type: decimal">
 <li><strong>clicando duas vezes na camada</strong></li>
-<li><strong>clicando com o botão direito na camada ‣ Adicionar camada ao projeto</strong></li>
+<li><strong>clicando com o botão direito na camada &gt; Adicionar camada ao projeto</strong></li>
 <li><strong>arrastando a camada para a área do mapa</strong></li>
 </ol></li>
 <li><p>Tente carregar as camadas <strong>br_pais</strong>, <strong>br_ufs</strong> e <strong>br_rj_municipios</strong> usando qualquer um dos métodos acima.</p></li>
@@ -599,7 +605,7 @@
 </div>
 <div id="o-painel-de-camadas" class="section level3" number="4.3.5">
 <h3><span class="header-section-number">4.3.5</span> <strong>O painel de camadas</strong></h3>
-<p>O painel de camadas lista todas as camadas atuais no projeto. Ele ajuda a gerenciar sua visibilidade e ordem e pode ser usado para mostrar as propriedades da camada. O painel de camadas pode ser ativado em <strong>Exibir ‣ Painéis ‣ Painel de camadas</strong> ou usando o atalho <strong>CTRL + 1</strong>. Ele também é chamado de legenda do mapa. Se você carregou todos os vetores do exercício anterior, seu painel de camadas deve aparecer como abaixo:</p>
+<p>O painel de camadas lista todas as camadas atuais no projeto. Ele ajuda a gerenciar sua visibilidade e ordem e pode ser usado para mostrar as propriedades da camada. O painel de camadas pode ser ativado em <strong>Exibir &gt; Painéis &gt; Painel de camadas</strong> ou usando o atalho <strong>CTRL + 1</strong>. Ele também é chamado de legenda do mapa. Se você carregou todos os vetores do exercício anterior, seu painel de camadas deve aparecer como abaixo:</p>
 <div class="figure">
 <img src="media/modulo2/layers-panel-1.png" title="Painel de camadas" alt="" />
 <p class="caption">Painel de camadas</p>
@@ -608,12 +614,12 @@
 <p>A visibilidade de uma camada pode ser controlada marcando ou desmarcando a caixa à esquerda do nome da camada. Ao arrastar as camadas para cima ou para baixo no painel Camadas, sua ordem pode ser alterada. Semelhante ao software de manipulação de imagem como GIMP ou Photoshop, as camadas listadas perto do topo são desenhadas sobre as camadas listadas abaixo. Portanto, se duas camadas mostrarem a mesma área, a camada mais alta no painel camadas será desenhada no topo da camada inferior e pode ocultar a camada inferior na tela do mapa. É importante notar esse ponto porque pode haver casos em que pensamos que uma camada não aparece no QGIS quando na realidade está sendo coberta ou escondida por uma camada em cima dela.</p>
 <p><strong>NOTA:</strong> A ordem Z das camadas no Painel de camadas pode ser substituída pelo <strong>Painel de ordem das camadas</strong>.</p>
 <p>O painel de camadas também permite ao usuário renomear e remover camadas, filtrar a visibilidade da camada, criar e gerenciar grupos de camadas e visualizações de mapas.</p>
-<p>A tabela de atributos de uma camada vetorial também pode ser aberta no painel Camadas <strong>clicando com o botão direito do mouse na camada ‣ Abrir tabela de atributos</strong>.</p>
+<p>A tabela de atributos de uma camada vetorial também pode ser aberta no painel Camadas <strong>clicando com o botão direito do mouse na camada &gt; Abrir tabela de atributos</strong>.</p>
 <p>Para saber mais sobre o painel de camadas, acesse: <a href="https://docs.qgis.org%20/3.16/en/docs/user_manual/introduction/general_tools.html#layers-panel">https://docs.qgis.org/3.16/en/docs/user_manual/introduction/general_tools.html#layers-panel</a></p>
 </div>
 </div>
 <div id="propriedades-da-camada" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> <strong>Propriedades da camada</strong></h2>
+<h2><span class="header-section-number">4.4</span> Propriedades da camada</h2>
 <p>Clicar com o botão direito em uma camada no painel Camadas e selecionar Propriedades da camada abrirá a caixa de diálogo Propriedades da camada.</p>
 <div class="figure">
 <img src="media/modulo2/layer-properties.png" title="A caixa de diálogo Propriedades da camada" alt="" />
@@ -646,7 +652,7 @@
 <p>Para saber mais sobre as propriedades da camada raster, vá para: <a href="https:%20//docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/raster_properties.html">https://docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/raster_properties.html</a></p>
 </div>
 <div id="metadados-geoespaciais" class="section level2" number="4.5">
-<h2><span class="header-section-number">4.5</span> <strong>Metadados geoespaciais</strong></h2>
+<h2><span class="header-section-number">4.5</span> Metadados geoespaciais</h2>
 <p>Metadados são simplesmente dados sobre os dados. Eles responde, o “quem, o que, quando, onde e como” dos dados e vem em todas as formas e tamanhos. Para fins de GIS, geralmente estamos preocupados com metadados geoespaciais. Os metadados geoespaciais são descritos pelo US Federal Geographic Data Committee (FGDC) como:</p>
 <p><em>“um arquivo de informações, geralmente apresentado como um documento XML, que captura as características básicas de um recurso de dados ou informações. Representa quem, o quê, quando, onde, por que e como do recurso. Metadados geoespaciais comumente documentam dados digitais geográficos, como arquivos de Sistema de Informação Geográfica (GIS), bancos de dados geoespaciais e imagens da Terra, mas também podem ser usados para documentar recursos geoespaciais, incluindo catálogos de dados, aplicativos de mapeamento, modelos de dados e sites relacionados. Os registros de metadados incluem os principais elementos do catálogo da biblioteca, como Título, Resumo e Dados de Publicação; elementos geográficos, como extensão geográfica e informações de projeção; e elementos de banco de dados, como Definições de Rótulo de Atributo e Valores de Domínio de Atributo.”</em></p>
 <p>A importância dos metadados é que eles não apenas promovem a transparência, mas também facilitam o compartilhamento de dados e informações. É por isso que é importante sempre adicionar metadados aos nossos conjuntos de dados. Ao adicionar metadados, é igualmente importante seguir padrões - regras e práticas amplamente promovidas, aceitas e seguidas - para que os metadados que criamos sejam interoperáveis. Um desses padrões é a ISO 19115: 2014 “Informação Geográfica - Metadados” da ISO / TC 211 ([<a href="https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en" class="uri">https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en</a>] (<a href="https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en" class="uri">https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en</a>))</p>
@@ -695,7 +701,7 @@
 <div id="o-gerenciador-de-fonte-de-dados" class="section level3" number="4.6.1">
 <h3><span class="header-section-number">4.6.1</span> <strong>O Gerenciador de fonte de dados</strong></h3>
 <p>Se você não quiser usar o painel do navegador para carregar camadas, você sempre pode usar o <strong>Gerenciador de fonte de dados</strong>.</p>
-<p>O <strong>Gerenciador de fonte de dados</strong> foi introduzido com o lançamento do QGIS 3. É um local único para adicionar e carregar camadas de diferentes fontes de dados no QGIS. Antes de sua introdução, havia janelas separadas para carregar diferentes fontes de dados (ou seja, uma para rasters, outra para vetores, etc.). Ele pode ser acessado via <strong>Camadas ‣ Gerenciador de fonte de dados</strong> ou <strong>CTRL + L</strong>.</p>
+<p>O <strong>Gerenciador de fonte de dados</strong> foi introduzido com o lançamento do QGIS 3. É um local único para adicionar e carregar camadas de diferentes fontes de dados no QGIS. Antes de sua introdução, havia janelas separadas para carregar diferentes fontes de dados (ou seja, uma para rasters, outra para vetores, etc.). Ele pode ser acessado via <strong>Camadas &gt; Gerenciador de fonte de dados</strong> ou <strong>CTRL + L</strong>.</p>
 <div class="figure">
 <img src="media/modulo2/data-source-manager-1.png" title="Gerenciador de fonte de dados" alt="" />
 <p class="caption">Gerenciador de fonte de dados</p>
@@ -800,7 +806,7 @@
 <p>Para conectar a um servidor de tiles:</p>
 <ol style="list-style-type: decimal">
 <li>Vá para <strong>Painel do navegador</strong></li>
-<li><strong>Clique com o botão direito do mouse em XYZ Tiles ‣ Nova conexão</strong></li>
+<li><strong>Clique com o botão direito do mouse em XYZ Tiles &gt; Nova conexão</strong></li>
 <li>Adicione o seguinte:</li>
 </ol>
 <pre><code>    Nome: ESRI World Imagery
@@ -839,7 +845,7 @@
 <p>Para conectar-se a um WMS:</p>
 <ol style="list-style-type: decimal">
 <li>Vá para <strong>Painel do navegador</strong></li>
-<li><strong>Clique com o botão direito em WMS / WMTS ‣ Nova conexão</strong></li>
+<li><strong>Clique com o botão direito em WMS / WMTS &gt; Nova conexão</strong></li>
 <li>Adicione o seguinte:</li>
 </ol>
 <pre><code>Nome: Risco de inundação LiPAD 100 anos
@@ -885,7 +891,7 @@ URL de: https://api.mapbox.com/styles/v1/osmph/cjqrynb300m522sper0emmgs6/wmts?ac
 <h2><span class="header-section-number">4.7</span> Exportando Camadas, Camadas na Memória (Temporárias) e Camadas Virtuais</h2>
 <div id="exportando-camadas-do-qgis" class="section level3" number="4.7.1">
 <h3><span class="header-section-number">4.7.1</span> <strong>Exportando Camadas do QGIS</strong></h3>
-<p>Exportar camadas (ou salvar camadas em arquivos) é simples no QGIS. Simplesmente <strong>clique com o botão direito do mouse na camada ‣ Exportar</strong> para visualizar as opções de exportação da camada.</p>
+<p>Exportar camadas (ou salvar camadas em arquivos) é simples no QGIS. Simplesmente <strong>clique com o botão direito do mouse na camada &gt; Exportar</strong> para visualizar as opções de exportação da camada.</p>
 <div class="figure">
 <img src="media/modulo2/exporting-layers.png" title="Exportando uma camada do QGIS" alt="" />
 <p class="caption">Exportando uma camada do QGIS</p>
@@ -913,7 +919,7 @@ URL de: https://api.mapbox.com/styles/v1/osmph/cjqrynb300m522sper0emmgs6/wmts?ac
 <p>Às vezes, não precisamos ou não queremos salvar fisicamente as camadas que usamos em nossa análise em nossos computadores, especialmente se forem apenas temporárias.</p>
 <p>QGIS entende isso e permite que os usuários criem camadas <strong>temporárias / rascunho (scratch)</strong>. Essas camadas podem ser usadas de forma semelhante às camadas vetoriais regulares, mas não precisam ser permanentemente salvas em um arquivo em nossas unidades de armazenamento porque o QGIS as armazena na memória ou RAM. Camadas temporárias são mostradas no Painel de camadas com este ícone <img src="media/modulo2/symbol-temp.png" title="Símbolo de camada temporária" alt="Símbolo de camada temporária" />.</p>
 <p>Os resultados dos algoritmos de processamento são armazenadas como camadas temporárias por padrão.</p>
-<p>A desvantagem das camadas temporárias é que o QGIS “<strong>esquece</strong>” essas “<strong>camadas na memória</strong>” quando é fechado. Para remediar isso, podemos usar o <strong>plugin Memory Layer Saver</strong> para permitir que nossas camadas temporárias sejam persistentes. Ao salvar um projeto QGIS que usa camadas temporárias, é uma boa prática executar / ativar o plugin Memory Layer Saver primeiro. Para usar o plugin Memory Layer Saver, simplesmente vá para <strong>Plugins ‣ Memory Layer Saver</strong> antes de salvar e fechar seu projeto QGIS. Na próxima vez que você abrir seu projeto QGIS, as camadas temporárias (ou camadas na memória) ainda devem estar presentes.</p>
+<p>A desvantagem das camadas temporárias é que o QGIS “<strong>esquece</strong>” essas “<strong>camadas na memória</strong>” quando é fechado. Para remediar isso, podemos usar o <strong>plugin Memory Layer Saver</strong> para permitir que nossas camadas temporárias sejam persistentes. Ao salvar um projeto QGIS que usa camadas temporárias, é uma boa prática executar / ativar o plugin Memory Layer Saver primeiro. Para usar o plugin Memory Layer Saver, simplesmente vá para <strong>Plugins &gt; Memory Layer Saver</strong> antes de salvar e fechar seu projeto QGIS. Na próxima vez que você abrir seu projeto QGIS, as camadas temporárias (ou camadas na memória) ainda devem estar presentes.</p>
 <p>É claro que você também pode tornar a camada temporária permanente, exportando a camada para um arquivo. Ao clicar no ícone <img src="media/modulo2/symbol-temp.png" title="Símbolo de camada temporária" alt="Símbolo de camada temporária" /> você abrirá automaticamente uma caixa de diálogo de exportação de camada.</p>
 </div>
 <div id="camadas-virtuais" class="section level3" number="4.7.3">
@@ -954,7 +960,7 @@ URL de: https://api.mapbox.com/styles/v1/osmph/cjqrynb300m522sper0emmgs6/wmts?ac
 <p>GeoNode (<a href="https://geonode.org/">https://geonode.org/</a>) é um sistema de gerenciamento de conteúdo geoespacial de código aberto construído com uma pilha FOSS4G madura que inclui PostGIS, GeoServer, MapStore, etc. Você pode pensar no GeoNode como um portal de dados geoespaciais. Você pode conectar facilmente o QGIS a uma instância GeoNode através do conector GeoNode no Painel do Navegador ou no Gerenciador de Fonte de Dados.</p>
 <ol style="list-style-type: decimal">
 <li>Vá para o <strong>Painel do navegador</strong></li>
-<li>Clique com o botão direito em <strong>GeoNode ‣ Nova conexão</strong></li>
+<li>Clique com o botão direito em <strong>GeoNode &gt; Nova conexão</strong></li>
 <li>Adicione o seguinte:</li>
 </ol>
 <pre><code>Nome: UNESCO IHP-WINS
@@ -982,7 +988,7 @@ URL: [http://ihp-wins.unesco.org/](http://ihp-wins.unesco.org/)</code></pre>
 <p class="caption">GeoPackage Layer já existe</p>
 </div>
 <ol start="4" style="list-style-type: decimal">
-<li>Ative a edição na camada <code>arvores</code> clicando com o botão direito nela ‣ Alterne a edição ou clique <img src="media/modulo2/symbol-edit.png" title="Alternar símbolo de edição" alt="Alternar símbolo de edição" /> na barra de ferramentas de digitalização.</li>
+<li>Ative a edição na camada <code>arvores</code> clicando com o botão direito nela &gt; Alterne a edição ou clique <img src="media/modulo2/symbol-edit.png" title="Alternar símbolo de edição" alt="Alternar símbolo de edição" /> na barra de ferramentas de digitalização.</li>
 <li>Selecione uma área na imagem de satélite que contenha árvores.</li>
 <li>Com a edição ativada, habilite a adição de pontos à camada Árvores clicando em <img src="media/modulo2/symbol-add-point.png" title="[Adicionar novo símbolo de ponto" alt="Adicionar novo símbolo de ponto" /> (CTRL +.).</li>
 <li>Digitalize árvores individuais clicando em sua localização e adicionando as informações de atributo. Faça isso para 4 árvores. Para este exercício, você pode apenas adivinhar as informações.</li>
@@ -1058,8 +1064,8 @@ na barra de ferramentas do Gerenciador de fonte de dados.</li>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
@@ -1074,7 +1080,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/module02.Rmd",
+"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module02.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -1085,7 +1091,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["_main.pdf", "_main.epub"],
+"download": ["ebook-gis.pdf", "ebook-gis.epub"],
 "search": {
 "engine": "fuse",
 "options": null

@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="pt" xml:lang="pt">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 8 Atributos da camada | Introdução ao QGIS</title>
+  <title>Capitulo 8 Atributos da camada | Geodados: uma introdução gentil</title>
   <meta name="description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 8 Atributos da camada | Introdução ao QGIS" />
+  <meta property="og:title" content="Capitulo 8 Atributos da camada | Geodados: uma introdução gentil" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="/media/cover.jpg" />
+  <meta property="og:url" content="escola-de-dados.github.io/GIS-curriculum/" />
+  <meta property="og:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
   <meta property="og:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="github-repo" content="escola-de-dados/GIS-curriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 8 Atributos da camada | Introdução ao QGIS" />
+  <meta name="twitter:title" content="Capitulo 8 Atributos da camada | Geodados: uma introdução gentil" />
   
   <meta name="twitter:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
-  <meta name="twitter:image" content="/media/cover.jpg" />
+  <meta name="twitter:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
 
 <meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
 
@@ -69,10 +69,13 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Introdução ao QGis</a></li>
+<li><a href="./">Geodados: uma introdução gentil</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#conjuntos-de-dados"><i class="fa fa-check"></i><b>1.1</b> Conjuntos de dados</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i><b>2</b> Introdução</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introdução.html"><a href="introdução.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>2.1</b> Introdução suave a conceitos de GIS</a>
@@ -83,7 +86,7 @@
 <li class="chapter" data-level="2.1.4" data-path="introdução.html"><a href="introdução.html#recursos-adicionais"><i class="fa fa-check"></i><b>2.1.4</b> Recursos adicionais</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="introdução.html"><a href="introdução.html#introdução-temática"><i class="fa fa-check"></i><b>2.2</b> Introdução temática</a></li>
-<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e Coordenadas</a>
+<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e coordenadas</a>
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="introdução.html"><a href="introdução.html#projeções-cartográficas"><i class="fa fa-check"></i><b>2.3.1</b> Projeções cartográficas</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introdução.html"><a href="introdução.html#sistemas-de-referência-de-coordenadas"><i class="fa fa-check"></i><b>2.3.2</b> Sistemas de referência de coordenadas</a></li>
@@ -163,14 +166,14 @@
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3</b> Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> <strong>Tipos de dados e formatos de arquivo comuns</strong></a></li>
+<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> Tipos de dados e formatos de arquivo comuns</a></li>
 <li class="chapter" data-level="4.3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-fontes-de-dados"><i class="fa fa-check"></i><b>4.3.2</b> <strong>Tipos de fontes de dados</strong></a></li>
 <li class="chapter" data-level="4.3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#carregando-camadas-no-qgis"><i class="fa fa-check"></i><b>4.3.3</b> <strong>Carregando camadas no QGIS</strong></a></li>
 <li class="chapter" data-level="4.3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-do-navegador"><i class="fa fa-check"></i><b>4.3.4</b> <strong>O painel do navegador</strong></a></li>
 <li class="chapter" data-level="4.3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3.5</b> <strong>O painel de camadas</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> <strong>Propriedades da camada</strong></a></li>
-<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> <strong>Metadados geoespaciais</strong></a>
+<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> Propriedades da camada</a></li>
+<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> Metadados geoespaciais</a>
 <ul>
 <li class="chapter" data-level="4.5.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#exercício-01.2-adicionando-metadados"><i class="fa fa-check"></i><b>4.5.1</b> <strong>Exercício 01.2: Adicionando metadados</strong></a></li>
 </ul></li>
@@ -256,7 +259,7 @@
 <li class="chapter" data-level="6.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#tutorial-1"><i class="fa fa-check"></i><b>6.6.2</b> <strong>Tutorial</strong></a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo Mapas</a>
+<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo mapas</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>7.1</b> Introdução Pedagógica</a>
 <ul>
@@ -352,7 +355,7 @@
 <li class="chapter" data-level="10.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#o-modelo-de-dados-vetoriais"><i class="fa fa-check"></i><b>10.3</b> O modelo de dados vetoriais</a></li>
 <li class="chapter" data-level="10.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#metadados"><i class="fa fa-check"></i><b>10.4</b> Metadados</a></li>
 <li class="chapter" data-level="10.5" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#lógica-do-processamento-vetorial"><i class="fa fa-check"></i><b>10.5</b> Lógica do processamento vetorial</a></li>
-<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados."><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados.</a>
+<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados"><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados</a>
 <ul>
 <li class="chapter" data-level="10.6.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-1.-prepare-seu-ambiente-de-trabalho."><i class="fa fa-check"></i><b>10.6.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
 <li class="chapter" data-level="10.6.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-2.-entenda-o-que-você-está-olhando."><i class="fa fa-check"></i><b>10.6.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
@@ -360,27 +363,30 @@
 <li class="chapter" data-level="10.6.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-4.-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos."><i class="fa fa-check"></i><b>10.6.4</b> <strong>Etapa 4. Observe as informações anexadas aos pontos, linhas e polígonos.</strong></a></li>
 </ul></li>
 <li class="chapter" data-level="10.7" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-ao-processamento-vetorial"><i class="fa fa-check"></i><b>10.7</b> Introdução ao processamento vetorial</a></li>
-<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística.-interpolação---estimativa-de-dados-faltantes"><i class="fa fa-check"></i><b>10.8</b> Geoestatística. Interpolação - estimativa de dados faltantes</a></li>
+<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística-e-interpolação"><i class="fa fa-check"></i><b>10.8</b> Geoestatística e interpolação</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html"><i class="fa fa-check"></i><b>11</b> <strong>Processamento e análise raster</strong></a>
 <ul>
-<li class="chapter" data-level="11.0.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.0.1</b> Ferramentas e recursos necessários</a></li>
-<li class="chapter" data-level="11.0.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.0.2</b> Pré-requisitos:</a></li>
-<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.1</b> O modelo de dados</a></li>
-<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.2</b> Racional do processamento raster</a></li>
-<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.3</b> Entendendo seus dados raster.</a>
+<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>11.1</b> Introdução pedagógica</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.3.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
-<li class="chapter" data-level="11.3.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.3.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+<li class="chapter" data-level="11.1.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.1.1</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="11.1.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.1.2</b> Pré-requisitos:</a></li>
 </ul></li>
-<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.4</b> Introdução ao trabalho com dados raster</a></li>
-<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais."><i class="fa fa-check"></i><b>11.5</b> <strong>Trabalho com dados raster e vetoriais.</strong></a></li>
-<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.6</b> Referências:</a></li>
-<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.7</b> Notas</a></li>
+<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.2</b> O modelo de dados</a></li>
+<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.3</b> Racional do processamento raster</a></li>
+<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.4</b> Entendendo seus dados raster.</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.4.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
+<li class="chapter" data-level="11.4.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.4.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.5</b> Introdução ao trabalho com dados raster</a></li>
+<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais"><i class="fa fa-check"></i><b>11.6</b> Trabalho com dados raster e vetoriais</a></li>
+<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.7</b> Referências:</a></li>
+<li class="chapter" data-level="11.8" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.8</b> Notas</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="plugins-qgis.html"><a href="plugins-qgis.html"><i class="fa fa-check"></i><b>12</b> Plugins QGIS</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
+<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-10"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
 <ul>
 <li class="chapter" data-level="12.1.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#adquirir-as-seguintes-habilidades"><i class="fa fa-check"></i><b>12.1.1</b> Adquirir as seguintes habilidades:</a></li>
 <li class="chapter" data-level="12.1.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#ferramentas-e-recursos-necessários-9"><i class="fa fa-check"></i><b>12.1.2</b> Ferramentas e recursos necessários</a></li>
@@ -405,7 +411,7 @@
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado com o bookdown</a></li>
 
 </ul>
 
@@ -416,7 +422,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGIS</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Geodados: uma introdução gentil</a>
           </h1>
         </div>
 
@@ -530,7 +536,7 @@
 <h3><span class="header-section-number">8.3.1</span> <strong>Conteúdo/Tutorial</strong></h3>
 <p>A tabela de atributos exibe informações sobre os recursos de uma camada selecionada. Cada linha da tabela representa uma feição (com ou sem geometria) e cada coluna contém uma informação específica sobre a feição. As feições da tabela podem ser pesquisadas, selecionadas, movidas ou mesmo editadas.</p>
 <ol style="list-style-type: decimal">
-<li>Carregue a camada vetorial de UFs PHL (encontrada em <a href="data/module6.gpkg">module6.gpkg</a>) no QGIS. Você pode descobrir quantas feições estão no recurso atual <strong>clicando com o botão direito do mouse na camada no painel Camadas ‣ Mostrar contagem de feições</strong>. Como você pode ver abaixo, a camada vetorial tem muitas feições. No total, são 27 feições correspondentes a 27 UFs.</li>
+<li>Carregue a camada vetorial de UFs PHL (encontrada em <a href="data/module6.gpkg">module6.gpkg</a>) no QGIS. Você pode descobrir quantas feições estão no recurso atual <strong>clicando com o botão direito do mouse na camada no painel Camadas &gt; Mostrar contagem de feições</strong>. Como você pode ver abaixo, a camada vetorial tem muitas feições. No total, são 27 feições correspondentes a 27 UFs.</li>
 </ol>
 <div class="figure">
 <img src="media/modulo6/many-polygons.png" title="Vários polígonos" alt="" />
@@ -538,7 +544,7 @@
 </div>
 <p>Figura 6.1: Vários polígonos</p>
 <ol start="2" style="list-style-type: decimal">
-<li>O próximo passo é explorar a interface da tabela de atributos. Abra a tabela de atributos <strong>clicando com o botão direito do mouse na camada no painel Layers ‣ Abrir tabela de atributos</strong>. Você também pode clicar no <strong>botão Abrir Tabela de Atributos</strong> <img src="media/modulo6/open-attribute-btn.png" title="botão Abrir tabela de atributos" alt="Botão Abrir tabela de atributos" /> na Barra de Ferramentas de Atributos. Esta é a aparência da tabela de atributos. A barra de ferramentas tem vários botões; passe o mouse sobre cada botão para ver sua funcionalidade.</li>
+<li>O próximo passo é explorar a interface da tabela de atributos. Abra a tabela de atributos <strong>clicando com o botão direito do mouse na camada no painel Layers &gt; Abrir tabela de atributos</strong>. Você também pode clicar no <strong>botão Abrir Tabela de Atributos</strong> <img src="media/modulo6/open-attribute-btn.png" title="botão Abrir tabela de atributos" alt="Botão Abrir tabela de atributos" /> na Barra de Ferramentas de Atributos. Esta é a aparência da tabela de atributos. A barra de ferramentas tem vários botões; passe o mouse sobre cada botão para ver sua funcionalidade.</li>
 </ol>
 <div class="figure">
 <img src="media/modulo6/attribute-tab.png" title="Abrir tabela de atributos" alt="" />
@@ -553,7 +559,7 @@
 <p>Figura 6.3: Tabela de atributos ancorada</p>
 <ol start="3" style="list-style-type: decimal">
 <li><p>Para cálculos de área, o Sistema de Referência de Coordenadas deve ser projetado. Isso permite calcular as distâncias corretamente. Lembre-se, nosso interesse é calcular automaticamente a área para cada uma das 27 UFs. Verifique o Sistema de Referência de Coordenadas da camada vetorial. Se for um sistema de referência de coordenadas geográficas, então reprojete a camada para um sistema de coordenadas projetadas. Verifique as diferentes projeções no site <a href="https://epsg.io/?q=Brazil+kind%3APROJCRS">EPSG</a>. No Brasil, usaremos <a href="https://epsg.io/5641">SIRGAS 2000 / Brazil Mercator</a>, EPSG: 5641. Dos módulos anteriores, onde as projeções de mapas são amplamente discutidas, você já deve saber que as projeções de mapas são aplicadas em relação a um local específico na Terra.</p></li>
-<li><p>Verifique as configurações do projeto; Acesse: <strong>Projeto ‣ Propriedades Propriedades ‣ Geral</strong>.</p></li>
+<li><p>Verifique as configurações do projeto; Acesse: <strong>Projeto &gt; Propriedades Propriedades &gt; Geral</strong>.</p></li>
 </ol>
 <div class="figure">
 <img src="media/modulo6/gen-settings.png" title="Planimetric" alt="" />
@@ -722,8 +728,8 @@ END</code></pre>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
@@ -738,7 +744,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/module06.Rmd",
+"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module06.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -749,7 +755,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["_main.pdf", "_main.epub"],
+"download": ["ebook-gis.pdf", "ebook-gis.epub"],
 "search": {
 "engine": "fuse",
 "options": null

@@ -1,4 +1,5 @@
 créditos
+conjuntos-de-dados
 introdução
 introdução-suave-a-conceitos-de-gis
 introdução-pedagógica
@@ -193,7 +194,7 @@ detalhamento-dos-conceitos-4
 o-modelo-de-dados-vetoriais
 metadados
 lógica-do-processamento-vetorial
-entendendo-seus-dados.
+entendendo-seus-dados
 etapa-1.-prepare-seu-ambiente-de-trabalho.
 etapa-2.-entenda-o-que-você-está-olhando.
 etapa-3.-verificações-básicas-para-encontrar-erros-rapidamente-em-seus-dados.
@@ -206,8 +207,9 @@ landuse
 perguntas-do-teste
 introdução-ao-processamento-vetorial
 perguntas-do-teste-1
-geoestatística.-interpolação---estimativa-de-dados-faltantes
+geoestatística-e-interpolação
 processamento-e-análise-raster
+introdução-pedagógica-9
 ferramentas-e-recursos-necessários-8
 pré-requisitos-9
 o-modelo-de-dados
@@ -218,12 +220,12 @@ etapa-2.-entenda-o-que-você-está-olhando.-1
 perguntas-do-questionário-15
 introdução-ao-trabalho-com-dados-raster
 perguntas-do-questionário-16
-trabalho-com-dados-raster-e-vetoriais.
+trabalho-com-dados-raster-e-vetoriais
 perguntas-do-questionário-17
 referências
 notas
 plugins-qgis
-introdução-pedagógica-9
+introdução-pedagógica-10
 adquirir-as-seguintes-habilidades
 ferramentas-e-recursos-necessários-9
 pré-requisitos-10

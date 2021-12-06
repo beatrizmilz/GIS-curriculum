@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="pt" xml:lang="pt">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 10 Processamento e análise vetorial | Introdução ao QGIS</title>
+  <title>Capitulo 10 Processamento e análise vetorial | Geodados: uma introdução gentil</title>
   <meta name="description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 10 Processamento e análise vetorial | Introdução ao QGIS" />
+  <meta property="og:title" content="Capitulo 10 Processamento e análise vetorial | Geodados: uma introdução gentil" />
   <meta property="og:type" content="book" />
-  
-  <meta property="og:image" content="/media/cover.jpg" />
+  <meta property="og:url" content="escola-de-dados.github.io/GIS-curriculum/" />
+  <meta property="og:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
   <meta property="og:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="github-repo" content="escola-de-dados/GIS-curriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 10 Processamento e análise vetorial | Introdução ao QGIS" />
+  <meta name="twitter:title" content="Capitulo 10 Processamento e análise vetorial | Geodados: uma introdução gentil" />
   
   <meta name="twitter:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
-  <meta name="twitter:image" content="/media/cover.jpg" />
+  <meta name="twitter:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
 
 <meta name="author" content="Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie" />
 
@@ -69,10 +69,13 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Introdução ao QGis</a></li>
+<li><a href="./">Geodados: uma introdução gentil</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Créditos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#conjuntos-de-dados"><i class="fa fa-check"></i><b>1.1</b> Conjuntos de dados</a></li>
+</ul></li>
 <li class="chapter" data-level="2" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i><b>2</b> Introdução</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introdução.html"><a href="introdução.html#introdução-suave-a-conceitos-de-gis"><i class="fa fa-check"></i><b>2.1</b> Introdução suave a conceitos de GIS</a>
@@ -83,7 +86,7 @@
 <li class="chapter" data-level="2.1.4" data-path="introdução.html"><a href="introdução.html#recursos-adicionais"><i class="fa fa-check"></i><b>2.1.4</b> Recursos adicionais</a></li>
 </ul></li>
 <li class="chapter" data-level="2.2" data-path="introdução.html"><a href="introdução.html#introdução-temática"><i class="fa fa-check"></i><b>2.2</b> Introdução temática</a></li>
-<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e Coordenadas</a>
+<li class="chapter" data-level="2.3" data-path="introdução.html"><a href="introdução.html#mapas-e-coordenadas"><i class="fa fa-check"></i><b>2.3</b> Mapas e coordenadas</a>
 <ul>
 <li class="chapter" data-level="2.3.1" data-path="introdução.html"><a href="introdução.html#projeções-cartográficas"><i class="fa fa-check"></i><b>2.3.1</b> Projeções cartográficas</a></li>
 <li class="chapter" data-level="2.3.2" data-path="introdução.html"><a href="introdução.html#sistemas-de-referência-de-coordenadas"><i class="fa fa-check"></i><b>2.3.2</b> Sistemas de referência de coordenadas</a></li>
@@ -163,14 +166,14 @@
 </ul></li>
 <li class="chapter" data-level="4.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-formatos-de-arquivo-o-painel-do-navegador-e-o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3</b> Tipos de dados, formatos de arquivo, o painel do navegador e o painel de camadas</a>
 <ul>
-<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> <strong>Tipos de dados e formatos de arquivo comuns</strong></a></li>
+<li class="chapter" data-level="4.3.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-dados-e-formatos-de-arquivo-comuns"><i class="fa fa-check"></i><b>4.3.1</b> Tipos de dados e formatos de arquivo comuns</a></li>
 <li class="chapter" data-level="4.3.2" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#tipos-de-fontes-de-dados"><i class="fa fa-check"></i><b>4.3.2</b> <strong>Tipos de fontes de dados</strong></a></li>
 <li class="chapter" data-level="4.3.3" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#carregando-camadas-no-qgis"><i class="fa fa-check"></i><b>4.3.3</b> <strong>Carregando camadas no QGIS</strong></a></li>
 <li class="chapter" data-level="4.3.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-do-navegador"><i class="fa fa-check"></i><b>4.3.4</b> <strong>O painel do navegador</strong></a></li>
 <li class="chapter" data-level="4.3.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#o-painel-de-camadas"><i class="fa fa-check"></i><b>4.3.5</b> <strong>O painel de camadas</strong></a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> <strong>Propriedades da camada</strong></a></li>
-<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> <strong>Metadados geoespaciais</strong></a>
+<li class="chapter" data-level="4.4" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#propriedades-da-camada"><i class="fa fa-check"></i><b>4.4</b> Propriedades da camada</a></li>
+<li class="chapter" data-level="4.5" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#metadados-geoespaciais"><i class="fa fa-check"></i><b>4.5</b> Metadados geoespaciais</a>
 <ul>
 <li class="chapter" data-level="4.5.1" data-path="camadas-no-qgis.html"><a href="camadas-no-qgis.html#exercício-01.2-adicionando-metadados"><i class="fa fa-check"></i><b>4.5.1</b> <strong>Exercício 01.2: Adicionando metadados</strong></a></li>
 </ul></li>
@@ -256,7 +259,7 @@
 <li class="chapter" data-level="6.6.2" data-path="camadas-de-estilo.html"><a href="camadas-de-estilo.html#tutorial-1"><i class="fa fa-check"></i><b>6.6.2</b> <strong>Tutorial</strong></a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo Mapas</a>
+<li class="chapter" data-level="7" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html"><i class="fa fa-check"></i><b>7</b> Fazendo mapas</a>
 <ul>
 <li class="chapter" data-level="7.1" data-path="fazendo-mapas.html"><a href="fazendo-mapas.html#introdução-pedagógica-5"><i class="fa fa-check"></i><b>7.1</b> Introdução Pedagógica</a>
 <ul>
@@ -352,7 +355,7 @@
 <li class="chapter" data-level="10.3" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#o-modelo-de-dados-vetoriais"><i class="fa fa-check"></i><b>10.3</b> O modelo de dados vetoriais</a></li>
 <li class="chapter" data-level="10.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#metadados"><i class="fa fa-check"></i><b>10.4</b> Metadados</a></li>
 <li class="chapter" data-level="10.5" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#lógica-do-processamento-vetorial"><i class="fa fa-check"></i><b>10.5</b> Lógica do processamento vetorial</a></li>
-<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados."><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados.</a>
+<li class="chapter" data-level="10.6" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#entendendo-seus-dados"><i class="fa fa-check"></i><b>10.6</b> Entendendo seus dados</a>
 <ul>
 <li class="chapter" data-level="10.6.1" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-1.-prepare-seu-ambiente-de-trabalho."><i class="fa fa-check"></i><b>10.6.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
 <li class="chapter" data-level="10.6.2" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-2.-entenda-o-que-você-está-olhando."><i class="fa fa-check"></i><b>10.6.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
@@ -360,27 +363,30 @@
 <li class="chapter" data-level="10.6.4" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#etapa-4.-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos."><i class="fa fa-check"></i><b>10.6.4</b> <strong>Etapa 4. Observe as informações anexadas aos pontos, linhas e polígonos.</strong></a></li>
 </ul></li>
 <li class="chapter" data-level="10.7" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#introdução-ao-processamento-vetorial"><i class="fa fa-check"></i><b>10.7</b> Introdução ao processamento vetorial</a></li>
-<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística.-interpolação---estimativa-de-dados-faltantes"><i class="fa fa-check"></i><b>10.8</b> Geoestatística. Interpolação - estimativa de dados faltantes</a></li>
+<li class="chapter" data-level="10.8" data-path="processamento-e-análise-vetorial.html"><a href="processamento-e-análise-vetorial.html#geoestatística-e-interpolação"><i class="fa fa-check"></i><b>10.8</b> Geoestatística e interpolação</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html"><i class="fa fa-check"></i><b>11</b> <strong>Processamento e análise raster</strong></a>
 <ul>
-<li class="chapter" data-level="11.0.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.0.1</b> Ferramentas e recursos necessários</a></li>
-<li class="chapter" data-level="11.0.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.0.2</b> Pré-requisitos:</a></li>
-<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.1</b> O modelo de dados</a></li>
-<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.2</b> Racional do processamento raster</a></li>
-<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.3</b> Entendendo seus dados raster.</a>
+<li class="chapter" data-level="11.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>11.1</b> Introdução pedagógica</a>
 <ul>
-<li class="chapter" data-level="11.3.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.3.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
-<li class="chapter" data-level="11.3.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.3.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+<li class="chapter" data-level="11.1.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#ferramentas-e-recursos-necessários-8"><i class="fa fa-check"></i><b>11.1.1</b> Ferramentas e recursos necessários</a></li>
+<li class="chapter" data-level="11.1.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#pré-requisitos-9"><i class="fa fa-check"></i><b>11.1.2</b> Pré-requisitos:</a></li>
 </ul></li>
-<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.4</b> Introdução ao trabalho com dados raster</a></li>
-<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais."><i class="fa fa-check"></i><b>11.5</b> <strong>Trabalho com dados raster e vetoriais.</strong></a></li>
-<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.6</b> Referências:</a></li>
-<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.7</b> Notas</a></li>
+<li class="chapter" data-level="11.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#o-modelo-de-dados"><i class="fa fa-check"></i><b>11.2</b> O modelo de dados</a></li>
+<li class="chapter" data-level="11.3" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#racional-do-processamento-raster"><i class="fa fa-check"></i><b>11.3</b> Racional do processamento raster</a></li>
+<li class="chapter" data-level="11.4" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#entendendo-seus-dados-raster."><i class="fa fa-check"></i><b>11.4</b> Entendendo seus dados raster.</a>
+<ul>
+<li class="chapter" data-level="11.4.1" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-1.-prepare-seu-ambiente-de-trabalho.-1"><i class="fa fa-check"></i><b>11.4.1</b> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></a></li>
+<li class="chapter" data-level="11.4.2" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#etapa-2.-entenda-o-que-você-está-olhando.-1"><i class="fa fa-check"></i><b>11.4.2</b> <strong>Etapa 2. Entenda o que você está olhando.</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#introdução-ao-trabalho-com-dados-raster"><i class="fa fa-check"></i><b>11.5</b> Introdução ao trabalho com dados raster</a></li>
+<li class="chapter" data-level="11.6" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#trabalho-com-dados-raster-e-vetoriais"><i class="fa fa-check"></i><b>11.6</b> Trabalho com dados raster e vetoriais</a></li>
+<li class="chapter" data-level="11.7" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#referências"><i class="fa fa-check"></i><b>11.7</b> Referências:</a></li>
+<li class="chapter" data-level="11.8" data-path="processamento-e-análise-raster.html"><a href="processamento-e-análise-raster.html#notas"><i class="fa fa-check"></i><b>11.8</b> Notas</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="plugins-qgis.html"><a href="plugins-qgis.html"><i class="fa fa-check"></i><b>12</b> Plugins QGIS</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-9"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
+<li class="chapter" data-level="12.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#introdução-pedagógica-10"><i class="fa fa-check"></i><b>12.1</b> Introdução Pedagógica</a>
 <ul>
 <li class="chapter" data-level="12.1.1" data-path="plugins-qgis.html"><a href="plugins-qgis.html#adquirir-as-seguintes-habilidades"><i class="fa fa-check"></i><b>12.1.1</b> Adquirir as seguintes habilidades:</a></li>
 <li class="chapter" data-level="12.1.2" data-path="plugins-qgis.html"><a href="plugins-qgis.html#ferramentas-e-recursos-necessários-9"><i class="fa fa-check"></i><b>12.1.2</b> Ferramentas e recursos necessários</a></li>
@@ -405,7 +411,7 @@
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado com o bookdown</a></li>
 
 </ul>
 
@@ -416,7 +422,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introdução ao QGIS</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Geodados: uma introdução gentil</a>
           </h1>
         </div>
 
@@ -526,8 +532,8 @@
 </div>
 <p>Figura 8.4 - Elementos de uma operação de geoprocessamento</p>
 </div>
-<div id="entendendo-seus-dados." class="section level2" number="10.6">
-<h2><span class="header-section-number">10.6</span> Entendendo seus dados.</h2>
+<div id="entendendo-seus-dados" class="section level2" number="10.6">
+<h2><span class="header-section-number">10.6</span> Entendendo seus dados</h2>
 <p>Existem muitas operações de geoprocessamento que podem ser realizadas sobre dados vetoriais, as mais comuns sendo a sobreposição de feições geográficas, seleção e análise de recursos, processamento de topologia e conversão de dados. Nesta primeira fase, vamos nos familiarizar com alguns desses, entendendo como funcionam e quais os resultados que podemos esperar deles.</p>
 <div id="etapa-1.-prepare-seu-ambiente-de-trabalho." class="section level3" number="10.6.1">
 <h3><span class="header-section-number">10.6.1</span> <strong>Etapa 1. Prepare seu ambiente de trabalho.</strong></h3>
@@ -570,9 +576,9 @@ Abra a tabela de atributos da camada de interesse e olhe na parte superior lado 
 <ul>
 <li>Execute estatísticas básicas nas camadas carregadas para obter uma melhor compreensão de seus dados (figura 8.7):</li>
 </ul>
-<pre><code>Menu de vetores ‣ Análise ‣ Campo para estatística básica
+<pre><code>Menu de vetores &gt; Análise &gt; Campo para estatística básica
 
-Janela da caixa de ferramentas de processamento ‣ pesquisa por &#39;stats&#39;`</code></pre>
+Janela da caixa de ferramentas de processamento &gt; pesquisa por &#39;stats&#39;`</code></pre>
 <div class="figure">
 <img src="media/modulo8/fig87.png" title="Estatísticas básicas para campos" alt="" />
 <p class="caption">Estatísticas básicas para campos</p>
@@ -714,7 +720,7 @@ Comprimento médio: 0.9626147183854008</code></pre>
 <li>camada road - atributo fclass;</li>
 <li>camada landuse - atributo fclass;</li>
 </ul>
-<p>Para isso, vá para <strong>Vetor ‣ Analisar ‣ Listar valores únicos</strong> (figura 8.19). Depois, clique em “Executar processo em Lote…”, na parte inferior da janela.</p>
+<p>Para isso, vá para <strong>Vetor &gt; Analisar &gt; Listar valores únicos</strong> (figura 8.19). Depois, clique em “Executar processo em Lote…”, na parte inferior da janela.</p>
 <div class="figure">
 <img src="media/modulo8/fig819_a.png" title="Listar valores únicos em uma funcionalidade de camada vetorial" alt="" />
 <p class="caption">Listar valores únicos em uma funcionalidade de camada vetorial</p>
@@ -767,7 +773,7 @@ Comprimento médio: 0.9626147183854008</code></pre>
 }</code></pre>
 <p>Tabela 8.1 - Tabela que identifica quantos e quais são os valores únicos para os atributos selecionados</p>
 <p>Para uma análise mais aprofundada dos atributos de nossas camadas vetoriais, usaremos o plugin Group Stats. Ele foi desenvolvido para oferecer suporte ao cálculo de estatísticas para grupos de recursos em uma camada vetorial, tornando-o muito útil para obter mais compreensão de seus dados, bem como para detectar possíveis erros nos atributos.</p>
-<p>Primeiro, certifique-se de ter instalado e ativado o plugin Group Stats. Em seguida, para abrir a janela Group Stats, vá para <strong>Vetor ‣ Group Stats ‣ Group Stats</strong>.</p>
+<p>Primeiro, certifique-se de ter instalado e ativado o plugin Group Stats. Em seguida, para abrir a janela Group Stats, vá para <strong>Vetor &gt; Group Stats &gt; Group Stats</strong>.</p>
 <div class="figure">
 <img src="media/modulo8/fig820_a.png" title="plugin Group Stats" alt="" />
 <p class="caption">Plugin Group Stats</p>
@@ -824,7 +830,7 @@ Comprimento médio: 0.9626147183854008</code></pre>
 <p>A primeira fase do módulo vetorial fez uma breve introdução sobre as etapas que se devem realizar para se ter uma compreensão básica dos dados geoespaciais que temos em mãos.</p>
 <p>Esta segunda fase do módulo leva a um trabalho mais aprofundado para processar dados vetoriais a fim de extrair percepções valiosas para auxiliar na tomada de decisões. Seguindo os conceitos descritos no início deste módulo, o geoprocessamento representa qualquer processo aplicado a um conjunto de dados geográficos, com o objetivo de obter um conjunto de dados derivado abrindo novos insights sobre os dados. E é isso que tentaremos fazer a seguir.</p>
 <p>Existem muitas operações que podem ser realizadas em um ou mais conjuntos de dados geoespaciais e, durante esta primeira etapa, executaremos algumas das mais comuns para entender como funcionam.</p>
-<p><strong>Buffer.</strong> Imagine que você precise analisar uma nova legislação que exige que em uma área de 500 metros ao redor de locais de culto não possa haver outra construção. Você gostaria de ver onde exatamente essas delimitações estão e talvez até quantos metros quadrados isso representa para o seu distrito. O primeiro passo é definir um buffer em torno dos locais de culto: <strong>Vector ‣ ferramentas de geoprocessamento ‣ Buffer (Amortecedor)</strong>. Quando a janela do buffer abrir, defina os parâmetros como na figura 8.23:</p>
+<p><strong>Buffer.</strong> Imagine que você precise analisar uma nova legislação que exige que em uma área de 500 metros ao redor de locais de culto não possa haver outra construção. Você gostaria de ver onde exatamente essas delimitações estão e talvez até quantos metros quadrados isso representa para o seu distrito. O primeiro passo é definir um buffer em torno dos locais de culto: <strong>Vector &gt; ferramentas de geoprocessamento &gt; Buffer (Amortecedor)</strong>. Quando a janela do buffer abrir, defina os parâmetros como na figura 8.23:</p>
 <div class="figure">
 <img src="media/modulo8/fig823.png" title="Definindo os parâmetros para um buffer de 500 m ao redor dos locais de culto" alt="" />
 <p class="caption">Definindo os parâmetros para um buffer de 500 m ao redor dos locais de culto</p>
@@ -842,7 +848,7 @@ Comprimento médio: 0.9626147183854008</code></pre>
 <p class="caption">Calcule a área para a camada recém-obtida e, em seguida, calcule usando Group Stats a soma total</p>
 </div>
 <p>Figura 8.25 - Calcule a área para a camada recém-obtida e, em seguida, calcule usando Group Stats a soma total.</p>
-<p><strong>Recortar</strong> Imagine que você queira saber onde estão todas as áreas industriais delineadas em seu distrito e também quantos edifícios estão dentro desse perímetro. Ao inspecionar visualmente seus dados vetoriais, você percebe que há várias áreas industriais que contêm vários edifícios. Você deseja separar esses edifícios e usá-los posteriormente. O primeiro passo é selecionar todos os recursos da camada de uso do solo que tenham como atributo industrial (ver módulo 6 para saber como fazer isso). Em seguida, você vai para <strong>Vetor ‣ Geoprocessamento ‣ Recortar</strong> e escolhe como a camada a ser recortada buildings. Seus resultados devem ser semelhantes à figura 8.27b.</p>
+<p><strong>Recortar</strong> Imagine que você queira saber onde estão todas as áreas industriais delineadas em seu distrito e também quantos edifícios estão dentro desse perímetro. Ao inspecionar visualmente seus dados vetoriais, você percebe que há várias áreas industriais que contêm vários edifícios. Você deseja separar esses edifícios e usá-los posteriormente. O primeiro passo é selecionar todos os recursos da camada de uso do solo que tenham como atributo industrial (ver módulo 6 para saber como fazer isso). Em seguida, você vai para <strong>Vetor &gt; Geoprocessamento &gt; Recortar</strong> e escolhe como a camada a ser recortada buildings. Seus resultados devem ser semelhantes à figura 8.27b.</p>
 <div class="figure">
 <img src="media/modulo8/fig826_a.png" title="Figura 8.26a - Selecione landuse fclass = industrial" alt="" />
 <p class="caption">Figura 8.26a - Selecione landuse fclass = industrial</p>
@@ -866,7 +872,7 @@ Comprimento médio: 0.9626147183854008</code></pre>
 </div>
 <p>Figura 8.27b - Resultados da funcionalidade de clipe</p>
 <p><strong>Polígonos de Thiessen (Voronoi).</strong> Imagine que você tenha que tomar uma série de decisões administrativas em seu distrito com base no número de escolas existentes e em quais áreas específicas elas atendem. A análise geoespacial pode ser útil. Você pode começar calculando os polígonos de Thiessen. Com base em uma área contendo pelo menos dois pontos, um polígono de Thiessen é uma forma bidimensional cujos limites contêm todo o espaço que está mais próximo de um ponto dentro da área do que qualquer outro ponto sem a área. Um bom exemplo de uso é em meteorologia, onde estações meteorológicas são pontos discretos, mas as informações coletadas são consideradas medidas na superfície com base nos polígonos de Thiessen.</p>
-<p>Para responder à pergunta acima, vamos executar o algoritmo apenas para pontos que têm o atributo escola no tipo. Portanto, faça a seleção conforme as instruções no módulo 6. Você deve ter 88 recursos selecionados na camada pois_cleaned. Vá para <strong>Vetor ‣ Geometria ‣ Polígonos de Voronoi</strong> Depois de definir os parâmetros - selecione a camada de pontos para a qual queremos os polígonos de Voronoi calculados e uma extensão de 30% para que toda a cidade do Recife esteja contida, você deve ver um resultado como na figura 8.28d.</p>
+<p>Para responder à pergunta acima, vamos executar o algoritmo apenas para pontos que têm o atributo escola no tipo. Portanto, faça a seleção conforme as instruções no módulo 6. Você deve ter 88 recursos selecionados na camada pois_cleaned. Vá para <strong>Vetor &gt; Geometria &gt; Polígonos de Voronoi</strong> Depois de definir os parâmetros - selecione a camada de pontos para a qual queremos os polígonos de Voronoi calculados e uma extensão de 30% para que toda a cidade do Recife esteja contida, você deve ver um resultado como na figura 8.28d.</p>
 <div class="figure">
 <img src="media/modulo8/fig828_a.png" title="Filtrando a camada de poi para obter todas as escolas" alt="" />
 <p class="caption">Filtrando a camada de poi para obter todas as escolas</p>
@@ -895,7 +901,7 @@ Comprimento médio: 0.9626147183854008</code></pre>
 <li>Comprimento total dos cursos d’água para cada unidade;</li>
 <li>número total de edifícios públicos para cada unidade (escolas, jardins de infância, hospitais, prefeituras etc.).</li>
 </ol>
-<p>Vimos que existem ferramentas que podem nos auxiliar no cálculo da superfície total ocupada por um determinado tipo de recurso, no entanto, o primeiro passo é criar nossas unidades 2X2 - grades de células. Para fazer isso, vá para: <strong>Vetor ‣ Investigar ‣ Criar grade ..</strong> Defina os parâmetros para:
+<p>Vimos que existem ferramentas que podem nos auxiliar no cálculo da superfície total ocupada por um determinado tipo de recurso, no entanto, o primeiro passo é criar nossas unidades 2X2 - grades de células. Para fazer isso, vá para: <strong>Vetor &gt; Investigar &gt; Criar grade ..</strong> Defina os parâmetros para:
 - Tipo de grade - Retângulo (polígono)
 - Extensão da grade - camada limites_mun_recife
 - Espaçamento horizontal - 2 km
@@ -972,9 +978,9 @@ Comprimento médio: 0.9626147183854008</code></pre>
 <p class="caption">Configuração de parâmetros GroupStat para somar as áreas verdes por cada célula de grade de 2X2km</p>
 </div>
 <p>Figura 8.34e - Configuração dos parâmetros do GroupStat para somar as áreas verdes por cada célula de grade de 2X2km.</p>
-<p>Em seguida, salve os resultados como um arquivo .csv denominado <code>espacos_verdes_grade</code>. Vá para <strong>Data ‣ Save all to CSV file</strong></p>
+<p>Em seguida, salve os resultados como um arquivo .csv denominado <code>espacos_verdes_grade</code>. Vá para <strong>Data &gt; Save all to CSV file</strong></p>
 <p>Execute Group Stats para o espaço construído da mesma maneira e salve-o como um arquivo csv denominado <code>espacos_construidos_grade</code>.</p>
-<p>A seguir, vamos trazer os 2 arquivos csv calculados com GroupStat para o QGIS (<strong>Camada ‣ Adicionar camada ‣ Adicionar camada de texto delimitado</strong> - veja mais detalhes no módulo 2).</p>
+<p>A seguir, vamos trazer os 2 arquivos csv calculados com GroupStat para o QGIS (<strong>Camada &gt; Adicionar camada &gt; Adicionar camada de texto delimitado</strong> - veja mais detalhes no módulo 2).</p>
 <div class="figure">
 <img src="media/modulo8/fig835_a.png" title="Carregando espacos_verdes_grade CSV" alt="" />
 <p class="caption">Carregando espacos_verdes_grade CSV</p>
@@ -1070,7 +1076,7 @@ END</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>número total de edifícios públicos (escolas, jardins de infância, hospitais, prefeituras etc.) para cada célula da grade</li>
 </ol>
-<p>Para contar o número total de prédios públicos na unidade 2X2, usaremos o pois_cleaned. Primeiro, executamos <strong>Vetor ‣ Analisar ‣ Lista de Valores Únicos</strong> e decidimos qual edifício consideramos público. Selecionaremos em nossa camada de dados de pontos vetoriais (pois) os seguintes recursos: <code>"fclass" IN ('arts_centre', 'embassy', 'hospital', 'library', 'museum', 'school', 'university', 'monument')</code>. Sua seleção deve ter 324 recursos no total.</p>
+<p>Para contar o número total de prédios públicos na unidade 2X2, usaremos o pois_cleaned. Primeiro, executamos <strong>Vetor &gt; Analisar &gt; Lista de Valores Únicos</strong> e decidimos qual edifício consideramos público. Selecionaremos em nossa camada de dados de pontos vetoriais (pois) os seguintes recursos: <code>"fclass" IN ('arts_centre', 'embassy', 'hospital', 'library', 'museum', 'school', 'university', 'monument')</code>. Sua seleção deve ter 324 recursos no total.</p>
 <div class="figure">
 <img src="media/modulo8/fig840_a.png" title="Selecionando POIs públicos" alt="" />
 <p class="caption">Selecionando POIs públicos</p>
@@ -1081,7 +1087,7 @@ END</code></pre>
 <p class="caption">POIS público selecionado</p>
 </div>
 <p>Figura 8.40b - POIS público selecionado</p>
-<p>Para responder à nossa solicitação, usaremos o algoritmo <strong>Vetor ‣ Analisar ‣ Contagem de pontos em polígono</strong>. Este algoritmo pega uma camada de pontos e uma camada de polígono e conta o número de pontos da primeira em cada polígono da segunda. Uma nova camada de polígonos é gerada, com exatamente o mesmo conteúdo da camada de polígonos de entrada, mas contendo um campo adicional com a contagem de pontos correspondente a cada polígono. Defina a camada de ponto para pois_cleand e a camada de grade de polígono com as informações calculadas na rodada anterior. Para os pontos, marque os <strong>Apenas feições selecionadas</strong>, para que o algoritmo calcule apenas os pontos selecionados - os POIs públicos. Salve o arquivo de saída como pontos_publicos_grade.</p>
+<p>Para responder à nossa solicitação, usaremos o algoritmo <strong>Vetor &gt; Analisar &gt; Contagem de pontos em polígono</strong>. Este algoritmo pega uma camada de pontos e uma camada de polígono e conta o número de pontos da primeira em cada polígono da segunda. Uma nova camada de polígonos é gerada, com exatamente o mesmo conteúdo da camada de polígonos de entrada, mas contendo um campo adicional com a contagem de pontos correspondente a cada polígono. Defina a camada de ponto para pois_cleand e a camada de grade de polígono com as informações calculadas na rodada anterior. Para os pontos, marque os <strong>Apenas feições selecionadas</strong>, para que o algoritmo calcule apenas os pontos selecionados - os POIs públicos. Salve o arquivo de saída como pontos_publicos_grade.</p>
 <div class="figure">
 <img src="media/modulo8/fig840_c.png" title="Contar POIS públicos em cada grade de 2km X 2km" alt="" />
 <p class="caption">Contar POIS públicos em cada grade de 2km X 2km</p>
@@ -1102,8 +1108,8 @@ END</code></pre>
 <p>R: Dissolver.</p>
 </div>
 </div>
-<div id="geoestatística.-interpolação---estimativa-de-dados-faltantes" class="section level2" number="10.8">
-<h2><span class="header-section-number">10.8</span> Geoestatística. Interpolação - estimativa de dados faltantes</h2>
+<div id="geoestatística-e-interpolação" class="section level2" number="10.8">
+<h2><span class="header-section-number">10.8</span> Geoestatística e interpolação</h2>
 <p>A última fase do módulo de dados vetoriais apresenta o conceito de estimativa de dados. Estamos acostumados a estimar quase diariamente em vários tópicos, por exemplo, quanto tempo levará para ir de casa para o trabalho em certas condições. Estamos acostumados a dar nosso melhor palpite, com base em experiências anteriores e palpites. No entanto, ao estimar dados faltantes, a estimativa é substituída por equações matemáticas muito bem definidas com limitações bem conhecidas.</p>
 <p>O assunto requer conhecimentos significativos em estatística e os resultados devem ser sempre considerados à luz das suas limitações.</p>
 <p>Dito isso, apresentaremos um pequeno exemplo de estimativa de dados que fará a transição para o próximo módulo - processamento de dados raster.</p>
@@ -1119,7 +1125,7 @@ END</code></pre>
 <p>Como pode ser observado, através do QGIS o usuário tem acesso a outros algoritmos, implementados no GRASS ou SAGA, como resultado da integração em QGIS destas (e outras) soluções de software muito poderosas.</p>
 <p>Mergulhar na matemática por trás de cada algoritmo de interpolação está além do escopo deste módulo. No entanto, para fins de demonstração, simularemos a interpolação de dados de precipitação para obter um conjunto de dados uniforme sobre a quantidade de precipitações caídas em nossa área de interesse, a cidade do Recife.</p>
 <p>Como o exercício é puramente para fins de demonstração, criaremos nosso próprio conjunto de dados de ponto - para representar as estações meteorológicas onde os valores de precipitação foram registrados no decorrer de uma semana.</p>
-<p>Assim, o primeiro passo é criar uma nova camada vetorial - tipo de ponto - com pontos atribuídos aleatoriamente dentro da extensão do Recife. Existem várias maneiras de fazer isso, seja com o algoritmo de <strong>Pontos aleatórios em polígonos ..</strong> ou com o algoritmo <strong>Pontos aleatórios em limites de camada ..</strong>. Vá para <strong>Vetor ‣ Analisar ‣ Pontos aleatórios em polígonos (Random points in polygons)…</strong>. Você também pode pesquisar o algoritmo na caixa de ferramentas de processamento ou na barra do localizador. Escolha como parâmetros:
+<p>Assim, o primeiro passo é criar uma nova camada vetorial - tipo de ponto - com pontos atribuídos aleatoriamente dentro da extensão do Recife. Existem várias maneiras de fazer isso, seja com o algoritmo de <strong>Pontos aleatórios em polígonos ..</strong> ou com o algoritmo <strong>Pontos aleatórios em limites de camada ..</strong>. Vá para <strong>Vetor &gt; Analisar &gt; Pontos aleatórios em polígonos (Random points in polygons)…</strong>. Você também pode pesquisar o algoritmo na caixa de ferramentas de processamento ou na barra do localizador. Escolha como parâmetros:
 * 93 pontos
 * mínimo 5 km.</p>
 <p>O resultado deve ser semelhante à figura 8.42.</p>
@@ -1174,10 +1180,10 @@ END</code></pre>
 </div>
 <p>Figura 8.47 - Conjuntos de dados interpolados</p>
 <p>As estações meteorológicas são visíveis na tela do mapa e nas camadas você pode ver todos os 7 conjuntos de dados raster recém-criados que representam os valores de precipitação para cada dia no Recife.</p>
-<p>A seguir, vamos mudar a simbologia das 7 camadas para uma mais colorida (<strong>Propriedades ‣ Simbologia ‣ Banda única falsa cor ‣ Magma</strong>).</p>
+<p>A seguir, vamos mudar a simbologia das 7 camadas para uma mais colorida (<strong>Propriedades &gt; Simbologia &gt; Banda única falsa cor &gt; Magma</strong>).</p>
 <p>Olhando para os dados de ponto e os conjuntos de dados raster criados com base neles, podemos perceber que agora temos valores para toda a região e não apenas no local medido. Existem muitos algoritmos de processamento que podem ser aplicados a esses rasters para extrair informações, mas mais sobre isso no próximo módulo - processamento e visualização de dados raster.</p>
 <p>No entanto, como temos valores interpolados para 7 dias, vamos preparar uma curta animação sobre como os valores de precipitação evoluíram para o Recife.</p>
-<p>Para fazer isso, abra a caixa de diálogo <strong>Propriedades de test_meteo_stations_1 raster ‣ clique na guia Temporal ‣ marque a opção Temporal ‣ selecione as datas de início e término</strong>, como na figura 8.48. Faça o mesmo para todas as 7 camadas raster.</p>
+<p>Para fazer isso, abra a caixa de diálogo <strong>Propriedades de test_meteo_stations_1 raster &gt; clique na guia Temporal &gt; marque a opção Temporal &gt; selecione as datas de início e término</strong>, como na figura 8.48. Faça o mesmo para todas as 7 camadas raster.</p>
 <div class="figure">
 <img src="media/modulo8/fig848_a.png" title="Configurando informações temporais para o conjunto de dados raster (1)" alt="" />
 <p class="caption">Configurando informações temporais para o conjunto de dados raster (1)</p>
@@ -1191,7 +1197,7 @@ END</code></pre>
 <p class="caption">Configurando informações temporais para o conjunto de dados raster (7)</p>
 </div>
 <p>Figura 8.48 - Definição de informações temporais para o conjunto de dados raster (1, 2, 7).</p>
-<p>Abra o Painel do Controlador Temporal (pode ser encontrado em ** Exibir ‣ Painéis ‣ Painel do Controlador Temporal **) e defina os parâmetros como na figura 8.49.</p>
+<p>Abra o Painel do Controlador Temporal (pode ser encontrado em ** Exibir &gt; Painéis &gt; Painel do Controlador Temporal **) e defina os parâmetros como na figura 8.49.</p>
 <div class="figure">
 <img src="media/modulo8/fig849.png" title="Defina os parâmetros do Painel de controle de tempo" alt="" />
 <p class="caption">Defina os parâmetros do Painel de controle de tempo</p>
@@ -1236,8 +1242,8 @@ END</code></pre>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
+"github": true,
+"facebook": false,
 "twitter": true,
 "linkedin": false,
 "weibo": false,
@@ -1252,7 +1258,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/module08.Rmd",
+"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module08.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -1263,7 +1269,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["_main.pdf", "_main.epub"],
+"download": ["ebook-gis.pdf", "ebook-gis.epub"],
 "search": {
 "engine": "fuse",
 "options": null
