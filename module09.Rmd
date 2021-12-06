@@ -17,7 +17,7 @@ Ao final deste módulo, os alunos terão a compreensão básica dos seguintes co
 * detecção de alteração
 
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 * Este módulo foi preparado usando [QGIS versão 3.16 - Hannover](https://qgis.org/en/site/forusers/download.html)
 * [module9.gpkg](data/module9.gpkg)
@@ -27,17 +27,13 @@ Ao final deste módulo, os alunos terão a compreensão básica dos seguintes co
 * [Global Land Cover Map 2015-2019 ](data/Global_Land_Cover_Map)
 * O sistema de referência de coordenadas usado é o SIRGAS 2000 UTM 23 sul, EPSG 31983.
 
-## Pré-requisitos:
+### Pré-requisitos:
 
 * Conhecimento básico de como operar um computador
 * Uma compreensão robusta dos módulos 0, 1, 2, 6 e 8 dos este currículo.
 
 
-## Introdução temática
-
-## Detalhamento dos conceitos
-
-### O modelo de dados
+## O modelo de dados
 
 raster Um raster é uma matriz regular de valores, como na figura 9.1.
 
@@ -56,7 +52,7 @@ Figura 9.2 - No lado esquerdo, os valores são atribuídos aos centróides.
 À direita, os valores são atribuídos à área da célula da grade - o pixel. 				
 
 
-### Racional do processamento raster
+## Racional do processamento raster
 
 Como no caso do processamento de dados vetoriais, a lógica por trás do processamento de dados raster é baseada na mesma capacidade dos sistemas de informação geográfica de armazenar, processar e representar informações dos fenômenos do mundo real; apenas isso a maneira como isso é feito difere. Em vez de ter pontos, linhas e polígonos distintos armazenados como coleções de coordenadas x e y, temos uma matriz de valores que cobre uma área específica como uma malha. Para ter uma imagem mais clara em mente, imagine os mapas de temperatura exibidos na TV. A temperatura é um campo contínuo, não há lugares na superfície da Terra sem temperatura, seja ela positiva, negativa ou 0.
 
@@ -105,14 +101,12 @@ Figura 9.5 - Exemplo de um histograma, onde x é uma camada raster
 Por que é isso é importante em nosso contexto? Porque, como mencionado no início, um raster é uma matriz de valores numéricos contínuos (lembre-se do exemplo da temperatura) e um histograma ajuda o usuário a entender como os valores de seus rasters são distribuídos. Cada barra agrupa os valores das células que caem em um intervalo específico, quanto maior a barra, mais células têm valores nesse intervalo específico. Caso o raster tenha mais de uma banda, então o histograma será computado para cada uma. Não há lacunas entre os intervalos representados em um histograma, o histograma é usado apenas para dados contínuos.  
 
 
-## Conteúdo principal
-
-### Fase 1: Entendendo seus dados raster.
+## Entendendo seus dados raster.
 
 Nas últimas duas décadas, o número de satélites capturando dados da Terra cresceu exponencialmente. Além disso, uma política de acesso a dados abertos que foi adotada por diferentes agências espaciais, como a NASA para o [programa Landsat](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-data-access?qt-science_support_page_related_con=0#qt-science_support_page_related_con) ou a Agência Espacial Europeia para o [programa Copernicus](https://www.copernicus.eu/en/access-data), abriu a porta para um fluxo avassalador de Dados de observação da Terra. Como consequência natural, o progresso científico de algoritmos, metodologias e o desenvolvimento de ferramentas mais poderosas para processar dados raster - especialmente imagens de satélite - tem sido impressionante e extenso em campos como agricultura, silvicultura, desenvolvimento urbano, atividades humanitárias, oceano e mar monitoramento de água, segurança e muito mais. Nas três fases a seguir, apresentaremos algumas das técnicas de processamento mais comuns e quais resultados esperar delas.
 
 
-#### **Etapa 1. Prepare seu ambiente de trabalho.**
+### **Etapa 1. Prepare seu ambiente de trabalho.**
 
 Vamos começar adicionando ao seu projeto QGIS todos os conjuntos de dados raster com os quais estaremos trabalhando, como segue:
 
@@ -335,7 +329,7 @@ Tabela 2 valor da banda forest_type
    </td>
    <td> Descrição
    </td>
-  </ tr>
+  </tr>
   <tr>
    <td> 0
    </td>
@@ -400,7 +394,7 @@ A janela do seu mapa QGIS deve ser semelhante à figura 9.6, talvez em cores lig
 Figura 9.6 - Conjuntos de dados raster carregados
 
 
-#### **Etapa 2. Entenda o que você está olhando.**
+### **Etapa 2. Entenda o que você está olhando.**
 
 A seguir, usaremos uma série de ferramentas que nos permitirão ter uma noção melhor dos dados com os quais estamos trabalhando.
 
@@ -666,7 +660,7 @@ A terceira aba permite ao usuário customizar o que a `Value Tool` exibe: quais 
 * Não.
 
 
-### Fase 2: Introdução ao trabalho com dados raster
+## Introdução ao trabalho com dados raster
 
 Agora que aprendemos como extrair informações básicas nos conjuntos de dados raster carregados, continuaremos com um processamento de dados raster mais aprofundado em a fim de obter novos rasters derivados e, em conseqüência, mais informações.
 
@@ -855,7 +849,7 @@ E com esta etapa final, respondemos ao nosso exercício, quantas pessoas (e onde
 * _No._
 
 
-### **Fase 3: Trabalho com dados raster e vetoriais.**
+## **Trabalho com dados raster e vetoriais.**
 
 Na fase anterior, temos visto como podemos processar 2 conjuntos de dados raster para derivar novas informações. Usamos o modelo de superfície digital e a Camada de Assentamento de Alta Resolução para descobrir quantas pessoas vivem abaixo de 200m na ​​cidade do Rio de Janeiro. Antes de fazer qualquer análise, verificamos se os conjuntos de dados estavam na mesma projeção e, além disso, se os rasters têm a mesma resolução espacial para que os resultados que obtivemos sejam viáveis. Ao se referir ao sistema de referência de coordenadas, o raciocínio é claro, mas por que a mesma resolução espacial?
 
@@ -1130,18 +1124,16 @@ Centro para Rede Internacional de Informação em Ciências da Terra - CIESIN - 
 Métodos de reamostragem: [https://gisgeography.com/raster-resampling/](https://gisgeography.com/raster-resampling/)
 
 
-<! - Notas de rodapé na parte inferior. ->
 ## Notas
 
-[^1]:
-     Uma operação primitiva é um cálculo básico executado por um algoritmo.
-[^2]:
-     A resolução temporal depende da latitude.
-[^3]:
-     JAXA é a Agência Japonesa de Exploração Aeroespacial
-[^4]:
-     Para o propósito deste exercício, consideraremos o DSM como um modelo de elevação digital. Para obter mais detalhes sobre as diferenças, consulte a Divisão de conceitos seção
-[^5]:
-      A Geospatial Data Abstraction Library (GDAL) é uma biblioteca de software de computador para leitura e gravação de formatos de dados geoespaciais vetoriais e raster.
-[^6]:
-      O Sentinel-2 é uma missão de observação da Terra do Programa Copernicus que adquire sistematicamente imagens ópticas em alta resolução espacial (10 ma 60 m) em águas terrestres e costeiras. Para mais detalhes, acesse [aqui](https://sentinel.esa.int/web/sentinel/missions/sentinel-2).
+<sup>[1] Uma operação primitiva é um cálculo básico executado por um algoritmo.</sup>
+
+<sup>[2]: A resolução temporal depende da latitude.</sup>
+
+<sup>[3]: JAXA é a Agência Japonesa de Exploração Aeroespacial.</sup>
+
+<sup>[4]: Para o propósito deste exercício, consideraremos o DSM como um modelo de elevação digital. Para obter mais detalhes sobre as diferenças, consulte a Divisão de conceitos seção. </sup>
+
+<sup>[5]: A Geospatial Data Abstraction Library (GDAL) é uma biblioteca de software de computador para leitura e gravação de formatos de dados geoespaciais vetoriais e raster.</sup>
+
+<sup>[6]: O Sentinel-2 é uma missão de observação da Terra do Programa Copernicus que adquire sistematicamente imagens ópticas em alta resolução espacial (10 ma 60 m) em águas terrestres e costeiras. Para mais detalhes, acesse [aqui](https://sentinel.esa.int/web/sentinel/missions/sentinel-2). </sup>
