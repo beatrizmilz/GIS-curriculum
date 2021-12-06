@@ -20,7 +20,7 @@ Além disso, você aprenderá as seguintes habilidades:
 
 Você usará a calculadora de campo e o gerador de expressão QGIS para executar operações matemáticas e funções no QGIS.
 
-## Ferramentas e recursos necessários
+### Ferramentas e recursos necessários
 
 * Computador
 * Conexão com a Internet
@@ -31,13 +31,13 @@ Você usará a calculadora de campo e o gerador de expressão QGIS para executar
 * [RJ High Resolution Settlement Layer](data/hrsl_rj_capital_populacao.tif)
 
 
-## Pré-requisitos
+### Pré-requisitos
 
 * Um conhecimento razoável de todos os módulos anteriores
 * Conhecimento básico de como operar um computador
 
 
-## Recursos adicionais
+### Recursos adicionais
 
 * Trabalhando com a Tabela de Atributos - [https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/attribute_table.html?highlight=layer%20attributes](https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/attribute_table.html?highlight=layer%20attributes)
 * Expressões QGIS - [https://docs.qgis.org/3.16/en/docs/ pyqgis_developer_cookbook/expression.html](https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/expressions.html)
@@ -49,7 +49,7 @@ Vamos começar com um exemplo:
 Em alguns casos, por exemplo, para fins de planejamento de infraestrutura, você pode querer saber a área dos polígonos em uma camada. Se você tiver só um polígono, isso não será um problema. Mas e se você tiver muitos polígonos/áreas na camada? Calcular cada área uma a uma seria quase impossível. A camada de vetor das Unidades Feterativas do Brasil tem muitos polígonos, o que significa que seria um bom conjunto de dados para este tutorial. Vamos calcular a área de cada polígono de forma automatizada. No total, será calculada a área de 27 UFs.
 
 
-## Detalhamento dos conceitos
+### Detalhamento dos conceitos
 
 Muito do trabalho que você faz ao elaborar um mapa envolve trabalhar com atributos de camada. Se estiver desenhando a camada, configurando um pop-up, realizando análises ou visualizando, você precisa de algum nível de conhecimento dos campos da camada e dos valores que eles contêm. Se for sua própria camada, você conhecerá e entenderá seus atributos. Mas se não for, como você adquire esse conhecimento? Provavelmente, você inspeciona os nomes dos campos e examina os valores dos campos em busca de algumas pistas. E se você tiver sorte, você encontrará alguma documentação que descreve os atributos da camada.
 
@@ -101,9 +101,9 @@ No exemplo de camada de pacote acima, o campo ID da parcela é um campo inteiro.
 Além disso, outros conceitos como a funcionalidade de calculadora de campo na tabela de atributos permitem realizar cálculos com base em valores de atributos existentes ou funções definidas, por exemplo, calcular comprimento, área ou densidade populacional. Observe que os cálculos possíveis são determinados pelos atributos ou compõem seus dados. Por exemplo, só é possível calcular a densidade populacional se houver um campo com contagens de população. Usando o gerador de expressão e a calculadora de campo, você poderia então construir uma expressão ou fórmula para calcular a densidade populacional. Nesse caso, a fórmula seria; população total como um número de pessoas dividida pela área de terra coberta por essa população. Você notará que é importante saber o que cada um dos campos na tabela de atributos da camada representa. Isso significa que você precisa conhecer e compreender seus dados completamente. Isso torna mais fácil aplicar funções e expressões e, portanto, gerar análises, visualizaçõe e produtos de mapa significativos.
 
 
-### Título da fase 1: Editando atributos da camada
+## Editando atributos da camada
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 A tabela de atributos exibe informações sobre os recursos de uma camada selecionada. Cada linha da tabela representa uma feição (com ou sem geometria) e cada coluna contém uma informação específica sobre a feição. As feições da tabela podem ser pesquisadas, selecionadas, movidas ou mesmo editadas.
 
@@ -171,9 +171,9 @@ Figura 6.6: Nova tabela de atributos com novos campos e atributos
 3. Verdadeiro
 
 
-### Fase 2: Entender e trabalhar com dados de atributos, consultas e análises
+## Entender e trabalhar com dados de atributos, consultas e análises
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 Neste ponto, você pode notar que a tabela de atributos armazena dados espaciais e não espaciais. Neste tutorial, você descobrirá maneiras de trabalhar com dados da tabela de atributos. Por exemplo, usando expressões, você poderá selecionar Clínicas em no Rio de Janeiro com atendimento de emergência, usando os dados da tabela de atributos.
 
@@ -230,7 +230,7 @@ O desenvolvimento de uma expressão funcional começa com a compreensão de seus
 3. Falso
 
 
-### Título da Fase 3: Expressões de QGIS avançadas
+## Expressões de QGIS avançadas
 
 A caixa de diálogo Construtor de expressões oferece acesso à:
 
@@ -238,7 +238,7 @@ A caixa de diálogo Construtor de expressões oferece acesso à:
 * Aba Editor de funções ([https://docs.qgis.org/2.18/en/docs/user_manual/working_with_vector/expression.html#function-editor](https://docs.qgis.org/2.18/en/docs /user_manual/working_with_vector/expression.html#function-editor)) que ajuda a estender a lista de funções criando funções personalizadas.
 
 
-#### **Conteúdo/Tutorial**
+### **Conteúdo/Tutorial**
 
 Existem muitos casos de uso para expressões, e aqui apresentaremos alguns exemplos. Observe como as expressões são desenvolvidas e quais operadores ou predicados são usados. Também é importante o fato de que todas essas expressões são desenvolvidas com base no conteúdo do conjunto de dados. Você pode adaptar isso ao conjunto de dados de sua escolha.
 
