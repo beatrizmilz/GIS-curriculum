@@ -2,24 +2,20 @@
 
 **Autor**: Ketty
 
-## Introdução pedagógica
-
 Este módulo foi desenvolvido para te ensinar como usar as ferramentas QGIS para criar uma nova camada GIS. Nele, você aprenderá conceitos como digitalização e georreferenciamento.
 
-### Pré-requisitos
+Pré-requisitos:
 
 * Um bom conhecimento de todos os módulos anteriores
 * Conhecimento básico de operação de um computador
 
 
-### Recursos adicionais
+Recursos adicionais:
 
 * Criação de camadas - [https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html)
 * Digitalização de áreas florestais - [https://docs.qgis.org/3.16/en/docs/training_manual/forestry/stands_digitazing.html?highlight=digitizing](https://docs. qgis.org/3.16/en/docs/training_manual/forestry/stands_digitazing.html?highlight=digitizing)
 * Leitura adicional - [Georreferenciando um mapa](https://docs.qgis.org/3.16/en/docs/training_manual/forestry/map_georeferencing.html?highlight=georeferencing)
 
-
-## Introdução temática
 
 Vamos começar com um exemplo:
 
@@ -31,9 +27,6 @@ Vamos imaginar que seu departamento esteja planejando construir novos hospitais 
 
 Figura 7.1: Imagens de sensoriamento remoto de diferentes áreas costeiras. A. Dados interferométricos do radar de abertura sintética (IFSAR) (usando microondas para coletar dados para a criação de imagens representativas), B. dados topográficos e batimétricos LIDAR (dados de altura e elevação representados por cores), C. imagens hiperespectrais (adicionando cor à energia invisível) , e D. fotografia digital (cores visíveis do olho humano representadas como elas próprias)
 
-
-### Detalhamento dos conceitos
-
 Digitalizar em SIG é o processo de “traçar”, de forma geograficamente correta, informações de mídias/mapas. O processo de georreferenciamento conta com a coordenação de pontos na imagem digitalizada (dados a serem georreferenciados) com pontos em dados geograficamente referenciados (dados para os quais a imagem será georreferenciada). Ao “vincular” pontos na imagem com essas mesmas localizações nos dados geograficamente referenciados, você criará uma transformação que converte a localização de toda a imagem na localização geográfica correta.
 
 
@@ -42,9 +35,6 @@ Digitalizar em SIG é o processo de “traçar”, de forma geograficamente corr
 Figura 7.2: Aqui, os edifícios foram digitalizado (traçados) em cima de uma foto aérea
 
 Georreferenciamento, por outro lado, é o processo de obtenção de uma imagem digital, que pode ser por exemplo um mapa geológico digitalizado ou uma imagem de um mapa topográfico, e de adicionar informações geográficas à imagem para que o GIS ou software de mapeamento possam 'posicionar' a imagem em seu local correto no mundo real.
-
-
-### Conteúdo principal
 
 O QGIS permite que você crie novas camadas em diferentes formatos. Ele fornece ferramentas para criar GeoPackage, Shapefile, SpatiaLite, formato GPX e camadas Temporary Scratch (também conhecidas como camadas de memória). A edição permite adicionar, excluir e modificar recursos em conjuntos de dados vetoriais. A primeira etapa é colocar o conjunto de dados no modo de edição. Selecione a camada no painel Camadas e clique em Camada | Alternar edição. Como alternativa, você pode clicar com o botão direito do mouse em uma camada no painel Camadas e escolher Alternar Edição no menu de contexto. Várias camadas podem ser editadas ao mesmo tempo. A camada que está sendo editada atualmente é aquela selecionada no painel Camadas. Uma vez no modo de edição, a barra de ferramentas de digitalização pode ser usada para adicionar, excluir e modificar recursos.
 
@@ -82,7 +72,7 @@ Figura 7.3: Diálogo de nova camada GeoPackage
 
 1. Para criar uma nova camada de formato ESRI Shapefile, pressione ![Alt_text](media/modulo7/mActionNewVectorLayer.png "image_tooltip") Novo botão Shapefile Layer… no menu Camada > Criar Nova Camada > ou na barra de ferramentas Data Source Manager. A caixa de diálogo Nova Camada Shapefile será exibida conforme mostrado na Figura 7.4.
 
-![alt_text](media/modulo7/new-shapefile-dialog.png "image_tooltip")
+![Diálogo da nova camada do shapefile](media/modulo7/new-shapefile-dialog.png "Diálogo da nova camada do shapefile")
 
 Figura 7.4: Diálogo da nova camada do shapefile
 
@@ -104,7 +94,7 @@ Figura 7.4: Diálogo da nova camada do shapefile
 
 ## Digitalizando uma camada existente
 
-### **Conteúdo/Tutorial**
+### **Tutorial/Exercício**
 
 Este tutorial mostrará como criar um novo arquivo usando dados auxiliares, como imagens de satélite fornecidas pelo Google. É importante saber qual tipo de feições (geometrias) você gostaria de criar de antemão; por exemplo, seriam pontos, linhas ou polígonos? Quando criamos a camada, devemos definir que tipo de dados ela conterá. O objetivo deste tutorial é criar um tipo de dado que possa ser facilmente manipulado, analisado e armazenado em um sistema GIS, daí a necessidade de criar arquivos vetoriais. Criaremos recursos de polígono como exemplo.
 
@@ -112,7 +102,7 @@ Este tutorial mostrará como criar um novo arquivo usando dados auxiliares, como
 2. Crie um novo projeto no QGIS clicando no ícone _Novo Projeto_ ![Alt_text](media/modulo7/new-project.png "image_tooltip").
 3. Vá para _Camada > Criar camada > Nova camada GeoPackage_. Crie uma camada como a da imagem a seguir:
 
-![Alt_text](media/modulo7/new-vector.png "image_tooltip")
+![Nova caixa de diálogo GeoPackage](media/modulo7/new-vector.png "Nova caixa de diálogo GeoPackage")
 
 Figura 7.5: Nova caixa de diálogo GeoPackage
 
@@ -185,7 +175,7 @@ Se você cometer um erro ao digitalizar um recurso, poderá editá-lo posteriorm
 
 * Selecione o recurso com a ferramenta _Select Feature_
 
-![Alt_text](media/modulo7/select-feature.png "image_tooltip")
+![caixa para selecionar feições](media/modulo7/select-feature.png "caixa para selecionar feições")
 
 * Em seguida, use uma dessas ferramentas para editar o recurso
 
@@ -237,12 +227,12 @@ Se você cometer um erro ao digitalizar um recurso, poderá editá-lo posteriorm
 
 ## Georreferenciando um mapa Topográfico
 
-### **Conteúdo/Tutorial**
+### **Tutorial/Exercício**
 
 Para georreferenciar o mapa;
 
 1. Abra a ferramenta Georeferenciador, Raster  Georeferenciador
-2. Clique no botão Adicionar raster ![Adicionar Raster](media/modulo7/add-raster.png "Adicionar Raster") para adicionar o arquivo de imagem do mapa, [Mapa Topográfico de Pampanga](media/modulo7/manhumirim_mg_es.jpeg), como imagem a georreferenciar. O mapa topográfico será adicionado à tela do georreferenciador. Agora você pode ampliar para ler os detalhes do mapa. Uma maneira de fazer isso é lendo os metadados e as informações de legenda na parte inferior e, em seguida, relacionando-os com os recursos no mapa.
+2. Clique no botão Adicionar raster ![Adicionar Raster](media/modulo7/add-raster.png "Adicionar Raster") para adicionar o arquivo de imagem do mapa, [Mapa Topográfico de Pampanga](data/module7/manhumirim_mg_es.jpg), como imagem a georreferenciar. O mapa topográfico será adicionado à tela do georreferenciador. Agora você pode ampliar para ler os detalhes do mapa. Uma maneira de fazer isso é lendo os metadados e as informações de legenda na parte inferior e, em seguida, relacionando-os com os recursos no mapa.
 
 ![Mapa na tela do Georeferenciador](media/modulo7/georeferencer.png "Mapa na tela do Georeferenciador")
 
@@ -318,49 +308,47 @@ Figura 7.14: Mapa carregado no QGIS e georreferenciado
 Nota: Para verificar se seus dados estão georreferenciados corretamente, você pode abrir o mapa topográfico. Seu mapa e esta imagem devem corresponder muito precisamente. Defina a transparência do mapa para 75% e compare-a com a imagem aérea.
 
 
-#### **Perguntas do questionário**
+### **Quiz**
 
-1. O que é digitalização em GIS? (caixas de seleção)
-2. Qual dos seguintes conjuntos de dados auxiliares suportará a digitalização? (caixas de seleção)
-3. Quais fatores podem afetar a precisão dos dados durante a digitalização? (botão de opção)
-4. O que pode ser feito para melhorar a precisão? (caixas de seleção)
-5. Por que um modelo de dados é importante ao criar novos dados? (botão de opção)
+1. O que é digitalização em GIS?
+    a. o processo de conversão de dados geográficos de uma imagem digitalizada ou imagem digital em dados vetoriais traçando as suas características
+
+    b. descreve a conversão pura de analógico para digital de dados e documentos existentes
+
+    c. processo pelo qual as coordenadas de um mapa, imagem ou outras fontes de dados são convertidas em um formato digital em um _GIS_
+
+    d. refere-se à criação de uma representação digital de objetos físicos ou atributos
+
+2. Qual dos seguintes conjuntos de dados auxiliares suportará a digitalização?
+    a. Pontos de dados GPS
+
+    b. Mapas topográficos
+
+    c. Imagem de satélite
+
+    d. Gráficos e tabelas
 
 
-#### Respostas do questionário
+3. Quais fatores podem afetar a precisão dos dados durante a digitalização?
 
-1. a. o processo de conversão de dados geográficos de uma imagem digitalizada ou imagem digital em dados vetoriais traçando as suas características
+    a. Resolução dos dados (espacial, temporal, radiométrico)
 
-   b. descreve a conversão pura de analógico para digital de dados e documentos existentes
+    b. Iluminação
 
-   c. processo pelo qual as coordenadas de um mapa, imagem ou outras fontes de dados são convertidas em um formato digital em um _GIS_
+    c. Localização do recurso
 
-   d. refere-se à criação de uma representação digital de objetos físicos ou atributos
+    d. Tipo de recurso
 
-2. a. Pontos de dados GPS
+4. O que pode ser feito para melhorar a precisão?
+    a. obter fontes de dados precisas
 
-   b. Mapas topográficos
+    b. definir metas de qualidade de dados
 
-   c. Imagem de satélite
+    c. revise os dados e reedite ou reverta as edições
 
-   d. Gráficos e tabelas
+5. Por que um modelo de dados é importante ao criar novos dados?
+    a. permite capturar informações abrangentes sobre o recurso
 
-3. a. Resolução dos dados (espacial, temporal, radiométrico)
+    b. automatiza o processo
 
-   b. Iluminação
-
-   c. Localização do recurso
-
-   d. Tipo de recurso
-
-4. a. obter fontes de dados precisas
-
-   b. definir metas de qualidade de dados
-
-   c. revise os dados e reedite ou reverta as edições
-
-5. a. permite capturar informações abrangentes sobre o recurso
-
-   b. automatiza o processo
-
-   c. captura erros de digitalização
+    c. captura erros de digitalização
