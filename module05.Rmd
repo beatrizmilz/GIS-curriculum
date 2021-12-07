@@ -2,9 +2,6 @@
 
 **Autor**: Ketty
 
-
-## Introdução Pedagógica
-
 Este módulo irá fornecer a você uma visão geral das etapas frequentemente necessárias para elaborar um mapa no QGIS. No final do módulo, os participantes conhecerão os seguintes conceitos:
 
 * Tela do mapa e camadas relacionadas
@@ -18,23 +15,23 @@ Além disso, você terá aprendido as seguintes habilidades;
 * Gerenciando layouts de impressão diferentes
 
 
-### Ferramentas e recursos necessários
+Ferramentas e recursos necessários:
 
 * Computador
 * Acesso à Internet
 * QGIS 3.16 ou posterior
-* Camada de limite administrativo `rj_capital` (dentro de [module5.gpkg](data/module5.gpkg))
-* `rj_clinics` (dentro de [module5.gpkg](data/module5.gpkg))
-* Unidades Federativas do Brasil, `br_ufs` (dentro de [module5.gpkg](data/module5.gpkg))
-* [RJ High Resolution Settlement Layer](data/hrsl_rj_capital_populacao.tif)
+* Camada de limite administrativo `rj_capital` (dentro de [module5.gpkg](data/module5/module5.gpkg))
+* `rj_clinics` (dentro de [module5.gpkg](data/module5/module5.gpkg))
+* Unidades Federativas do Brasil, `br_ufs` (dentro de [module5.gpkg](data/module5/module5.gpkg))
+* [RJ High Resolution Settlement Layer](data/module5/hrsl_rj_capital_populacao.tif)
 
-### Pré-requisitos
+Pré-requisitos:
 
 * Conhecimento básico de como operar um computador
 * Uma compreensão de todos os módulos anteriores
 
 
-### Recursos adicionais
+Recursos adicionais:
 
 * QGIS Map LayOut - [https://docs.qgis.org/3.16/en/ docs/training_manual/map_layout/map_layout.html](https://docs.qgis.org/3.16/en/docs/training_manual/map_layout/map_layout.html)
 * Modelos de layout - [https://layout-hub.github.io/](https://layout-hub.github.io/)
@@ -42,13 +39,9 @@ Além disso, você terá aprendido as seguintes habilidades;
 * Biblioteca de estilos - [https://docs.qgis.org/3.16/en/docs/user_manual/style_library/index.html](https://docs.qgis.org/3.16/en/docs/user_manual/style_library/index.html)
 
 
-## Introdução temática
-
 Vamos começar com um exemplo:
 
 Para fazer um mapa, você precisará de um tópico que gostaria de entender melhor, por exemplo 'Distribuição espacial de clínicas (equipamentos de saúde) no Rio de Janeiro'. Você notará que o tópico fornece um tema para explorar e a localização geográfica. Munido com essas informações e os dados relevantes que permitem que você explore mais a questão, você pode prosseguir para elaborar um mapa.
-
-### Detalhamento dos conceitos
 
 Este módulo enfocará os seguintes conceitos-chave de criação de mapas; tela do mapa e camadas relacionadas, o layout de impressão e elementos e propriedades do mapa. Primeiro, aqui estão as definições curtas de cada um:
 
@@ -110,13 +103,13 @@ Figura 5.6: A janela Layout de impressão
 
 Figura 5.7: Adicionar mapa a Layout de impressão
 
-### **Perguntas do questionário **
+### **Quiz**
 
 1. O que é a tela do mapa QGIS? (caixas de seleção)
 2. Qual é a utilidade do layout de impressão? (caixas de seleção)
 3. Qual dos seguintes não é um elemento do mapa? (botão de radio)
 
-### **Respostas do questionário **
+### **Respostas do Quiz**
 
 1. a. mostra o mapa composto de camadas de mapa sobrepostas
    b. permite interação com o mapa e camadas
@@ -135,7 +128,7 @@ Figura 5.7: Adicionar mapa a Layout de impressão
 ## Adicionando e editando elementos do mapa ao layout de impressão
 
 
-### **Conteúdo/Tutorial**
+### **Tutorial/Exercício**
 
 Agora que o mapa estilizado foi adicionado ao layout de impressão, é hora de adicionar elementos importantes como o título, escala, legenda, grade, metadados etc. para o layout de impressão. A maioria dos botões está localizada à esquerda do layout de impressão.
 
@@ -172,14 +165,14 @@ Figura 5.10: Adicionar atribuição ao mapa
 
 Figura 5.11 : Mapa exportado como imagem
 
-### **Perguntas do questionário**
+### **Quiz**
 
 1. Em qual das seguintes guias você pode alterar as propriedades dos elementos do mapa? (botão de opção)
 2. Qual é a diferença entre o layout do mapa e o layout de impressão?
 3. Como você pode adicionar texto de atribuição ao layout do mapa?
 
 
-### **Respostas do questionário **
+### **Respostas do Quiz**
 
 1. a. Composição
    b. Propriedades do item
@@ -190,7 +183,7 @@ Figura 5.11 : Mapa exportado como imagem
 
 ## Automatizando a criação de mapas usando os recursos do Atlas
 
-### **Conteúdo/Tutorial**
+### **Tutorial/Exercício**
 
 Se sua organização publica mapas impressos ou on-line, geralmente você precisa criar muitos mapas com o mesmo modelo - geralmente um para cada unidade administrativa ou região de interesse. Criar esses mapas manualmente pode levar muito tempo e, se você quiser atualizá-los regularmente, isso pode se tornar uma tarefa árdua. O QGIS tem uma ferramenta chamada Atlas que pode ajudá-lo a criar um modelo de mapa e publicar facilmente um grande número de mapas para diferentes regiões geográficas. Vamos tomar as diferentes Unidades Federativas do Brasil como exemplo:
 
