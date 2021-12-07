@@ -96,7 +96,6 @@ raster-básico-e-simbologia-vetorial
 tutorialexercício-renderização-vetorial
 tutorialexercicio-renderização-raster
 quiz-11
-respostas-do-quiz
 modos-de-mesclagem-e-efeitos-de-desenho
 tutorialexercício
 substituições-definidas-por-dados-e-geradores-de-geometria

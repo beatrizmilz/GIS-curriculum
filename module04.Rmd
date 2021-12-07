@@ -179,27 +179,29 @@ Figura 4.9: Mapa ampliado
 #### **Quiz**
 
 1. O que é simbologia de camada?
+
+    a. elemento gráfico representado como um marcador, traço ou preenchimento
+    b. um ponteiro para os dados originais
+    c. um repositório de diferentes esquemas de cores
+
+
 2. Quais dos tipos de renderização abaixo são aplicáveis para dados vetoriais?
+    a. renderizador de símbolo único
+    b. renderizador sem símbolos
+    c. renderizador categorizado
+    d. renderizador graduado
+    e. símbolo proporcional
+    f. renderizador de cluster de ponto
+
+
+
+
 3. Quais são os tipos de renderização raster?
 
-##### **Respostas do Quiz**
-
-1. a. elemento gráfico representado como um marcador, traço ou preenchimento
-   b. um ponteiro para os dados originais
-   c. um repositório de diferentes esquemas de cores
-
-2. a. renderizador de símbolo único
-   b. renderizador sem símbolos
-   c. renderizador categorizado
-   d. renderizador graduado
-   e. símbolo proporcional
-   f. renderizador de cluster de ponto
-
-3. a. pseudocolor de banda única
-   b. cinza de banda única
-   c. paletted
-
-4. d. cor multibanda
+    a. pseudocolor de banda única
+    b. cinza de banda única
+    c. paletted
+    d. cor multibanda
 
 
 ## Modos de mesclagem e efeitos de desenho
