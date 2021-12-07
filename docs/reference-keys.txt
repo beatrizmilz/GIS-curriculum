@@ -151,9 +151,9 @@ quiz-20
 processamento-e-análise-raster
 o-modelo-de-dados
 racional-do-processamento-raster
-entendendo-seus-dados-raster.
-etapa-1-prepare-seu-ambiente-de-trabalho.-1
-etapa-2-entenda-o-que-você-está-olhando.-1
+entendendo-seus-dados-raster
+etapa-1-prepare-seu-ambiente-de-trabalho
+etapa-2-entenda-o-que-você-está-olhando
 quiz-21
 introdução-ao-trabalho-com-dados-raster
 quiz-22
@@ -162,14 +162,10 @@ quiz-23
 referências
 notas
 plugins-qgis
-introdução-pedagógica
-adquirir-as-seguintes-habilidades
-ferramentas-e-recursos-necessários
-pré-requisitos
 introdução-à-mentalidade-do-plugin
 o-gerenciador-de-plugins
-perguntas-do-questionário
-alguns-plugins-interesantes
+quiz-24
+alguns-plugins-interessantes
 discovery
 polygon-divider
 load-them-all
@@ -180,4 +176,4 @@ dataplotly
 plugin-quickmapservices-openlayers
 table2style
 ors-tools
-perguntas-do-questionário-1
+quiz-25
