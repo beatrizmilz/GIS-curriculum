@@ -150,18 +150,12 @@ Figura 6.6: Nova tabela de atributos com novos campos e atributos
 
 ### **Quiz**
 
-1. Uma tabela de atributos é um banco de dados ou arquivo tabular contendo informações sobre um conjunto de características geográficas
+1. Verdadeiro ou Falso?
+    1. Uma tabela de atributos é um banco de dados ou arquivo tabular contendo informações sobre um conjunto de características geográficas. -***Verdadeiro*** 
 
-2. As características geográficas são geralmente organizadas de forma que cada linha represente uma característica e cada coluna represente um atributo de característica
+    2. As características geográficas são geralmente organizadas de forma que cada linha represente uma característica e cada coluna represente um atributo de característica. -***Verdadeiro***
 
-3. É necessário reprojetar camadas antes da área cálculos quando a camada tem um sistema de referência de coordenadas geográficas
-
-
-#### **Respostas do Quiz**
-
-1. Verdadeiro
-2. Verdadeiro
-3. Verdadeiro
+    3. É necessário reprojetar camadas antes da área cálculos quando a camada tem um sistema de referência de coordenadas geográficas. -***Verdadeiro***
 
 
 ## Entender e trabalhar com dados de atributos, consultas e análises
@@ -211,16 +205,12 @@ O desenvolvimento de uma expressão funcional começa com a compreensão de seus
 
 ### **Quiz**
 
-1. Esses operadores são fornecidos pelo construtor de expressões. {+, -, *}
-2. As aspas simples devem incluir uma string.
-3. A tabela de atributos armazena apenas dados não espaciais.
+1. Verdadeiro ou Falo?
 
-
-#### **Respostas do Quiz**
-
-1. Verdadeiro
-2. Verdadeiro
-3. Falso
+    1. Esses operadores são fornecidos pelo construtor de expressões. {+, -, \*} 
+    -***Verdadeiro***
+    2. As aspas simples devem incluir uma string.-***Verdadeiro***
+    3. A tabela de atributos armazena apenas dados não espaciais.-***Falso***
 
 
 ## Expressões de QGIS avançadas

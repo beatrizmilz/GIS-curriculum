@@ -117,11 +117,9 @@ atributos-da-camada
 editando-atributos-da-camada
 tutorialexercício-4
 quiz-14
-respostas-do-quiz-3
 entender-e-trabalhar-com-dados-de-atributos-consultas-e-análises
 tutorialexercício-5
 quiz-15
-respostas-do-quiz-4
 expressões-de-qgis-avançadas
 tutorialexercício-6
 quiz-16
