@@ -106,11 +106,9 @@ exportando-a-tela-do-mapa
 primeiro-método-exportar-a-tela-do-mapa-sem-o-layout-de-impressão
 segundo-método-exportar-a-tela-do-mapa-para-a-impressão-layout
 quiz-12
-respostas-do-quiz-1
 adicionando-e-editando-elementos-do-mapa-ao-layout-de-impressão
 tutorialexercício-2
 quiz-13
-respostas-do-quiz-2
 automatizando-a-criação-de-mapas-usando-os-recursos-do-atlas
 tutorialexercício-3
 atributos-da-camada

@@ -105,24 +105,22 @@ Figura 5.7: Adicionar mapa a Layout de impressão
 
 ### **Quiz**
 
-1. O que é a tela do mapa QGIS? (caixas de seleção)
-2. Qual é a utilidade do layout de impressão? (caixas de seleção)
-3. Qual dos seguintes não é um elemento do mapa? (botão de radio)
+1. O que é a tela do mapa QGIS?
+    a. mostra o mapa composto de camadas de mapa sobrepostas
+    b. permite interação com o mapa e camadas
+    c. um widget para fazer mapas
 
-#### **Respostas do Quiz**
+2. Qual é a utilidade do layout de impressão?
 
-1. a. mostra o mapa composto de camadas de mapa sobrepostas
-   b. permite interação com o mapa e camadas
-   c. um widget para fazer mapas
+    a. fornece layout crescente e recursos de impressão
+    b. permite adicionar elementos do mapa
+    c. lidar com a exportação e impressão de mapas
 
-2. a. fornece layout crescente e recursos de impressão
-   b. permite adicionar elementos do mapa
-   c. lidar com a exportação e impressão de mapas
-
-3. a. Título
-   b. Escala
-   c. Legenda
-   d. Cores e designs
+3. Qual dos seguintes não é um elemento do mapa?
+    a. Título
+    b. Escala
+    c. Legenda
+    d. Cores e designs
 
 
 ## Adicionando e editando elementos do mapa ao layout de impressão
@@ -167,18 +165,15 @@ Figura 5.11 : Mapa exportado como imagem
 
 ### **Quiz**
 
-1. Em qual das seguintes guias você pode alterar as propriedades dos elementos do mapa? (botão de opção)
-2. Qual é a diferença entre o layout do mapa e o layout de impressão?
-3. Como você pode adicionar texto de atribuição ao layout do mapa?
+1. Em qual das seguintes guias você pode alterar as propriedades dos elementos do mapa?
+    a. Composição
+    b. Propriedades do item
+    c. Geração de Atlas
+
+2. Qual é a diferença entre o layout do mapa e o layout de impressão? -***O layout do mapa permite que você adicione mapas da tela do mapa, enquanto o layout de impressão permite que você componha seu mapa***
 
 
-#### **Respostas do Quiz**
-
-1. a. Composição
-   b. Propriedades do item
-   c. Geração de Atlas
-2. O layout do mapa permite que você adicione mapas da tela do mapa, enquanto o layout de impressão permite que você componha seu mapa
-3. Adicione uma caixa de título e digite o texto de atribuição. Observe que a caixa de título permite que você adicione todas as formas de texto ao seu mapa.
+3. Como você pode adicionar texto de atribuição ao layout do mapa? -***Adicione uma caixa de título e digite o texto de atribuição. Observe que a caixa de título permite que você adicione todas as formas de texto ao seu mapa.***
 
 
 ## Automatizando a criação de mapas usando os recursos do Atlas
