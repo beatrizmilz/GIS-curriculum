@@ -52,20 +52,15 @@ No mapa online que usamos, o mapa de fundo que não muda de tamanho (em cinza) �
 
 ## Mapas e coordenadas
 
-Quando as pessoas pensam na Terra atualmente, elas geralmente imaginam uma massa esférica azul, verde, branca e marrom flutuando no espaço. É por isso que tradicionalmente usamos globos para representar a Terra.
+Quando as pessoas pensam na Terra atualmente, elas geralmente imaginam uma massa esférica azul, verde, branca e marrom flutuando no espaço. 
 
-<table>
-   <tr>
-    <td>
-         <img src="media/modulo0/blue-marble.jpg">
-         Figura 1. A Bola de Gude Azul (<a href="https://commons.wikimedia.org/wiki/Earth#/media/File:The_Blue_Marble.jpg"> https://commons.wikimedia.org/wiki/Earth#/media/File:The_Blue_Marble.jpg</a>)
-    </td>
-    <td>
-         <img src="media/modulo0/globe.jpg">
-         Figura 2. Globo de l'Isle (1765) (<a href="https://commons.wikimedia.org/wiki/Globe#/media/File:3quarter_globe.jpg"> https://commons.wikimedia.org/wiki/Globe#/media/File:3quarter_globe.jpg</a>)
-    </td>
-   </tr>
-</table>
+![A bola de gude azul](media/modulo0/blue-marble.jpg "A bola de gude azul")
+
+
+É por isso que tradicionalmente usamos globos para representar a Terra.
+
+![Globo de l'Isle (1765)](media/modulo0/globe.jpg "Globo de l'Isle (1765)")
+
 
 No entanto, embora o globo seja capaz de capturar a maioria das características da Terra, ele possui duas desvantagens principais:
 

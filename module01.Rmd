@@ -390,7 +390,7 @@ Claro, você sempre pode criar um plugin do zero. Se você estiver interessado e
 Para obter mais informações, consulte: [https://bnhr.xyz/2018/10/08/qgis-plugins-3.0.html](https://bnhr.xyz/2018/10/08/qgis-plugins-3.0. html)
 
 
-### Para praticar suas novas habilidades, tente ...
+### Para praticar suas novas habilidades, tente...
 
 * Altere o tema e a aparência da interface do usuário QGIS de acordo com sua preferência.
 * Instale outros complementos QGIS.
