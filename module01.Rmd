@@ -167,7 +167,7 @@ Uma das belezas do QGIS é a personalização ele que oferece aos seus usuários
 Figura 1.4. A interface QGIS com algumas personalizações
 
 
-### **Tutorial / Exercício 01: Mudando a aparência e layout da interface QGIS**
+### **Tutorial/Exercício: Mudando a aparência e layout da interface QGIS**
 
 1. Abra o **QGIS**
 2. Clique no menu **Visão**
@@ -243,7 +243,7 @@ A **Barra de Pesquisa** permite que você pesquise complementos encontrados no(s
 Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 
 
-### **Tutorial / Exercício 02: Instalando um complemento QGIS**
+### **Tutorial/Exercício: Instalando um complemento QGIS**
 
 1. Abra a caixa de diálogo **Gerenciar e instalar complementos** em **Complementos > Gerenciar e instalar complementos** na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.
 
@@ -313,7 +313,7 @@ Figura 1.10. Acessando perfis de usuário
 
 Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em **Configurações > Perfis de usuário > Abrir pasta de perfil ativo**.
 
-### **Tutorial / Exercício 03: Criando um Perfil de Usuário**
+### **Tutorial/Exercício: Criando um Perfil de Usuário**
 
 1. Vá para **Configurações > Perfis de usuário > Novo perfil ...**
 

@@ -182,7 +182,7 @@ Figura 4.9: Mapa ampliado
 2. Quais dos tipos de renderização abaixo são aplicáveis para dados vetoriais?
 3. Quais são os tipos de renderização raster?
 
-#### **Respostas do Quiz**
+##### **Respostas do Quiz**
 
 1. a. elemento gráfico representado como um marcador, traço ou preenchimento
    b. um ponteiro para os dados originais

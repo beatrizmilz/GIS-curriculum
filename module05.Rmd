@@ -109,7 +109,7 @@ Figura 5.7: Adicionar mapa a Layout de impressão
 2. Qual é a utilidade do layout de impressão? (caixas de seleção)
 3. Qual dos seguintes não é um elemento do mapa? (botão de radio)
 
-### **Respostas do Quiz**
+#### **Respostas do Quiz**
 
 1. a. mostra o mapa composto de camadas de mapa sobrepostas
    b. permite interação com o mapa e camadas
@@ -172,7 +172,7 @@ Figura 5.11 : Mapa exportado como imagem
 3. Como você pode adicionar texto de atribuição ao layout do mapa?
 
 
-### **Respostas do Quiz**
+#### **Respostas do Quiz**
 
 1. a. Composição
    b. Propriedades do item
