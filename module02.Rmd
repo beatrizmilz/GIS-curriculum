@@ -139,11 +139,11 @@ Figura 2.3. Os arquivos do módulo no painel do navegador
 
 6. Existem 5 arquivos na pasta de dados:
 
-    1. um GeoPackage (br_rj.gpkg) que contém um arquivo vetorial (br_rj_hospitais) e raster (br_rj_srtm_dem);
-    2. um GeoJSON (br_ufs.geojson);
-    3. um arquivo kml (br_rj_municipios.kml);
-    4. um arquivo de forma (br_pais.shp); e
-    5. um arquivo de valores separados por vírgula (CSV) (br_rj_escolas.csv).
+    1. um GeoPackage (data/module2/br_rj.gpkg) que contém um arquivo vetorial (br_rj_hospitais) e raster (br_rj_srtm_dem);
+    2. um GeoJSON (data/module2/br_ufs.geojson);
+    3. um arquivo kml (data/module2/br_rj_municipios.kml);
+    4. um arquivo de forma (data/module2/br_pais.shp); e
+    5. um arquivo de valores separados por vírgula (CSV) (data/module2/br_rj_escolas.csv).
 
 7. Clique com o botão direito em br_pais.shp e clique em Propriedades da camada (Figura 2.4). Isso abre a janela de propriedades da camada (Figura 2.5). Observe as informações fornecidas na janela. Qual é a geometria da camada? Qual CRS é usado? Quantos recursos existem na camada?
 
