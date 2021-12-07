@@ -2,8 +2,6 @@
 
 **Autor**: Ben Hur
 
-## Introdução Pedagógica
-
 Este módulo serve como uma introdução ao QGIS. No final deste módulo, os alunos devem estar familiarizados com:
 
 * O que é o QGIS
@@ -22,26 +20,21 @@ Eles também devem aprender:
 
 O módulo também irá discutir algumas nuances do QGIS e o que o torna único ou diferente de outros softwares GIS, como formatos de arquivo QGIS.
 
-### Ferramentas e recursos necessários
-
 As ferramentas e recursos necessários para este módulo são:
 
 *   Computador
 *   Conexão de internet
 *   QGIS 3.16 instalado no computador ([https://qgis.org/en/site/forusers/download.html](https://qgis.org/en/site/forusers/download.html))
 
-
-### Pré-requisitos
+Pré-requisitos:
 
 *   Conhecimento básico de informática
 
-### Recursos adicionais
+Recursos adicionais:
 
 * Manual do usuário QGIS - [https://docs.qgis.org/3.16/en/docs/user_manual/](https://docs.qgis.org/3.16/en/docs/user_manual/)
 * Manual de treinamento QGIS - [https://docs.qgis.org/3.16/en/docs/training_manual/index.html](https://docs.qgis.org/3.16/en/docs/training_manual/index.html )
 
-
-### Introdução aos conceitos
 
 O mapa abaixo ([https://flic.kr/p/2jFfGJP](https://flic.kr/p/2jFfGJP)), de Andrés Felipe Lancheros Sánchez, mostra partes da cidade de Bogotá na Colômbia feitas no estilo da pintura "Noite estrelada" de Vincent van Gogh.
 
@@ -174,7 +167,7 @@ Uma das belezas do QGIS é a personalização ele que oferece aos seus usuários
 Figura 1.4. A interface QGIS com algumas personalizações
 
 
-### **Tutorial / Exercício 1: Mudando a aparência e layout da interface QGIS**
+### **Tutorial / Exercício 01: Mudando a aparência e layout da interface QGIS**
 
 1. Abra o **QGIS**
 2. Clique no menu **Visão**
@@ -197,7 +190,7 @@ Figura 1.4. A interface QGIS com algumas personalizações
 Para redefinir sua tela para as configurações padrão, vá para **Configurações > Opções > Guia Sistema > Configurações > Botão Redefinir** e reinicie o QGIS.
 
 
-### **Perguntas do questionário**
+### **Quiz**
 
 1. Verdadeiro ou falso:
     1. Você pode ter várias telas de mapa - ***Verdadeiro***
@@ -205,7 +198,7 @@ Para redefinir sua tela para as configurações padrão, vá para **Configuraç�
     3. Você só pode colocar painéis no lado esquerdo ou direito da tela do mapa - ***Falso (você também pode colocar painéis acima ou abaixo da tela do mapa)***
 
 
-## Complementos (Complementos) QGIS
+## Complementos QGIS
 
 A capacidade de adicionar, criar e estender a funcionalidade do QGIS por meio de complementos (ou plug-ins) é um de seus recursos mais poderosos.
 
@@ -250,7 +243,7 @@ A **Barra de Pesquisa** permite que você pesquise complementos encontrados no(s
 Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 
 
-### **Tutorial / Exercício 2: Instalando um complemento QGIS**
+### **Tutorial / Exercício 02: Instalando um complemento QGIS**
 
 1. Abra a caixa de diálogo **Gerenciar e instalar complementos** em **Complementos > Gerenciar e instalar complementos** na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.
 
@@ -270,7 +263,7 @@ Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos
 3. Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em **Complementos > Memory Layer Saver** na barra de menus, enquanto o plugin QuickOSM deve estar disponível em **Vetor > QuickOSM** na barra de menus.
 
 
-### **Perguntas do questionário**
+### **Quiz**
 
 1. Verdadeiro ou falso
     1. Você pode remover ou desinstalar os complementos do Core - ***Falso***
@@ -324,19 +317,19 @@ Os perfis de usuário são salvos em um diretório em seu computador que pode se
 
 1. Vá para **Configurações > Perfis de usuário > Novo perfil ...**
 
-![alt_text](media/modulo1/user-profiles-2.png "image_tooltip")
+![Opção novo perfil](media/modulo1/user-profiles-2.png "Opção novo perfil")
 
 
 2. Dê um nome ao seu novo perfil de usuário.
 
-![alt_text](media/modulo1/user-profiles-3.png "image_tooltip")
+![caixa de entrada 'novo nome de perfil'](media/modulo1/user-profiles-3.png "caixa de entrada 'novo nome de perfil'")
 
 3. Uma nova janela QGIS deve abrir com seu novo perfil de usuário. Observe que o nome do seu perfil é mostrado na barra de título do QGIS.
 
 4. Você percebe alguma diferença no novo perfil do usuário? Verifique a interface do usuário, os complementos e as configurações do perfil antigo e do novo perfil que você criou.
 
 
-### **Perguntas do questionário**
+### **Quiz**
 
 1. Verdadeiro ou falso
     1. Você só pode ter um perfil de usuário no QGIS. - ***Falso (você pode ter vários perfis de usuário)***

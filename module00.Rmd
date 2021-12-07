@@ -1,10 +1,6 @@
-# Introdução
-
-## Introdução suave a conceitos de GIS
+# Introdução suave a conceitos de GIS
 
 **Autor**: Ben Hur
-
-### Introdução pedagógica
 
 Este módulo serve como uma introdução suave aos conceitos geográficos necessários para trabalhar com sistemas de informação geográfica (SIG, ou GIS em língua inglesa). Ao final deste módulo, os alunos deverão compreender os seguintes conceitos:
 
@@ -17,21 +13,18 @@ Este módulo serve como uma introdução suave aos conceitos geográficos necess
 
 Além disso, este módulo irá também introduzir alguns conceitos chave de softwares livres e de código aberto (Free and Open Source Software, ou FOSS) e softwares livres e de código aberto para aplicações geoespaciais (FOSS4G).
 
-
-### Ferramentas e recursos necessários
-
 As ferramentas e recursos necessários para este módulo são:
 
 *   computador
 *   conexão de internet
 
 
-### Pré-requisitos
+Pré-requisitos:
 
 *   conhecimento básico de uso de computadores
 
 
-### Recursos adicionais
+Recursos adicionais:
 
 * A Gentle Introduction to GIS - [https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html)
 *  QGIS User Guide - [https://docs.qgis.org/3.16/en/docs/user_manual/](https://docs.qgis.org/3.16/en/docs/user_manual/)
@@ -42,8 +35,6 @@ As ferramentas e recursos necessários para este módulo são:
 * What is free software? - [https://www.gnu.org/philosophy/free-sw.en.html](https://www.gnu.org/philosophy/free-sw.en.html)
 * Open source definition - [https://opensource.org/osd](https://opensource.org/osd)
 
-
-## Introdução temática
 
 Vamos começar com um exemplo:
 
@@ -84,7 +75,7 @@ No entanto, embora o globo seja capaz de capturar a maioria das características
 É aqui que entram os mapas. Os mapas corrigem essas duas desvantagens dos globos, representando a Terra como uma superfície plana. Ao fazer isso, os mapas se tornam portáteis e adequados para uma infinidade de usos. Dito isso, os mapas também apresentam uma desvantagem própria. Através do processo de conversão de um objeto tridimensional (globo) em um bidimensional (mapa), distorções são geradas, de tal forma que é impossível para um mapa capturar perfeitamente as diferentes características da Terra (ou seja, formas, áreas e direções).
 
 
-### Projeções cartográficas
+## Projeções cartográficas
 
 Uma projeção cartográfica é usada para achatar a superfície da Terra (ou de um globo qualquer) em um plano, a fim de criar um mapa. Este processo de transformação gera distorção.
 
@@ -245,7 +236,7 @@ A projeção de um mapa também pode ser classificada de acordo com seu **aspect
 Figura 10. Aspectos de uma projeção cartográfica
 
 
-### Sistemas de referência de coordenadas
+## Sistemas de referência de coordenadas
 
 Um **Sistema de Referência de Coordenadas (SRC, ou CRS na sigla em inglês)** é usado para especificar a localização de um objeto na superfície da Terra por meio do uso de coordenadas. SRCs podem ser classificados em dois:
 
@@ -274,12 +265,13 @@ Alguns códigos EPSG comuns incluem:
     1. um mapa de uso geral que precisa ter uma aparência agradável
     2. um mapa mostrando uma análise de área por unidade entre diferentes locais
     3. um mapa que mostra uma comparação de uma zona de 10 km de raio de diferentes locais
+
 2. Que tipo de sistema de referência de coordenadas (geográfico ou projetado) é melhor utilizado para os seguintes casos?
-    4. mostrar a localização de pontos usando GPS
-    5. calcular a distância entre dois pontos
-3. Verdadeiro ou falso - É possível preservar as seguintes características do mapa juntas em um único mapa:
-    6. Área e forma
-    7. Distância e direção
+    1. mostrar a localização de pontos usando GPS
+    2. calcular a distância entre dois pontos
+    3. Verdadeiro ou falso - É possível preservar as seguintes características do mapa juntas em um único mapa:
+    4. Área e forma
+    5. Distância e direção
 
 
 ## Tipos de dados espaciais
@@ -330,7 +322,7 @@ Comparado aos pixels raster, uma feição vetorial pode conter mais de um valor 
 
 ### Quiz
 
-1. Qual tipo de dado pode representar melhor os seguintes objetos / fenômenos:
+1. Qual tipo de dado pode representar melhor os seguintes objetos/fenômenos:
     1. estradas
     2. casas
     3. densidade populacional
@@ -348,8 +340,8 @@ SIG é uma ferramenta / framework / sistema que nos permite trabalhar com inform
 
 
 *  **Coletar**, **armazenar**, **editar**, **manipular**, ou em termos mais gerais, **gerenciar** dados espaciais.
-* **Analizar** os dados usando seu componente espacial (onde os dados estão) ou atributo (o valor dos dados).
-* **Apresentar** os dados e análises como informações significativas por meio de mapas, gráficos, plotagens e outras visualizações.
+*  **Analizar** os dados usando seu componente espacial (onde os dados estão) ou atributo (o valor dos dados).
+*  **Apresentar** os dados e análises como informações significativas por meio de mapas, gráficos, plotagens e outras visualizações.
 
 _SIG não é apenas mapeamento_. Embora a elaboração de mapas seja um dos aspectos mais importantes e comumente conhecidos do SIG, ela ainda é apenas uma parte de seus muitos recursos. Podemos ver a estrutura SIG moderna como sendo composta por:
 
@@ -362,7 +354,7 @@ _SIG não é apenas mapeamento_. Embora a elaboração de mapas seja um dos aspe
 Todas as partes da estrutura SIG moderna - dos dados às pessoas - são essenciais para garantir seu sucesso.
 
 
-### Perguntas do questionário
+### Quiz
 
 1. Verdadeiro ou falso:
     1. Um SIG só pode ser usado com dados geoespaciais.
@@ -384,8 +376,6 @@ Figura 14. Uma amostra de stack geoespacial de código aberto (ou FOSS4G) (de Si
 __Livre como em liberdade e não apenas grátis.__
 
 Software livre é o software que adere às Quatro Liberdades Essenciais do Software Livre, que são:
-
-
 
 1. A liberdade de executar o programa como desejar, para qualquer propósito (liberdade 0).
 2. A liberdade de estudar como o programa funciona e alterá-lo para que ele faça o que você deseja (liberdade 1). O acesso ao código-fonte é uma pré-condição para isso.

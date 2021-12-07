@@ -2,8 +2,6 @@
 
 **Autor**: Ben Hur
 
-## Introdução Pedagógica
-
 Este módulo irá ensinar-lhe os conceitos básicos das camadas no QGIS e como carregá-las. No final deste módulo, os alunos devem estar familiarizados com:
 
 * as diferentes fontes de dados e formatos de arquivo que podem ser carregados no QGIS
@@ -19,23 +17,19 @@ Eles também devem ser capazes de:
 * mostrar propriedades da camada, como metadados informações
 * salvar e exportar camadas
 
-
-### Ferramentas e recursos necessários
-
 As ferramentas e recursos necessários para este módulo são:
 
 * computador
 * conexão à Internet
 * QGIS 3.16 instalado no computador ([https://qgis.org/en/site/forusers /download.html](https://qgis.org/en/site/forusers/download.html))
 
-
-### Pré-requisitos
+Pré-requisitos:
 
 * conhecimento básico de operação de um computador
 * familiaridade com formatos de dados espaciais e a interface QGIS (conclusão dos Módulos 0 e 1)
 
 
-### Recursos adicionais
+Recursos adicionais:
 
 * QGIS User Guide - [https://docs.qgis.org/3.16/en/docs/user_manual/](https://docs.qgis.org/3.16/en/docs/user_manual/)
 * Manual de treinamento QGIS - [ https://docs.qgis.org/3.16/en/docs/training_manual/index.html](https://docs.qgis.org/3.16/en/docs/training_manual/index.html)
@@ -44,17 +38,11 @@ As ferramentas e recursos necessários para este módulo são:
 * Spreadsheet Layers Plugin - [https://bnhr.xyz/2018/07/27/plugin-fridays-spreadsheet-layers-plugin.html](https://bnhr.xyz/2018/ 27/07 / plugin-fridays-spreadsheet-layers-plugin.html)
 
 
-
-## Introdução temática
-
 ![Análise de múltiplas camadas em GIS](media/modulo2/spatial-layers.jpg "Análise de múltiplas camadas em GIS")
 
 Figura 2.1. Uma sobreposição de mapa contendo diferentes camadas e tipos de dados ([https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html](https://saylordotorg. github.io/text_essentials-of-geographic-information-systems/s11-02-multiple-layer-analysis.html))
 
 Aprendemos nos módulos anteriores que modelos de dados espaciais, como vetores e rasters, são modelos de objetos do mundo real e fenômenos e, embora seja perfeitamente normal ter uma única camada que modele uma única coisa (por exemplo, elevação, temperatura, localização de residências, zoneamento, etc.), na prática, se quisermos realizar análises úteis ou criar um modelo que reflita o mundo real melhor, então, precisaríamos usar vários dados e camadas juntos. Sobrepor vários mapas temáticos da mesma área, colocando-os uns sobre os outros, é uma das técnicas de análise geográfica mais antigas e comuns.
-
-
-### Detalhamento dos conceitos
 
 A imagem acima nos dá um exemplo simples e concreto disso. Imagine que você é um consultor GIS encarregado de encontrar a melhor localização para uma nova escola. Para fazer isso, você precisaria reunir as informações relevantes que o ajudariam a decidir. Isso pode incluir informações sobre as ruas da cidade, lotes de terreno, localização e distribuição de possíveis estudantes, a topografia da área, uso do solo, etc.
 
@@ -119,7 +107,7 @@ Existem várias maneiras de carregar camadas no QGIS. Estes incluem:
 3. Usando o **Gerenciador de fonte de dados**.
 4. Usando a **barra de ferramentas do Gerenciador de fonte de dados** e a **barra de ferramentas Gerenciar camadas**.
 
-** NOTA: ** _Ao carregar camadas, as cores padrão de suas camadas podem ser diferentes das cores padrão mostradas neste módulo._
+**NOTA:** _Ao carregar camadas, as cores padrão de suas camadas podem ser diferentes das cores padrão mostradas neste módulo._
 
 
 ### **O painel do navegador**
@@ -131,7 +119,7 @@ O painel do navegador expõe muitas funcionalidades para conectar, carregar e mo
 Para saber mais sobre o painel do navegador, acesse: [https://docs.qgis.org/3.16/en/docs/user_manual/introduction/browser.html](https://docs.qgis.org/3.16/en /docs/user_manual/introduction/browser.html)
 
 
-#### **Exercício 01.1: O painel do navegador**
+#### **Tutorial/Exercício: O painel do navegador**
 
 1. Abra o QGIS.
 2. Verifique o painel do navegador (Figura 2.2). Se você não conseguir encontrar o painel do navegador, pode torná-lo visível em **Exibir > Painéis > Painel do navegador** na barra de menus.
@@ -251,7 +239,7 @@ _“um arquivo de informações, geralmente apresentado como um documento XML, q
 A importância dos metadados é que eles não apenas promovem a transparência, mas também facilitam o compartilhamento de dados e informações. É por isso que é importante sempre adicionar metadados aos nossos conjuntos de dados. Ao adicionar metadados, é igualmente importante seguir padrões - regras e práticas amplamente promovidas, aceitas e seguidas - para que os metadados que criamos sejam interoperáveis. Um desses padrões é a ISO 19115: 2014 “Informação Geográfica - Metadados” da ISO / TC 211 ([https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en] (https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en))
 
 
-### **Exercício 01.2: Adicionando metadados**
+### **Tutorial/Exercício: Adicionando metadados**
 
 1. Abra as Propriedades da camada da camada br_pais.
 2. Verifique as informações mostradas na guia Informações e observe as informações mostradas. Está completo? Podemos adicionar mais informações?
@@ -273,13 +261,13 @@ Figura 2.10. Editando alguns metadados
 Figura 2.11. A guia Informações depois de editar alguns metadados
 
 
-#### Perguntas do questionário
+### Quiz
 
 1. Verdadeiro ou falso:
 
-    1. Todos os arquivos vetoriais são shapefiles. - *** Falso (um shapefile é um formato de arquivo de um arquivo vetorial. Outros formatos de arquivo de dados vetoriais incluem geopackage, geojson e flatgeobuf) ***
-    2. Quando renderizado no mapa, uma camada que é superior no painel de camadas sempre cobrirá ou aparecerá no topo de uma camada que está abaixo no painel de camadas. - *** Falso (quando ativado, a ordem no painel de ordem de camadas substituirá a ordem no painel de camadas) ***
-    3. Você pode verificar as informações de metadados sobre uma camada no painel Camadas e no painel do navegador. - *** Verdadeiro ***
+    1. Todos os arquivos vetoriais são shapefiles. - ***Falso (um shapefile é um formato de arquivo de um arquivo vetorial. Outros formatos de arquivo de dados vetoriais incluem geopackage, geojson e flatgeobuf)***
+    2. Quando renderizado no mapa, uma camada que é superior no painel de camadas sempre cobrirá ou aparecerá no topo de uma camada que está abaixo no painel de camadas. - ***Falso (quando ativado, a ordem no painel de ordem de camadas substituirá a ordem no painel de camadas)***
+    3. Você pode verificar as informações de metadados sobre uma camada no painel Camadas e no painel do navegador. - ***Verdadeiro***
 
 
 ## O gerenciador de fonte de dados e conexão com serviços remotos
@@ -295,7 +283,7 @@ O **Gerenciador de fonte de dados** foi introduzido com o lançamento do QGIS 3.
 Figura 2.12. O Gerenciador de fonte de dados
 
 
-#### **Exercício 02.1: O Gerenciador de fonte de dados**
+#### **Tutorial/Exercício: O Gerenciador de fonte de dados**
 
 1. Abra o **Gerenciador de fonte de dados**. Ele contém guias no lado direito que pertencem ao tipo de fonte de dados que você deseja carregar ou conectar. Semelhante ao navegador, você pode carregar e conectar vários tipos de dados do Gerenciador de fonte de dados.
 2. **Carregando vetores**
@@ -380,7 +368,7 @@ Sinta-se à vontade para reorganizar as camadas no painel de camadas.
 Além de arquivos vetoriais e raster, QGIS também pode se conectar a serviços remotos, como serviços de tiles, OGC Web Services (WMS, WFS), e até ESRI ArcGIS Web Services. Esta conexão pode ser criada a partir do painel do navegador ou do gerenciador de fonte de dados.
 
 
-#### **Exercício 02.2: Conectando-se a tiles XYZ**
+#### **Tutorial/Exercício: Conectando-se a tiles XYZ**
 
 Os tiles XYZ geralmente são usados como mapas base e não são utilizados apenas em aplicativos de desktop, mas, mais comumente, em aplicativos da web.
 
@@ -419,7 +407,7 @@ Figura 2.20. Camada OpenStreetMap carregada no QGIS
 **BÔNUS 2:** Você pode adicionar os URLs dos tileservers encontrados no site Leaflet Providers ([https://leaflet-extras.github.io/leaflet-providers/preview/](https://leaflet- extras.github.io/leaflet-providers/preview/)) como tiles XYZ no painel do navegador.
 
 
-#### **Exercício 02.3: Conectando-se a WMS / WMTS e WFS**
+#### **Tutorial/Exercício: Conectando-se a WMS / WMTS e WFS**
 
 WMS ou Web Map Service é um Open Geospatial Consortium (OGC) ([https://www.ogc.org/](https://www .ogc.org /)) padrão de serviço da web de reclamação para exibição de imagens (tiles raster) pela Internet. Quando os dados são fornecidos via WMS, o usuário não pode editar diretamente as informações contidas neles nem alterar seu estilo.
 
@@ -455,11 +443,11 @@ Figura 2.23. Mapa de risco de inundação do WMS carregado no QGIS
 7. A conexão com o WFS segue o mesmo procedimento.
 
 
-#### **Perguntas do questionário**
+### **Quiz**
 
 1. Verdadeiro ou falso:
 
-    1. Você só pode carregar arquivos locais no QGIS - *** Falso (você também pode carregar arquivos remotos, como aqueles armazenados online ou servidos por serviços da web) ***
+    1. Você só pode carregar arquivos locais no QGIS - ***Falso (você também pode carregar arquivos remotos, como aqueles armazenados online ou servidos por serviços da web)***
 
 
 ## Exportando Camadas, Camadas na Memória (Temporárias) e Camadas Virtuais
@@ -519,12 +507,12 @@ As camadas virtuais dependem de outras camadas, portanto, é importante que as c
 Quando a camada de base é atualizada, você precisa atualizar a exibição do mapa fazendo uma movendo ou ampliando o mapa para mostrar a atualização da camada virtual.
 
 
-#### **Perguntas do questionário**
+### **Quiz**
 
 1. Verdadeiro ou falso:
 
     1. Ao exportar uma camada vetorial, você pode selecionar o formato para salvá-la. -- ***Verdadeiro***
-    2. Camadas temporárias (ou scratch) são sempre esquecidas pelo QGIS quando ele é fechado. - *** Falso (elas podem se tornar persistentes usando o plug-in Memroy Layer Saver)***
+    2. Camadas temporárias (ou scratch) são sempre esquecidas pelo QGIS quando ele é fechado. - ***Falso (elas podem se tornar persistentes usando o plug-in Memroy Layer Saver)***
     3. Quando a camada de base para uma camada virtual é atualizada, a camada virtual é automaticamente atualizada na tela do mapa sem a necessidade de entrada do usuário. - ***Falso (o usuário precisa atualizar a tela do mapa, movimentando ou ampliando antes que a atualização da camada virtual seja refletida na tela)***
 
 
@@ -559,7 +547,7 @@ URL: [http://ihp-wins.unesco.org/](http://ihp-wins.unesco.org/)
 Você pode saber mais sobre como conectar o QGIS a serviços remotos em: [https://bnhr.xyz/2018/10/12/connecting-qgis-to-remote-services.html](https://bnhr.xyz/2018/ 12/10 / Connecting-qgis-to-remote-services.html)
 
 
-#### **Exercício / Tutorial sobre Camadas Virtuais**
+### **Exercício/Tutorial: Camadas Virtuais**
 
 1. Abra o QGIS.
 2. Carregue uma imagem de satélite ou mapa base de satélite via tiles XYZ ou plugin QuickMapServices (por exemplo, Google Satellite).
@@ -597,7 +585,7 @@ select fid, buffer(geometry, radius), species from arvores
 Adicione um novo ponto e, em seguida, atualize a exibição do mapa (aplicando zoom ou panorâmica na tela do mapa) para ver a atualização na camada virtual. O que você notou?
 
 
-## Para praticar suas novas habilidades, tente ...
+## Para praticar suas novas habilidades, tente...
 
 ### **Carregar rasters e vetores encontrados na internet**
 

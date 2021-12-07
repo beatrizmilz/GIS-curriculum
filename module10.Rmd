@@ -630,9 +630,9 @@ Do fornecedor deste produto com base em imagens de satélite, os valores dos pix
   <tr>
    <td> 90
    </td>
-   <td> #0096A0Pantanal
+   <td> #0096A0 
    </td>
-   <td>herbáceo. Terras com mistura permanente de água e vegetação herbácea ou lenhosa. A vegetação pode estar presente em água salgada, salobra ou doce.
+   <td>Pantanal.Herbáceo. Terras com mistura permanente de água e vegetação herbácea ou lenhosa. A vegetação pode estar presente em água salgada, salobra ou doce.
    </td>
   </tr>
   <tr>
