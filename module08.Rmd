@@ -2,8 +2,6 @@
 
 **Autores**: Codrina Ilie
 
-## Introdução pedagógica
-
 Este módulo é focado em um tipo específico de modelo de dados geográficos: os geodados vetoriais.
 
 Ao final deste módulo, os alunos terão a compreensão básica dos seguintes conceitos:
@@ -24,14 +22,14 @@ E adquirirão as seguintes habilidades:
 * Processamento de dados vetoriais - usando algoritmos de geoestatística para preencher os dados faltantes.
 
 
-### Ferramentas e recursos necessários
+Ferramentas e recursos necessários:
 
 * Este módulo foi preparado usando [QGIS versão 3.16.1 - Hannover](https://qgis.org/en/site/forusers/download.html)
 * Os conjuntos de dados usados ​​para todos os exercícios detalhados em este módulo são apresentados na tabela abaixo:
 * O sistema de referência de coordenadas utilizado é o SIRGAS 2000/UTM zona 24S, EPSG 31984. Por se tratar de um sistema de coordenadas projetado, ele permite cálculos geométricos.
 
 
-### Pré-requisitos
+Pré-requisitos:
 
 * Conhecimento básico de como operar um computador
 * Uma compreensão robusta dos módulos 0, 1 e 2 e 6 deste currículo. O Módulo 0 apresenta a noção de modelo de dados vetoriais que está no cerne desta seção atual. A compreensão prévia dos módulos 1, 2 e 6 permite que você se concentre estritamente nas novas noções e funcionalidades do QGIS introduzidas nesta nova seção, sem ter que se perguntar como você poderia carregar uma nova camada em seu projeto, ou como trabalhar com a tabela de atributos do seu conjunto de dados.  
@@ -39,7 +37,7 @@ E adquirirão as seguintes habilidades:
 Como parte deste módulo, você aprenderá como trabalhar de forma eficiente com conjuntos de dados geográficos vetoriais para que possa extrair novas informações. Isso inclui uma compreensão mais aprofundada do que são dados vetoriais, quais padrões de qualidade eles devem cumprir para que sejam realmente úteis, quais são as operações mais comuns feitas em dados vetoriais (geoprocessamento, geoestatística).
 
 
-### Recursos adicionais:
+Recursos adicionais:
 
 * [https://docs.qgis.org/3.16/en/docs/user_manual/working_with_vector/functions_list.html](https://docs.qgis.org/3.16/en/docs/user_manual/ working_with_vector/functions_list.html)
 * [http://www.geo.hunter.cuny.edu/~jochen/gtech361/lectures/lecture12/concepts/01%20What%20is%20geoprocessing.htm](http://www. geo.hunter.cuny.edu/~jochen/gtech361/lectures/lecture12/concepts/01%20What%20is%20geoprocessing.htm)
@@ -48,8 +46,6 @@ Como parte deste módulo, você aprenderá como trabalhar de forma eficiente com
 * [Noções básicas de metadados](https://www.fgdc.gov/resources/factsheets/documents/GeospatialMetadata-July2011.pdf) elaborado pelo Comitê Federal de Dados Geográficos;
 
 
-## Introdução temática
-
 Vamos começar com um exemplo: Você acaba de pousar na cidade do Rio de Janeiro e precisa ir do aeroporto ao hotel. Você não tem conhecimento de onde está situado o aeroporto em relação à cidade, nem onde fica o hotel, então a primeira coisa que você faz é abrir um mapa para ajudá-lo a navegar por esta cidade nova e animada! Você pega o telefone, abre um aplicativo de mapa e seleciona o ponto de partida - o aeroporto - e o ponto de chegada - seu hotel - e, em seguida, pede a rota, a pé, de carro ou transporte público. Em questão de segundos, o aplicativo de roteamento oferece a melhor solução para você ir do ponto A ao ponto B e o destaca ao traçar uma linha distinta seguindo ruas e becos, conforme visível na figura 8.1.
 
 
@@ -57,8 +53,6 @@ Vamos começar com um exemplo: Você acaba de pousar na cidade do Rio de Janeiro
 
 Figura 8.1 - Indo do ponto A ao B usando o Openstreetmap
 
-
-### Detalhamento dos conceitos
 
 Este é um exemplo clássico de uso de dados vetoriais e ele pode ser dividido em vários conceitos que definiremos a seguir.
 
@@ -119,7 +113,7 @@ Figura 8.4 - Elementos de uma operação de geoprocessamento
 Existem muitas operações de geoprocessamento que podem ser realizadas sobre dados vetoriais, as mais comuns sendo a sobreposição de feições geográficas, seleção e análise de recursos, processamento de topologia e conversão de dados. Nesta primeira fase, vamos nos familiarizar com alguns desses, entendendo como funcionam e quais os resultados que podemos esperar deles.
 
 
-### **Etapa 1. Prepare seu ambiente de trabalho.**
+### **Etapa 1: Prepare seu ambiente de trabalho.**
 
 Abra o QGIS, configure o sistema de referência de coordenadas em que você trabalhará {localize}- EPSG 31984 - e adicione as seguintes camadas de dados:
 
@@ -136,7 +130,7 @@ Figura 8.5 - Conjuntos de dados vetoriais carregados: pontos, linha e polígonos
 
 **Verifique!** Todas as camadas estão no mesmo sistema de coordenadas (EPSG 31984) olhando no canto direito inferior. Se for assim, você está olhando para 7 camadas de dados vetoriais sobrepostas.
 
-### **Etapa 2. Entenda o que você está olhando.**
+### **Etapa 2: Entenda o que você está olhando.**
 
 Neste ponto, temos 7 camadas vetoriais carregadas em nosso projeto QGIS. As próximas etapas nos ajudarão a entender nossos dados.
 
@@ -229,7 +223,7 @@ Comprimento médio: 0.9626147183854008
 Os resultados não parecem iguais aos anteriores: não temos média, mediana ou desvio padrão. Isso ocorre porque o campo de atributo em que executamos o algoritmo é diferente, no qual não temos números, mas palavras - tipos de edifícios. Descobrimos que dos 75511 edifícios no Recife, para 62776 não sabemos o tipo de edifício. Também descobrimos que existem 47 categorias únicas.
 
 
-### **Etapa 3. Verificações básicas para encontrar erros rapidamente em seus dados.**
+### **Etapa 3: Verificações básicas para encontrar erros rapidamente em seus dados.**
 
 Conjuntos de dados perfeitos e sem falhas são equivalentes ao gás ideal em física. Não existe tal coisa, mas muitos podem chegar muito perto disso. Portanto, antes de fazer qualquer tipo de análise para extrair informações, pelo menos algumas verificações básicas são necessárias sobre quão _limpos_ estão os dados que temos.
 
@@ -341,7 +335,7 @@ Se você tivesse geometrias duplicadas, poderia limpá-las fazendo os mesmos pas
 Uma limpeza completa dos conjuntos de dados vetoriais usados ​​para este módulo está fora do escopo. Sua complexidade o transforma em um módulo mais avançado em si mesmo.
 
 
-### **Etapa 4. Observe as informações anexadas aos pontos, linhas e polígonos.**
+### **Etapa 4: Observe as informações anexadas aos pontos, linhas e polígonos.**
 
 Vamos executar mais um algoritmo para ter uma ideia de quais são os atributos de nossas camadas do Recife. Depois de identificarmos quantos recursos cada camada possui, vamos ver quantos e quais são os atributos exclusivos nos seguintes casos:
 
@@ -450,17 +444,16 @@ Outra análise interessante pode ser executada na camada vetorial de estradas. A
 Figura 8.22 - Executando Group Stats na camada de estradas.
 
 
-#### **Perguntas do teste**
+### **Quiz**
 
 1. Os metadados são importantes?
-* _ <span style = "text-decoration: underline;"> Sim, porque fornecem uma visão sobre os dados geográficos que de outra forma não seria possível obter. </span> _
-* _Não, é apenas burocracia. _
-2. A topologia é relevante para a geometria ou para a tabela de atributos de uma camada vetorial?
-* _para a geometria da camada vetorial. _
+    a. **Sim, porque fornecem uma visão sobre os dados geográficos que de outra forma não seria possível obter.**
+    b. Não, é apenas burocracia
+2. A topologia é relevante para a geometria ou para a tabela de atributos de uma camada vetorial? -***para a geometria da camada vetorial.***
 3. O que é mais importante, a geometria ou os dados do atributo?
-* _Geometria._
-* _Dados de atributo._
-* _ <span style = "text-decoration: underline;"> Ambos. </span> _
+    a. Geometria.
+    b. Dados de atributo.
+    c. **Ambos.**
 
 
 ## Introdução ao processamento vetorial
@@ -772,19 +765,13 @@ Figura 8.40c - Contagem de POIS públicos em cada grade de 2km X 2km
 Figura 8.40d - Distribuição espacial da densidade de POIs públicos por unidade 2X2km
 
 
-#### **Perguntas do teste**
+### **Quiz**
 
-P: Se eu tiver 2 camadas vetoriais - uma representa a extensão da cidade onde estou trabalhando e a segunda, as estradas construídas em todo o país - que ferramenta de processamento usaria para extrair apenas as estradas da minha cidade: buffer ou recortar (clip)?
+1. Se eu tiver 2 camadas vetoriais - uma representa a extensão da cidade onde estou trabalhando e a segunda, as estradas construídas em todo o país - que ferramenta de processamento usaria para extrair apenas as estradas da minha cidade: buffer ou recortar (clip)? -***Recortar.***
 
-R: Recortar.
+2. A ferramenta de buffer é útil no seguinte caso: Eu tenho uma camada vetorial de polígono com monumentos históricos em minha região e quero desenhar uma área de proteção de 50m ao redor deles? -***Sim***
 
-P. A ferramenta de buffer é útil no seguinte caso: Eu tenho uma camada vetorial de polígono com monumentos históricos em minha região e quero desenhar uma área de proteção de 50m ao redor deles?
-
-R: Sim
-
-P: Qual das três ferramentas de geoprocessamento você usaria para mesclar duas camadas vetoriais semelhantes? Polígonos de Voronoi, dissolver, interseção?
-
-R: Dissolver.
+3. Qual das três ferramentas de geoprocessamento você usaria para mesclar duas camadas vetoriais semelhantes? Polígonos de Voronoi, dissolver, interseção? -***Dissolver.***
 
 ## Geoestatística e interpolação
 
@@ -915,12 +902,8 @@ Clique no botão Reproduzir![Botão Reproduzir](media/modulo8/play-btn.png "Bot�
 Figura 8.50 - Selecionando outras camadas para serem visíveis na animação temporal.
 
 
-Quiz questões
+### Quiz
 
-1. Existe um algoritmo para interpolar dados no QGIS ou mais?
+1. Existe um algoritmo para interpolar dados no QGIS ou mais? -***Existem mais de um algoritmos implementados.***
 
-*Existem mais de um algoritmos implementados.*
-
-2. Para que serve a interpolação?
-
-*A interpolação é útil para estimar dados com base em dados conhecidos.*
+2. Para que serve a interpolação? -***A interpolação é útil para estimar dados com base em dados conhecidos.***
