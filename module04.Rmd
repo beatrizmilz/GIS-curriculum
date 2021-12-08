@@ -43,7 +43,7 @@ Por isso é sempre importante fazer um “Mapa com diferentes símbolos e cores�
 
 ## Painéis, guias e tipos de renderização principais
 
-### **Painel de estilo da camada**
+### Painel de estilo da camada
 
 Este painel é um atalho para alguns dos recursos da caixa de diálogo de propriedades da camada. Na verdade, ele oferece uma maneira rápida e prática de definir a renderização e o comportamento de uma camada e de visualizar seus efeitos sem abrir a caixa de diálogo de propriedades da camada.
 
@@ -67,7 +67,7 @@ Para ativar o painel, clique em Visão -> Painéis e, a seguir, marque Estiliza�
 Figura 4.1: Painel de estilo da camada
 
 
-### **Guia Simbologia nas Propriedades das camadas**
+### Guia simbologia nas propriedades das camadas
 
 Para acessar a guia Simbologia, clique duas vezes na camada para abrir as Propriedades de Camada -> Clique em Simbologia
 
@@ -82,7 +82,7 @@ Aqui, você pode especificar as configurações como o tipo de renderização, b
 Figura 4.2: Guia de simbologia para dados vetoriais e raster, respectivamente
 
 
-### **Renderização raster: renderização de banda**
+### Renderização raster: renderização de banda
 
 QGIS oferece quatro tipos diferentes de renderização. A escolha do renderizador depende do tipo de dados. O tipo de renderização padrão é a cor cinza de banda única. Você terá que alterá-lo para o tipo apropriado com base no tipo de dados.
 
@@ -93,7 +93,7 @@ QGIS oferece quatro tipos diferentes de renderização. A escolha do renderizado
 * Hillshade ([(https://docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/raster_properties.html#hillshade-renderer](https://docs.qgis.org/3.16/en/docs/ user_manual / working_with_raster / raster_properties.html # hillshade-renderer)) - Cria hillshade (sombras de colina) a partir de uma banda.
 
 
-### **Renderização de vetor**
+### Renderização de vetor
 
 Quando você carrega camadas de dados espaciais no QGIS Desktop, elas são estilizadas com uma renderização de símbolo único aleatória. Para alterar isso, clique em Camada-> Propriedades-> Estilo.
 
@@ -115,7 +115,7 @@ A simbologia de dados vetoriais pode variar de acordo com a transparência, cor,
 * Tipos de renderização vetorial
 * Tipos de renderização raster (renderização de banda)
 
-### **Tutorial/Exercício: Renderização vetorial**
+### Tutorial/Exercício: Renderização vetorial
 
 1. Para demonstrar este exemplo, nós usaremos dois conjuntos de dados de exemplo; 1. Clínicas (equipamentos de saúde, identificados no OpenStreetMap com a tag "clinics") e 2. Limite administrativo da cidade do Rio de Janeiro
 2. Adicione as duas camadas vetoriais ao QGIS; Clique no botão Adicionar camada vetorial ![alt_text](media/modulo4/add-vector.png "image_tooltip") ou use o painel do navegador.
@@ -152,7 +152,7 @@ Figura 4.6: Renderização vetorial final
 11. Lembre-se de organizar as camadas no **Painel de camadas** de forma que a camada poligonal fique abaixo da camada de pontos. Isso torna a camada de pontos visível.
 
 
-### **Tutorial/Exercicio: Renderização raster**
+### Tutorial/Exercicio: Renderização raster
 
 1. Clique duas vezes na camada raster, que também é a camada de densidade populacional. Isso também significa que ela é um conjunto de dados normalizado e, portanto, pode ser visualizado como um mapa coroplético.
 2. Selecione a guia de simbologia no menu que aparece
@@ -176,7 +176,7 @@ Figura 4.9: Mapa ampliado
 
 6. Como alternativa, use o **painel Estilização de camadas**.
 
-#### **Quiz**
+#### Quiz
 
 1. O que é simbologia de camada?
 
@@ -210,7 +210,7 @@ Figura 4.9: Mapa ampliado
 * Alterando efeitos de desenho e modos de mesclagem (blending)
 * Visualização impactante de dados
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 1. Depois de carregar ambas as camadas no QGIS, a tela terá a aparência abaixo. Você notará que ambas as camadas têm um estilo simples. Este tutorial explicará como alterar efeitos de desenho e modos de mesclagem para uma melhor visualização.
 
@@ -268,7 +268,7 @@ Para mais exemplos sobre o que você pode fazer com Modos de mescla e Efeitos de
 
 * Executar uma operação espacial dentro da simbologia da camada
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Um gerador de geometria é um tipo de camada símbolo que permite usar código para criar novas geometrias a partir de feições existentes e usar as novas geometrias 'geradas' como símbolos que podem, por sua vez, ter estilos aplicados. Este é um recurso poderoso e é melhor explicado com um exemplo.
 
