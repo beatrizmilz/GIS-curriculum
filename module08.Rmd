@@ -1,4 +1,4 @@
-# **Processamento e análise vetorial**
+# Processamento e análise vetorial
 
 **Autores**: Codrina Ilie
 
@@ -113,7 +113,7 @@ Figura 8.4 - Elementos de uma operação de geoprocessamento
 Existem muitas operações de geoprocessamento que podem ser realizadas sobre dados vetoriais, as mais comuns sendo a sobreposição de feições geográficas, seleção e análise de recursos, processamento de topologia e conversão de dados. Nesta primeira fase, vamos nos familiarizar com alguns desses, entendendo como funcionam e quais os resultados que podemos esperar deles.
 
 
-### **Etapa 1: Prepare seu ambiente de trabalho.**
+### Etapa 1: Prepare seu ambiente de trabalho
 
 Abra o QGIS, configure o sistema de referência de coordenadas em que você trabalhará {localize}- EPSG 31984 - e adicione as seguintes camadas de dados:
 
@@ -130,7 +130,7 @@ Figura 8.5 - Conjuntos de dados vetoriais carregados: pontos, linha e polígonos
 
 **Verifique!** Todas as camadas estão no mesmo sistema de coordenadas (EPSG 31984) olhando no canto direito inferior. Se for assim, você está olhando para 7 camadas de dados vetoriais sobrepostas.
 
-### **Etapa 2: Entenda o que você está olhando.**
+### Etapa 2: Entenda o que você está olhando
 
 Neste ponto, temos 7 camadas vetoriais carregadas em nosso projeto QGIS. As próximas etapas nos ajudarão a entender nossos dados.
 
@@ -223,7 +223,7 @@ Comprimento médio: 0.9626147183854008
 Os resultados não parecem iguais aos anteriores: não temos média, mediana ou desvio padrão. Isso ocorre porque o campo de atributo em que executamos o algoritmo é diferente, no qual não temos números, mas palavras - tipos de edifícios. Descobrimos que dos 75511 edifícios no Recife, para 62776 não sabemos o tipo de edifício. Também descobrimos que existem 47 categorias únicas.
 
 
-### **Etapa 3: Verificações básicas para encontrar erros rapidamente em seus dados.**
+### Etapa 3: Verificações básicas para encontrar erros rapidamente em seus dados
 
 Conjuntos de dados perfeitos e sem falhas são equivalentes ao gás ideal em física. Não existe tal coisa, mas muitos podem chegar muito perto disso. Portanto, antes de fazer qualquer tipo de análise para extrair informações, pelo menos algumas verificações básicas são necessárias sobre quão _limpos_ estão os dados que temos.
 
@@ -239,7 +239,7 @@ Ao se referir a erros de dados geoespaciais, existem 2 termos principais que pre
 
 Analisar e _limpar_ um conjunto de dados geoespaciais pode ser uma tarefa muito demorada e complicada, no entanto - conforme mostrado no exemplo acima - é essencial. Nesta seção, apresentaremos algumas funcionalidades do GIS que permitem ao usuário realizar verificações rápidas em dados vetoriais e tirar um conjunto de conclusões preliminares sobre sua qualidade.
 
-**Verificações de topologia.**
+**Verificações de topologia**
 
 O QGIS oferece uma funcionalidade que permite ao usuário realizar uma série de verificações topológicas nos conjuntos de dados vetoriais carregados, chamada Verificador de Topologia. Ela pode ser encontrado como um dos painéis (figura 8.9.a) e uma vez ativada, sua janela se parece com a figura 8.9.b.
 
@@ -335,7 +335,7 @@ Se você tivesse geometrias duplicadas, poderia limpá-las fazendo os mesmos pas
 Uma limpeza completa dos conjuntos de dados vetoriais usados ​​para este módulo está fora do escopo. Sua complexidade o transforma em um módulo mais avançado em si mesmo.
 
 
-### **Etapa 4: Observe as informações anexadas aos pontos, linhas e polígonos.**
+### Etapa 4: Observe as informações anexadas aos pontos, linhas e polígonos
 
 Vamos executar mais um algoritmo para ter uma ideia de quais são os atributos de nossas camadas do Recife. Depois de identificarmos quantos recursos cada camada possui, vamos ver quantos e quais são os atributos exclusivos nos seguintes casos:
 
@@ -444,7 +444,7 @@ Outra análise interessante pode ser executada na camada vetorial de estradas. A
 Figura 8.22 - Executando Group Stats na camada de estradas.
 
 
-### **Quiz**
+### Quiz
 
 1. Os metadados são importantes?
     a. **Sim, porque fornecem uma visão sobre os dados geográficos que de outra forma não seria possível obter.**
@@ -765,7 +765,7 @@ Figura 8.40c - Contagem de POIS públicos em cada grade de 2km X 2km
 Figura 8.40d - Distribuição espacial da densidade de POIs públicos por unidade 2X2km
 
 
-### **Quiz**
+### Quiz
 
 1. Se eu tiver 2 camadas vetoriais - uma representa a extensão da cidade onde estou trabalhando e a segunda, as estradas construídas em todo o país - que ferramenta de processamento usaria para extrair apenas as estradas da minha cidade: buffer ou recortar (clip)? -***Recortar.***
 
