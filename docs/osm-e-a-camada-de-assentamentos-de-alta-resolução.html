@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capitulo 3 Introdução ao QGIS | Geodados: uma introdução gentil</title>
+  <title>Capitulo 5 OSM e a camada de assentamentos de alta resolução | Geodados: uma introdução gentil</title>
   <meta name="description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capitulo 3 Introdução ao QGIS | Geodados: uma introdução gentil" />
+  <meta property="og:title" content="Capitulo 5 OSM e a camada de assentamentos de alta resolução | Geodados: uma introdução gentil" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="escola-de-dados.github.io/GIS-curriculum/" />
   <meta property="og:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="escola-de-dados/GIS-curriculum" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capitulo 3 Introdução ao QGIS | Geodados: uma introdução gentil" />
+  <meta name="twitter:title" content="Capitulo 5 OSM e a camada de assentamentos de alta resolução | Geodados: uma introdução gentil" />
   
   <meta name="twitter:description" content="Currículo aberto sobre GIS, com foco em QGIS, OSM and the High Resolution Settlement Layer Data" />
   <meta name="twitter:image" content="escola-de-dados.github.io/GIS-curriculum//media/cover/cover.jpg" />
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="introdução-suave-a-conceitos-de-gis.html"/>
-<link rel="next" href="camadas-no-qgis.html"/>
+<link rel="prev" href="camadas-no-qgis.html"/>
+<link rel="next" href="camadas-de-estilo.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -356,387 +356,303 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introdução-ao-qgis" class="section level1" number="3">
-<h1><span class="header-section-number">Capitulo 3</span> Introdução ao QGIS</h1>
+<div id="osm-e-a-camada-de-assentamentos-de-alta-resolução" class="section level1" number="5">
+<h1><span class="header-section-number">Capitulo 5</span> OSM e a camada de assentamentos de alta resolução</h1>
 <p><strong>Autor</strong>: Ben Hur</p>
-<p>Este módulo serve como uma introdução ao QGIS. No final deste módulo, os alunos devem estar familiarizados com:</p>
+<p>Este módulo apresentará o OpenStreetMap (OSM) e a camada de assentamentos de alta resolução (High Resolution Settlement Layer - HRSL). No final deste módulo, os alunos estarão familiarizados com:</p>
 <ul>
-<li>O que é o QGIS</li>
-<li>Interface do QGIS</li>
-<li>Configurações do QGIS</li>
-<li>Complementos do QGIS</li>
+<li>Princípios do OpenStreetMap</li>
+<li>Dados e casos de uso do OpenStreetMap</li>
+<li>Dados e casos de uso da camada de assentamentos de alta resolução</li>
 </ul>
-<p>Eles também devem aprender:</p>
+<p>Eles também devem ser capazes de:</p>
 <ul>
-<li>Como instalar e abrir o QGIS</li>
-<li>As diferentes partes e recursos da interface do QGIS</li>
-<li>Como editar o layout e o tema da interface</li>
-<li>As diferentes configurações do QGIS, como alterá-las e como elas afetam o QGIS</li>
-<li>O que são perfis de usuário e como usá-los</li>
-<li>O que são complementos e como instalá-los</li>
+<li>carregar dados OSM como vetores e tiles no QGIS</li>
+<li>carregar o raster HRSL no QGIS</li>
 </ul>
-<p>O módulo também irá discutir algumas nuances do QGIS e o que o torna único ou diferente de outros softwares GIS, como formatos de arquivo QGIS.</p>
 <p>As ferramentas e recursos necessários para este módulo são:</p>
 <ul>
-<li>Computador</li>
-<li>Conexão de internet</li>
+<li>computador</li>
+<li>conexão com a internet</li>
 <li>QGIS 3.16 instalado no computador (<a href="https://qgis.org/en/site/forusers/download.html">https://qgis.org/en/site/forusers/download.html</a>)</li>
+<li>Camadas vetoriais <code>br_rj_capital</code> e <code>br_rj_centro</code> no arquivo <a href="data/module3/modulo3.gpkg">module3.gpkg</a>.</li>
 </ul>
 <p>Pré-requisitos:</p>
 <ul>
-<li>Conhecimento básico de informática</li>
+<li>conhecimento básico de operação de um computador</li>
+<li>familiaridade com formatos de dados espaciais, a interface QGIS e como carregar camadas no QGIS (conclusão dos Módulos 0, 1 e 2)</li>
 </ul>
 <p>Recursos adicionais:</p>
 <ul>
-<li>Manual do usuário QGIS - <a href="https://docs.qgis.org/3.16/en/docs/user_manual/">https://docs.qgis.org/3.16/en/docs/user_manual/</a></li>
-<li>Manual de treinamento QGIS - <a href="https://docs.qgis.org/3.16/en/docs/training_manual/index.html">https://docs.qgis.org/3.16/en/docs/training_manual/index.html</a></li>
+<li>OpenStreetMap - <a href="https://www.openstreetmap.org/">https: / /www.openstreetmap.org/</a></li>
+<li>OpenStreetMap Wiki - <a href="https://wiki.openstreetmap.org/">https://wiki.openstreetmap.org/</a></li>
+<li>Manual do usuário da API OVerpass - <a href="https://dev.overpass-api.de/overpass-doc/en/">https://dev.overpass-api.de/overpass-doc/en/</a></li>
+<li>Facebook - AHigh Resolution Settlement Layer - <a href="https://research.fb.com/downloads/high-resolution-settlement-layer-hrsl/">https://research.fb.com/downloads/high-resolution-settlement-layer-hrsl/</a></li>
+<li>CEISIN - High Resolution Settlement Layer - <a href="https://ciesin.columbia.edu/data/hrsl/">https://ciesin.columbia.edu/data/hrsl/</a></li>
+<li>HDX HRSL - <a href="https://dados.humdata.org/search?organization=facebook&amp;q=%22High%20Resolution%20Population%20Density%20Maps%20%2B%20Demographic%20Estimates%22">https://data.humdata.org/search?organization=facebook&amp;q=%22High%20Resolution%20Population%20Density%20Maps%20%2B%20Demographic%20Estimates%22</a></li>
 </ul>
-<p>O mapa abaixo (<a href="https://flic.kr/p/2jFfGJP">https://flic.kr/p/2jFfGJP</a>), de Andrés Felipe Lancheros Sánchez, mostra partes da cidade de Bogotá na Colômbia feitas no estilo da pintura “Noite estrelada” de Vincent van Gogh.</p>
+<p>Os mapas se tornaram onipresentes em nossas vidas diárias. Podemos simplesmente acessar nossos telefones e abrir aplicativos que utilizam mapas e dados de localização. Existem aplicativos que usamos para nos orientar e nos localizar, para navegar e ir de um lugar para outro; mapas são mostrados quando pedimos comida em nosso serviço de entrega favorito, etc. Os mapas se tornaram tão essenciais para o nosso dia a dia que nós tendemos a esquecer que existem lugares no mundo que ainda não estão mapeados ou não foram encontrados nos mapas digitais que usamos.</p>
+<p>A onipresença dos mapas em nossas vidas é um subproduto da grande quantidade de dados de localização e dados espaciais que estamos coletando. As oportunidades e o potencial para criar algo bom a partir dos dados geoespaciais disponíveis para nós são excelentes, mas isso só será possível se esses conjuntos de dados geoespaciais forem gratuitos e abertos.</p>
+<div id="dados-do-osm" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Dados do OSM</h2>
+<div id="o-que-é-osm" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> O que é OSM?</h3>
+<p>OpenStreetMap (OSM) (<a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a>) é um mapa editável gratuito de todo o mundo, construído por voluntários de todo o mundo e lançado com uma licença de conteúdo aberto. É um projeto que cria e distribui dados geográficos gratuitos para o mundo - um mapa do mundo feito pelas pessoas e para as pessoas. Se algo estiver faltando no OSM, você pode adicioná-lo. Se algo estiver errado no OSM, você pode corrigi-lo. OSM é um bem digital comum que amplia muito o valor das informações adicionadas a ele.</p>
 <div class="figure">
-<img src="media/modulo1/sample-1.jpg" title="Mapa de Bogotá, Columbia no estilo Noite Estrelada" alt="" />
-<p class="caption">Mapa de Bogotá, Colômbia no estilo Noite Estrelada</p>
+<img src="media/modulo3/osm.png" title="Site do OpenStreetMap" alt="" />
+<p class="caption">Site do OpenStreetMap</p>
 </div>
-<p>Este próximo mapa (<a href="https://flic.kr/p/2jAsphv">https://flic.kr/p/2jAsphv</a>) mostra dados de rastreamento de tempestade da NOAA (o órgão de metereologia do governo dos EUA) entre 1851 e 2020 feitos por Fajr Alim.</p>
-<div class="figure">
-<img src="media/modulo1/sample-2.jpg" title="Dados de rastreamento de tempestade entre 1851 a 2020" alt="" />
-<p class="caption">Dados de rastreamento de tempestade entre 1851 a 2020</p>
+<p>Figura 3.1. OpenStreetMap</p>
+<p>Para obter mais informações sobre por que o OpenStreetMap existe e sua importância, veja: <a href="https://wiki.openstreetmap.org/wiki/FAQ#Why_OpenStreetMap%20.3F">https://wiki.openstreetmap.org/wiki/FAQ#Why_OpenStreetMap.3F</a></p>
+<p>Você também pode ler: <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</a></p>
+<p>De acordo com o OpenStreetMap, ele possui “dados abertos, licenciados sob a Open Data Commons Open Database License (ODbL)” (<a href="https://opendatacommons.org/licenses/odbl/">https://opendatacommons.org/licenses/odbl/</a>) pela OpenStreetMap Foundation (OSMF) (<a href="https://osmfoundation.org/">https://osmfoundation.org/</a>) e você é livre para “copiar, distribuir, transmitir e adaptar nossos dados, desde que dê crédito ao OpenStreetMap e seus contribuidores. Se você alterar ou ampliar nossos dados, poderá distribuir o resultado apenas sob a mesma licença.” Ao criar um mapa que usa dados OSM, é necessário dar crédito a “contribuidores do © OpenStreetMap”. Você pode ler mais sobre os direitos autorais e a licença do OpenStreetMap aqui: <a href="https://www.openstreetmap.org/copyright">https://www.openstreetmap.org/copyright</a></p>
 </div>
-<p>Este próximo (<a href="https://flic.kr/p/FA9TiR">https://flic.kr/p/FA9TiR</a>) é um mapa da Ilha Kerguelen, feito por Heinrich Lingnau Schneider.</p>
-<div class="figure">
-<img src="media/modulo1/sample-3.jpg" title="Mapa da Ilha Kerguelen" alt="" />
-<p class="caption">Mapa da Ilha Kerguelen</p>
+<div id="onde-o-osm-é-usado" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Onde o OSM é usado?</h3>
+<p>Um dos principais valores do OpenStreetMap é a capacidade de coletar, editar e compartilhar dados de mapas que podem ser usados para muitos propósitos diferentes. Essa é a liberdade proporcionada pelo ObDL. Como o OpenStreetMap permite que os usuários utilizem seus dados com pouquíssimas restrições, há uma grande variedade de aplicativos, serviços e casos de uso que são construídos, estão sendo construídos ou podem ser construídos com o OpenStreetMap. O OpenStreetMap é usado para criar mapas, serviços de roteamento, educação e até mesmo para fins humanitários e de advocacy.</p>
+<p>Na verdade, existe o HOT (Humanitarian OpenStreetMap Team) ou a Equipe Humanitária OpenStreetMap (<a href="https://www.hotosm.org/">https://www.hotosm.org/</a>), que é uma equipe internacional dedicada à ação humanitária e ao desenvolvimento da comunidade através do mapeamento aberto.</p>
+<p>O OpenStreetMap também é uma parte crucial de algumas comunidades de mapeamento de advocacy, como MapBeks (<a href="https://wiki.openstreetmap.org/wiki/MapBeks">https://wiki.openstreetmap.org/wiki/MapBeks</a>) - uma comunidade online de mapeamento LGBT, sediada nas Filipinas, que defende a inclusão e representação da diversidade voltada especificamente para lésbicas, gays, bissexuais, transgêneros, queer, intersexuais, etc. (LGBTQI +) no OpenStreetMap; e Mental Health AWHEREness (<a href="https://mentalhealthawhereness.com/">https://mentalhealthawhereness.com/</a>) - uma plataforma e mapa on-line que mostram a localização de instalações e serviços de saúde mental que oferecem ajuda para pessoas nas Filipinas, organizada por voluntários.</p>
+<p>Uma lista de serviços baseados em OpenStreetMap pode ser encontrada em <a href="https://wiki.openstreetmap.org/wiki/List_of_OSM-based_services">https://wiki.openstreetmap.org/wiki/List_of_OSM-based_services</a>.</p>
 </div>
-<p>Este último (<a href="https://flic.kr/p/v2kqVzsg">https://flic.kr/p/2kqVzsg</a>) é de tentativas de arremessos de quadra e pontos marcados por tentativa durante a temporada 81 do Torneio de Basquete Masculino UAAP em as Filipinas por Ben Hur Pintor.</p>
-<div class="figure">
-<img src="media/modulo1/sample-4.jpg" title="Tentativas de field goal e pontos marcados na temporada 81 do UAAP" alt="" />
-<p class="caption">Tentativas de arremessos de quadra e pontos marcados na temporada 81 do UAAP</p>
-</div>
-<p>O que todos esses mapas têm em comum? Todos eles foram feitos usando o QGIS.</p>
-<p>Os mapas mostrados acima foram todos criados no QGIS (<a href="https://qgis.org/en/site/">https://qgis.org/en/site/</a>), um Sistema de Informação Geográfica (SIG, ou GIS) gratuito e de código aberto. O QGIS pode ser usado com todos os tipos de dados espaciais (como dados de basquete no último exemplo) e não apenas com dados geoespaciais relacionados à Terra.</p>
-<p>As pessoas são capazes de criar mapas maravilhosos e surpreendentes, como os exemplos acima, porque o QGIS é gratuito, de código aberto e possui recursos poderosos de gerenciamento de dados, análise e apresentação.</p>
-<div id="introdução-ao-qgis-e-à-interface-do-qgis" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Introdução ao QGIS e à interface do QGIS</h2>
-<div id="o-que-é-o-qgis" class="section level3" number="3.1.1">
-<h3><span class="header-section-number">3.1.1</span> O que é o QGIS</h3>
-<p><strong>QGIS</strong>, conhecido como Quantum GIS antes de seu lançamento 2.X, é um Sistema de Informação Geoespacial (GIS) maduro, multiplataforma, gratuito e de código aberto.</p>
-<p>É um GIS de nível enterprise que possui recursos para coletar, armazenar, analisar, apresentar e gerenciar dados espaciais e não espaciais. Ele também se integra bem com outras tecnologias geoespaciais existentes e serve como parte integrante de qualquer pilha (stack) FOSS4G (Software Livre e de Código Aberto para Geoespacial).</p>
-<p>Por ser multiplataforma, o QGIS pode ser executado em GNU / Linux, macOS, Windows e até mesmo Android.</p>
-</div>
-<div id="ciclo-de-lançamento-e-versões" class="section level3" number="3.1.2">
-<h3><span class="header-section-number">3.1.2</span> Ciclo de lançamento e versões</h3>
-<p>Os lançamentos e o desenvolvimento do QGIS seguem um cronograma / roteiro baseado no tempo (<a href="https://www.qgis.org/en/site/%20getinvolved%20/%20development%20/%20roadmap.html">https://www.qgis.org/en/site/getinvolved/development/roadmap.html</a>).</p>
-<p>Uma versão do QGIS é especificada por três números (X.Y.Z). Por exemplo, QGIS 3.16.4.</p>
-<ul>
-<li>X refere-se à versão principal. Neste caso, QGIS 3.</li>
-<li>Y refere-se à versão de lançamento. Neste caso, a versão 16. As versões de lançamento são sempre números pares, pois os números ímpares são reservados para versões de desenvolvimento.</li>
-<li>Z refere-se ao Point Release (PR) dessa versão. Para 3.16.4, isso significa que é o quarto ponto de lançamento da versão 3.16.</li>
-</ul>
-<p>Existem três ramificações (ou branches) principais do QGIS que os usuários podem instalar. Estas são a ramificação <strong>Long Term Release (LTR)</strong>, a ramificação <strong>Latest Release (LR)</strong> e a ramificação <strong>Development (Nightly)</strong>.</p>
-<ul>
-<li><strong>Long Term Release (LTR)</strong> tem esse nome porque é mantido e recebe correções de bug até o próximo LTR ser lançado. Atualmente, isso significa um (1) ano. Em fevereiro de 2021, o LTR atual é 3.16.4. Está programado para ser substituído pelo QGIS 3.22.4 em fevereiro de 2022.</li>
-<li><strong>Última versão (LR)</strong> refere-se a versão de lançamento do QGIS que contém os recursos mais recentes ou mais recentes. Um novo LR é lançado a cada quatro (4) meses. Por exemplo, um novo LR 3,18 foi lançado em fevereiro de 2021. O próximo LR (3.20) será lançado 4 meses a partir de agora, ou seja, em junho de 2021. Atualmente, cada terceiro LR se torna o próximo LTR. Por exemplo, o LTR de fevereiro de 2021 é a versão 3.16. O terceiro LR de 3.16 é 3.22, portanto, o próximo LTR será baseado na versão de lançamento 3.22.</li>
-<li><strong>Development / Nightly</strong> é baseado na versão mais recente do código-fonte QGIS, mas é útil se você deseja testar, depurar ou ajudar no desenvolvimento do QGIS.</li>
-</ul>
-<p>Então, qual versão você deve usar? Depende. Se você precisa de uma versão que é mantida por mais tempo e não precisa necessariamente de novos recursos à medida que são lançados, a versão LTR pode ser a versão para você. Se você precisa dos recursos mais recentes e não se importa em fazer uma atualização a cada poucos meses, a versão LR pode ser ideal para você. Às vezes, também é bom dar uma olhada nas versões de desenvolvimento ou noturnas, especialmente se você estiver curioso ou animado com os próximos recursos do QGIS.</p>
-<p>Para obter mais informações, visite: <a href="https://bnhr.xyz/2020/10/26/%20about-qgis-versions-release-cycle-english.html">https://bnhr.xyz/2020/10/26/about-qgis-versions-release-cycle-english.html</a></p>
-</div>
-<div id="exemplos-de-mapas-qgis" class="section level3" number="3.1.3">
-<h3><span class="header-section-number">3.1.3</span> Exemplos de mapas QGIS</h3>
-<div class="figure">
-<img src="media/modulo1/qgis-map-showcase.png" title="QGIS Map Showcase" alt="" />
-<p class="caption">QGIS Map Showcase</p>
-</div>
-<p>Figura 1.1. Demonstração do mapa QGIS</p>
-<p>Para mais mapas criados com o QGIS, visite: <a href="https://www.flickr.com/groups/2244553@N22/%20piscina/com/50355460063/">https://www.flickr.com/groups/2244553@N22/pool/with/50355460063/</a></p>
-</div>
-</div>
-<div id="instalando-o-qgis" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Instalando o QGIS</h2>
-<p>QGIS é multiplataforma e funciona em Linux, Windows e macOS. Sendo de código aberto, você pode construir e instalar o QGIS a partir de seu código-fonte, disponível em <a href="https://github.com/qgis/QGIS/">https://github.com/qgis/QGIS/</a>.</p>
-<p>Instaladores e instruções de instalação também estão disponíveis em <a href="https://qgis.org/en/site/forusers/download.html">https://qgis.org/en/site/forusers/download.html</a> ou <a href="https://qgis.org/en/site/forusers/alldownloads.html">https: //qgis.org/en/site/forusers/alldownloads.html</a>.</p>
-<p>Para <strong>Linux (ou GNU / Linux)</strong>, o QGIS geralmente está disponível no gerenciador de pacotes de sua distribuição. Para usuários Debian / Ubuntu, o QGIS tem repositórios para os ramos LR, LTR e Desenvolvimento (Development), bem como versões do QGIS com dependências do PPA ubuntugis-unstable. O QGIS também está disponível como pacote Flatpak ou no Conda.</p>
-<p>Para <strong>Windows</strong>, os usuários podem escolher entre o instalador de rede OSGeo4W ou os instaladores independentes. Há um instalador independente para a versão LTR e LR.</p>
-<p>Os instaladores autônomos são os mais fáceis de instalar e são recomendados para iniciantes. Várias versões do QGIS podem ser instaladas em seu computador ao mesmo tempo. Isso significa que você pode ter ambas as versões QGIS 3.16 e 3.18 instaladas.</p>
-<p>O OSGeo4W Network Installer é um pouco mais avançado e complexo do que os instaladores autônomos, mas também oferece a capacidade de atualizar e atualizar sua versão do QGIS no local, o que significa que você não precisará desinstalar uma versão mais antiga se quiser instalar um mais novo.</p>
-<p>Em alguns casos, você precisará de direitos de administrador para instalar o QGIS, portanto, se estiver instalando em um computador onde o seu usuário não possui direitos de administrador, pode ser necessário pedir ao seu administrador de TI ou escritório para instalar o QGIS para você.</p>
-<p>A instalação no Windows também vem com QGIS com GRASS (outro GIS Livre e de Código Aberto).</p>
-<p>Observe que o QGIS está <a href="https://blog.qgis.org/2020/10/15/phasing-out-32-bit-support-in-qgis/">removendo lentamente o suporte de 32 bits para Windows</a>, então é melhor para instalar o QGIS em um computador que executa um sistema operacional de 64 bits.</p>
-<p>Para o <strong>macOS</strong>, existem instaladores oficiais “All-in-one” assinados para macOS High Sierra (10.13) e mais recentes. O QGIS ainda não foi autenticado conforme exigido pelas regras de segurança do macOS Catalina (10.15). Na primeira inicialização, clique com o botão direito no ícone do aplicativo QGIS, segure a tecla Option e escolha Abrir.</p>
-<div id="partes-da-interface-do-qgis" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Partes da interface do QGIS</h3>
-<p>Depois de instalar o QGIS, você pode executá-lo ou abri-lo como faria com qualquer programa em seu computador. Ao abrir o QGIS, você será saudado com a Interface do Usuário (IU, ou UI em inglês) padrão que se parecerá com a abaixo.</p>
-<div class="figure">
-<img src="media/modulo1/qgis-interface.png" title="A interface QGIS" alt="" />
-<p class="caption">A interface QGIS</p>
-</div>
-<p>Figura 1.2. A interface QGIS em uma nova instalação</p>
-<p>Existem seis partes principais da interface de usuário do QGIS - barra de menu, tela do mapa, barra de ferramentas, painéis, barra de status e localizador.</p>
-<p>No centro da interface está uma tela de mapa. Painéis e barras de ferramentas podem ser posicionados em torno dessa tela. Os painéis também podem ser acoplados para criar um painel com várias abas. Existem também outras partes da interface, como a interface Python, janelas de complemento, etc.</p>
-<p><strong>Barra de menus</strong> - a barra de menus é um menu hierárquico simples que fornece acesso às funções e comandos do QGIS. Geralmente está localizado na parte superior da interface.</p>
-<p><strong>Tela do mapa</strong> - a tela do mapa é onde as camadas carregadas no QGIS são mostradas. Este é também o local onde os filtros, seleções, e simbologias criadas pelo usuário são refletidas. Mais de uma tela de mapa pode estar presente a qualquer momento. Um usuário pode aplicar zoom, panorâmica e até mesmo girar a tela do mapa. Uma tela de mapa também pode mostrar dados 3D.</p>
-<p><strong>Barras de ferramentas</strong> - as barras de ferramentas mostram botões de acesso fácil aos comandos, recursos, complementos do QGIS. Eles podem ser movidos e encaixados na tela do mapa. A lista de barras de ferramentas pode ser encontrada, ativada e desativada na barra de menus em <strong>Exibir &gt; Barras de ferramentas</strong>. Exemplos de barras de ferramentas são a barra de ferramentas de atributos e a barra de ferramentas de digitalização.</p>
-<p><strong>Painéis</strong> - os painéis são semelhantes às barras de ferramentas, mas, em vez de botões, fornecem uma interface para funções e recursos mais complexos. O painel de camadas e o painel do navegador são dois exemplos. Semelhante às barras de ferramentas, eles podem ser movidos e encaixados na tela do mapa. A lista de painéis pode ser encontrada, ativada e desativada na barra de menus em <strong>Exibir &gt; Painéis</strong>.</p>
-<p><strong>Barra de status</strong> - a barra de status é comumente encontrada na parte inferior da interface e mostra informações relevantes, como CRS, escala, notificações, etc.</p>
-<p><strong>Barra Localizadora</strong> - a barra Localizadora é encontrada no canto inferior esquerdo da interface do QGIS. Ele permite que o usuário acesse facilmente camadas, campos, algoritmos de processamento e outras funcionalidades no QGIS. Este é um dos recursos mais poderosos do QGIS.</p>
-<div class="figure">
-<img src="media/modulo1/qgis-interface-parts.png" title="Partes da interface QGIS" alt="" />
-<p class="caption">Partes da interface QGIS</p>
-</div>
-<p>Figura 1.3. Partes da interface QGIS</p>
-<p>Uma das belezas do QGIS é a personalização ele que oferece aos seus usuários. Essa personalização começa com a interface do usuário. Ao editar algumas configurações e mover algumas partes da interface, você pode ter um QGIS semelhante a este abaixo:</p>
-<div class="figure">
-<img src="media/modulo1/qgis-interface-custom.png" title="Interface QGIS com algumas personalizações" alt="" />
-<p class="caption">Interface QGIS com algumas personalizações</p>
-</div>
-<p>Figura 1.4. A interface QGIS com algumas personalizações</p>
-</div>
-<div id="tutorialexercício-mudando-a-aparência-e-layout-da-interface-qgis" class="section level3" number="3.2.2">
-<h3><span class="header-section-number">3.2.2</span> Tutorial/Exercício: Mudando a aparência e layout da interface QGIS</h3>
+<div id="como-o-osm-pode-ser-usado-no-qgis" class="section level3" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> Como o OSM pode ser usado no QGIS?</h3>
+<p>Os dados OSM podem ser usados no QGIS de várias maneiras. O primeiro é usando camadas de tiles derivadas de OSM como mapas base. Na verdade, o QGIS vem com uma conexão a uma camada de tiles do OpenStreetMap por padrão. Você pode encontrar essa camada chamada “OpenStreetMap” na lista de tiles XYZ no painel do navegador.</p>
+<p>Você pode adicionar outros tiles derivados do OSM no QGIS, como aqueles encontrados na lista de fornecedores do Leaflet (<a href="https://leaflet-extras.github%20.io%20/%20leaflet-owners%20/%20preview%20/">https://leaflet-extras.github.io/leaflet-providers/preview/</a>). Os tiles derivados do OSM fornecem aos usuários acesso livre e aberto a um mapa de base atualizado, uma vez que esses tiles são normalmente atualizados para corresponder ao estado atual do OSM.</p>
+<p>Você também pode carregar os recursos do OSM como dados vetoriais no QGIS. Isso pode ser feito baixando dados OSM de sites como GEOFABRIK (<a href="https://www.geofabrik.de/data/download.html">https://www.geofabrik.de/data/download.html</a>).</p>
+<p>Os dados de feições OSM também podem ser carregados diretamente no QGIS usando o plugin QuickOSM. Este plugin utiliza a API Overpass (<a href="https://wiki.openstreetmap.org/wiki/Overpass_API">https://wiki.openstreetmap.org/wiki/Overpass_API</a>) que permite aos usuários selecionar rapidamente um subconjunto de OSM dados usando consultas. Isso é possível porque as feições no OSM (<a href="https://wiki.openstreetmap.org/wiki/Mapfeatures">https://wiki.openstreetmap.org/wiki/Mapfeatures</a>) são marcados (“tagueados”) usando um sistema de tags livre (<a href="https://wiki.openstreetmap.org/wiki/Tags">https://wiki.openstreetmap.org/wiki/Tags</a>) que permite ao mapa incluir um número ilimitado de atributos que descrevem cada característica. Essas tags podem então ser usadas para consultar certas feições com base em seus atributos / tags.</p>
+<p>Normalmente, a comunidade OSM e as comunidades locais concordam com certas combinações de chave e valor adequadas para as tags mais comumente usadas, que funcionam como um padrão informal. Isso garante que os usuários de dados possam esperar consistência na marcação de características comuns, como estradas, edifícios, etc. No entanto, usuários sempre podem criar novas tags para melhorar o estilo do mapa ou análises de suporte que dependem de atributos ou tags dos recursos previamente não mapeados.</p>
+<div id="tutorialexercício-carregando-dados-osm-no-qgis-usando-o-plugin-quickosm" class="section level4" number="5.1.3.1">
+<h4><span class="header-section-number">5.1.3.1</span> Tutorial/Exercício: Carregando dados OSM no QGIS usando o plugin QuickOSM</h4>
+<p>Neste exercício, vamos carregar dados da rede rodoviária e localizações de cadeias de fast food do OSM que podem ser encontradas no Rio de Janeiro, capital usando o QuickOSM plugar.</p>
+<p>QuickOSM funciona consultando as tags (chaves e valores) dos recursos do OSM. Para obter mais informações sobre como usar a chave / valor no QuickOSM, vá para: <a href="https://wiki.openstreetmap.org/wiki/Mapfeatures.">https://wiki.openstreetmap.org/wiki/Mapfeatures</a>.</p>
 <ol style="list-style-type: decimal">
-<li>Abra o <strong>QGIS</strong></li>
-<li>Clique no menu <strong>Visão</strong></li>
+<li>Carregue as camadas vetoriais <code>br_rj_capital</code> e <code>br_rj_centro</code> encontradas dentro do geopackage module3. Certifique-se de que a camada <code>br_rj_capital</code> está sobre a camada <code>br_rj_centro</code>, para que ela seja visível.</li>
 </ol>
 <div class="figure">
-<img src="media/modulo1/ex01-01.png" title="Abra o QGIS e clique no menu Visão" alt="" />
-<p class="caption">Abra o QGIS e clique no menu Exibir</p>
+<img src="media/modulo3/quickosm-1.png" title="Camadas Rio de Janeiro carregadas no QGIS" alt="" />
+<p class="caption">Camadas do Rio de Janeiro carregadas no QGIS</p>
 </div>
-<ol start="3" style="list-style-type: decimal">
-<li>Observe o menu <strong>Painéis</strong></li>
+<p>Figura 3.2. Camadas do Rio de Janeiro (capital e centro da cidade) carregadas no QGIS</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Certifique-se de que o plugin QuickOSM está instalado e ativado. Ele deve aparecer em <strong>Vetor &gt; QuickOSM</strong> na barra de menus. Caso contrário, instale e ative o plug-in primeiro usando a caixa de diálogo Gerenciar e instalar plug-ins.</p></li>
+<li><p>Abra o plugin QuickOSM (<strong>Vetor &gt; QuickOSM &gt; QuickOSM</strong>). Uma caixa de diálogo deve abrir com cinco guias:</p>
+<ol style="list-style-type: decimal">
+<li>Consulta rápida
+<ul>
+<li>Permite ao usuário criar e executar uma consulta simples com uma combinação de valor-chave para carregar um subconjunto de dados de recursos OSM que atenda aos requisitos da consulta.</li>
+</ul></li>
+<li>Consulta
+<ul>
+<li>Permite ao usuário executar consultas complexas usando a API Overpass.</li>
+<li>Possui um link para o aplicativo da web Overpass Turbo.</li>
+</ul></li>
+<li>Arquivo OSM:
+<ul>
+<li>Permite ao usuário carregar dados de arquivos OSM brutos (por exemplo .pbf).</li>
+</ul></li>
+<li>Parâmetros:
+<ul>
+<li>Permite ao usuário selecionar a API Overpass a ser usada.</li>
+</ul></li>
+<li>Sobre:
+<ul>
+<li>Mostra informações sobre o plugin.</li>
+</ul></li>
+</ol></li>
 </ol>
 <div class="figure">
-<img src="media/modulo1/ex01-02.png" title="Observe o menu Painéis" alt="" />
-<p class="caption">Observe o menu Painéis</p>
+<img src="media/modulo3/quickosm-2.png" title="plugin QuickOSM" alt="" />
+<p class="caption">Plugin QuickOSM</p>
 </div>
+<p>Figura 3.3. Plugin QuickOSM</p>
 <ol start="4" style="list-style-type: decimal">
-<li>Observe o menu <strong>Barras de ferramentas</strong></li>
+<li><p>Carregue todas as rodovias dentro da extensão da camada <code>br_rj_centro</code>.</p>
+<ul>
+<li>Chave: highway</li>
+<li>Valor: <deixe em branco> (em branco significa TODOS)</li>
+<li>Extensão da camada: <code>br_rj_centro</code></li>
+<li>Avançado:
+<ul>
+<li>Marque Nó, Caminho, Relação, Linhas, Multilinhas</li>
+</ul></li>
+</ul></li>
 </ol>
 <div class="figure">
-<img src="media/modulo1/ex01-03.png" title="Observe o menu Barras de ferramentas" alt="" />
-<p class="caption">Observe o menu Barras de ferramentas</p>
+<img src="media/modulo3/quickosm-3.png" title="Carregar todas as rodovias na extensão da camada br_rj_centro" alt="" />
+<p class="caption">Carregar todas as estradas na extensão da camada br_rj_centro</p>
 </div>
+<p>Figura 3.4. Carregue todas as rodovias na extensão da camada <code>br_rj_centro</code></p>
 <ol start="5" style="list-style-type: decimal">
-<li>Selecione as <strong>Barras de ferramentas</strong> e <strong>Painéis</strong> que você deseja mostrar na interface do usuário. Alguns dos painéis úteis incluem <strong>Estilização de camadas</strong> e <strong>Caixa de Ferramentas de Processamento</strong>.</li>
-<li>Mova as <strong>Barras de Ferramentas</strong> e <strong>Painéis</strong> para as posições que fizerem mais sentido para você</li>
+<li>Clique em Executar consulta. Basicamente, o que estamos dizendo ao QuickOSM é obter todos os recursos de linha ou multilinha marcados com uma chave (tag) de estrada e carregá-los no QGIS. Quando o plugin terminar de carregar a camada, seu mapa deverá ficar assim:</li>
 </ol>
-<p><strong>Resetando a interface QGIS</strong></p>
-<p>Para redefinir sua tela para as configurações padrão, vá para <strong>Configurações &gt; Opções &gt; Guia Sistema &gt; Configurações &gt; Botão Redefinir</strong> e reinicie o QGIS.</p>
+<div class="figure">
+<img src="media/modulo3/quickosm-4.png" title="Dados de estradas carregados do OSM" alt="" />
+<p class="caption">Dados de estradas carregados do OSM</p>
 </div>
-<div id="quiz-3" class="section level3" number="3.2.3">
-<h3><span class="header-section-number">3.2.3</span> Quiz</h3>
-<ol style="list-style-type: decimal">
-<li>Verdadeiro ou falso:
-<ol style="list-style-type: decimal">
-<li>Você pode ter várias telas de mapa - <strong><em>Verdadeiro</em></strong></li>
-<li>Você pode mostrar ou ocultar painéis e barras de ferramentas - <strong><em>Verdadeiro</em></strong></li>
-<li>Você só pode colocar painéis no lado esquerdo ou direito da tela do mapa - <strong><em>Falso (você também pode colocar painéis acima ou abaixo da tela do mapa)</em></strong></li>
-</ol></li>
+<p>Figura 3.5. Dados da rodovia carregados do OSM</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Observe que as camadas carregadas pelo QuickOSM são camadas temporárias. Você deve salvá-los como arquivos ou torná-los persistentes se precisar usá-los posteriormente.</li>
+<li>Se quiser ver a versão de consulta Overpass de sua Consulta Rápida, clique em Mostrar consulta e a consulta será aberta na guia Consulta. Você pode então editar sua consulta para torná-la mais complexa.</li>
 </ol>
+<div class="figure">
+<img src="media/modulo3/quickosm-5.png" title="A versão de consulta Overpass da consulta rápida para carregar rodovias" alt="" />
+<p class="caption">A versão de consulta Overpass da consulta rápida para carregar rodovias</p>
 </div>
-</div>
-<div id="complementos-qgis" class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Complementos QGIS</h2>
-<p>A capacidade de adicionar, criar e estender a funcionalidade do QGIS por meio de complementos (ou plug-ins) é um de seus recursos mais poderosos.</p>
-<p>A partir do QGIS 3.16.3, existem mais de 700 complementos disponíveis para o usuário baixar e melhorar. Esses complementos variam do complexo ao simples.</p>
-<p>Os complementos QGIS podem ser classificados como:</p>
+<p>Figura 3.6. A versão de consulta Overpass da consulta rápida para carregar rodovias</p>
+<ol start="8" style="list-style-type: decimal">
+<li><p>Em seguida, vamos carregar todos os locais de restaurantes fast food na extensão da camada <code>br_rj_capital</code>. Abra o plug-in QuickOSM e coloque os seguintes parâmetros na guia Consulta rápida:</p>
 <ul>
-<li><strong>Complementos core</strong> - integrado à sua versão do QGIS, não pode ser desinstalado</li>
-<li><strong>Complementos externos</strong> - manualmente instalados por meio de busca em um repositório externo (ou seja, QGIS Official Plugin Repository) ou através do código-fonte.</li>
-</ul>
-<p>Os complementos podem ser instalados de três (3) maneiras:</p>
-<ol style="list-style-type: decimal">
-<li>Através da caixa de diálogo Gerenciar e instalar complementos (<strong>Complementos &gt; Gerenciar e instalar complementos</strong>)</li>
-<li>Instalando do ZIP, que pode ser acessado na guia <strong>Instalar do ZIP</strong> na caixa de diálogo Gerenciar e instalar complementos.</li>
-<li>Adicionando manualmente o código-fonte na pasta de complementos do seu perfil QGIS. Essa pasta geralmente pode ser encontrada em:
-<ol style="list-style-type: decimal">
-<li><strong>Linux</strong>: .local/share/QGIS/QGIS3/profiles/default/python/plugins</li>
-<li><strong>Mac OS X</strong>: Biblioteca/Aplicativo/Suporte/QGIS/QGIS3/profiles/default/python/plugins</li>
-<li><strong>Windows:</strong> <code>C:\Usuário\&lt;Nome&gt;\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins</code></li>
-</ol></li>
-</ol>
-<div class="figure">
-<img src="media/modulo1/plugins-menu.png" title="Menu Gerenciar e Instalar Complementos" alt="" />
-<p class="caption">Menu Gerenciar e Instalar Complementos</p>
-</div>
-<p>Figura 1.5. Acessando a caixa de diálogo Gerenciar e instalar complementos</p>
-<p><strong>Diálogo Gerenciar e Instalar Complementos</strong></p>
-<p>A caixa de diálogo Gerenciar e instalar complementos se conecta ao repositório de complementos oficiais do QGIS (ou qualquer repositório que você indicar na guia Configurações) para buscar complementos disponíveis para sua versão do QGIS. Possui cinco (5) abas:</p>
+<li>Chave: amenity</li>
+<li>Valor: fast_food</li>
+<li>Extensão da camada: <code>br_rj_capital</code></li>
+<li>Avançado:
 <ul>
-<li><strong>Aba Tudo</strong> - mostra TODOS os complementos disponíveis para sua versão QGIS, incluindo aqueles que já estão instalados em sua máquina</li>
-<li><strong>Aba Instalados</strong> - mostra apenas os complementos instalados em sua máquina</li>
-<li><strong>Aba não instalado</strong> - mostra os complementos que não estão instalados em sua máquina</li>
-<li><strong>Aba Instalar a partir do do ZIP</strong> - permite que você instale complementos de um arquivo ZIP</li>
-<li><strong>Aba Opções</strong> - oferece opções sobre quando verificar se há atualizações de complementos, incluir ou não complementos experimentais e obsoletos ou adicionar / alterar o repositório para buscar complementos</li>
-</ul>
-<p>Se o complemento que você está procurando está marcado como experimental ou obsoleto, você precisa marcar <strong>Mostrar complementos experimentais</strong> e <strong>Mostrar complementos obsoletos</strong> na guia Opções.</p>
-<p>A <strong>Barra de Pesquisa</strong> permite que você pesquise complementos encontrados no(s) repositório(s) de complementos aos quais você está conectado.</p>
-<div class="figure">
-<img src="media/modulo1/manage-and-install-plugins-dialog.png" title="Caixa de diálogo Gerenciar e instalar complementos" alt="" />
-<p class="caption">Caixa de diálogo Gerenciar e instalar complementos</p>
-</div>
-<p>Figura 1.6. A caixa de diálogo Gerenciar e instalar complementos</p>
-<div id="tutorialexercício-instalando-um-complemento-qgis" class="section level3" number="3.3.1">
-<h3><span class="header-section-number">3.3.1</span> Tutorial/Exercício: Instalando um complemento QGIS</h3>
-<ol style="list-style-type: decimal">
-<li>Abra a caixa de diálogo <strong>Gerenciar e instalar complementos</strong> em <strong>Complementos &gt; Gerenciar e instalar complementos</strong> na barra de menus. Isso abrirá a caixa de diálogo Gerenciar e instalar complementos.</li>
-</ol>
-<div class="figure">
-<img src="media/modulo1/plugins-menu-2.png" title="Abrir caixa de diálogo Gerenciar e instalar complementos" alt="" />
-<p class="caption">Abrir caixa de diálogo Gerenciar e instalar complementos</p>
-</div>
-<div class="figure">
-<img src="media/modulo1/manage-and-install-plugins-dialog.png" title="Caixa de diálogo Gerenciar e instalar complementos" alt="" />
-<p class="caption">Caixa de diálogo Gerenciar e instalar complementos</p>
-</div>
-<ol start="2" style="list-style-type: decimal">
-<li>Instale os complementos a seguir procurando por eles na guia <strong>Todos</strong> e clicando em <strong>Instalar complemento</strong> no canto inferior direito da caixa de diálogo Gerenciar e instalar complementos.
-<ul>
-<li>Memory Layer Saver</li>
+<li>Marque Nó, Caminho, Relação, Pontos</li>
+</ul></li>
 </ul></li>
 </ol>
 <div class="figure">
-<img src="media/modulo1/memory-layer-saver-plugin.png" title="Instalar o plugin Memory Layer Saver" alt="" />
-<p class="caption">Instalar o plugin Memory Layer Saver</p>
+<img src="media/modulo3/quickosm-6.png" title="Carregar amenidades (pontos) marcados como fast_food na extensão da camada `br_rj_capital`" alt="" />
+<p class="caption">Carregar amenidades (pontos) marcados como fast_food na extensão da camada <code>br_rj_capital</code></p>
 </div>
-<ul>
-<li>QuickOSM</li>
-</ul>
+<p>Figura 3.7: Carregar amenidades (pontos) marcados como fast_food na extensão da camada <code>br_rj_capital</code></p>
+<ol start="9" style="list-style-type: decimal">
+<li>O resultado deve ser semelhante a abaixo:</li>
+</ol>
 <div class="figure">
-<img src="media/modulo1/quickosm-plugin.png" title="Instalar plugin QuickOSM" alt="" />
-<p class="caption">Instalar plugin QuickOSM</p>
+<img src="media/modulo3/quickosm-7.png" title="Locais de fast food carregados do OSM" alt="" />
+<p class="caption">Locais de fast food carregados do OSM</p>
 </div>
-<ol start="3" style="list-style-type: decimal">
-<li>Verifique se os complementos foram instalados com sucesso. O plugin Memory Layer Saver deve estar disponível em <strong>Complementos &gt; Memory Layer Saver</strong> na barra de menus, enquanto o plugin QuickOSM deve estar disponível em <strong>Vetor &gt; QuickOSM</strong> na barra de menus.</li>
+<p>Figura 3.8: Locais de fast food carregados do OSM</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Observe que até mesmo dados fora dos polígonos são carregados. Isso ocorre porque estamos usando a extensão da camada como nossa caixa delimitadora. Se precisarmos apenas dos recursos dentro do polígono, podemos selecionar ou recortar esses recursos. O processo de como fazer isso será discutido em módulos futuros.</li>
 </ol>
 </div>
-<div id="quiz-4" class="section level3" number="3.3.2">
-<h3><span class="header-section-number">3.3.2</span> Quiz</h3>
+<div id="quiz-9" class="section level4" number="5.1.3.2">
+<h4><span class="header-section-number">5.1.3.2</span> Quiz</h4>
 <ol style="list-style-type: decimal">
-<li>Verdadeiro ou falso
+<li><p>Verdadeiro ou falso:</p>
 <ol style="list-style-type: decimal">
-<li>Você pode remover ou desinstalar os complementos do Core - <strong><em>Falso</em></strong></li>
-<li>Você pode adicionar complementos que não são encontrados no repositório oficial de complementos do QGIS - <strong><em>Verdadeiro</em></strong></li>
+<li>Um recurso no OpenStreetMap só pode ter uma tag ou atributo. -<strong><em>Falso</em></strong></li>
+<li>Você só pode adicionar pontos no OpenStreetMap. -<strong><em>Falso (você também pode adicionar outros recursos, como linhas e polígonos)</em></strong></li>
+<li>O OpenStreetMap só pode ser usado como um mapa online. -<strong><em>Falso (você também pode baixar e usar os dados vetoriais criados pelo OpenStreetMap, como ao usá-los com o plugin QuickOSM)</em></strong></li>
 </ol></li>
 </ol>
 </div>
 </div>
-<div id="configurações-qgis" class="section level2" number="3.4">
-<h2><span class="header-section-number">3.4</span> Configurações QGIS</h2>
-<p><strong>Configurações do sistema e do projeto</strong></p>
-<p>As configurações do QGIS permitem que você edite e gerencie coisas diferentes sobre o QGIS, como perfis de usuário, estilos, sistemas de referência de coordenadas, atalhos de teclado, a interface do usuário, cores padrão, etc. As configurações do sistema podem ser encontradas no menu <strong>Configurações</strong> e são as configurações padrão usadas pelo QGIS, a menos que sejam substituídas pelas configurações de um projeto. As configurações do projeto podem ser encontradas em <strong>Projeto &gt; Propriedades</strong> e referem-se às configurações ou propriedades do projeto atual. Esses valores substituem os padrões do sistema.</p>
-<div class="figure">
-<img src="media/modulo1/settings-1.png" title="As Configurações do Sistema" alt="" />
-<p class="caption">As Configurações do Sistema</p>
 </div>
-<p>Figura 1.7. As configurações do sistema</p>
-<div class="figure">
-<img src="media/modulo1/settings-2.png" title="Configurações do projeto" alt="" />
-<p class="caption">Configurações do projeto</p>
-</div>
-<p>Figura 1.8. Configurações do projeto</p>
-<p><strong>Mudando o tema QGIS</strong></p>
-<p>Você pode alterar a aparência do QGIS em <strong>Configurações &gt; Opções &gt; Aba Geral</strong>.</p>
-<p>Você pode escolher entre três temas - padrão (default), Blend of Grey e Night Mapping. Você também pode alterar o tamanho dos ícones, a fonte usada pelo QGIS e outros padrões do sistema.</p>
-<div class="figure">
-<img src="media/modulo1/change-theme.png" title="Configurações gerais do QGIS" alt="" />
-<p class="caption">Configurações gerais do QGIS</p>
-</div>
-<p>Figura 1.9. Configurações gerais do QGIS</p>
-<p>Para algumas configurações no QGIS, pode ser necessário reiniciar o aplicativo para que tenham efeito.</p>
-<p><strong>Perfis de usuário</strong></p>
-<p>QGIS 3.X introduziu o conceito de Perfis de Usuário QGIS.</p>
-<p>Um perfil de usuário é uma coleção de configurações para complementos instalados, barras de ferramentas habilitadas, organização da interface do usuário e outras configurações. QGIS vem com um Perfil de Usuário padrão chamado default. Perfis de usuário permitem que o usuário crie configurações diferentes para análises específicas (por exemplo, um perfil de usuário específico para gestão de recursos hídricos, digitalização de dados, cartografia, etc.), projetos particulares ou mesmo clientes.</p>
-<p>Perfis de usuário podem ser criados e acessados na barra de menus em: <strong>Configurações &gt; Perfis de usuário</strong>.</p>
-<p>O perfil de usuário ativo é mostrado com [Perfil do usuário] na barra de título.</p>
-<div class="figure">
-<img src="media/modulo1/user-profiles-1.png" title="Acessando perfis de usuário" alt="" />
-<p class="caption">Acessando perfis de usuário</p>
-</div>
-<p>Figura 1.10. Acessando perfis de usuário</p>
-<p>Os perfis de usuário são salvos em um diretório em seu computador que pode ser acessado clicando em <strong>Configurações &gt; Perfis de usuário &gt; Abrir pasta de perfil ativo</strong>.</p>
-<div id="tutorialexercício-criando-um-perfil-de-usuário" class="section level3" number="3.4.1">
-<h3><span class="header-section-number">3.4.1</span> Tutorial/Exercício: Criando um perfil de usuário</h3>
+<div id="os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Os dados da camada de assentamentos de alta resolução (HRSL)</h2>
+<div id="o-que-é-high-resolution-settlement-layer-hrsl-ou-camada-de-assentamentos-de-alta-resolução" class="section level3" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> O que é High Resolution Settlement Layer (HRSL) ou camada de assentamentos de alta resolução?</h3>
+<p>De acordo com o Facebook e o Center for International Earth Science Information Network (CIESIN) da Universidade de Columbia, EUA, o “High Resolution Settlement Layer (HRSL) fornece estimativas da população humana distribuição a uma resolução de 1 segundo de arco (aproximadamente 30 metros)”.</p>
+<p>Grades populacionais foram desenvolvidas para 140 países e podem ser acessadas no Humanitarian Data Exchange (<a href="https://data.humdata.org/search?organization=facebook&amp;q=%22High%20Resolution%20Population%20Density%20Maps%20%2B%20Demographic%20Estimates%22">https://data.humdata.org/search?organization=facebook&amp;q=%22High%20Resolution%20Population%20Density%20Maps%20%2B% 20Demographic% 20Estimates% 22</a>).</p>
+<p>As estimativas da população são baseadas em dados do censo e imagens de satélite de alta resolução (0,5) da DigitalGlobe. Assentamentos e estruturas construídas pelo homem são identificados nas imagens pela aplicação de técnicas de visão computacional. Esses locais são então usados como um proxy para locais onde as pessoas vivem. Posteriormente, o CIESIN usou a alocação proporcional para distribuir os dados populacionais dos censos para as extensões de assentamento.</p>
+<p>Para a iteração atual do HRSL, sete mapas / conjuntos de dados para a distribuição de várias populações estão disponíveis:</p>
 <ol style="list-style-type: decimal">
-<li>Vá para <strong>Configurações &gt; Perfis de usuário &gt; Novo perfil …</strong></li>
+<li>Densidade populacional geral</li>
+<li>Mulheres</li>
+<li>Homens</li>
+<li>Crianças (idades 0-5)</li>
+<li>Jovens (idades 15-24)</li>
+<li>Idosos (idades 60+)</li>
+<li>Mulheres em idade reprodutiva (idades 15-49)</li>
 </ol>
 <div class="figure">
-<img src="media/modulo1/user-profiles-2.png" title="Opção novo perfil" alt="" />
-<p class="caption">Opção novo perfil</p>
+<img src="media/modulo3/hdx.png" title="Dados HRSL em HDX" alt="" />
+<p class="caption">Dados HRSL em HDX</p>
 </div>
+<p>Figura 3.9: Dados HRSL em HDX</p>
+</div>
+<div id="casos-de-uso-do-hrsl" class="section level3" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Casos de uso do HRSL</h3>
+<p>As grades populacionais fornecem informações precisas e de alta resolução tanto sobre o delineamento dos assentamentos em áreas urbanas e rurais quanto sobre o número de pessoas que vivem nelas. Essas informações são úteis para muitas áreas de pesquisa, como resposta a desastres e humanitária, planejamento e desenvolvimento de infraestrutura.</p>
+<p>Para ler mais sobre o HSRL, você pode ir para:</p>
+<p>Como trabalhar com dados de densidade populacional do Facebook - [<a href="http://www.statsmapsnpix.com/2021/01/how-to-work-with-facebook-population.html" class="uri">http://www.statsmapsnpix.com/2021/01/how-to-work-with-facebook-population.html</a>] (<a href="http://www.statsmapsnpix.com/2021/01/how-to-work-with-facebook-population.html" class="uri">http://www.statsmapsnpix.com/2021/01/how-to-work-with-facebook-population.html</a>)</p>
+<p>População aberta e desafios abertos - <a href="https://engineering.fb.com/2016/11/15/core-data/open-population-datasets-and-open-desafios/">https://engineering.fb.com/2016/11/15/core-data/open-popul-datasets-and-open-challenge/</a></p>
+<p>Conectando o mundo com mapas melhores - <a href="https://engineering.fb.com/2016/02/21/core-data/Connecting-the-world-with-better-maps/">https://engineering.fb.com/2016/02/21/core-data/connecting-the-world-with-better-maps/</a></p>
+<p>Mapeando a população mundial, um prédio por vez - <a href="https://arxiv.org/abs/1712.05839">https://arxiv.org/abs/1712.05839</a></p>
+<div id="tutotialexercício-carregando-os-dados-hrsl-no-qgis" class="section level4" number="5.2.2.1">
+<h4><span class="header-section-number">5.2.2.1</span> Tutotial/Exercício: Carregando os dados HRSL no QGIS</h4>
+<p>Os dados HRSL encontrados no HDX vêm em formato GeoTIFF (raster) e CSV (vetor). Os CSV são localizações de pontos com valores de população correspondentes. Para este exercício, um subconjunto de dados para seu país já foi preparado, mas você sempre pode baixar o conjunto de dados inteiro ou mesmo outros conjuntos de dados para experimentar.</p>
+<ol style="list-style-type: decimal">
+<li>Carregue o arquivo raster <strong>hrsl_rj_capital_populacao</strong> no QGIS.O arquivo se encontra na pasta do projeto no Github, no caminho data/module3)</li>
+</ol>
+<div class="figure">
+<img src="media/modulo3/hrsl-1.png" title="O HRSL para Rio de Janeiro, capital" alt="" />
+<p class="caption">O HRSL para Rio de Janeiro, capital</p>
+</div>
+<p>Figura 3.10: O HRSL para Rio de Janeiro, capital</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Dê um nome ao seu novo perfil de usuário.</li>
+<li>Verifique as Propriedades da camada.</li>
+<li>Você também pode editar a Simbologia e o Estilo do raster (será discutido em um módulo futuro)</li>
+</ol>
+</div>
+<div id="quiz-10" class="section level4" number="5.2.2.2">
+<h4><span class="header-section-number">5.2.2.2</span> Quiz</h4>
+<ol style="list-style-type: decimal">
+<li>Quais conjuntos de dados foram usados para obter a localização dos assentamentos e alocar a população para estes assentamentos?</li>
+<li>Como o HRSL conseguiu os locais dos assentamentos?</li>
+<li>Como a população de uma área foi alocada para os assentamentos?</li>
+</ol>
+</div>
+</div>
+<div id="se-você-quiser-ir-além" class="section level3" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Se você quiser ir além</h3>
+<div id="use-a-api-overpass-para-criar-uma-consulta-no-osm" class="section level4" number="5.2.3.1">
+<h4><span class="header-section-number">5.2.3.1</span> Use a API Overpass para criar uma consulta no OSM</h4>
+<p>A API Overpass (<a href="https:/%20/wiki.openstreetmap.org/wiki/Overpass_API">https://wiki.openstreetmap.org/wiki/Overpass_API</a>), anteriormente conhecido como OSM Server Side Scripting, ou OSM3S antes de 2011, é uma API somente leitura que fornece partes personalizadas selecionadas dos dados do mapa OSM. Ao contrário da API principal, que é otimizada para edição, a API Overpass é otimizada para consumidores de dados para obter um pequeno subconjunto dos cerca de 10 milhões de elementos no OpenStreetMap. Esses subconjuntos podem ser selecionados por critérios de pesquisa, como localização, tipo de objetos, propriedades de tag, proximidade ou combinações deles. A API Overpass serve como back-end para outros serviços baseados em OSM, como o plugin QuickOSM.</p>
+<p>O uso de uma consulta Overpass permite criar uma seleção de recursos mais complexa no QuickOSM. Por exemplo, vamos carregar todos os fast foods novamente dentro da extensão de <code>br_rj_capital</code>, mas desta vez vamos apenas pegar as franquias do Subway. Se você observar a tabela de atributos da camada de fast food, notará que ela possui um campo <strong>name</strong>. Os campos na tabela de atributos de dados carregados do OSM correspondem às chaves de tag, portanto, se quisermos apenas selecionar todos os ramos do Subway fast food, precisamos adicionar um filtro que seleciona um recurso se ele tiver um <strong>chave:valor</strong> de <strong>name:Subway</strong>. Este filtro pode ser facilmente adicionado na API Overpass.</p>
+<ol style="list-style-type: decimal">
+<li>Abra o plugin QuickOSM e insira os parâmetros que usamos para consultar todos os fast foods.</li>
 </ol>
 <div class="figure">
-<img src="media/modulo1/user-profiles-3.png" title="caixa de entrada &#39;novo nome de perfil&#39;" alt="" />
-<p class="caption">caixa de entrada ‘novo nome de perfil’</p>
+<img src="media/modulo3/quickosm-6.png" title="Parâmetros QuickOSM para carregar fast food no Rio de Janeiro" alt="" />
+<p class="caption">Parâmetros QuickOSM para carregar fast food no Rio de Janeiro</p>
 </div>
+<p>Consulta rápida para carregar todas as comodidades marcadas como fast food</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Clique em Mostrar consulta.</li>
+</ol>
+<div class="figure">
+<img src="media/modulo3/overpass-1.png" title="Versão Overpass da consulta" alt="" />
+<p class="caption">Versão Overpass da consulta</p>
+</div>
+<p>Consulta Overpass para carregar todas as comodidades marcadas como fast food</p>
 <ol start="3" style="list-style-type: decimal">
-<li><p>Uma nova janela QGIS deve abrir com seu novo perfil de usuário. Observe que o nome do seu perfil é mostrado na barra de título do QGIS.</p></li>
-<li><p>Você percebe alguma diferença no novo perfil do usuário? Verifique a interface do usuário, os complementos e as configurações do perfil antigo e do novo perfil que você criou.</p></li>
+<li>Edite a consulta e adicione a linha <strong>&lt;has-kv k=“name” v=“Subway”/&gt;</strong> após cada linha &lt;has-kv k=“amenity” v=“fast_food”/&gt;.</li>
+</ol>
+<div class="figure">
+<img src="media/modulo3/overpass-2.png" title="Consulta Overpass para carregar fast foods Subway" alt="" />
+<p class="caption">Consulta Overpass para carregar fast foods Subway</p>
+</div>
+<p>Consulta Overpass para carregar fast foods Subway</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Clique em Executar consulta. Isso deve carregar apenas as amenidades marcadas como fast_food com o nome Subway. O nome da camada será OsmQuery.</li>
+</ol>
+<div class="figure">
+<img src="media/modulo3/overpass-3.png" title="Amenidades marcadas como fast food cujo nome é Subway carregado do OSM" alt="" />
+<p class="caption">Amenidades marcadas como fast food cujo nome é Subway carregado do OSM</p>
+</div>
+<p>Amenidades marcadas como fast food cujo nome é Subway carregado do OSM</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Experimente com outras redes de fast food.</li>
+</ol>
+<p>Você também pode testar e criar consultas Overpass no Overpass turbo (<a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo">https://wiki.openstreetmap.org/wiki/Overpass_turbo</a>) que é uma ferramenta web de mineração de dados para OpenStreetMap.</p>
+</div>
+</div>
+</div>
+<div id="para-praticar-suas-novas-habilidades-tente-2" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Para praticar suas novas habilidades, tente…</h2>
+<div id="carregar-mais-recursos-do-osm-usando-o-plug-in-quickosm" class="section level3" number="5.3.1">
+<h3><span class="header-section-number">5.3.1</span> Carregar mais recursos do OSM usando o plug-in QuickOSM</h3>
+<ol style="list-style-type: decimal">
+<li>Tente carregar outros recursos (pontos, linhas, polígonos) como hospitais, escolas, etc. usando o plugin QuickOSM.</li>
 </ol>
 </div>
-<div id="quiz-5" class="section level3" number="3.4.2">
-<h3><span class="header-section-number">3.4.2</span> Quiz</h3>
-<ol style="list-style-type: decimal">
-<li>Verdadeiro ou falso
-<ol style="list-style-type: decimal">
-<li>Você só pode ter um perfil de usuário no QGIS. - <strong><em>Falso (você pode ter vários perfis de usuário)</em></strong></li>
-<li>Você não pode substituir as configurações e propriedades do sistema. - <strong><em>Falso</em></strong></li>
-</ol></li>
-</ol>
-</div>
-</div>
-<div id="formatos-de-arquivo-do-qgis" class="section level2" number="3.5">
-<h2><span class="header-section-number">3.5</span> Formatos de arquivo do QGIS</h2>
-<div id="arquivo-de-projeto-qgis-qgs-qgz" class="section level3" number="3.5.1">
-<h3><span class="header-section-number">3.5.1</span> Arquivo de projeto QGIS (QGS / QGZ)</h3>
-<p>Projetos QGIS estão para QGIS como arquivos .mxd são para ArcMap. Esses arquivos vêm como <strong>QGS (<em>.qgs)<strong> ou </strong>QGZ (</em>.qgz)</strong>. A principal diferença entre os dois é que o formato QGZ é um arquivo compactado (zip) contendo um arquivo QGS e um arquivo QGD. O formato QGS é um formato XML para armazenar projetos QGIS. O arquivo QGD é o banco de dados sqlite associado do projeto QGIS que contém dados auxiliares para o projeto. Se não houver dados auxiliares, o arquivo QGD ficará vazio.</p>
-<p>Um arquivo de projeto QGIS contém tudo o que é necessário para armazenar um projeto QGIS, incluindo:</p>
-<ul>
-<li>título do projeto</li>
-<li>CRS do projeto</li>
-<li>a árvore de camadas</li>
-<li>configurações de ajuste</li>
-<li>relações</li>
-<li>a extensão da tela do mapa</li>
-<li>modelos de projeto</li>
-<li>legend</li>
-<li>docas mapview (2D e 3D)</li>
-<li>as camadas com links para os conjuntos de dados subjacentes (fontes de dados) e outras propriedades da camada, incluindo extensão, CRS, junções, estilos, renderizador, modo de mesclagem, opacidade e muito mais</li>
-<li>propriedades do projeto</li>
-</ul>
-<p>Os arquivos do projeto QGIS podem ser salvos em um banco de dados GeoPackage ou PostGIS. Salvar o arquivo do projeto junto com o arquivo de estilo e as camadas correspondentes em um único GeoPackage facilita o compartilhamento de projetos QGIS.</p>
-</div>
-<div id="definição-da-camada-qgis-qlr" class="section level3" number="3.5.2">
-<h3><span class="header-section-number">3.5.2</span> Definição da camada QGIS (QLR)</h3>
-<p>Um arquivo de definição de camada QGIS (<strong>QLR</strong>) é um arquivo XML que contém um ponteiro para a fonte de dados da camada, além das informações de estilo QGIS para a camada. Atualmente, um arquivo QLR corresponde a uma única camada apenas.</p>
-<p>O caso de uso para este arquivo é simples: ter um único arquivo para abrir uma fonte de dados e trazer todas as informações de estilo relacionadas. Os arquivos QLR também permitem definir a fonte de dados subjacente em um arquivo fácil de abrir.</p>
-<p>Um exemplo de uso de QLR é para abrir uma camada de um banco de dados PostGIS. Em vez de se conectar ao banco de dados, encontrar a camada e aplicar um filtro, você pode apenas abrir um arquivo .qlr que aponta para a camada PostGIS correta com seu estilo e filtro correspondentes.</p>
-</div>
-<div id="arquivo-de-estilo-qgis-qml" class="section level3" number="3.5.3">
-<h3><span class="header-section-number">3.5.3</span> Arquivo de estilo QGIS (QML)</h3>
-<p><strong>QML</strong> é um formato XML para armazenar estilos de camadas. Um arquivo QML (.qml) contém todas as informações que dizem ao QGIS como renderizar geometrias de feições que incluem definições de símbolos, tamanhos e rotações, rótulos, opacidade, modo de mesclagem e muito mais.</p>
-<p>Um arquivo .qml deve ter o mesmo nome da fonte de dados a que ele corresponde. Quando ele for encontrado no mesmo diretório ou pasta da fonte de dados, carregar a fonte de dados também carregará automaticamente seu estilo, conforme definido no arquivo .qml.</p>
-<p>Por exemplo, se você tiver um GeoJSON chamado <code>regioes.geojson</code> e um arquivo QML chamado <code>regioes.qml</code>, carregar as <code>regioes.geojson</code> no QGIS aplicará os estilos definidos em <code>regioes.qml</code> na camada carregada.</p>
-<p>Ao usar GeoPackages (.gpkg), um arquivo .qml muitas vezes não é necessário, pois você pode salvar o estilo de uma camada diretamente no geopacote.</p>
-</div>
-</div>
-<div id="se-você-quiser-ir-mais-longe-1" class="section level2" number="3.6">
-<h2><span class="header-section-number">3.6</span> Se você quiser ir mais longe</h2>
-<p>Você pode tentar criar seu próprio plugin QGIS. Se não houver um complemento que faça o que você deseja, você pode criar um você mesmo.</p>
-<p>O <strong>Plugin Builder</strong> é um plugin que cria um modelo que pode servir como ponto de partida para o desenvolvimento do plugin QGIS para que você não precise criar um desde o início. Você pode instalá-lo na caixa de diálogo Gerenciar e instalar complementos.</p>
-<p>Claro, você sempre pode criar um plugin do zero. Se você estiver interessado em criar seu próprio plugin, pode verificar a documentação oficial do QGIS (<a href="https://documentation.qgis.org/">https://documentation.qgis.org/</a>). Para complementos Python, é uma boa ideia verificar o PyQGIS Developer Cookbook (<a href="https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook%20/">https://docs.qgis.org/3.16/en/docs/pyqgis_developer_cookbook/</a>).</p>
-<p>Para obter mais informações, consulte: <a href="https://bnhr.xyz/2018/10/08/qgis-plugins-3.0.%20html">https://bnhr.xyz/2018/10/08/qgis-plugins-3.0.html</a></p>
-<div id="para-praticar-suas-novas-habilidades-tente" class="section level3" number="3.6.1">
-<h3><span class="header-section-number">3.6.1</span> Para praticar suas novas habilidades, tente…</h3>
-<ul>
-<li>Altere o tema e a aparência da interface do usuário QGIS de acordo com sua preferência.</li>
-<li>Instale outros complementos QGIS.</li>
-<li>Altere outras configurações do QGIS.
-<ul>
-<li>Crie um sistema de referência de coordenadas personalizado</li>
-<li>Adicione uma tela inicial personalizada (<a href="https://bnhr.xyz/2020/09/05/custom-splash%20-screen-qgis.html">https://bnhr.xyz/2020/09/05/custom-splash-screen-qgis.html</a>)</li>
-</ul></li>
-</ul>
+<div id="dicas-1" class="section level3" number="5.3.2">
+<h3><span class="header-section-number">5.3.2</span> Dicas</h3>
+<p>Se você não conseguir encontrar a feição que deseja ou precisa no OpenStreetMap, você pode adicionar ou editar feições no próprio mapa. Inscreva-se em <a href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a> e comece a contribuir!</p>
 
 </div>
 </div>
@@ -746,8 +662,8 @@
           </div>
         </div>
       </div>
-<a href="introdução-suave-a-conceitos-de-gis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="camadas-no-qgis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="camadas-no-qgis.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="camadas-de-estilo.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -778,7 +694,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module01.Rmd",
+"link": "https://github.com/escola-de-dados/GIS-curriculum/edit/gh-pages/module03.Rmd",
 "text": "Edit"
 },
 "history": {

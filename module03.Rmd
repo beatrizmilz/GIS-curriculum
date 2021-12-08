@@ -1,4 +1,4 @@
-# OpenStreetMap e a camada de assentamentos de alta resolução
+# OSM e a camada de assentamentos de alta resolução
 
 **Autor**: Ben Hur
 
@@ -41,9 +41,9 @@ Os mapas se tornaram onipresentes em nossas vidas diárias. Podemos simplesmente
 A onipresença dos mapas em nossas vidas é um subproduto da grande quantidade de dados de localização e dados espaciais que estamos coletando. As oportunidades e o potencial para criar algo bom a partir dos dados geoespaciais disponíveis para nós são excelentes, mas isso só será possível se esses conjuntos de dados geoespaciais forem gratuitos e abertos.
 
 
-## Dados do OpenStreetMap (OSM)
+## Dados do OSM
 
-### **O que é OpenStreetMap (OSM)?**
+### O que é OSM?
 
 OpenStreetMap (OSM) ([https://www.openstreetmap.org/](https://www.openstreetmap.org/)) é um mapa editável gratuito de todo o mundo, construído por voluntários de todo o mundo e lançado com uma licença de conteúdo aberto. É um projeto que cria e distribui dados geográficos gratuitos para o mundo - um mapa do mundo feito pelas pessoas e para as pessoas. Se algo estiver faltando no OSM, você pode adicioná-lo. Se algo estiver errado no OSM, você pode corrigi-lo. OSM é um bem digital comum que amplia muito o valor das informações adicionadas a ele.
 
@@ -58,7 +58,7 @@ Você também pode ler: [https://wiki.openstreetmap.org/wiki/About_OpenStreetMap
 De acordo com o OpenStreetMap, ele possui "dados abertos, licenciados sob a Open Data Commons Open Database License (ODbL)" ([https://opendatacommons.org/licenses/odbl/](https://opendatacommons.org/licenses/odbl/)) pela OpenStreetMap Foundation (OSMF) ([https://osmfoundation.org/](https://osmfoundation.org/)) e você é livre para "copiar, distribuir, transmitir e adaptar nossos dados, desde que dê crédito ao OpenStreetMap e seus contribuidores. Se você alterar ou ampliar nossos dados, poderá distribuir o resultado apenas sob a mesma licença." Ao criar um mapa que usa dados OSM, é necessário dar crédito a “contribuidores do © OpenStreetMap”. Você pode ler mais sobre os direitos autorais e a licença do OpenStreetMap aqui: [https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright)
 
 
-### **Onde o OpenStreetMap é usado?**
+### Onde o OSM é usado?
 
 Um dos principais valores do OpenStreetMap é a capacidade de coletar, editar e compartilhar dados de mapas que podem ser usados para muitos propósitos diferentes. Essa é a liberdade proporcionada pelo ObDL. Como o OpenStreetMap permite que os usuários utilizem seus dados com pouquíssimas restrições, há uma grande variedade de aplicativos, serviços e casos de uso que são construídos, estão sendo construídos ou podem ser construídos com o OpenStreetMap. O OpenStreetMap é usado para criar mapas, serviços de roteamento, educação e até mesmo para fins humanitários e de advocacy.
 
@@ -69,7 +69,7 @@ O OpenStreetMap também é uma parte crucial de algumas comunidades de mapeament
 Uma lista de serviços baseados em OpenStreetMap pode ser encontrada em [https://wiki.openstreetmap.org/wiki/List_of_OSM-based_services](https://wiki.openstreetmap.org/wiki/List_of_OSM-based_services).
 
 
-### **Como o OpenStreetMap pode ser usado no QGIS?**
+### Como o OSM pode ser usado no QGIS?
 
 Os dados OSM podem ser usados no QGIS de várias maneiras. O primeiro é usando camadas de tiles derivadas de OSM como mapas base. Na verdade, o QGIS vem com uma conexão a uma camada de tiles do OpenStreetMap por padrão. Você pode encontrar essa camada chamada “OpenStreetMap” na lista de tiles XYZ no painel do navegador.
 
@@ -82,7 +82,7 @@ Os dados de feições OSM também podem ser carregados diretamente no QGIS usand
 Normalmente, a comunidade OSM e as comunidades locais concordam com certas combinações de chave e valor adequadas para as tags mais comumente usadas, que funcionam como um padrão informal. Isso garante que os usuários de dados possam esperar consistência na marcação de características comuns, como estradas, edifícios, etc. No entanto, usuários sempre podem criar novas tags para melhorar o estilo do mapa ou análises de suporte que dependem de atributos ou tags dos recursos previamente não mapeados.
 
 
-#### **Tutorial/Exercício: Carregando dados OSM no QGIS usando o plugin QuickOSM**
+#### Tutorial/Exercício: Carregando dados OSM no QGIS usando o plugin QuickOSM
 
 Neste exercício, vamos carregar dados da rede rodoviária e localizações de cadeias de fast food do OSM que podem ser encontradas no Rio de Janeiro, capital usando o QuickOSM plugar.
 
@@ -165,7 +165,7 @@ Figura 3.8: Locais de fast food carregados do OSM
 10. Observe que até mesmo dados fora dos polígonos são carregados. Isso ocorre porque estamos usando a extensão da camada como nossa caixa delimitadora. Se precisarmos apenas dos recursos dentro do polígono, podemos selecionar ou recortar esses recursos. O processo de como fazer isso será discutido em módulos futuros.
 
 
-#### **Quiz**
+#### Quiz
 
 1. Verdadeiro ou falso:
 
@@ -176,7 +176,7 @@ Figura 3.8: Locais de fast food carregados do OSM
 
 ## Os dados da camada de assentamentos de alta resolução (HRSL)
 
-### **O que é High Resolution Settlement Layer (HRSL), ou camada de assentamentos de alta resolução?**
+### O que é High Resolution Settlement Layer (HRSL) ou camada de assentamentos de alta resolução?
 
 De acordo com o Facebook e o Center for International Earth Science Information Network (CIESIN) da Universidade de Columbia, EUA, o “High Resolution Settlement Layer (HRSL) fornece estimativas da população humana distribuição a uma resolução de 1 segundo de arco (aproximadamente 30 metros) ”.
 
@@ -198,7 +198,7 @@ Para a iteração atual do HRSL, sete mapas / conjuntos de dados para a distribu
 
 Figura 3.9: Dados HRSL em HDX
 
-### **Casos de uso do HRSL**
+### Casos de uso do HRSL
 
 As grades populacionais fornecem informações precisas e de alta resolução tanto sobre o delineamento dos assentamentos em áreas urbanas e rurais quanto sobre o número de pessoas que vivem nelas. Essas informações são úteis para muitas áreas de pesquisa, como resposta a desastres e humanitária, planejamento e desenvolvimento de infraestrutura.
 
@@ -213,7 +213,7 @@ Conectando o mundo com mapas melhores - [https://engineering.fb.com/2016/02/21/c
 Mapeando a população mundial, um prédio por vez - [https://arxiv.org/abs/1712.05839](https://arxiv.org/abs/1712.05839)
 
 
-#### **Tutotial/Exercício: Carregando os dados HRSL no QGIS**
+#### Tutotial/Exercício: Carregando os dados HRSL no QGIS
 
 Os dados HRSL encontrados no HDX vêm em formato GeoTIFF (raster) e CSV (vetor). Os CSV são localizações de pontos com valores de população correspondentes. Para este exercício, um subconjunto de dados para seu país já foi preparado, mas você sempre pode baixar o conjunto de dados inteiro ou mesmo outros conjuntos de dados para experimentar.
 
@@ -226,16 +226,16 @@ Figura 3.10: O HRSL para Rio de Janeiro, capital
 2. Verifique as Propriedades da camada.
 3. Você também pode editar a Simbologia e o Estilo do raster (será discutido em um módulo futuro)
 
-#### **Quiz**
+#### Quiz
 
 1. Quais conjuntos de dados foram usados para obter a localização dos assentamentos e alocar a população para estes assentamentos?
 2. Como o HRSL conseguiu os locais dos assentamentos?
 3. Como a população de uma área foi alocada para os assentamentos?
 
 
-### Se você quiser ir além:  
+### Se você quiser ir além 
 
-#### **Use a API Overpass para criar uma consulta no OSM**
+#### Use a API Overpass para criar uma consulta no OSM
 
 A API Overpass ([https://wiki.openstreetmap.org/wiki/Overpass_API](https:/ /wiki.openstreetmap.org/wiki/Overpass_API)), anteriormente conhecido como OSM Server Side Scripting, ou OSM3S antes de 2011, é uma API somente leitura que fornece partes personalizadas selecionadas dos dados do mapa OSM. Ao contrário da API principal, que é otimizada para edição, a API Overpass é otimizada para consumidores de dados para obter um pequeno subconjunto dos cerca de 10 milhões de elementos no OpenStreetMap. Esses subconjuntos podem ser selecionados por critérios de pesquisa, como localização, tipo de objetos, propriedades de tag, proximidade ou combinações deles. A API Overpass serve como back-end para outros serviços baseados em OSM, como o plugin QuickOSM.
 
@@ -272,7 +272,7 @@ Você também pode testar e criar consultas Overpass no Overpass turbo ([https:/
 
 ## Para praticar suas novas habilidades, tente…
 
-### **Carregar mais recursos do OSM usando o plug-in QuickOSM**
+### Carregar mais recursos do OSM usando o plug-in QuickOSM
 
 1. Tente carregar outros recursos (pontos, linhas, polígonos) como hospitais, escolas, etc. usando o plugin QuickOSM.
 

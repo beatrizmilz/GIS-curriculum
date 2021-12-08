@@ -69,11 +69,11 @@ para-praticar-suas-novas-habilidades-tente-1
 carregar-rasters-e-vetores-encontrados-na-internet
 carregar-uma-planilha-no-qgis-usando-o-plugin-spreadsheet-layers
 dicas
-openstreetmap-e-a-camada-de-assentamentos-de-alta-resolução
-dados-do-openstreetmap-osm
-o-que-é-openstreetmap-osm
-onde-o-openstreetmap-é-usado
-como-o-openstreetmap-pode-ser-usado-no-qgis
+osm-e-a-camada-de-assentamentos-de-alta-resolução
+dados-do-osm
+o-que-é-osm
+onde-o-osm-é-usado
+como-o-osm-pode-ser-usado-no-qgis
 tutorialexercício-carregando-dados-osm-no-qgis-usando-o-plugin-quickosm
 quiz-9
 os-dados-da-camada-de-assentamentos-de-alta-resolução-hrsl
