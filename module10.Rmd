@@ -126,7 +126,7 @@ Figura 10.7 - Sistema de rastreamento de bug no Github para um plugin QGIS
 Detalhar como relatar um problema de software no Github excede o escopo deste módulo, no entanto, é importante destacar um alguns aspectos. Em primeiro lugar, o ecossistema de código aberto - seja geoespacial ou não - funciona melhor quando todas as partes envolvidas estão ativas, ou seja, os desenvolvedores programando e os usuários testando e relatando os problemas identificados. Se alguém fizer uma pesquisa rápida nos diferentes rastreadores de bug para [QGIS](https://github.com/qgis/QGIS/issues) ou [GRASS](https://github.com/OSGeo/grass/issues) ou outra solução de código aberto, notará uma atividade intensa. E isso é bom, mostra que a comunidade está viva, que a interação entre desenvolvedores e usuários funciona normalmente. Em segundo lugar, antes de abrir um relatório de bug através de muitos canais diferentes, certifique-se de ter pesquisado exaustivamente online por uma solução para o seu problema. Caso contrário, você corre o risco de não ser atendido por não dedicar tempo para fazer seu dever de casa.
 
 
-### **Quiz**
+### Quiz
 
 
 1. Você precisa do nome completo do plugin para encontrá-lo no Gerenciador de plugins?
@@ -166,7 +166,7 @@ Embora na descrição não haja nenhuma menção sobre isso, vá para a página 
 Nas páginas a seguir, identificaremos e forneceremos exemplos curto de alguns plugins que consideramos úteis. Por favor, tenha em mente que esta é uma pequena lista do extenso universo de plugins, então fique à vontade para explorar mais.
 
 
-### **Discovery**
+### Discovery
 
 
 ![O plugin](media/modulo10/fig109_a.png "O plugin")
@@ -203,7 +203,7 @@ O plugin oferece a possibilidade de encontrar vetores por pesquisa de texto junt
 Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique o plugin Discovery [página da web](https://www.lutraconsulting.co.uk/projects/discovery/).
 
 
-### **Polygon Divider**
+### Polygon Divider
 
 
 ![O plugin](media/modulo10/fig1010_a.png "O plugin")
@@ -234,7 +234,7 @@ Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mai
 
 
 
-### **Load Them All**
+### Load Them All
 
 
 ![O plugin Load Them All](media/modulo10/fig1011_a.png "O plugin Load Them All")
@@ -267,7 +267,7 @@ Figura 10.11d - Usando o plugin Load Them All para carregar vários rasters
 Para obter uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique a [página da web do plugin](https://github.com/gacarrillor/loadthemall).
 
 
-### **Raster tracer**
+### Raster tracer
 
 
 ![O plugin Raster tracer](media/modulo10/fig1012_a.png "O plugin Raster tracer")
@@ -308,7 +308,7 @@ A figura 10.12d apresenta o resultado.
 Figura 10.12d - Linha desenhada semiautomática seguindo a cor indicada.
 
 
-### **Active Fire**
+### Active Fire
 
 
 ![O plugin Active Fire](media/modulo10/fig1013_a.png "O plugin Active Fire")
@@ -329,7 +329,7 @@ Figura 10.13b - Usando o plugin Active Fire para carregar produtos de incêndio 
 O plugin também calcula o número de pixels de incêndio registrados.
 
 
-### **[Qgis2web](https://github.com/tomchadwin/qgis2web)**
+### [Qgis2web](https://github.com/tomchadwin/qgis2web)
 
 
 ![O plugin qgis2web](media/modulo10/fig1014_a.png "O plugin qgis2web")
@@ -370,7 +370,7 @@ Este plugin QGIS é uma ótima ferramenta para ajudá-lo a preparar seus mapas p
 Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique a qgis2web [página da web](https://github.com/tomchadwin/qgis2web).
 
 
-### **DataPlotly**
+### DataPlotly
 
 
 ![O plugin DataPlotly](media/modulo10/fig1015_a.png "O plugin DataPlotly")
@@ -494,7 +494,7 @@ Figura 10.15p - Subplots em uma linha
 Para uma descrição detalhada dos recursos do plugin, junto com um tutorial mais abrangente, verifique o DataPlotly [webpage](https: // github .com / ghtmtt / DataPlotly).
 
 
-### **Plugin QuickMapServices / OpenLayers**
+### Plugin QuickMapServices / OpenLayers
 
 
 ![plugin QuickMapServices](media/modulo10/fig1016_a1.png "plugin QuickMapServices")
@@ -532,7 +532,7 @@ Figura 10.16d - Dados vetoriais carregados (estradas) sobrepostos ao mapa OSM St
 Para uma descrição detalhada dos recursos dos plugins, juntamente com um tutorial mais abrangente, verifique seus página da web: [QuickMapServices](https://nextgis.com/blog/quickmapservices/) e [OpenLayer Plugin](https://github.com/sourcepole/qgis-openlayers-plugin).
 
 
-### **Table2Style**
+### Table2Style
 
 
 ![O plugin Table to Style](media/modulo10/fig1017_a.png "O plugin Table to Style")
@@ -789,7 +789,7 @@ Figura 10.17g - Conjunto de dados raster estilizado automaticamente usando o plu
 Para uma descrição detalhada do plugin veja [https://github.com/ptarroso/table2style](https://github.com/ptarroso/table2style).
 
 
-### **ORS Tools**
+### ORS Tools
 
 
 ![O plugin ORS Tools](media/modulo10/fig1018_a.png "O plugin ORS Tools")
@@ -879,14 +879,19 @@ Os resultados das Ferramentas ORS dependem muito da qualidade das bases de dados
 O plugin, assim como o openroutingservice, tem mais a oferecer, mas deixamos você descobrir isso em sua jornada GIS.
 
 
-### **Quiz**
+### Quiz*
 
 1. Os plugins QGIS podem ser executados fora da plataforma QGIS?
+
     a. **Não**
     b. Sim
-2. Para usar um plugin QGIS, é necessário aprender a programar.
+    
+2. Para usar um plugin QGIS, é necessário aprender a programar?
+
     a. **Não**
     b. Sim
-3. É altamente recomendável que todos os plugins sejam instalados através do Gerenciador de Plug-ins, mesmo se eles pudessem ser instalados baixando o arquivo zip e colocando-o na pasta QGIS correta.
+    
+3. É altamente recomendável que todos os plugins sejam instalados através do Gerenciador de Plug-ins, mesmo se eles pudessem ser instalados baixando o arquivo zip e colocando-o na pasta QGIS correta?
+
     a. Não
     b. **Sim**
