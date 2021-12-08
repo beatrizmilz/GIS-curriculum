@@ -83,7 +83,7 @@ Para obter mais informações sobre formatos de arquivo, você também pode aces
 Dados geoespaciais também podem vir no formato de bancos de dados geoespaciais. Eles podem ser bancos de dados de nível empresarial, como o Postgres, gratuito e de código aberto, com extensão PostGIS ([https://postgis.net/](https://postgis.net/)) ou ArcSDE, proprietário da ESRI. Existem também bancos de dados geográficos de arquivos que podem armazenar diferentes tipos de dados (por exemplo, vetores e rasters) dentro deles. Alguns exemplos são o OGC GeoPackage, gratuito e aberto (.gpkg) ([https://www.geopackage.org/](https://www.geopackage.org/)) e o formato patenteado File Geodatabase da ESRI (.gdb).
 
 
-### **Tipos de fontes de dados**
+### Tipos de fontes de dados
 
 Um dos recursos mais poderosos do QGIS é sua capacidade de conectar, carregar e usar diferentes dados espaciais e não espaciais de uma variedade de fontes. O QGIS pode abrir:
 
@@ -98,7 +98,7 @@ O QGIS também pode conectar e carregar dados de serviços como dados SRTM da NA
 Isso torna o QGIS um componente integral para qualquer infraestrutura ou fluxo de trabalho de dados espaciais.
 
 
-### **Carregando camadas no QGIS**
+### Carregando camadas no QGIS
 
 Existem várias maneiras de carregar camadas no QGIS. Estes incluem:
 
@@ -110,7 +110,7 @@ Existem várias maneiras de carregar camadas no QGIS. Estes incluem:
 **NOTA:** _Ao carregar camadas, as cores padrão de suas camadas podem ser diferentes das cores padrão mostradas neste módulo._
 
 
-### **O painel do navegador**
+### O painel do navegador
 
 O **Painel do navegador** exibe uma árvore de arquivos que mostra os arquivos e pastas do seu computador, bem como as conexões com bancos de dados e servidores web. Por padrão, ele é encaixado no lado esquerdo da interface do usuário QGIS junto com o Painel de Camadas.
 
@@ -119,7 +119,7 @@ O painel do navegador expõe muitas funcionalidades para conectar, carregar e mo
 Para saber mais sobre o painel do navegador, acesse: [https://docs.qgis.org/3.16/en/docs/user_manual/introduction/browser.html](https://docs.qgis.org/3.16/en /docs/user_manual/introduction/browser.html)
 
 
-#### **Tutorial/Exercício: O painel do navegador**
+#### Tutorial/Exercício: O painel do navegador
 
 1. Abra o QGIS.
 2. Verifique o painel do navegador (Figura 2.2). Se você não conseguir encontrar o painel do navegador, pode torná-lo visível em **Exibir > Painéis > Painel do navegador** na barra de menus.
@@ -171,7 +171,7 @@ Figura 2.5. Propriedades da camada no painel do navegador
 Figura 2.6. As camadas vetoriais carregadas no QGIS
 
 
-### **O painel de camadas**
+### O painel de camadas
 
 O painel de camadas lista todas as camadas atuais no projeto. Ele ajuda a gerenciar sua visibilidade e ordem e pode ser usado para mostrar as propriedades da camada. O painel de camadas pode ser ativado em **Exibir > Painéis > Painel de camadas** ou usando o atalho **CTRL + 1**. Ele também é chamado de legenda do mapa. Se você carregou todos os vetores do exercício anterior, seu painel de camadas deve aparecer como abaixo:
 
@@ -239,7 +239,7 @@ _“um arquivo de informações, geralmente apresentado como um documento XML, q
 A importância dos metadados é que eles não apenas promovem a transparência, mas também facilitam o compartilhamento de dados e informações. É por isso que é importante sempre adicionar metadados aos nossos conjuntos de dados. Ao adicionar metadados, é igualmente importante seguir padrões - regras e práticas amplamente promovidas, aceitas e seguidas - para que os metadados que criamos sejam interoperáveis. Um desses padrões é a ISO 19115: 2014 “Informação Geográfica - Metadados” da ISO / TC 211 ([https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en] (https://www.iso.org/obp/ui/#iso:std:iso:19115:-1:ed-1:v1:en))
 
 
-### **Tutorial/Exercício: Adicionando metadados**
+### Tutorial/Exercício: Adicionando metadados
 
 1. Abra as Propriedades da camada da camada br_pais.
 2. Verifique as informações mostradas na guia Informações e observe as informações mostradas. Está completo? Podemos adicionar mais informações?
@@ -272,18 +272,18 @@ Figura 2.11. A guia Informações depois de editar alguns metadados
 
 ## O gerenciador de fonte de dados e conexão com serviços remotos
 
-### **O Gerenciador de fonte de dados**
+### O gerenciador de fonte de dados
 
-Se você não quiser usar o painel do navegador para carregar camadas, você sempre pode usar o **Gerenciador de fonte de dados**.
+Se você não quiser usar o painel do navegador para carregar camadas, você sempre pode usar o **gerenciador de fonte de dados**.
 
-O **Gerenciador de fonte de dados** foi introduzido com o lançamento do QGIS 3. É um local único para adicionar e carregar camadas de diferentes fontes de dados no QGIS. Antes de sua introdução, havia janelas separadas para carregar diferentes fontes de dados (ou seja, uma para rasters, outra para vetores, etc.). Ele pode ser acessado via **Camadas > Gerenciador de fonte de dados** ou **CTRL + L**.
+O **gerenciador de fonte de dados** foi introduzido com o lançamento do QGIS 3. É um local único para adicionar e carregar camadas de diferentes fontes de dados no QGIS. Antes de sua introdução, havia janelas separadas para carregar diferentes fontes de dados (ou seja, uma para rasters, outra para vetores, etc.). Ele pode ser acessado via **Camadas > Gerenciador de fonte de dados** ou **CTRL + L**.
 
 ![Gerenciador de fonte de dados](media/modulo2/data-source-manager-1.png "Gerenciador de fonte de dados")
 
 Figura 2.12. O Gerenciador de fonte de dados
 
 
-#### **Tutorial/Exercício: O Gerenciador de fonte de dados**
+#### Tutorial/Exercício: O gerenciador de fonte de dados
 
 1. Abra o **Gerenciador de fonte de dados**. Ele contém guias no lado direito que pertencem ao tipo de fonte de dados que você deseja carregar ou conectar. Semelhante ao navegador, você pode carregar e conectar vários tipos de dados do Gerenciador de fonte de dados.
 2. **Carregando vetores**
@@ -363,12 +363,12 @@ Figura 2.17. Interface QGIS com todas as camadas carregadas
 Sinta-se à vontade para reorganizar as camadas no painel de camadas.
 
 
-### **Conectando QGIS a Serviços Remotos**
+### Conectando QGIS a serviços remotos
 
 Além de arquivos vetoriais e raster, QGIS também pode se conectar a serviços remotos, como serviços de tiles, OGC Web Services (WMS, WFS), e até ESRI ArcGIS Web Services. Esta conexão pode ser criada a partir do painel do navegador ou do gerenciador de fonte de dados.
 
 
-#### **Tutorial/Exercício: Conectando-se a tiles XYZ**
+#### Tutorial/Exercício: Conectando-se a tiles XYZ
 
 Os tiles XYZ geralmente são usados como mapas base e não são utilizados apenas em aplicativos de desktop, mas, mais comumente, em aplicativos da web.
 
@@ -443,16 +443,16 @@ Figura 2.23. Mapa de risco de inundação do WMS carregado no QGIS
 7. A conexão com o WFS segue o mesmo procedimento.
 
 
-### **Quiz**
+### Quiz
 
 1. Verdadeiro ou falso:
 
     1. Você só pode carregar arquivos locais no QGIS - ***Falso (você também pode carregar arquivos remotos, como aqueles armazenados online ou servidos por serviços da web)***
 
 
-## Exportando Camadas, Camadas na Memória (Temporárias) e Camadas Virtuais
+## Exportando camadas, camadas na memória (temporárias) e camadas virtuais
 
-### **Exportando Camadas do QGIS**
+### Exportando camadas do QGIS
 
 Exportar camadas (ou salvar camadas em arquivos) é simples no QGIS. Simplesmente **clique com o botão direito do mouse na camada > Exportar** para visualizar as opções de exportação da camada.
 
@@ -477,7 +477,7 @@ Figura 2.25. Caixa de diálogo Salvar Camada de Vetor
 Para obter mais informações sobre como salvar uma camada de um arquivo existente, vá para: [https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html#save-layer-from-an- arquivo existente] (https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html#save-layer-from-an-existing-file)
 
 
-### **Camadas na memória**
+### Camadas na memória
 
 Às vezes, não precisamos ou não queremos salvar fisicamente as camadas que usamos em nossa análise em nossos computadores, especialmente se forem apenas temporárias.
 
@@ -490,7 +490,7 @@ A desvantagem das camadas temporárias é que o QGIS “**esquece**” essas “
 É claro que você também pode tornar a camada temporária permanente, exportando a camada para um arquivo. Ao clicar no ícone ![Símbolo de camada temporária](media/modulo2/symbol-temp.png "Símbolo de camada temporária") você abrirá automaticamente uma caixa de diálogo de exportação de camada.
 
 
-### **Camadas virtuais**
+### Camadas virtuais
 
 Uma camada virtual é um tipo especial de camada vetorial que é criada “instantaneamente” como resultado de uma consulta de dados de outra camada.
 
@@ -507,7 +507,7 @@ As camadas virtuais dependem de outras camadas, portanto, é importante que as c
 Quando a camada de base é atualizada, você precisa atualizar a exibição do mapa fazendo uma movendo ou ampliando o mapa para mostrar a atualização da camada virtual.
 
 
-### **Quiz**
+### Quiz
 
 1. Verdadeiro ou falso:
 
@@ -516,7 +516,7 @@ Quando a camada de base é atualizada, você precisa atualizar a exibição do m
     3. Quando a camada de base para uma camada virtual é atualizada, a camada virtual é automaticamente atualizada na tela do mapa sem a necessidade de entrada do usuário. - ***Falso (o usuário precisa atualizar a tela do mapa, movimentando ou ampliando antes que a atualização da camada virtual seja refletida na tela)***
 
 
-### Se você quiser ir mais longe:
+### Se você quiser ir mais longe
 
 
 #### **Instale alguns plug-ins que servem como fontes de dados**
@@ -547,7 +547,7 @@ URL: [http://ihp-wins.unesco.org/](http://ihp-wins.unesco.org/)
 Você pode saber mais sobre como conectar o QGIS a serviços remotos em: [https://bnhr.xyz/2018/10/12/connecting-qgis-to-remote-services.html](https://bnhr.xyz/2018/ 12/10 / Connecting-qgis-to-remote-services.html)
 
 
-### **Exercício/Tutorial: Camadas Virtuais**
+### Exercício/Tutorial: Camadas virtuais
 
 1. Abra o QGIS.
 2. Carregue uma imagem de satélite ou mapa base de satélite via tiles XYZ ou plugin QuickMapServices (por exemplo, Google Satellite).
@@ -587,14 +587,14 @@ Adicione um novo ponto e, em seguida, atualize a exibição do mapa (aplicando z
 
 ## Para praticar suas novas habilidades, tente...
 
-### **Carregar rasters e vetores encontrados na internet**
+### Carregar rasters e vetores encontrados na internet
 
 Além de arquivos binários locais (vetores, rasters), o QGIS também pode carregar vetores e rasters encontrados na Internet. Use o Gerenciador de fonte de dados para carregar os dados do seguinte URL:
 
 https://raw.githubusercontent.com/benhur07b/stomp-covid19-data/master/spatial/stompcovidph_regions.geojson
 
 
-### **Carregar uma planilha no QGIS usando o plugin Spreadsheet Layers**
+### Carregar uma planilha no QGIS usando o plugin Spreadsheet Layers
 
 Instale o plugin Spreadsheet Layers e tente carregar uma planilha no QGIS. O plugin aceita formatos Open Document Standard (.ods) e arquivos Microsoft Excel (.xls, .xlsx).
 
