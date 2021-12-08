@@ -9,9 +9,9 @@ tipos-de-dados-espaciais
 dados-raster
 dados-vetoriais
 quiz-1
-sistema-de-informação-geográfica-sig
+sig
 quiz-2
-software-livre-e-de-código-aberto-para-uso-geoespacial-foss4g
+foss4g
 software-grátis
 código-aberto
 osgeo

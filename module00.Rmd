@@ -324,7 +324,7 @@ Comparado aos pixels raster, uma feição vetorial pode conter mais de um valor 
     4. perigo de inundação
 
 
-## Sistema de Informação Geográfica (SIG)
+## SIG
 
 As informações geográficas e de localização tornaram-se onipresentes no século 21 em todos os níveis de granularidade. Temos satélites, aeronaves e até drones comerciais que são capazes de capturar grandes quantidades de dados brutos em grandes áreas por longos períodos de tempo. Existem também sensores que coletam e reúnem informações de localização, como o GPS e outros aplicativos em nossos telefones e dispositivos.
 
@@ -356,7 +356,7 @@ Todas as partes da estrutura SIG moderna - dos dados às pessoas - são essencia
     2. Um mapa é sempre o resultado ao se usar um SIG.
     3. Aprender SIG é difícil e caro.
 
-## Software Livre e de Código Aberto para uso Geoespacial (FOSS4G)
+## FOSS4G
 
 QGIS é apenas um exemplo de software livre e de código aberto para uso geoespacial (FOSS4G). Outros exemplos de FOSS4G são GRASS, PostGIS, GeoServer, GeoNode, etc. Esses aplicativos FOSS4G são ótimas ferramentas para trabalhar não só porque são confiáveis, mas também porque, sendo gratuitos e de código aberto, têm uma barreira de entrada menor e são altamente personalizáveis para qualquer necessidade. Você pode encontrar uma variedade de softwares geoespaciais gratuitos e de código aberto para cada necessidade e para cada parte do "stack" geoespacial.
 
