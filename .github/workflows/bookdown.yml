@@ -1,18 +1,18 @@
-name: Render and deploy GitBook
-'on':
-  - push
-  - pull_request
-jobs:
-  build:
-    runs-on: ubuntu-18.04
-    container: rocker/verse:latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@master
-      - name: Install Dependencies
-        run: |-
-          Rscript -e "install.packages(c('remotes', 'bookdown'), repos = 'https://muug.ca/mirror/cran/')"
-          Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://muug.ca/mirror/cran/')"          
-      - name: Build GitBook
-        run: |-
-                    Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+# name: Render and deploy GitBook
+# 'on':
+#   - push
+#   - pull_request
+# jobs:
+#   build:
+#     runs-on: ubuntu-18.04
+#     container: rocker/verse:latest
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@master
+#       - name: Install Dependencies
+#         run: |-
+#           Rscript -e "install.packages(c('remotes', 'bookdown'), repos = 'https://muug.ca/mirror/cran/')"
+#           Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://muug.ca/mirror/cran/')"          
+#       - name: Build GitBook
+#         run: |-
+#                     Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
