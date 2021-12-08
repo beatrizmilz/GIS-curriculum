@@ -23,7 +23,12 @@ knitr::opts_chunk$set(
 knitr::include_graphics('media/cover/cover.jpg', dpi = NA)
 ```
 
-# Créditos
+# Edite esse livro
+Este ebook está disponível atualmente como uma página web - [https://gis.escoladedados.org/](https://gis.escoladedados.org/) - e em  um repositório - [https://github.com/escola-de-dados/GIS-curriculum/](https://github.com/escola-de-dados/GIS-curriculum/).
+
+Caso encontre algum erro ou informação desatualizada, por favor, abra uma issue ou faça um `pull request` em nosso repositório ([https://github.com/escola-de-dados/GIS-curriculum/issues/new/choose](https://github.com/escola-de-dados/GIS-curriculum/issues/new/choose)). Na versão HTML do livro, você também pode clicar no botão de editar.
+
+## Créditos
 
 Autoria: Ben Hur Pintor, Ketty Adoch, Codrina Maria Ilie
 
@@ -32,10 +37,6 @@ Tradução e edição em português: Bernardo Loureiro
 Realização: School of Data/Open Knowledge
 
 Ebook: Escola de Dados/Open Knowledge Brasil
-
-Repositório da publicação: [https://github.com/escola-de-dados/GIS-curriculum/](https://github.com/escola-de-dados/GIS-curriculum/)
-
-Caso encontre algum erro ou informação desatualizada, por favor, abra uma issue em nosso repositório ([https://github.com/escola-de-dados/GIS-curriculum/issues/new/choose](https://github.com/escola-de-dados/GIS-curriculum/issues/new/choose)) ou entre em contato por email (`escoladedados@ok.org.br`).
 
 ## Conjuntos de dados
 
