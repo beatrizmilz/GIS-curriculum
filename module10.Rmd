@@ -879,7 +879,7 @@ Os resultados das Ferramentas ORS dependem muito da qualidade das bases de dados
 O plugin, assim como o openroutingservice, tem mais a oferecer, mas deixamos você descobrir isso em sua jornada GIS.
 
 
-### Quiz*
+### Quiz
 
 1. Os plugins QGIS podem ser executados fora da plataforma QGIS?
 

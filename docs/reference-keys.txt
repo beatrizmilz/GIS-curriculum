@@ -134,10 +134,10 @@ o-modelo-de-dados-vetoriais
 metadados
 lógica-do-processamento-vetorial
 entendendo-seus-dados
-etapa-1-prepare-seu-ambiente-de-trabalho.
-etapa-2-entenda-o-que-você-está-olhando.
-etapa-3-verificações-básicas-para-encontrar-erros-rapidamente-em-seus-dados.
-etapa-4-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos.
+etapa-1-prepare-seu-ambiente-de-trabalho
+etapa-2-entenda-o-que-você-está-olhando
+etapa-3-verificações-básicas-para-encontrar-erros-rapidamente-em-seus-dados
+etapa-4-observe-as-informações-anexadas-aos-pontos-linhas-e-polígonos
 pois_cleand
 waterways
 pofw
@@ -152,8 +152,8 @@ processamento-e-análise-raster
 o-modelo-de-dados
 racional-do-processamento-raster
 entendendo-seus-dados-raster
-etapa-1-prepare-seu-ambiente-de-trabalho
-etapa-2-entenda-o-que-você-está-olhando
+etapa-1-prepare-seu-ambiente-de-trabalho-1
+etapa-2-entenda-o-que-você-está-olhando-1
 quiz-21
 introdução-ao-trabalho-com-dados-raster
 quiz-22
