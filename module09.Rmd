@@ -1,4 +1,4 @@
-# **Processamento e análise raster**
+# Processamento e análise raster
 
 **Autor**: Codrina Ilie
 
@@ -105,7 +105,7 @@ Por que é isso é importante em nosso contexto? Porque, como mencionado no iní
 Nas últimas duas décadas, o número de satélites capturando dados da Terra cresceu exponencialmente. Além disso, uma política de acesso a dados abertos que foi adotada por diferentes agências espaciais, como a NASA para o [programa Landsat](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-data-access?qt-science_support_page_related_con=0#qt-science_support_page_related_con) ou a Agência Espacial Europeia para o [programa Copernicus](https://www.copernicus.eu/en/access-data), abriu a porta para um fluxo avassalador de Dados de observação da Terra. Como consequência natural, o progresso científico de algoritmos, metodologias e o desenvolvimento de ferramentas mais poderosas para processar dados raster - especialmente imagens de satélite - tem sido impressionante e extenso em campos como agricultura, silvicultura, desenvolvimento urbano, atividades humanitárias, oceano e mar monitoramento de água, segurança e muito mais. Nas três fases a seguir, apresentaremos algumas das técnicas de processamento mais comuns e quais resultados esperar delas.
 
 
-### **Etapa 1: Prepare seu ambiente de trabalho**
+### Etapa 1: Prepare seu ambiente de trabalho
 
 Vamos começar adicionando ao seu projeto QGIS todos os conjuntos de dados raster com os quais estaremos trabalhando, como segue:
 
@@ -395,7 +395,7 @@ A janela do seu mapa QGIS deve ser semelhante à figura 9.6, talvez em cores lig
 Figura 9.6 - Conjuntos de dados raster carregados
 
 
-### **Etapa 2: Entenda o que você está olhando**
+### Etapa 2: Entenda o que você está olhando
 
 A seguir, usaremos uma série de ferramentas que nos permitirão ter uma noção melhor dos dados com os quais estamos trabalhando.
 
@@ -648,7 +648,7 @@ A segunda guia - Gráfico - exibe em um gráfico unido todos os valores que lê 
 A terceira aba permite ao usuário customizar o que a `Value Tool` exibe: quais camadas (todas, apenas as visíveis ou as selecionadas) e quais bandas mostrar.
 
 
-### **Quiz**
+### Quiz
 
 1. As camadas raster podem ser reprojetadas em outros sistemas de coordenadas?
     a. **Sim.**
@@ -837,7 +837,7 @@ Figura 9.37 - Camada vetorial resultante das estatísticas zonais
 E com esta etapa final, respondemos ao nosso exercício, quantas pessoas (e onde) vivem abaixo de 200 m na cidade do Rio de Janeiro.
 
 
-### **Quiz**
+### Quiz
 
 1. Os dados rasterizados podem ser recortados?
     a. **Sim**
@@ -1118,7 +1118,7 @@ As soluções dadas aos nossos exercícios neste módulo, como também no módul
 -***Sim e sim.***
 
 
-## Referências:
+## Referências
 
 Centro para Rede Internacional de Informação em Ciências da Terra - CIESIN - Universidade de Columbia. 2018. Gridded Population of the World, Versão 4 (GPWv4): Population Density, Revisão 11. Palisades, NY: NASA Socioeconomic Data and Applications Center (SEDAC). [https://doi.org/10.7927/H49C6VHW](https://doi.org/10.7927/H49C6VHW). Acessado em DAY MONTH YEAR.
 
