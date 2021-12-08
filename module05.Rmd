@@ -59,7 +59,7 @@ Figura 5.1: Layout de impressão
 
 Neste tutorial, mostraremos duas maneiras de 'Exportar a tela do mapa' para o layout de impressão do QGIS. O primeiro método é direto, enquanto o segundo método explora os recursos mais avançados fornecidos pelo layout de impressão.
 
-### **Primeiro método: Exportar a tela do mapa sem o layout de impressão**
+### Primeiro método: Exportar a tela do mapa sem o layout de impressão
 
 1. As camadas de dados já devem estar adicionadas à tela do QGIS. As camadas podem então ser estilizadas para comunicar informações em seus dados. Adicione as decorações do mapa clicando em **Exibir > Decorações**. Selecione sua decoração de mapa preferida. Por exemplo, você pode adicionar o rótulo de título, barra de escala e rótulo de direitos autorais. Para cada decoração, você terá que especificar as configurações em uma caixa de diálogo.
 2. A etapa final é exportar o mapa para o formato de imagem ou PDF. Para fazer isso, clique em **Projeto > Importar/Exportar** e selecione o formato de exportação de sua preferência. A caixa de diálogo de exportação abaixo deve aparecer.
@@ -77,7 +77,7 @@ Figura 5.2: Exportando o mapa
 
 Figura 5.3: Tela do mapa exportada como imagem
 
-### **Segundo método: Exportar a tela do mapa para a impressão layout**
+### Segundo método: Exportar a tela do mapa para a impressão layout
 
 1. Neste tutorial, faremos um mapa mostrando a 1.) localização dos centros de saúde e 2.) densidade populacional do Rio de Janeiro. As camadas de dados já devem ser adicionadas à tela do QGIS. As camadas podem então ser estilizadas para comunicar as informações dos seus dados.
 
@@ -103,7 +103,7 @@ Figura 5.6: A janela Layout de impressão
 
 Figura 5.7: Adicionar mapa a Layout de impressão
 
-### **Quiz**
+### Quiz
 
 1. O que é a tela do mapa QGIS?
     a. mostra o mapa composto de camadas de mapa sobrepostas
@@ -126,7 +126,7 @@ Figura 5.7: Adicionar mapa a Layout de impressão
 ## Adicionando e editando elementos do mapa ao layout de impressão
 
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Agora que o mapa estilizado foi adicionado ao layout de impressão, é hora de adicionar elementos importantes como o título, escala, legenda, grade, metadados etc. para o layout de impressão. A maioria dos botões está localizada à esquerda do layout de impressão.
 
@@ -163,7 +163,7 @@ Figura 5.10: Adicionar atribuição ao mapa
 
 Figura 5.11 : Mapa exportado como imagem
 
-### **Quiz**
+### Quiz
 
 1. Em qual das seguintes guias você pode alterar as propriedades dos elementos do mapa?
     a. Composição
@@ -178,7 +178,7 @@ Figura 5.11 : Mapa exportado como imagem
 
 ## Automatizando a criação de mapas usando os recursos do Atlas
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Se sua organização publica mapas impressos ou on-line, geralmente você precisa criar muitos mapas com o mesmo modelo - geralmente um para cada unidade administrativa ou região de interesse. Criar esses mapas manualmente pode levar muito tempo e, se você quiser atualizá-los regularmente, isso pode se tornar uma tarefa árdua. O QGIS tem uma ferramenta chamada Atlas que pode ajudá-lo a criar um modelo de mapa e publicar facilmente um grande número de mapas para diferentes regiões geográficas. Vamos tomar as diferentes Unidades Federativas do Brasil como exemplo:
 
