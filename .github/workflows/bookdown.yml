@@ -13,8 +13,7 @@ jobs:
          ref: gh-pages
       - name: Install Dependencies
         run: |-
-          Rscript -e "install.packages(c('remotes', 'bookdown'), repos = 'https://muug.ca/mirror/cran/')"
-          Rscript -e "remotes::install_deps(dependencies = TRUE, repos = 'https://muug.ca/mirror/cran/')"          
+          Rscript -e "install.packages(c('remotes', 'bookdown'))"
       - name: Build GitBook
         run: |-
                     Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
