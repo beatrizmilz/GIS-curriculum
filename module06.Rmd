@@ -96,7 +96,7 @@ Além disso, outros conceitos como a funcionalidade de calculadora de campo na t
 
 ## Editando atributos da camada
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 A tabela de atributos exibe informações sobre os recursos de uma camada selecionada. Cada linha da tabela representa uma feição (com ou sem geometria) e cada coluna contém uma informação específica sobre a feição. As feições da tabela podem ser pesquisadas, selecionadas, movidas ou mesmo editadas.
 
@@ -148,7 +148,7 @@ Figura 6.5: Diálogo da calculadora de campo
 Figura 6.6: Nova tabela de atributos com novos campos e atributos
 
 
-### **Quiz**
+### Quiz
 
 1. Verdadeiro ou Falso?
     1. Uma tabela de atributos é um banco de dados ou arquivo tabular contendo informações sobre um conjunto de características geográficas. -***Verdadeiro*** 
@@ -160,7 +160,7 @@ Figura 6.6: Nova tabela de atributos com novos campos e atributos
 
 ## Entender e trabalhar com dados de atributos, consultas e análises
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Neste ponto, você pode notar que a tabela de atributos armazena dados espaciais e não espaciais. Neste tutorial, você descobrirá maneiras de trabalhar com dados da tabela de atributos. Por exemplo, usando expressões, você poderá selecionar Clínicas em no Rio de Janeiro com atendimento de emergência, usando os dados da tabela de atributos.
 
@@ -203,7 +203,7 @@ Também é possível fazer seleções clicando em uma feição na tela do mapa.
 O desenvolvimento de uma expressão funcional começa com a compreensão de seus dados; por exemplo, os atributos e os valores que eles possuem. Em seguida, precisamos fazer as perguntas certas e, finalmente, desenvolver a expressão correta, levando em consideração todas as regras matemáticas que tornam uma expressão livre de erros.
 
 
-### **Quiz**
+### Quiz
 
 1. Verdadeiro ou Falo?
 
@@ -221,7 +221,7 @@ A caixa de diálogo Construtor de expressões oferece acesso à:
 * Aba Editor de funções ([https://docs.qgis.org/2.18/en/docs/user_manual/working_with_vector/expression.html#function-editor](https://docs.qgis.org/2.18/en/docs /user_manual/working_with_vector/expression.html#function-editor)) que ajuda a estender a lista de funções criando funções personalizadas.
 
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Existem muitos casos de uso para expressões, e aqui apresentaremos alguns exemplos. Observe como as expressões são desenvolvidas e quais operadores ou predicados são usados. Também é importante o fato de que todas essas expressões são desenvolvidas com base no conteúdo do conjunto de dados. Você pode adaptar isso ao conjunto de dados de sua escolha.
 
@@ -255,7 +255,7 @@ END
 5. Da mesma forma, a expressão anterior também pode ser usada para definir quais características devem ser rotuladas ou mostradas no mapa.
 
 
-### **Quiz**
+### Quiz
 
 1. Tanto a calculadora de campo quanto o diálogo Selecionar por expressão podem ser usados para desenvolver expressões - ***Verdadeiro***
 2. As expressões podem ser usadas para atualizar um novo campo - ***Verdadeiro***
