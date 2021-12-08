@@ -43,7 +43,7 @@ Digitalizar, como você deve ter adivinhado, é a arte (ou ciência) de criar da
 
 ## Criando uma nova camada GeoPackage ou Shapefile
 
-### **Criando uma nova camada GeoPackage**
+### Criando uma nova camada GeoPackage
 
 1. Para criar uma nova camada GeoPackage, pressione o botão Nova Camada GeoPackage ![Alt_text](media/modulo7/geopackage-button.png "image_tooltip")
  no menu Camada Criar Nova Camada ou na barra de ferramentas do Datasource Manager. A caixa de diálogo Nova Camada GeoPackage será exibida conforme mostrado na Figura 7.3.
@@ -68,7 +68,7 @@ Figura 7.3: Diálogo de nova camada GeoPackage
 8. Quando estiver satisfeito com os atributos, clique em OK. O QGIS adicionará a nova camada à legenda, e você poderá começar a editá-la.
 
 
-### **Criando um novo Shapefile**
+### Criando um novo Shapefile
 
 1. Para criar uma nova camada de formato ESRI Shapefile, pressione ![Alt_text](media/modulo7/mActionNewVectorLayer.png "image_tooltip") Novo botão Shapefile Layer… no menu Camada > Criar Nova Camada > ou na barra de ferramentas Data Source Manager. A caixa de diálogo Nova Camada Shapefile será exibida conforme mostrado na Figura 7.4.
 
@@ -94,7 +94,7 @@ Figura 7.4: Diálogo da nova camada do shapefile
 
 ## Digitalizando uma camada existente
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Este tutorial mostrará como criar um novo arquivo usando dados auxiliares, como imagens de satélite fornecidas pelo Google. É importante saber qual tipo de feições (geometrias) você gostaria de criar de antemão; por exemplo, seriam pontos, linhas ou polígonos? Quando criamos a camada, devemos definir que tipo de dados ela conterá. O objetivo deste tutorial é criar um tipo de dado que possa ser facilmente manipulado, analisado e armazenado em um sistema GIS, daí a necessidade de criar arquivos vetoriais. Criaremos recursos de polígono como exemplo.
 
@@ -225,9 +225,9 @@ Se você cometer um erro ao digitalizar um recurso, poderá editá-lo posteriorm
 17. Agora tente sozinho, digitalize todos os edifícios na imagem.
 
 
-## Georreferenciando um mapa Topográfico
+## Georreferenciando um mapa topográfico
 
-### **Tutorial/Exercício**
+### Tutorial/Exercício
 
 Para georreferenciar o mapa;
 
@@ -308,9 +308,10 @@ Figura 7.14: Mapa carregado no QGIS e georreferenciado
 Nota: Para verificar se seus dados estão georreferenciados corretamente, você pode abrir o mapa topográfico. Seu mapa e esta imagem devem corresponder muito precisamente. Defina a transparência do mapa para 75% e compare-a com a imagem aérea.
 
 
-### **Quiz**
+### Quiz
 
 1. O que é digitalização em GIS?
+
     a. o processo de conversão de dados geográficos de uma imagem digitalizada ou imagem digital em dados vetoriais traçando as suas características
 
     b. descreve a conversão pura de analógico para digital de dados e documentos existentes
@@ -320,6 +321,7 @@ Nota: Para verificar se seus dados estão georreferenciados corretamente, você 
     d. refere-se à criação de uma representação digital de objetos físicos ou atributos
 
 2. Qual dos seguintes conjuntos de dados auxiliares suportará a digitalização?
+
     a. Pontos de dados GPS
 
     b. Mapas topográficos
@@ -340,6 +342,7 @@ Nota: Para verificar se seus dados estão georreferenciados corretamente, você 
     d. Tipo de recurso
 
 4. O que pode ser feito para melhorar a precisão?
+
     a. obter fontes de dados precisas
 
     b. definir metas de qualidade de dados
@@ -347,6 +350,7 @@ Nota: Para verificar se seus dados estão georreferenciados corretamente, você 
     c. revise os dados e reedite ou reverta as edições
 
 5. Por que um modelo de dados é importante ao criar novos dados?
+
     a. permite capturar informações abrangentes sobre o recurso
 
     b. automatiza o processo
