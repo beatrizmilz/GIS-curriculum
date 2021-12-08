@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-          with:
-          ref: my-branch
+        with:
+         ref: my-branch
       - name: Install Dependencies
         run: |-
           Rscript -e "install.packages(c('remotes', 'bookdown'), repos = 'https://muug.ca/mirror/cran/')"
