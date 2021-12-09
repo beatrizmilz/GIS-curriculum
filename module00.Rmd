@@ -11,13 +11,12 @@ Este módulo serve como uma introdução suave aos conceitos geográficos necess
 *   usos de um SIG
 *   exemplos de uso de GIS e outras aplicações geoespaciais
 
-Além disso, este módulo irá também introduzir alguns conceitos chave de softwares livres e de código aberto (Free and Open Source Software, ou FOSS) e softwares livres e de código aberto para aplicações geoespaciais (FOSS4G).
+Além disso, este módulo irá também introduzir alguns conceitos chave de softwares livres e de código aberto (*Free and Open Source Software*, ou FOSS) e softwares livres e de código aberto para aplicações geoespaciais (FOSS4G).
 
 As ferramentas e recursos necessários para este módulo são:
 
 *   computador
 *   conexão de internet
-
 
 Pré-requisitos:
 
@@ -44,7 +43,6 @@ The True Size Of ("O verdadeiro tamanho de") ([https://thetruesize.com/](https:/
 
 ![True Size Of](media/modulo0/true-size-of.png "O verdadeiro tamanho dos países")
 
-
 Então por que isso acontece? Como você aprenderá neste módulo, é difícil representar a forma tridimensional da Terra em uma folha de papel plana. Para fazer isso, os cartógrafos usam o que é chamado de **projeção cartográfica**, para projetar os pontos da superfície tridimensional da Terra em uma superfície plana. No entanto, ao fazer isso, eles introduzem alguma **distorção**. Essa distorção pode ser de forma, tamanho, direção e distâncias dos objetos representados no mapa. Todos os mapas têm pelo menos uma dessas distorções. Por causa dessa distorção, um mapa nunca pode mostrar toda a verdade sobre a Terra.
 
 No mapa online que usamos, o mapa de fundo que não muda de tamanho (em cinza) é um exemplo de **dados raster**. Os dados raster são representações do mundo baseadas em pixels, semelhantes a como fotografias funcionam. Enquanto isso, a forma dos países que podemos mover são exemplos de **dados vetor, ou vetoriais**. Os dados vetoriais, ao contrário dos rasters, representam o mundo usando objetos discretos (no sentido matemático da palavra), como pontos, linhas e polígonos.
@@ -68,7 +66,6 @@ No entanto, embora o globo seja capaz de capturar a maioria das características
 *    Os globos só podem ser usados em pequenas escalas (por exemplo, encontrar locais de países, as posições relativas de cidades, etc.). Eles são praticamente inúteis para atividades que exigem grandes escalas ou detalhes finos (por exemplo, navegação dentro de uma cidade).
 
 É aqui que entram os mapas. Os mapas corrigem essas duas desvantagens dos globos, representando a Terra como uma superfície plana. Ao fazer isso, os mapas se tornam portáteis e adequados para uma infinidade de usos. Dito isso, os mapas também apresentam uma desvantagem própria. Através do processo de conversão de um objeto tridimensional (globo) em um bidimensional (mapa), distorções são geradas, de tal forma que é impossível para um mapa capturar perfeitamente as diferentes características da Terra (ou seja, formas, áreas e direções).
-
 
 ## Projeções cartográficas
 
