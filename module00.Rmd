@@ -101,78 +101,12 @@ Existem várias classificações de projeções cartográficas. A primeira é ba
 
 Uma única projeção cartográfica pode preservar mais de uma característica (por exemplo, uma projeção azimutal equidistante que preserva a direção e as distâncias a partir de um ou dois pontos no mapa), mas nem todas delas, como mostrado na tabela abaixo.
 
-
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Conforme</strong>
-   </td>
-   <td><strong>Equivalente</strong>
-   </td>
-   <td><strong>Equidistante</strong>
-   </td>
-   <td><strong>Azimutal</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><p style="text-align: right">
-<strong>Conforme</strong></p>
-
-   </td>
-   <td>-
-   </td>
-   <td>Não
-   </td>
-   <td>Não
-   </td>
-   <td>Sim
-   </td>
-  </tr>
-  <tr>
-   <td><p style="text-align: right">
-<strong>Equivalente</strong></p>
-
-   </td>
-   <td>Não
-   </td>
-   <td>-
-   </td>
-   <td>Não
-   </td>
-   <td>Sim
-   </td>
-  </tr>
-  <tr>
-   <td><p style="text-align: right">
-<strong>Equidistante</strong></p>
-
-   </td>
-   <td>Não
-   </td>
-   <td>Não
-   </td>
-   <td>-
-   </td>
-   <td>Sim
-   </td>
-  </tr>
-  <tr>
-   <td><p style="text-align: right">
-<strong>Azimutal</strong></p>
-
-   </td>
-   <td>Sim
-   </td>
-   <td>Sim
-   </td>
-   <td>Sim
-   </td>
-   <td>-
-   </td>
-  </tr>
-</table>
-
+|               | Conforme      | Equivalente | Equidistante | Azimutal |
+|  ----:       | :----:        |    :----:   |   :----:      |:----:     |
+|**Conforme**   |*-*            |Não          |Não           |Sim       |
+|**Equivalente**| Não           | *-*         | Não          |Sim       |
+|**Equidistante**| Não          | Não         |  *-*         |Sim       |
+|**Azimutal**   | Sim           | Sim         | Sim          |*-*       |
 
 Tabela: Ambas características podem ser preservadas por um mapa ao mesmo tempo?
 
