@@ -155,27 +155,27 @@
 \contentsline {section}{\numberline {11.2}Racional do processamento raster}{271}{section.11.2}%
 \contentsline {section}{\numberline {11.3}Entendendo seus dados raster}{275}{section.11.3}%
 \contentsline {subsection}{\numberline {11.3.1}Etapa 1: Prepare seu ambiente de trabalho}{275}{subsection.11.3.1}%
-\contentsline {subsection}{\numberline {11.3.2}Etapa 2: Entenda o que você está olhando}{281}{subsection.11.3.2}%
-\contentsline {subsection}{\numberline {11.3.3}Quiz}{297}{subsection.11.3.3}%
-\contentsline {section}{\numberline {11.4}Introdução ao trabalho com dados raster}{298}{section.11.4}%
-\contentsline {subsection}{\numberline {11.4.1}Quiz}{311}{subsection.11.4.1}%
-\contentsline {section}{\numberline {11.5}Trabalho com dados raster e vetoriais}{312}{section.11.5}%
-\contentsline {subsection}{\numberline {11.5.1}Quiz}{335}{subsection.11.5.1}%
-\contentsline {section}{\numberline {11.6}Referências}{335}{section.11.6}%
-\contentsline {section}{\numberline {11.7}Notas}{335}{section.11.7}%
-\contentsline {chapter}{\numberline {12}Plugins QGIS}{337}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Introdução à mentalidade do plugin}{337}{section.12.1}%
-\contentsline {section}{\numberline {12.2}O gerenciador de plugins}{338}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}Quiz}{345}{subsection.12.2.1}%
-\contentsline {section}{\numberline {12.3}Alguns plugins interessantes}{346}{section.12.3}%
-\contentsline {subsection}{\numberline {12.3.1}Discovery}{347}{subsection.12.3.1}%
-\contentsline {subsection}{\numberline {12.3.2}Polygon Divider}{350}{subsection.12.3.2}%
-\contentsline {subsection}{\numberline {12.3.3}Load Them All}{351}{subsection.12.3.3}%
-\contentsline {subsection}{\numberline {12.3.4}Raster tracer}{355}{subsection.12.3.4}%
-\contentsline {subsection}{\numberline {12.3.5}Active Fire}{359}{subsection.12.3.5}%
-\contentsline {subsection}{\numberline {12.3.6}\href {https://github.com/tomchadwin/qgis2web}{Qgis2web}}{360}{subsection.12.3.6}%
-\contentsline {subsection}{\numberline {12.3.7}DataPlotly}{363}{subsection.12.3.7}%
-\contentsline {subsection}{\numberline {12.3.8}Plugin QuickMapServices / OpenLayers}{371}{subsection.12.3.8}%
-\contentsline {subsection}{\numberline {12.3.9}Table2Style}{376}{subsection.12.3.9}%
-\contentsline {subsection}{\numberline {12.3.10}ORS Tools}{383}{subsection.12.3.10}%
-\contentsline {subsection}{\numberline {12.3.11}Quiz}{391}{subsection.12.3.11}%
+\contentsline {subsection}{\numberline {11.3.2}Etapa 2: Entenda o que você está olhando}{279}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Quiz}{296}{subsection.11.3.3}%
+\contentsline {section}{\numberline {11.4}Introdução ao trabalho com dados raster}{297}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Quiz}{310}{subsection.11.4.1}%
+\contentsline {section}{\numberline {11.5}Trabalho com dados raster e vetoriais}{311}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}Quiz}{334}{subsection.11.5.1}%
+\contentsline {section}{\numberline {11.6}Referências}{334}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Notas}{334}{section.11.7}%
+\contentsline {chapter}{\numberline {12}Plugins QGIS}{335}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Introdução à mentalidade do plugin}{335}{section.12.1}%
+\contentsline {section}{\numberline {12.2}O gerenciador de plugins}{336}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Quiz}{343}{subsection.12.2.1}%
+\contentsline {section}{\numberline {12.3}Alguns plugins interessantes}{344}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Discovery}{345}{subsection.12.3.1}%
+\contentsline {subsection}{\numberline {12.3.2}Polygon Divider}{348}{subsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.3.3}Load Them All}{349}{subsection.12.3.3}%
+\contentsline {subsection}{\numberline {12.3.4}Raster tracer}{353}{subsection.12.3.4}%
+\contentsline {subsection}{\numberline {12.3.5}Active Fire}{357}{subsection.12.3.5}%
+\contentsline {subsection}{\numberline {12.3.6}\href {https://github.com/tomchadwin/qgis2web}{Qgis2web}}{358}{subsection.12.3.6}%
+\contentsline {subsection}{\numberline {12.3.7}DataPlotly}{361}{subsection.12.3.7}%
+\contentsline {subsection}{\numberline {12.3.8}Plugin QuickMapServices / OpenLayers}{369}{subsection.12.3.8}%
+\contentsline {subsection}{\numberline {12.3.9}Table2Style}{374}{subsection.12.3.9}%
+\contentsline {subsection}{\numberline {12.3.10}ORS Tools}{382}{subsection.12.3.10}%
+\contentsline {subsection}{\numberline {12.3.11}Quiz}{389}{subsection.12.3.11}%

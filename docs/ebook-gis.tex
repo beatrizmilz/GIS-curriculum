@@ -300,7 +300,7 @@ Uma única projeção cartográfica pode preservar mais de uma característica (
 
 \begin{longtable}[]{@{}rcccc@{}}
 \toprule
-& conforme & Equivalente & Equidistante & Azimutal \\
+& Conforme & Equivalente & Equidistante & Azimutal \\
 \midrule
 \endhead
 \textbf{Conforme} & \emph{-} & Não & Não & Sim \\
@@ -309,60 +309,6 @@ Uma única projeção cartográfica pode preservar mais de uma característica (
 \textbf{Azimutal} & Sim & Sim & Sim & \emph{-} \\
 \bottomrule
 \end{longtable}
-
-Conforme
-
-Equivalente
-
-Equidistante
-
-Azimutal
-
-Conforme
-
-\begin{itemize}
-\item
-  Não
-
-  Não
-
-  Sim
-
-  Equivalente
-
-  Não
-
-  \begin{itemize}
-  \item
-    Não
-
-    Sim
-
-    Equidistante
-
-    Não
-
-    Não
-
-    \begin{itemize}
-    \item
-      Sim
-
-      Azimutal
-
-      Sim
-
-      Sim
-
-      Sim
-
-      \begin{itemize}
-      \tightlist
-      \item
-      \end{itemize}
-    \end{itemize}
-  \end{itemize}
-\end{itemize}
 
 Tabela: Ambas características podem ser preservadas por um mapa ao mesmo tempo?
 
@@ -6676,193 +6622,61 @@ Como os dados da camada de assentamento de alta resolução foram apresentados e
 
 Tabela 1 - Tabela de valores da banda Discrete\_classification
 
-Valor
-
-Cor
-
-Descrição
-
-0
-
-282828
-
-Desconhecido. Não há ou não há dados de satélite suficientes disponíveis.
-
-20
-
-FFBB22
-
-Arbustos. Plantas lenhosas perenes com caules persistentes e lenhosos e sem caule principal definido com menos de 5 m de altura. A folhagem do arbusto pode ser perene ou caducifólia.
-
-30
-
-FFFF4C
-
-Vegetação herbácea. Plantas sem caule persistente ou brotos acima do solo e sem estrutura firme definida. A cobertura de árvores e arbustos é inferior a 10\%.
-
-40
-
-F096FF
-
-Vegetação/agricultura cultivada e manejada. Terras cobertas com culturas temporárias seguidas de colheita e um período de solo nu (por exemplo, sistemas de cultivo único e múltiplo). Observe que as culturas lenhosas perenes serão classificadas como o tipo apropriado de cobertura de terra de floresta ou arbusto.
-
-50
-
-FA0000
-
-Urbano/edificado. Terreno coberto por edifícios e outras estruturas feitas pelo homem.
-
-60
-
-B4B4B4
-
-Vegetação nua/esparsa. Terras com solo, areia ou rochas expostas e nunca apresentam mais de 10\% de cobertura vegetal em qualquer época do ano.
-
-70
-
-F0F0F0
-
-Neve e gelo. Terras cobertas de neve ou gelo ao longo do ano.
-
-80
-
-0032C8
-
-Corpos d'água permanentes. Lagos, reservatórios e rios. Podem ser corpos de água doce ou salgada.
-
-90
-
-0096A0
-
-Pantanal. Herbáceo. Terras com mistura permanente de água e vegetação herbácea ou lenhosa. A vegetação pode estar presente em água salgada, salobra ou doce.
-
-100
-
-FAE6A0
-
-Musgo e líquen.
-
-111
-
-58481F
-
-Floresta fechada, folha de agulha perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folhas agulhas permanecem verdes o ano todo. O dossel nunca está sem folhagem verde.
-
-112
-
-9900
-
-Floresta fechada, folha larga perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde.
-
-113
-
-70663E
-
-Floresta fechada, folha de agulha decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades sazonais de árvores de folhas agulhas com um ciclo anual de períodos de folhagem e folhagem.
-
-114
-
-00CC00
-
-Floresta fechada, folha larga decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades sazonais de folhas largas com um ciclo anual de períodos de folhagem e folhagem.
-
-115
-
-4E751F
-
-Floresta fechada, mista.
-
-116
-
-7800
-
-Floresta fechada, não correspondendo a nenhuma das outras definições.
-
-121
-
-666000
-
-Floresta aberta, folha de agulha perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folhas agulhas permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde.
-
-122
-
-8DB400
-
-Floresta aberta, folha larga perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde.
-
-123
-
-8D7400
-
-Floresta aberta, folha de agulha decídua. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, consiste em comunidades sazonais de árvores de folhas agulhas com um ciclo anual de períodos de folhagem e folhagem.
-
-124
-
-A0DC00
-
-Floresta aberta, folha larga decídua. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, consiste em comunidades de árvores de folha larga sazonais com um ciclo anual de períodos de folhagem e folhagem.
-
-125
-
-929900
-
-Floresta aberta, mista.
-
-126
-
-648C00
-
-Floresta aberta, não correspondendo a nenhuma das outras definições.
-
-200
-
-80
-
-Oceanos, mares. Podem ser corpos de água doce ou salgada.
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0952}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2857}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6190}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Valor}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Cor}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Descrição}
+\end{minipage} \\
+\midrule
+\endhead
+0 & 282828 & Desconhecido. Não há ou não há dados de satélite suficientes disponíveis. \\
+20 & FFBB22 & Arbustos. Plantas lenhosas perenes com caules persistentes e lenhosos e sem caule principal definido com menos de 5 m de altura. A folhagem do arbusto pode ser perene ou caducifólia. \\
+30 & FFFF4C & Vegetação herbácea. Plantas sem caule persistente ou brotos acima do solo e sem estrutura firme definida. A cobertura de árvores e arbustos é inferior a 10\%. \\
+40 & F096FF & Vegetação/agricultura cultivada e manejada. Terras cobertas com culturas temporárias seguidas de colheita e um período de solo nu (por exemplo, sistemas de cultivo único e múltiplo). Observe que as culturas lenhosas perenes serão classificadas como o tipo apropriado de cobertura de terra de floresta ou arbusto. \\
+50 & FA0000 & Urbano/edificado. Terreno coberto por edifícios e outras estruturas feitas pelo homem. \\
+60 & B4B4B4 & Vegetação nua/esparsa. Terras com solo, areia ou rochas expostas e nunca apresentam mais de 10\% de cobertura vegetal em qualquer época do ano. \\
+70 & F0F0F0 & Neve e gelo. Terras cobertas de neve ou gelo ao longo do ano. \\
+80 & 0032C8 & Corpos d'água permanentes. Lagos, reservatórios e rios. Podem ser corpos de água doce ou salgada. \\
+90 & 0096A0 & Pantanal. Herbáceo. Terras com mistura permanente de água e vegetação herbácea ou lenhosa. A vegetação pode estar presente em água salgada, salobra ou doce. \\
+100 & FAE6A0 & Musgo e líquen. \\
+111 & 58481F & Floresta fechada, folha de agulha perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folhas agulhas permanecem verdes o ano todo. O dossel nunca está sem folhagem verde. \\
+112 & 9900 & Floresta fechada, folha larga perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde. \\
+113 & 70663E & Floresta fechada, folha de agulha decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades sazonais de árvores de folhas agulhas com um ciclo anual de períodos de folhagem e folhagem. \\
+114 & 00CC00 & Floresta fechada, folha larga decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades sazonais de folhas largas com um ciclo anual de períodos de folhagem e folhagem. \\
+115 & 4E751F & Floresta fechada, mista. \\
+116 & 7800 & Floresta fechada, não correspondendo a nenhuma das outras definições. \\
+121 & 666000 & Floresta aberta, folha de agulha perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folhas agulhas permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde. \\
+122 & 8DB400 & Floresta aberta, folha larga perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde. \\
+123 & 8D7400 & Floresta aberta, folha de agulha decídua. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, consiste em comunidades sazonais de árvores de folhas agulhas com um ciclo anual de períodos de folhagem e folhagem. \\
+124 & A0DC00 & Floresta aberta, folha larga decídua. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, consiste em comunidades de árvores de folha larga sazonais com um ciclo anual de períodos de folhagem e folhagem. \\
+125 & 929900 & Floresta aberta, mista. \\
+126 & 648C00 & Floresta aberta, não correspondendo a nenhuma das outras definições. \\
+200 & 80 & Oceanos, mares. Podem ser corpos de água doce ou salgada. \\
+\bottomrule
+\end{longtable}
 
 Tabela 2 - valor da banda forest\_type
 
-Valor
-
-Cor
-
-Descrição
-
-0
-
-282828
-
-Desconhecido
-
-1
-
-666000
-
-Folha de agulha perene
-
-2
-
-9900
-
-Folha larga perene
-
-3
-
-70663E
-
-Folha decídua de agulha
-
-4
-
-A0DC00
-
-Folha larga decídua
-
-5
-
-929900
-
-Mistura de tipos de floresta
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\textbf{Valor} & \textbf{Cor} & \textbf{Descrição} \\
+\midrule
+\endhead
+0 & 282828 & Desconhecido \\
+1 & 666000 & Folha de agulha perene \\
+2 & 9900 & Folha larga perene \\
+3 & 70663E & Folha decídua de agulha \\
+4 & A0DC00 & Folha larga decídua \\
+5 & 929900 & Mistura de tipos de floresta \\
+\bottomrule
+\end{longtable}
 
 Para organizar melhor suas camadas, agrupe-as por categoria, da seguinte maneira: para as 5 camadas raster de cobertura de terra, crie um grupo denominado Cobertura de Terra (Land Cover) (no Painel de Camadas, clique no botão Adicionar Grupo\includegraphics{media/modulo9/add-group-btn.png}). Para o modelo de superfície digital, crie um grupo denominado JAXA {[}3{]} SRTM DEM.
 
@@ -8693,149 +8507,45 @@ Figura 10.17b - Exemplos de situações em que os valores dos pixels corresponde
 
 Do fornecedor deste produto com base em imagens de satélite, os valores dos pixels e as cores associadas também são disponibilizados:
 
-Valor
-
-Cor
-
-Descrição
-
-0
-
-\#282828
-
-Desconhecido. Nenhum ou nenhum dado de satélite disponível.
-
-20
-
-\#FFBB22
-
-Arbustos. Plantas lenhosas perenes com caules persistentes e lenhosos e sem caule principal definido com menos de 5 m de altura. A folhagem do arbusto pode ser perene ou caduca.
-
-30
-
-\#FFFF4C
-
-Vegetação herbácea. Plantas sem caule persistente ou brotos acima do solo e sem estrutura firme definida. A cobertura de árvores e arbustos é inferior a 10\%.
-
-40
-
-\#F096FF
-
-Vegetação / agricultura cultivada e manejada. Terras cobertas com culturas temporárias seguidas de colheita e um período de solo nu (por exemplo, sistemas de cultivo único e múltiplo) Observe que as culturas lenhosas perenes serão classificadas como o tipo apropriado de cobertura de terra de floresta ou arbusto.
-
-50
-
-\#FA0000
-
-Urbano / edificado. Terreno coberto por edifícios e outras estruturas feitas pelo homem.
-
-60
-
-\#B4B4B4
-
-Vegetação nua / esparsa. Terras com solo, areia ou rochas expostas e nunca apresentam mais de 10\% de cobertura vegetal em qualquer época do ano.
-
-70
-
-\#F0F0F0
-
-Neve e gelo. Terras cobertas de neve ou gelo ao longo do ano.
-
-80
-
-\#0032C8
-
-Corpos d'água permanentes. Lagos, reservatórios e rios. Podem ser corpos de água doce ou salgada.
-
-90
-
-\#0096A0
-
-Pantanal.Herbáceo. Terras com mistura permanente de água e vegetação herbácea ou lenhosa. A vegetação pode estar presente em água salgada, salobra ou doce.
-
-100
-
-\#FAE6A0
-
-Musgo e líquen.
-
-111
-
-\#58481F
-
-Floresta fechada, folha de agulha perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folhas agulhas permanecem verdes o ano todo. O dossel nunca está sem folhagem verde.
-
-112
-
-\#009900
-
-Floresta fechada, folha larga perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde.
-
-113
-
-\#70663E
-
-Floresta fechada, folha de agulha decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades de árvores de folhas agulhas sazonais com um ciclo anual de períodos de folhagem e folhagem.
-
-114
-
-\#00CC00
-
-Floresta fechada, folha larga decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades sazonais de folhas largas com um ciclo anual de períodos de folhagem e folhagem.
-
-115
-
-\#4E751F
-
-Floresta fechada, mista.
-
-116
-
-\#007800
-
-Floresta fechada, não correspondendo a nenhuma das outras definições.
-
-121
-
-\#666000
-
-Floresta aberta, folha de agulha perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folhas agulhas permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde.
-
-122
-
-\#8DB400
-
-Floresta aberta, folha larga perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde.
-
-123
-
-\#8D7400
-
-Floresta aberta, folha de agulha decídua. Camada superior - árvores 15-70\% e segunda camada - mista de arbustos e pastagens, consiste em comunidades sazonais de árvores de folhas agulhas com um ciclo anual de períodos de folhagem e folhagem.
-
-124
-
-\#A0DC00
-
-Floresta aberta, folha caduca de folha larga. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, consiste em comunidades sazonais de árvores de folha larga com um ciclo anual de períodos de folhagem e folhagem.
-
-125
-
-\#929900
-
-Floresta aberta, mista.
-
-126
-
-\#648C00
-
-Floresta aberta, não correspondendo a nenhuma das outras definições.
-
-200
-
-\#000080
-
-Oceanos, mares. Podem ser corpos de água doce ou salgada.
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1364}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5909}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Valor}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Cor}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Descrição}
+\end{minipage} \\
+\midrule
+\endhead
+0 & \#282828 & Desconhecido. Nenhum ou nenhum dado de satélite disponível. \\
+20 & \#FFBB22 & Arbustos. Plantas lenhosas perenes com caules persistentes e lenhosos e sem caule principal definido com menos de 5 m de altura. A folhagem do arbusto pode ser perene ou caduca. \\
+30 & \#FFFF4C & Vegetação herbácea. Plantas sem caule persistente ou brotos acima do solo e sem estrutura firme definida. A cobertura de árvores e arbustos é inferior a 10\%. \\
+40 & \#F096FF & Vegetação / agricultura cultivada e manejada. Terras cobertas com culturas temporárias seguidas de colheita e um período de solo nu (por exemplo, sistemas de cultivo único e múltiplo) Observe que as culturas lenhosas perenes serão classificadas como o tipo apropriado de cobertura de terra de floresta ou arbusto. \\
+50 & \#FA0000 & Urbano / edificado. Terreno coberto por edifícios e outras estruturas feitas pelo homem. \\
+60 & \#B4B4B4 & Vegetação nua / esparsa. Terras com solo, areia ou rochas expostas e nunca apresentam mais de 10\% de cobertura vegetal em qualquer época do ano. \\
+70 & \#F0F0F0 & Neve e gelo. Terras cobertas de neve ou gelo ao longo do ano. \\
+80 & \#0032C8 & Corpos d'água permanentes. Lagos, reservatórios e rios. Podem ser corpos de água doce ou salgada. \\
+90 & \#0096A0 & Pantanal.Herbáceo. Terras com mistura permanente de água e vegetação herbácea ou lenhosa. A vegetação pode estar presente em água salgada, salobra ou doce. \\
+100 & \#FAE6A0 & Musgo e líquen. \\
+111 & \#58481F & Floresta fechada, folha de agulha perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folhas agulhas permanecem verdes o ano todo. O dossel nunca está sem folhagem verde. \\
+112 & \#009900 & Floresta fechada, folha larga perene. Copa das árvores\textgreater{} 70\%, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde. \\
+113 & \#70663E & Floresta fechada, folha de agulha decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades de árvores de folhas agulhas sazonais com um ciclo anual de períodos de folhagem e folhagem. \\
+114 & \#00CC00 & Floresta fechada, folha larga decídua. O dossel das árvores\textgreater{} 70\% consiste em comunidades sazonais de folhas largas com um ciclo anual de períodos de folhagem e folhagem. \\
+115 & \#4E751F & Floresta fechada, mista. \\
+116 & \#007800 & Floresta fechada, não correspondendo a nenhuma das outras definições. \\
+121 & \#666000 & Floresta aberta, folha de agulha perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folhas agulhas permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde. \\
+122 & \#8DB400 & Floresta aberta, folha larga perene. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, quase todas as árvores de folha larga permanecem verdes durante todo o ano. O dossel nunca está sem folhagem verde. \\
+123 & \#8D7400 & Floresta aberta, folha de agulha decídua. Camada superior - árvores 15-70\% e segunda camada - mista de arbustos e pastagens, consiste em comunidades sazonais de árvores de folhas agulhas com um ciclo anual de períodos de folhagem e folhagem. \\
+124 & \#A0DC00 & Floresta aberta, folha caduca de folha larga. Camada superior - árvores 15-70\% e segunda camada - mistura de arbustos e pastagens, consiste em comunidades sazonais de árvores de folha larga com um ciclo anual de períodos de folhagem e folhagem. \\
+125 & \#929900 & Floresta aberta, mista. \\
+126 & \#648C00 & Floresta aberta, não correspondendo a nenhuma das outras definições. \\
+200 & \#000080 & Oceanos, mares. Podem ser corpos de água doce ou salgada. \\
+\bottomrule
+\end{longtable}
 
 Quando um novo conjunto de dados - raster ou vetor - é carregado, o QGIS atribui a ele uma representação visual aleatória. É o usuário que deve definir cores e esquemas apropriados para as representações. Para obter mais informações sobre o estilo das camadas, vá para o módulo 4.
 
